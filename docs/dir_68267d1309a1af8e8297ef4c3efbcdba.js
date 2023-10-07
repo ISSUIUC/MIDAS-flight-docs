@@ -15,6 +15,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
       [ "Acceleration", "structAcceleration.html", "structAcceleration" ],
       [ "LowGData", "structLowGData.html", "structLowGData" ],
       [ "HighGData", "structHighGData.html", "structHighGData" ],
+      [ "GyroscopeData", "structGyroscopeData.html", "structGyroscopeData" ],
       [ "Barometer", "structBarometer.html", "structBarometer" ],
       [ "Continuity", "structContinuity.html", "structContinuity" ],
       [ "Voltage", "structVoltage.html", "structVoltage" ],
@@ -26,6 +27,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     ] ],
     [ "sensors.h", "sensors_8h.html", [
       [ "LowGSensor", "structLowGSensor.html", "structLowGSensor" ],
+      [ "Gyroscope", "structGyroscope.html", "structGyroscope" ],
       [ "HighGSensor", "structHighGSensor.html", "structHighGSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
       [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],

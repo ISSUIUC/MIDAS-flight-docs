@@ -6,6 +6,8 @@ var annotated_dup =
     [ "Continuity", "structContinuity.html", "structContinuity" ],
     [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
     [ "GPS", "structGPS.html", "structGPS" ],
+    [ "Gyroscope", "structGyroscope.html", "structGyroscope" ],
+    [ "GyroscopeData", "structGyroscopeData.html", "structGyroscopeData" ],
     [ "HighGData", "structHighGData.html", "structHighGData" ],
     [ "HighGSensor", "structHighGSensor.html", "structHighGSensor" ],
     [ "KalmanData", "structKalmanData.html", "structKalmanData" ],
