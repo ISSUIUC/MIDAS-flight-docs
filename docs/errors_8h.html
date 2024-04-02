@@ -84,7 +84,8 @@ $(document).ready(function(){initNavTree('errors_8h.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">errors.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -93,11 +94,39 @@ $(document).ready(function(){initNavTree('errors_8h.html',''); initResizable(); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a59e56af19e754a6aa26a612ebf91d05f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> { <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f">NoError</a>
-, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa76da80ef6d6be0da5d2e6c48f297dc7a">LowGCouldNotBeInitialized</a>
-, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b">GyroCouldNotBeInitialized</a>
+<tr class="memitem:a59e56af19e754a6aa26a612ebf91d05f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> { <br />
+&#160;&#160;<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f">NoError</a> = 0
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa76da80ef6d6be0da5d2e6c48f297dc7a">LowGCouldNotBeInitialized</a> = 1
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa6201dafac97fdb61f7f04661bdd512d4">SDBeginFailed</a> = 2
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa876088cd8c8d1997122a275225a94cb3">LowGRangeCouldNotBeSet</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa743754d9ecaa862c44f71736574118e4">LowGODRLPFCouldNotBeSet</a> = 4
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa535e7a8d61c71418ef15d87acee96621">HighGCouldNotBeInitialized</a> = 5
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fae6337daa9967c9fe898bdc0bc030f927">HighGCouldNotUpdateDataRate</a> = 6
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fae8019895a4009e23b5baf002122e1134">MagnetometerCouldNotBeInitialized</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b">GyroCouldNotBeInitialized</a> = 8
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa80c420385d24e0ae7b14d87554eaa23e">PyroGPIOCouldNotBeInitialized</a> = 9
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7d5a163ff267ce73b287fae4b4468748">GPSCouldNotBeInitialized</a> = 10
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7ab3a4463930031595e69d2cc38600df">ContinuityCouldNotBeInitialized</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa5c39f96c17665bc9336566e2daadd22d">RadioInitFailed</a> = 12
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa574ffa4552078644bf1b9a3d6f5f6b00">RadioSetFrequencyFailed</a> = 13
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa521fcaafcc6b49fdf4b71639d2070f8f">CannotConnectBNO</a> = 14
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa38aca0df2cd97e50b089e5421f117887">CannotInitBNO</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2ca37980a1916a0393269afceb85f4ab">EmmcPinsAreWrong</a> = 16
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa0af635304ad70cb121df31b6d2bf1012">EmmcCouldNotBegin</a> = 17
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa31e979fab79c142ca0c5d38da3e2a237">EmmcCouldNotOpenFile</a> = 19
+, <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907">SDCouldNotOpenFile</a> = 20
+<br />
  }</td></tr>
 <tr class="separator:a59e56af19e754a6aa26a612ebf91d05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa0464c00b33ab2b4379a200d989db727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="errors_8h.html#aa0464c00b33ab2b4379a200d989db727">update_error_LED</a> (<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> error)</td></tr>
+<tr class="separator:aa0464c00b33ab2b4379a200d989db727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a59e56af19e754a6aa26a612ebf91d05f" name="a59e56af19e754a6aa26a612ebf91d05f"></a>
@@ -114,10 +143,50 @@ Enumerations</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f" name="a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f"></a>NoError&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa76da80ef6d6be0da5d2e6c48f297dc7a" name="a59e56af19e754a6aa26a612ebf91d05fa76da80ef6d6be0da5d2e6c48f297dc7a"></a>LowGCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa6201dafac97fdb61f7f04661bdd512d4" name="a59e56af19e754a6aa26a612ebf91d05fa6201dafac97fdb61f7f04661bdd512d4"></a>SDBeginFailed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa876088cd8c8d1997122a275225a94cb3" name="a59e56af19e754a6aa26a612ebf91d05fa876088cd8c8d1997122a275225a94cb3"></a>LowGRangeCouldNotBeSet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa743754d9ecaa862c44f71736574118e4" name="a59e56af19e754a6aa26a612ebf91d05fa743754d9ecaa862c44f71736574118e4"></a>LowGODRLPFCouldNotBeSet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa535e7a8d61c71418ef15d87acee96621" name="a59e56af19e754a6aa26a612ebf91d05fa535e7a8d61c71418ef15d87acee96621"></a>HighGCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fae6337daa9967c9fe898bdc0bc030f927" name="a59e56af19e754a6aa26a612ebf91d05fae6337daa9967c9fe898bdc0bc030f927"></a>HighGCouldNotUpdateDataRate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fae8019895a4009e23b5baf002122e1134" name="a59e56af19e754a6aa26a612ebf91d05fae8019895a4009e23b5baf002122e1134"></a>MagnetometerCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b" name="a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b"></a>GyroCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa80c420385d24e0ae7b14d87554eaa23e" name="a59e56af19e754a6aa26a612ebf91d05fa80c420385d24e0ae7b14d87554eaa23e"></a>PyroGPIOCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa7d5a163ff267ce73b287fae4b4468748" name="a59e56af19e754a6aa26a612ebf91d05fa7d5a163ff267ce73b287fae4b4468748"></a>GPSCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa7ab3a4463930031595e69d2cc38600df" name="a59e56af19e754a6aa26a612ebf91d05fa7ab3a4463930031595e69d2cc38600df"></a>ContinuityCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa5c39f96c17665bc9336566e2daadd22d" name="a59e56af19e754a6aa26a612ebf91d05fa5c39f96c17665bc9336566e2daadd22d"></a>RadioInitFailed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa574ffa4552078644bf1b9a3d6f5f6b00" name="a59e56af19e754a6aa26a612ebf91d05fa574ffa4552078644bf1b9a3d6f5f6b00"></a>RadioSetFrequencyFailed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa521fcaafcc6b49fdf4b71639d2070f8f" name="a59e56af19e754a6aa26a612ebf91d05fa521fcaafcc6b49fdf4b71639d2070f8f"></a>CannotConnectBNO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa38aca0df2cd97e50b089e5421f117887" name="a59e56af19e754a6aa26a612ebf91d05fa38aca0df2cd97e50b089e5421f117887"></a>CannotInitBNO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa2ca37980a1916a0393269afceb85f4ab" name="a59e56af19e754a6aa26a612ebf91d05fa2ca37980a1916a0393269afceb85f4ab"></a>EmmcPinsAreWrong&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa0af635304ad70cb121df31b6d2bf1012" name="a59e56af19e754a6aa26a612ebf91d05fa0af635304ad70cb121df31b6d2bf1012"></a>EmmcCouldNotBegin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa31e979fab79c142ca0c5d38da3e2a237" name="a59e56af19e754a6aa26a612ebf91d05fa31e979fab79c142ca0c5d38da3e2a237"></a>EmmcCouldNotOpenFile&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907" name="a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907"></a>SDCouldNotOpenFile&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="errors_8h_source.html#l00004">4</a> of file <a class="el" href="errors_8h_source.html">errors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="errors_8h_source.html#l00003">3</a> of file <a class="el" href="errors_8h_source.html">errors.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa0464c00b33ab2b4379a200d989db727" name="aa0464c00b33ab2b4379a200d989db727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0464c00b33ab2b4379a200d989db727">&#9670;&nbsp;</a></span>update_error_LED()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void update_error_LED </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >If an error during initialization was detected, some combination of the blue, green, orange, and red LEDs will be on, The combination of all 4 lights will tell you what the error is</p>
+<p >NONE =&gt; Nothing is wrong BLUE =&gt; LOW G could not init GREEN =&gt; Could not begin SD card ORANGE =&gt; Could not set LOW G range RED =&gt; LOW G Output Data Rate Low Pass Filter could not be set BLUE, GREEN =&gt; HIGH G could not init BLUE, ORANGE =&gt; HIGH G could not update Data Rate BLUE, RED =&gt; MAGNETOMETER could not be init GREEN, ORANGE =&gt; GYRO could not init GREEN, RED =&gt; <a class="el" href="structGPS.html">GPS</a> could not init ORANGE, RED =&gt; CONTINUITY could not init BLUE, GREEN, ORANGE =&gt; BNO could not connect BLUE, GREEN, RED =&gt; BNO could not init BLUE, ORANGE, RED =&gt; GREEN, ORANGE, RED =&gt; BLUE, GREEN, ORANGE, RED =&gt; Default, somehow the function was called with a different error, should never happen </p>
+
+<p class="definition">Definition at line <a class="el" href="errors_8cpp_source.html#l00030">30</a> of file <a class="el" href="errors_8cpp_source.html">errors.cpp</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var FreeRTOSConfig_8h =
 [
+    [ "configKERNAL_PROVIDED_STATIC_MEMORY", "FreeRTOSConfig_8h.html#ad69d46dfcc5ce57354177bed0b78dde0", null ],
     [ "configMAX_PRIORITIES", "FreeRTOSConfig_8h.html#a9a78f5ac61e6cb172dadf2a51f11db38", null ],
     [ "configMINIMAL_STACK_SIZE", "FreeRTOSConfig_8h.html#a6c534a6cf8a00528fe0be42083484f9a", null ],
     [ "configSUPPORT_DYNAMIC_ALLOCATION", "FreeRTOSConfig_8h.html#afa3f8d6510699d972c9af08fa41f66dc", null ],

@@ -88,30 +88,32 @@ $(document).ready(function(){initNavTree('hal_8h_source.html',''); initResizable
 <div class="contents">
 <a href="hal_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifdef SILSIM</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// the only thing #ifdef we need, theoretically</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifdef SILSIM</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;silsim/emulation.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="FreeRTOSConfig_8h.html">FreeRTOSConfig.h</a>&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;hardware/Mutex.h&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;hardware/Queue.h&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="FreeRTOSConfig_8h.html">FreeRTOSConfig.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="Mutex_8h.html">Mutex.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="Queue_8h.html">Queue.h</a>&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">   18</a></span><span class="preprocessor">#define STACK_SIZE 1024</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">   18</a></span><span class="preprocessor">#define STACK_SIZE 8192</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="hal_8h.html#a53442e85cd08aca781c9a4f6487f66a6">   25</a></span><span class="preprocessor">#define SENSOR_CORE ((BaseType_t) 0)</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="hal_8h.html#aec647f02b95f8c0936839bacfacb23ec">   26</a></span><span class="preprocessor">#define DATA_CORE ((BaseType_t) 1)</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="hal_8h.html#a892fef0439cc8ce8c95f45a6efe8f630">   34</a></span><span class="preprocessor">#define DECLARE_THREAD(name, param) [[noreturn]] void name##_thread(param)</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="hal_8h.html#aea92d0e33a03de43058f98c92b62bad2">   44</a></span><span class="preprocessor">#define START_THREAD(name, core, arg) StaticTask_t name##_task;                \</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="hal_8h.html#a5a1a21750d68e31125fa25fc1454f716">   44</a></span><span class="preprocessor">#define START_THREAD(name, core, arg, prio) StaticTask_t name##_task;                \</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">                                      static unsigned char name##_stack[STACK_SIZE];            \</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">                                      xTaskCreateStaticPinnedToCore(((TaskFunction_t) name##_thread), #name, STACK_SIZE, arg, tskIDLE_PRIORITY + 1, name##_stack, &amp;name##_task, core)</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define THREAD_SLEEP(millis) vTaskDelay(pdMS_TO_TICKS(millis))</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">                                      xTaskCreateStaticPinnedToCore(((TaskFunction_t) name##_thread), #name, STACK_SIZE, arg, tskIDLE_PRIORITY + prio, name##_stack, &amp;name##_task, core)</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">   63</a></span><span class="preprocessor">#define THREAD_SLEEP(millis) vTaskDelay(pdMS_TO_TICKS(millis))</span></div>
 <div class="ttc" id="aFreeRTOSConfig_8h_html"><div class="ttname"><a href="FreeRTOSConfig_8h.html">FreeRTOSConfig.h</a></div></div>
+<div class="ttc" id="aMutex_8h_html"><div class="ttname"><a href="Mutex_8h.html">Mutex.h</a></div></div>
+<div class="ttc" id="aQueue_8h_html"><div class="ttname"><a href="Queue_8h.html">Queue.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

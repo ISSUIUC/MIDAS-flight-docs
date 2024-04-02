@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['magnetometer_0',['magnetometer',['../structOrientation.html#ac4b5b295d9134183cbe72c2c4e3bf3da',1,'Orientation']]],
-  ['magnometer_1',['magnometer',['../structRocketState.html#ac5b0c7b37eb57214a93cd95d3f18385e',1,'RocketState']]],
-  ['mx_2',['mx',['../structMagnetometer.html#acc48f2adba7634b255674fe3b9e47764',1,'Magnetometer']]],
-  ['my_3',['my',['../structMagnetometer.html#a0c6ec35bb830352d38d97396f1c8f08a',1,'Magnetometer']]],
-  ['mz_4',['mz',['../structMagnetometer.html#af890827fcd2c7cc33b20dbd8ff1a7d7b',1,'Magnetometer']]]
+  ['index_5f_0',['index_',['../structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8',1,'BuzzerController']]],
+  ['is_5farmed_1',['is_armed',['../structPyroChannel.html#a4f2b632cce763e033d8f1f6395f68a2f',1,'PyroChannel']]],
+  ['is_5fbooster_2',['is_booster',['../structTelemetryPacket.html#af72f63893bd7a48458be3d92fb4bd969',1,'TelemetryPacket']]],
+  ['is_5ffiring_3',['is_firing',['../structPyroChannel.html#ac86bd669d3ea44003c014b64418f39e2',1,'PyroChannel']]],
+  ['is_5fglobal_5farmed_4',['is_global_armed',['../structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266',1,'PyroState']]]
 ];

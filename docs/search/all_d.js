@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['orientation_0',['Orientation',['../structOrientation.html',1,'']]],
-  ['orientation_1',['orientation',['../structRocketState.html#a48b0dd107648c4e09239f77c816568f4',1,'RocketState::orientation()'],['../structSensors.html#a1de05e0b8d4b674ae1e7d4ab2be2ac32',1,'Sensors::orientation()']]],
-  ['orientation_5facceleration_2',['orientation_acceleration',['../structOrientation.html#a8eb6efbab07ee4b9502a8186a7b21a64',1,'Orientation']]],
-  ['orientation_5fvelocity_3',['orientation_velocity',['../structOrientation.html#a9c45d4340decdc2db9a2845db6971409',1,'Orientation']]],
-  ['orientationsensor_4',['OrientationSensor',['../structOrientationSensor.html',1,'']]]
+  ['new_5ftune_5fstarted_0',['new_tune_started',['../structBuzzerController.html#a6c30879beaf133f0322b54e48b0eac7f',1,'BuzzerController']]],
+  ['newest_5fidx_1',['newest_idx',['../structBuffer.html#a02cb7515ccb2d044d41677fd999f2551',1,'Buffer']]],
+  ['noerror_2',['NoError',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f',1,'errors.h']]]
 ];

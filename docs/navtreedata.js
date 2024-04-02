@@ -28,8 +28,9 @@ var NAVTREE =
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
@@ -50,7 +51,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"FreeRTOSConfig_8h.html"
+"Buffer_8h.html",
+"structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

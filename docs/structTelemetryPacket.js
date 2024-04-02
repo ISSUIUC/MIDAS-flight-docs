@@ -1,0 +1,25 @@
+var structTelemetryPacket =
+[
+    [ "barometer_temp", "structTelemetryPacket.html#a3fe85998e6851a99de1793aa87c83f1a", null ],
+    [ "callsign", "structTelemetryPacket.html#a1867231851656e2d784f8cb5d81132d6", null ],
+    [ "continuity", "structTelemetryPacket.html#a9c334b95a4f5fb4a857cb85449c75b87", null ],
+    [ "datapoint_count", "structTelemetryPacket.html#aa9c1dda294b5036e992e84251e905426", null ],
+    [ "datapoints", "structTelemetryPacket.html#aebcc8dedc513782833ac100a1a5e9329", null ],
+    [ "FSM_state", "structTelemetryPacket.html#ad0e084ffea6049c4f8fac3a85e76f752", null ],
+    [ "gps_alt", "structTelemetryPacket.html#a0cd53bf412cbd0377c1dbf0af61dbd99", null ],
+    [ "gps_lat", "structTelemetryPacket.html#a57517f5d72dfd6ce032e1cadec4e1935", null ],
+    [ "gps_long", "structTelemetryPacket.html#a624cd481204dccd2d494aae99787ff1d", null ],
+    [ "gyro_x", "structTelemetryPacket.html#a8fda360df767b6931288a26a9abb3432", null ],
+    [ "gyro_y", "structTelemetryPacket.html#a9cb482f96cdd095cb12ddf452db3cc0d", null ],
+    [ "gyro_z", "structTelemetryPacket.html#ae30df41f2e1a7b8c7ec476d05964a8dd", null ],
+    [ "is_booster", "structTelemetryPacket.html#af72f63893bd7a48458be3d92fb4bd969", null ],
+    [ "log_latency", "structTelemetryPacket.html#a6f2e4a4ab82e8b708a6af0414283783c", null ],
+    [ "mag_x", "structTelemetryPacket.html#acc78457e59f679e7460f6ceb1b5321e1", null ],
+    [ "mag_y", "structTelemetryPacket.html#af2d0f6cbe89a8d76509db57c271dc8d3", null ],
+    [ "mag_z", "structTelemetryPacket.html#a5a94a9463e9af66ca21efb5da6109898", null ],
+    [ "pyros_bits", "structTelemetryPacket.html#a14dd31b145276566d2323cb542d0033b", null ],
+    [ "rssi", "structTelemetryPacket.html#aed1c8db6f197e87b39863d730eef03b3", null ],
+    [ "sense_pyro", "structTelemetryPacket.html#a60cea767e2f40e9f0538dc3475cac3d3", null ],
+    [ "telem_latency", "structTelemetryPacket.html#adba19efb986b50fd24115c132b3b0001", null ],
+    [ "voltage_battery", "structTelemetryPacket.html#a73934f15d503e7c57314d4dcccfda59a", null ]
+];

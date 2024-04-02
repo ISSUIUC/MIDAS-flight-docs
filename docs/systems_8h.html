@@ -89,24 +89,34 @@ $(document).ready(function(){initNavTree('systems_8h.html',''); initResizable();
   <div class="headertitle"><div class="title">systems.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="sensors_8h_source.html">sensors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;array&gt;</code><br />
+<code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hal_8h_source.html">hal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Buffer_8h_source.html">Buffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="data__logging_8h_source.html">data_logging.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="buzzer_8h_source.html">buzzer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="led_8h_source.html">led.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="telemetry_8h_source.html">telemetry.h</a>&quot;</code><br />
+<code>#include &quot;finite-state-machines/fsm.h&quot;</code><br />
+<code>#include &quot;hardware/sensors.h&quot;</code><br />
 </div>
 <p><a href="systems_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSensors.html">Sensors</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRocketSystems.html">RocketSystems</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5a8ed0a686e3a87ba1d2a160e3f36c2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8h.html#a5a8ed0a686e3a87ba1d2a160e3f36c2d">begin_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> &amp;config)</td></tr>
-<tr class="separator:a5a8ed0a686e3a87ba1d2a160e3f36c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8h.html#a7678b869b133b9ea5fe1a8fe71946d1a">begin_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *config)</td></tr>
+<tr class="separator:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5a8ed0a686e3a87ba1d2a160e3f36c2d" name="a5a8ed0a686e3a87ba1d2a160e3f36c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a8ed0a686e3a87ba1d2a160e3f36c2d">&#9670;&nbsp;</a></span>begin_systems()</h2>
+<a id="a7678b869b133b9ea5fe1a8fe71946d1a" name="a7678b869b133b9ea5fe1a8fe71946d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7678b869b133b9ea5fe1a8fe71946d1a">&#9670;&nbsp;</a></span>begin_systems()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -114,7 +124,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void begin_systems </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRocketSystems.html">RocketSystems</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structRocketSystems.html">RocketSystems</a> *&#160;</td>
           <td class="paramname"><em>config</em></td><td>)</td>
           <td></td>
         </tr>
@@ -122,7 +132,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p >Creates all threads for each sensor, FSM, Kalman algorithm, and data logging member Starts thread scheduler to actually start doing jobs </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00141">141</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00233">233</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

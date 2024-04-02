@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['latitude_0',['latitude',['../structGPS.html#aacd124c483907abad95a1ef45a29f86e',1,'GPS']]],
-  ['linear_5facceleration_1',['linear_acceleration',['../structOrientation.html#acbc40dba570e3f29f6fa1a966ba8dc39',1,'Orientation']]],
-  ['longitudinal_2',['longitudinal',['../structGPS.html#ab20b981653ef5c15a1dcc5f9c69f8461',1,'GPS']]],
-  ['low_5fg_3',['low_g',['../structRocketState.html#aa8ef05acfdf962e852092e54e69b6ff8',1,'RocketState::low_g()'],['../structSensors.html#a537c628267f747be878aa7d269bc445a',1,'Sensors::low_g()']]]
+  ['has_5fdata_0',['has_data',['../structOrientation.html#a2f0b69055d58834a39f435747d110e1d',1,'Orientation']]],
+  ['high_5fg_1',['high_g',['../structLoggedReading.html#a44a74a23c78ee4f2b8b75e209e4b6795',1,'LoggedReading::high_g()'],['../structRocketData.html#ad0857684a8083d40487985dee1f31314',1,'RocketData::high_g()'],['../structSensors.html#a47c62db73809da644adb1321123dce5a',1,'Sensors::high_g()']]],
+  ['highg_5fax_2',['highG_ax',['../structTelemetryDataLite.html#af98be7804e8ae8758561bf51b457d76b',1,'TelemetryDataLite']]],
+  ['highg_5fay_3',['highG_ay',['../structTelemetryDataLite.html#ac2c86b3cdbc5b9e74d0a29842417792b',1,'TelemetryDataLite']]],
+  ['highg_5faz_4',['highG_az',['../structTelemetryDataLite.html#ae293da9a1d27424c514441e417a5a581',1,'TelemetryDataLite']]]
 ];

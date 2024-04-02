@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['gps_0',['GPS',['../structGPS.html',1,'']]],
-  ['gyroscope_1',['Gyroscope',['../structGyroscope.html',1,'']]],
-  ['gyroscopedata_2',['GyroscopeData',['../structGyroscopeData.html',1,'']]]
+  ['euler_5ft_0',['euler_t',['../structeuler__t.html',1,'']]]
 ];

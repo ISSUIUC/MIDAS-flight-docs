@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['read_0',['read',['../structLowGSensor.html#a0c4711a5f17c67179db4d073b8a7718f',1,'LowGSensor::read()'],['../structGyroscope.html#adff33199e9d5424067b4c73dfa5807da',1,'Gyroscope::read()'],['../structHighGSensor.html#a845ed0e0fcffa7d4f5ae86eeb653c80d',1,'HighGSensor::read()'],['../structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69',1,'BarometerSensor::read()'],['../structContinuitySensor.html#afc7ec154da1a82e35df5f820fb911628',1,'ContinuitySensor::read()'],['../structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6',1,'VoltageSensor::read()'],['../structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5',1,'OrientationSensor::read()']]],
-  ['rocket_5fstate_1',['rocket_state',['../structRocketSystems.html#aa2b0c75626ac828b68c3fb812758340d',1,'RocketSystems']]],
-  ['rocket_5fstate_2eh_2',['rocket_state.h',['../rocket__state_8h.html',1,'']]],
-  ['rocketstate_3',['RocketState',['../structRocketState.html',1,'']]],
-  ['rocketsystems_4',['RocketSystems',['../structRocketSystems.html',1,'']]],
-  ['roll_5',['roll',['../structOrientation.html#a707b9d051a93e9c5616d44c5d858fa78',1,'Orientation']]]
+  ['queue_0',['Queue',['../classQueue.html',1,'']]],
+  ['queue_1',['queue',['../classQueue.html#a814875da3ecf370cb6fd5a2b661f03f6',1,'Queue::queue()'],['../structSensorData.html#a18554d3ddb0899dcb66e8a78a5871adb',1,'SensorData::queue()']]],
+  ['queue_2',['Queue',['../classQueue.html#a96d51c6fb207ea926dda6574461f6c52',1,'Queue::Queue()'],['../classQueue.html#a25711d937060ac800a9024461fe08eba',1,'Queue::Queue(const Queue &amp;)=delete'],['../classQueue.html#a367bffb1aac8f6237c5f6d3ca74ad0b5',1,'Queue::Queue(Queue &amp;&amp;)=delete']]],
+  ['queue_2eh_3',['Queue.h',['../Queue_8h.html',1,'']]],
+  ['queue_5farea_4',['queue_area',['../classQueue.html#a8003f3e46ae38428958b74c0a4e93f55',1,'Queue']]],
+  ['queue_5flength_5',['QUEUE_LENGTH',['../Queue_8h.html#a055729a37bf543876e2ce9d57b95ab7b',1,'Queue.h']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['loop_0',['loop',['../main_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'main.cpp']]]
+  ['handlecommand_0',['handleCommand',['../classTelemetry.html#a5246e1bb4354fc82197de5ee853efbf0',1,'Telemetry']]],
+  ['highgdata_1',['HighGData',['../structHighGData.html#a45bae078ff099c012f6e9fd2956b29fc',1,'HighGData::HighGData()=default'],['../structHighGData.html#a2b71f98d45416cc2cfda723d47ee7393',1,'HighGData::HighGData(float x, float y, float z)']]]
 ];

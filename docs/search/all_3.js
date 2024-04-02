@@ -1,5 +1,29 @@
 var searchData=
 [
-  ['data_5fcore_0',['DATA_CORE',['../hal_8h.html#aec647f02b95f8c0936839bacfacb23ec',1,'hal.h']]],
-  ['declare_5fthread_1',['DECLARE_THREAD',['../hal_8h.html#a892fef0439cc8ce8c95f45a6efe8f630',1,'DECLARE_THREAD():&#160;hal.h'],['../systems_8cpp.html#a585345f7fd9748686d99fddd496c1498',1,'DECLARE_THREAD(data_logger, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#a42725f4294d10a7d9dbda74722c0bdf2',1,'DECLARE_THREAD(barometer, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#a67aaf64cbacaa32a6deb63eae93d73f8',1,'DECLARE_THREAD(low_g, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#ae4db31a2a6081d414c160e4acbfe9eed',1,'DECLARE_THREAD(gyroscope, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#abd06a69860ae0aae0313629aa795bb87',1,'DECLARE_THREAD(high_g, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#ae52ad8eef10a32213af00184467014b6',1,'DECLARE_THREAD(orientation, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#a2a8f58889115c0127246cfae17d7f23c',1,'DECLARE_THREAD(magnetometer, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#a7c628908bf50f22dc07db9c9b144ecf3',1,'DECLARE_THREAD(gps, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#aa2aaf4f7e8c74a0afd0cece6ff355f8d',1,'DECLARE_THREAD(gas, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#ad3b2a8e44e9c15fbf905b90e3f03604c',1,'DECLARE_THREAD(voltage, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#a34793c8eacc88ad05cebba8d033bddec',1,'DECLARE_THREAD(continuity, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#aea0eabebd2395a6642c4f67da9c38cba',1,'DECLARE_THREAD(fsm, RocketSystems *arg):&#160;systems.cpp'],['../systems_8cpp.html#aa626d5e646121511c99a835eb9928c42',1,'DECLARE_THREAD(kalman, RocketSystems *arg):&#160;systems.cpp']]]
+  ['callsign_0',['callsign',['../structTelemetryPacket.html#a1867231851656e2d784f8cb5d81132d6',1,'TelemetryPacket::callsign()'],['../structtelemetry__command.html#aea3454258d2e1a1104840a86a8486302',1,'telemetry_command::callsign()']]],
+  ['cannotconnectbno_1',['CannotConnectBNO',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa521fcaafcc6b49fdf4b71639d2070f8f',1,'errors.h']]],
+  ['cannotinitbno_2',['CannotInitBNO',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa38aca0df2cd97e50b089e5421f117887',1,'errors.h']]],
+  ['channels_3',['channels',['../structPyroState.html#a04d7d67f53aa789fb3761d8cee6cdf03',1,'PyroState']]],
+  ['check_4',['check',['../structMutex.html#ad64ef2ff0a906308904afdf15f7ca389',1,'Mutex']]],
+  ['cmd_5fid_5',['cmd_id',['../structtelemetry__command.html#abded30140afa596f5e423e2f43bb42ff',1,'telemetry_command']]],
+  ['command_6',['command',['../structtelemetry__command.html#a6268d13dd155ec683377f10292c988e2',1,'telemetry_command']]],
+  ['commandtype_7',['CommandType',['../telemetry__packet_8h.html#a21e038f5b8958e203d28bc4f18472352',1,'telemetry_packet.h']]],
+  ['configkernal_5fprovided_5fstatic_5fmemory_8',['configKERNAL_PROVIDED_STATIC_MEMORY',['../FreeRTOSConfig_8h.html#ad69d46dfcc5ce57354177bed0b78dde0',1,'FreeRTOSConfig.h']]],
+  ['configmax_5fpriorities_9',['configMAX_PRIORITIES',['../FreeRTOSConfig_8h.html#a9a78f5ac61e6cb172dadf2a51f11db38',1,'FreeRTOSConfig.h']]],
+  ['configminimal_5fstack_5fsize_10',['configMINIMAL_STACK_SIZE',['../FreeRTOSConfig_8h.html#a6c534a6cf8a00528fe0be42083484f9a',1,'FreeRTOSConfig.h']]],
+  ['configsupport_5fdynamic_5fallocation_11',['configSUPPORT_DYNAMIC_ALLOCATION',['../FreeRTOSConfig_8h.html#afa3f8d6510699d972c9af08fa41f66dc',1,'FreeRTOSConfig.h']]],
+  ['configsupport_5fstatic_5fallocation_12',['configSUPPORT_STATIC_ALLOCATION',['../FreeRTOSConfig_8h.html#a1d6797a53b62d501b095f964036a7ac4',1,'FreeRTOSConfig.h']]],
+  ['configtick_5frate_5fhz_13',['configTICK_RATE_HZ',['../FreeRTOSConfig_8h.html#a2f0258dd1e3b877e5bc013be54c2db6a',1,'FreeRTOSConfig.h']]],
+  ['configuse_5f16_5fbit_5fticks_14',['configUSE_16_BIT_TICKS',['../FreeRTOSConfig_8h.html#aac311ed9b9e5ae4d2d9648b33a24acce',1,'FreeRTOSConfig.h']]],
+  ['configuse_5fidle_5fhook_15',['configUSE_IDLE_HOOK',['../FreeRTOSConfig_8h.html#ac637ae45863c19fa2e919db0ed49301f',1,'FreeRTOSConfig.h']]],
+  ['configuse_5fmutexes_16',['configUSE_MUTEXES',['../FreeRTOSConfig_8h.html#a543bf3c79008974cc1d36bab51d94fbf',1,'FreeRTOSConfig.h']]],
+  ['configuse_5fpreemption_17',['configUSE_PREEMPTION',['../FreeRTOSConfig_8h.html#adde83486022745409c40605922b0bdd6',1,'FreeRTOSConfig.h']]],
+  ['configuse_5ftick_5fhook_18',['configUSE_TICK_HOOK',['../FreeRTOSConfig_8h.html#a23c5922c077106fad3f70b54d9071466',1,'FreeRTOSConfig.h']]],
+  ['continuity_19',['continuity',['../structTelemetryPacket.html#a9c334b95a4f5fb4a857cb85449c75b87',1,'TelemetryPacket::continuity()'],['../structLoggedReading.html#a905c46f27caec7d43533c94cb772f861',1,'LoggedReading::continuity()'],['../structRocketData.html#a3da724e42064a4b67400f5ac9b33c269',1,'RocketData::continuity()']]],
+  ['continuity_20',['Continuity',['../structContinuity.html',1,'']]],
+  ['continuity_21',['continuity',['../structSensors.html#a7056dfd268e5f500c61b3917258adbba',1,'Sensors']]],
+  ['continuitycouldnotbeinitialized_22',['ContinuityCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7ab3a4463930031595e69d2cc38600df',1,'errors.h']]],
+  ['count_23',['count',['../structBuffer.html#a6f5c3c76fb63f9559223ae7527718e1a',1,'Buffer']]],
+  ['current_24',['current',['../structSensorData.html#a695fa2815f14a810ad7a451952affdd1',1,'SensorData']]],
+  ['current_5ftune_5f_25',['current_tune_',['../structBuzzerController.html#ad24d1122a86a6fd05143ac270403571c',1,'BuzzerController']]]
 ];

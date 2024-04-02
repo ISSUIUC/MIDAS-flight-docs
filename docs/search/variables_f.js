@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['x_0',['x',['../structVec3.html#a2814580e9b9372738c0a61197ea46b51',1,'Vec3']]]
+  ['rocket_5fdata_0',['rocket_data',['../structRocketSystems.html#acc3a9459bd699826d2eb1d18511f4f57',1,'RocketSystems']]],
+  ['roll_1',['roll',['../structeuler__t.html#abafdae5f47727552547a212018038607',1,'euler_t::roll()'],['../structOrientation.html#a707b9d051a93e9c5616d44c5d858fa78',1,'Orientation::roll()']]],
+  ['rssi_2',['rssi',['../structTelemetryPacket.html#aed1c8db6f197e87b39863d730eef03b3',1,'TelemetryPacket']]]
 ];

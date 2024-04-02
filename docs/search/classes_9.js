@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['position_0',['Position',['../structPosition.html',1,'']]],
-  ['pyro_1',['Pyro',['../structPyro.html',1,'']]]
+  ['orientation_0',['Orientation',['../structOrientation.html',1,'']]]
 ];

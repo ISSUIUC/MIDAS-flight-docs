@@ -103,11 +103,13 @@ Macros</h2></td></tr>
 <tr class="separator:a1d6797a53b62d501b095f964036a7ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa3f8d6510699d972c9af08fa41f66dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#afa3f8d6510699d972c9af08fa41f66dc">configSUPPORT_DYNAMIC_ALLOCATION</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:afa3f8d6510699d972c9af08fa41f66dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69d46dfcc5ce57354177bed0b78dde0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#ad69d46dfcc5ce57354177bed0b78dde0">configKERNAL_PROVIDED_STATIC_MEMORY</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ad69d46dfcc5ce57354177bed0b78dde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24361a6eb816a965f1ee4e2e08e364f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#a24361a6eb816a965f1ee4e2e08e364f8">INCLUDE_vTaskDelay</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a24361a6eb816a965f1ee4e2e08e364f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c534a6cf8a00528fe0be42083484f9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#a6c534a6cf8a00528fe0be42083484f9a">configMINIMAL_STACK_SIZE</a>&#160;&#160;&#160;128</td></tr>
+<tr class="memitem:a6c534a6cf8a00528fe0be42083484f9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#a6c534a6cf8a00528fe0be42083484f9a">configMINIMAL_STACK_SIZE</a>&#160;&#160;&#160;8192</td></tr>
 <tr class="separator:a6c534a6cf8a00528fe0be42083484f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a78f5ac61e6cb172dadf2a51f11db38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#a9a78f5ac61e6cb172dadf2a51f11db38">configMAX_PRIORITIES</a>&#160;&#160;&#160;5</td></tr>
+<tr class="memitem:a9a78f5ac61e6cb172dadf2a51f11db38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#a9a78f5ac61e6cb172dadf2a51f11db38">configMAX_PRIORITIES</a>&#160;&#160;&#160;16</td></tr>
 <tr class="separator:a9a78f5ac61e6cb172dadf2a51f11db38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac637ae45863c19fa2e919db0ed49301f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FreeRTOSConfig_8h.html#ac637ae45863c19fa2e919db0ed49301f">configUSE_IDLE_HOOK</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ac637ae45863c19fa2e919db0ed49301f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +119,22 @@ Macros</h2></td></tr>
 <tr class="separator:aac311ed9b9e5ae4d2d9648b33a24acce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad69d46dfcc5ce57354177bed0b78dde0" name="ad69d46dfcc5ce57354177bed0b78dde0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69d46dfcc5ce57354177bed0b78dde0">&#9670;&nbsp;</a></span>configKERNAL_PROVIDED_STATIC_MEMORY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define configKERNAL_PROVIDED_STATIC_MEMORY&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00009">9</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+
+</div>
+</div>
 <a id="a9a78f5ac61e6cb172dadf2a51f11db38" name="a9a78f5ac61e6cb172dadf2a51f11db38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a78f5ac61e6cb172dadf2a51f11db38">&#9670;&nbsp;</a></span>configMAX_PRIORITIES</h2>
 
@@ -124,12 +142,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define configMAX_PRIORITIES&#160;&#160;&#160;5</td>
+          <td class="memname">#define configMAX_PRIORITIES&#160;&#160;&#160;16</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00012">12</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00015">15</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
 
 </div>
 </div>
@@ -140,12 +158,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define configMINIMAL_STACK_SIZE&#160;&#160;&#160;128</td>
+          <td class="memname">#define configMINIMAL_STACK_SIZE&#160;&#160;&#160;8192</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00011">11</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00014">14</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
 
 </div>
 </div>
@@ -209,7 +227,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00015">15</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00018">18</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
 
 </div>
 </div>
@@ -225,7 +243,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00013">13</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00016">16</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
 
 </div>
 </div>
@@ -273,7 +291,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00014">14</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00017">17</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +307,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00009">9</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FreeRTOSConfig_8h_source.html#l00010">10</a> of file <a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>.</p>
 
 </div>
 </div>
