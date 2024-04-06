@@ -2,8 +2,8 @@ var searchData=
 [
   ['gps_0',['gps',['../structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23',1,'LoggedReading::gps()'],['../structRocketData.html#adf85ee623bf10a299b7e9d856a195558',1,'RocketData::gps()'],['../structSensors.html#aa5d56efe42b18ed1c9dad1532f500b5b',1,'Sensors::gps()']]],
   ['gps_5falt_1',['gps_alt',['../structTelemetryPacket.html#a0cd53bf412cbd0377c1dbf0af61dbd99',1,'TelemetryPacket']]],
-  ['gps_5flat_2',['gps_lat',['../structTelemetryPacket.html#a57517f5d72dfd6ce032e1cadec4e1935',1,'TelemetryPacket']]],
-  ['gps_5flong_3',['gps_long',['../structTelemetryPacket.html#a624cd481204dccd2d494aae99787ff1d',1,'TelemetryPacket']]],
+  ['gps_5flat_2',['gps_lat',['../structTelemetryPacket.html#ad23944c0f4c1f957738a6a191a48ff8c',1,'TelemetryPacket']]],
+  ['gps_5flong_3',['gps_long',['../structTelemetryPacket.html#a1ff1cfc381ab45193f7e0ae264c06927',1,'TelemetryPacket']]],
   ['gx_4',['gx',['../structLowGLSM.html#acbd7ed57d038fa437fc2ffa3f574f7a7',1,'LowGLSM::gx()'],['../structOrientation.html#a803b25fe2bb17bf20e55e1d52531d64e',1,'Orientation::gx()']]],
   ['gy_5',['gy',['../structLowGLSM.html#a1368293960dc60c094731a0701bb57aa',1,'LowGLSM::gy()'],['../structOrientation.html#a6692296c7346fda8802833c06f1db03c',1,'Orientation::gy()']]],
   ['gyro_5fx_6',['gyro_x',['../structTelemetryPacket.html#a8fda360df767b6931288a26a9abb3432',1,'TelemetryPacket']]],
