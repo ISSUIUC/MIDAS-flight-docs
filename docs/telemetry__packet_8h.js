@@ -1,6 +1,5 @@
 var telemetry__packet_8h =
 [
-    [ "TelemetryDataLite", "structTelemetryDataLite.html", "structTelemetryDataLite" ],
     [ "TelemetryPacket", "structTelemetryPacket.html", "structTelemetryPacket" ],
     [ "telemetry_command", "structtelemetry__command.html", "structtelemetry__command" ],
     [ "CommandType", "telemetry__packet_8h.html#a21e038f5b8958e203d28bc4f18472352", [

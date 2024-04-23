@@ -19,7 +19,6 @@ var searchData=
   ['init_5fsystems_16',['init_systems',['../systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a',1,'systems.cpp']]],
   ['inv_5fconvert_5frange_17',['inv_convert_range',['../telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2',1,'telemetry.cpp']]],
   ['is_5farmed_18',['is_armed',['../structPyroChannel.html#a4f2b632cce763e033d8f1f6395f68a2f',1,'PyroChannel']]],
-  ['is_5fbooster_19',['is_booster',['../structTelemetryPacket.html#af72f63893bd7a48458be3d92fb4bd969',1,'TelemetryPacket']]],
-  ['is_5ffiring_20',['is_firing',['../structPyroChannel.html#ac86bd669d3ea44003c014b64418f39e2',1,'PyroChannel']]],
-  ['is_5fglobal_5farmed_21',['is_global_armed',['../structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266',1,'PyroState']]]
+  ['is_5ffiring_19',['is_firing',['../structPyroChannel.html#ac86bd669d3ea44003c014b64418f39e2',1,'PyroChannel']]],
+  ['is_5fglobal_5farmed_20',['is_global_armed',['../structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266',1,'PyroState']]]
 ];

@@ -52,7 +52,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Buffer_8h.html",
-"structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8"
+"structContinuity.html#a0e53b6c0cd294311b2bd81e805173801"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

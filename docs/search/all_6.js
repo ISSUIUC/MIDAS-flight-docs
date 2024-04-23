@@ -10,6 +10,6 @@ var searchData=
   ['freq_7',['freq',['../structtelemetry__command.html#aebf32cff41cbe29fc44c6f8631d4e68d',1,'telemetry_command']]],
   ['frequency_8',['frequency',['../structSound.html#ac86e70fe47d77da118cc3336942234ca',1,'Sound']]],
   ['fsm_9',['fsm',['../structLoggedReading.html#a0c0c108b88b4d2a86905ac23a8c5231d',1,'LoggedReading']]],
-  ['fsm_5fstate_10',['fsm_state',['../structRocketData.html#a0d19e828a15ca3873f6cc7d367635156',1,'RocketData']]],
-  ['fsm_5fstate_11',['FSM_state',['../structTelemetryPacket.html#ad0e084ffea6049c4f8fac3a85e76f752',1,'TelemetryPacket']]]
+  ['fsm_5fsatcount_10',['fsm_satcount',['../structTelemetryPacket.html#a03c4bb5d8c19b52640f209292664356c',1,'TelemetryPacket']]],
+  ['fsm_5fstate_11',['fsm_state',['../structRocketData.html#a0d19e828a15ca3873f6cc7d367635156',1,'RocketData']]]
 ];

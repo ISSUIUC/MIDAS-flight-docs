@@ -12,6 +12,5 @@ var systems_8cpp =
     [ "DECLARE_THREAD", "systems_8cpp.html#a2a8f58889115c0127246cfae17d7f23c", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#ae52ad8eef10a32213af00184467014b6", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#acab3f6c1bdd5abfe96db6ed94d451e22", null ],
-    [ "DECLARE_THREAD", "systems_8cpp.html#a35371f5010e2746df8026973b3a65454", null ],
     [ "init_systems", "systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a", null ]
 ];

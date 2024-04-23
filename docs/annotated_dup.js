@@ -33,7 +33,6 @@ var annotated_dup =
     [ "Sound", "structSound.html", "structSound" ],
     [ "Telemetry", "classTelemetry.html", "classTelemetry" ],
     [ "telemetry_command", "structtelemetry__command.html", "structtelemetry__command" ],
-    [ "TelemetryDataLite", "structTelemetryDataLite.html", "structTelemetryDataLite" ],
     [ "TelemetryPacket", "structTelemetryPacket.html", "structTelemetryPacket" ],
     [ "Vec3", "structVec3.html", "structVec3" ],
     [ "Velocity", "structVelocity.html", "structVelocity" ],

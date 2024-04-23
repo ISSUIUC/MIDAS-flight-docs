@@ -16,6 +16,5 @@ var searchData=
   ['rocket_5fstate_2eh_13',['rocket_state.h',['../rocket__state_8h.html',1,'']]],
   ['rocketdata_14',['RocketData',['../structRocketData.html',1,'']]],
   ['rocketsystems_15',['RocketSystems',['../structRocketSystems.html',1,'']]],
-  ['roll_16',['roll',['../structOrientation.html#a707b9d051a93e9c5616d44c5d858fa78',1,'Orientation::roll()'],['../structeuler__t.html#abafdae5f47727552547a212018038607',1,'euler_t::roll()']]],
-  ['rssi_17',['rssi',['../structTelemetryPacket.html#aed1c8db6f197e87b39863d730eef03b3',1,'TelemetryPacket']]]
+  ['roll_16',['roll',['../structOrientation.html#a707b9d051a93e9c5616d44c5d858fa78',1,'Orientation::roll()'],['../structeuler__t.html#abafdae5f47727552547a212018038607',1,'euler_t::roll()']]]
 ];

@@ -12,6 +12,5 @@ var structRocketData =
     [ "magnetometer", "structRocketData.html#a0b5e77d7d312bb8047c9b41416af3b81", null ],
     [ "orientation", "structRocketData.html#ae5616cf2fba6ebede1e92ea4063a690e", null ],
     [ "pyro", "structRocketData.html#a93407e4bf41eb3ce9dfe0e945ce5cc1b", null ],
-    [ "telem_latency", "structRocketData.html#aa0112b3b2d965da9aa72daaabcbfae0f", null ],
     [ "voltage", "structRocketData.html#a1615a5e2560a7715cd9c2f817087c5c9", null ]
 ];
