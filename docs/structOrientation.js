@@ -12,5 +12,6 @@ var structOrientation =
     [ "pressure", "structOrientation.html#ac5f7f8fd3b2b1771001ae2e0932dd4b7", null ],
     [ "roll", "structOrientation.html#a707b9d051a93e9c5616d44c5d858fa78", null ],
     [ "temperature", "structOrientation.html#aeeed29ee3c119beac6eed668c4449eaf", null ],
+    [ "tilt", "structOrientation.html#af3e746c13c78532f5e4cc7615d871f03", null ],
     [ "yaw", "structOrientation.html#a4b541db9a6b982b8b1c51032cd5bcf2c", null ]
 ];
