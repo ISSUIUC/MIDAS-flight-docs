@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['commandtype_0',['CommandType',['../telemetry__packet_8h.html#a21e038f5b8958e203d28bc4f18472352',1,'telemetry_packet.h']]]
+  ['errorcode_0',['ErrorCode',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f',1,'errors.h']]]
 ];

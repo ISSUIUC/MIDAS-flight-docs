@@ -34,7 +34,6 @@ var hierarchy =
     [ "Sensors", "structSensors.html", null ],
     [ "Sound", "structSound.html", null ],
     [ "Telemetry", "classTelemetry.html", null ],
-    [ "telemetry_command", "structtelemetry__command.html", null ],
     [ "TelemetryPacket", "structTelemetryPacket.html", null ],
     [ "Vec3", "structVec3.html", null ],
     [ "Velocity", "structVelocity.html", null ],
