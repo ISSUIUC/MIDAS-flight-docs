@@ -7,6 +7,7 @@ var NAVTREEINDEX1 =
 "structGPS.html#a3d5ef7e6f81865883f06add4138a1c8d":[0,0,7,0],
 "structGPS.html#a5ebd297588ed65be9e352a180f9fe29d":[0,0,7,4],
 "structGPS.html#a60d8f0cae62d3b721222a3536faac53b":[0,0,7,3],
+"structGPS.html#ad05dcceb77225f057ddc570fd1081f37":[0,0,7,5],
 "structGPS.html#ad7b97d3a2b5aaba3f76d9848fd09f334":[0,0,7,2],
 "structHighGData.html":[0,0,8],
 "structHighGData.html#a2b71f98d45416cc2cfda723d47ee7393":[0,0,8,1],
