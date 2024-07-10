@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('data__logging_8h.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html">LogSink</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protocol for a sink, which is implemented as an SD card in hardware.  <a href="classLogSink.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultipleLogSink.html">MultipleLogSink&lt; Sinks &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,10 +108,13 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a88f28575054c4d071a7b177cffdb7b6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="data__logging_8h.html#a88f28575054c4d071a7b177cffdb7b6b">log_begin</a> (<a class="el" href="classLogSink.html">LogSink</a> &amp;sink)</td></tr>
+<tr class="memdesc:a88f28575054c4d071a7b177cffdb7b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a specific <a class="el" href="classLogSink.html" title="Protocol for a sink, which is implemented as an SD card in hardware.">LogSink</a>.  <a href="data__logging_8h.html#a88f28575054c4d071a7b177cffdb7b6b">More...</a><br /></td></tr>
 <tr class="separator:a88f28575054c4d071a7b177cffdb7b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae33cb0d5637b1817d50529c169a578e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="data__logging_8h.html#ae33cb0d5637b1817d50529c169a578e9">log_data</a> (<a class="el" href="classLogSink.html">LogSink</a> &amp;sink, <a class="el" href="structRocketData.html">RocketData</a> &amp;data)</td></tr>
+<tr class="memdesc:ae33cb0d5637b1817d50529c169a578e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">logs all sensor data from the rocket  <a href="data__logging_8h.html#ae33cb0d5637b1817d50529c169a578e9">More...</a><br /></td></tr>
 <tr class="separator:ae33cb0d5637b1817d50529c169a578e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac00c18dee32750fd76bb7f5a4d70e216"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="data__logging_8h.html#ac00c18dee32750fd76bb7f5a4d70e216">sdFileNamer</a> (char *fileName, char *fileExtensionParam, FS &amp;fs)</td></tr>
+<tr class="memdesc:ac00c18dee32750fd76bb7f5a4d70e216"><td class="mdescLeft">&#160;</td><td class="mdescRight">names a new file for a log sink depending on the files currently on said <a class="el" href="classLogSink.html" title="Protocol for a sink, which is implemented as an SD card in hardware.">LogSink</a>  <a href="data__logging_8h.html#ac00c18dee32750fd76bb7f5a4d70e216">More...</a><br /></td></tr>
 <tr class="separator:ac00c18dee32750fd76bb7f5a4d70e216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,7 +134,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="data__logging_8cpp_source.html#l00043">43</a> of file <a class="el" href="data__logging_8cpp_source.html">data_logging.cpp</a>.</p>
+<p>Initializes a specific <a class="el" href="classLogSink.html" title="Protocol for a sink, which is implemented as an SD card in hardware.">LogSink</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sink</td><td>the <a class="el" href="classLogSink.html" title="Protocol for a sink, which is implemented as an SD card in hardware.">LogSink</a> to initialize </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="data__logging_8cpp_source.html#l00067">67</a> of file <a class="el" href="data__logging_8cpp_source.html">data_logging.cpp</a>.</p>
 
 </div>
 </div>
@@ -160,7 +172,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="data__logging_8cpp_source.html#l00048">48</a> of file <a class="el" href="data__logging_8cpp_source.html">data_logging.cpp</a>.</p>
+<p>logs all sensor data from the rocket </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sink</td><td>the <a class="el" href="classLogSink.html" title="Protocol for a sink, which is implemented as an SD card in hardware.">LogSink</a> to write data to </td></tr>
+    <tr><td class="paramname">data</td><td>the rocket which holds all the sensor data to write </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="data__logging_8cpp_source.html#l00078">78</a> of file <a class="el" href="data__logging_8cpp_source.html">data_logging.cpp</a>.</p>
 
 </div>
 </div>
@@ -196,7 +217,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="data__logging_8cpp_source.html#l00066">66</a> of file <a class="el" href="data__logging_8cpp_source.html">data_logging.cpp</a>.</p>
+<p>names a new file for a log sink depending on the files currently on said <a class="el" href="classLogSink.html" title="Protocol for a sink, which is implemented as an SD card in hardware.">LogSink</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>buffer to write the file name to </td></tr>
+    <tr><td class="paramname">fileExtensionParam</td><td>the file extension required for the file </td></tr>
+    <tr><td class="paramname">fs</td><td>the FileSystem to check files off of</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>buffer contianing string of file name </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="data__logging_8cpp_source.html#l00105">105</a> of file <a class="el" href="data__logging_8cpp_source.html">data_logging.cpp</a>.</p>
 
 </div>
 </div>

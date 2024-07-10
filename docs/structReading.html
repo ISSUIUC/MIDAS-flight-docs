@@ -90,6 +90,9 @@ $(document).ready(function(){initNavTree('structReading.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 
+<p>The RocketState struct stores everything that is needed by more than one system/thread of the Rocket.  
+ <a href="structReading.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -101,10 +104,17 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename <a class="el" href="structSensorData.html">SensorData</a>&gt;<br />
-struct Reading&lt; SensorData &gt;</div><p >The RocketState struct stores everything that is needed by more than one system/thread of the Rocket.</p>
-<p >Normally, this would be considered a poor decision. However, the fact that all this data is here makes it easier to debug since all this data can be logged (and thus used when debugging). </p>
+struct Reading&lt; SensorData &gt;</div><p >The RocketState struct stores everything that is needed by more than one system/thread of the Rocket. </p>
+<dl class="section note"><dt>Note</dt><dd>Normally, this would be considered a poor decision. However, the fact that all this data is here makes it easier to debug since all this data can be logged (and thus used when debugging).</dd></dl>
+<p>A specific reading from a sensor, holding a timestamp and data</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"><a class="el" href="structSensorData.html" title="Wrapper for thread safe sensor data storage.">SensorData</a></td><td>Type of data we are storing </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00016">16</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00026">26</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ae359518725c3c1eb67a7015cbc3fb165" name="ae359518725c3c1eb67a7015cbc3fb165"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae359518725c3c1eb67a7015cbc3fb165">&#9670;&nbsp;</a></span>data</h2>
@@ -120,7 +130,7 @@ template&lt;typename <a class="el" href="structSensorData.html">SensorData</a> &
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00018">18</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00028">28</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -138,7 +148,7 @@ template&lt;typename <a class="el" href="structSensorData.html">SensorData</a> &
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00017">17</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00027">27</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>

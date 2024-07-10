@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('structSensorData.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 
+<p>Wrapper for thread safe sensor data storage.  
+ <a href="structSensorData.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for SensorData&lt; S &gt;:</div>
@@ -98,7 +101,7 @@ Inheritance diagram for SensorData&lt; S &gt;:</div>
  <div class="center">
   <img src="structSensorData.png" usemap="#SensorData_3C_20S_20_3E_map" alt=""/>
   <map id="SensorData_3C_20S_20_3E_map" name="SensorData_3C_20S_20_3E_map">
-<area href="structBufferedSensorData.html" alt="BufferedSensorData&lt; S, count &gt;" shape="rect" coords="0,56,199,80"/>
+<area href="structBufferedSensorData.html" title="Buffer of Sensor data for easy calculations on." alt="BufferedSensorData&lt; S, count &gt;" shape="rect" coords="0,56,199,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -107,12 +110,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab6423b988b8f3509111c2c8d346c82d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSensorData.html#aab6423b988b8f3509111c2c8d346c82d">SensorData</a> ()</td></tr>
 <tr class="separator:aab6423b988b8f3509111c2c8d346c82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b3aea0ff15a06ce8b8e10c974c9325f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSensorData.html#a3b3aea0ff15a06ce8b8e10c974c9325f">update</a> (S data)</td></tr>
+<tr class="memdesc:a3b3aea0ff15a06ce8b8e10c974c9325f"><td class="mdescLeft">&#160;</td><td class="mdescRight">pushes to the queue with new data  <a href="structSensorData.html#a3b3aea0ff15a06ce8b8e10c974c9325f">More...</a><br /></td></tr>
 <tr class="separator:a3b3aea0ff15a06ce8b8e10c974c9325f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a527e26a910cead311006c7a2cf092183"><td class="memItemLeft" align="right" valign="top">S&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSensorData.html#a527e26a910cead311006c7a2cf092183">getRecent</a> ()</td></tr>
+<tr class="memdesc:a527e26a910cead311006c7a2cf092183"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets most recent data, will wait and acquire lock  <a href="structSensorData.html#a527e26a910cead311006c7a2cf092183">More...</a><br /></td></tr>
 <tr class="separator:a527e26a910cead311006c7a2cf092183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1434bddd44c30d2f31908bcba0baf48"><td class="memItemLeft" align="right" valign="top">S&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSensorData.html#ae1434bddd44c30d2f31908bcba0baf48">getRecentUnsync</a> ()</td></tr>
+<tr class="memdesc:ae1434bddd44c30d2f31908bcba0baf48"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets most recent data, will not acquire lock  <a href="structSensorData.html#ae1434bddd44c30d2f31908bcba0baf48">More...</a><br /></td></tr>
 <tr class="separator:ae1434bddd44c30d2f31908bcba0baf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46e70849c47ee4a32d7e26bdbeaacb92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSensorData.html#a46e70849c47ee4a32d7e26bdbeaacb92">getQueued</a> (<a class="el" href="structReading.html">Reading</a>&lt; S &gt; *out)</td></tr>
+<tr class="memdesc:a46e70849c47ee4a32d7e26bdbeaacb92"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructively gets the queue  <a href="structSensorData.html#a46e70849c47ee4a32d7e26bdbeaacb92">More...</a><br /></td></tr>
 <tr class="separator:a46e70849c47ee4a32d7e26bdbeaacb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -124,8 +131,15 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename S&gt;<br />
-struct SensorData&lt; S &gt;</div>
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00022">22</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+struct SensorData&lt; S &gt;</div><p >Wrapper for thread safe sensor data storage. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">S</td><td>Type of data we are storing </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00039">39</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aab6423b988b8f3509111c2c8d346c82d" name="aab6423b988b8f3509111c2c8d346c82d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab6423b988b8f3509111c2c8d346c82d">&#9670;&nbsp;</a></span>SensorData()</h2>
@@ -152,7 +166,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00028">28</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00045">45</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -183,7 +197,17 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00043">43</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p>destructively gets the queue </p>
+<dl class="section note"><dt>Note</dt><dd>This will clear the entire queue</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">out</td><td>Array in which to put the queue data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>boolean indicating successful transfer of data </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00085">85</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -212,7 +236,10 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00035">35</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p>gets most recent data, will wait and acquire lock </p>
+<dl class="section return"><dt>Returns</dt><dd>the most recent data </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00062">62</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -241,7 +268,10 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00039">39</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p>gets most recent data, will not acquire lock </p>
+<dl class="section return"><dt>Returns</dt><dd>the most recent data </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00071">71</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -271,9 +301,17 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>pushes to the queue with new data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>New data of the templated type to add to queue </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented in <a class="el" href="structBufferedSensorData.html#a32c1b5a5be064dbe38c93f6cab752b4d">BufferedSensorData&lt; S, count &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00030">30</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00052">52</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +338,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00024">24</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00041">41</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -326,7 +364,7 @@ template&lt;typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00025">25</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00042">42</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>

@@ -6,12 +6,14 @@ var hierarchy =
     [ "BuzzerController", "structBuzzerController.html", null ],
     [ "Continuity", "structContinuity.html", null ],
     [ "euler_t", "structeuler__t.html", null ],
+    [ "GpioAddress", "structGpioAddress.html", null ],
     [ "GPS", "structGPS.html", null ],
     [ "HighGData", "structHighGData.html", null ],
     [ "KalmanData", "structKalmanData.html", null ],
     [ "Latency", "classLatency.html", null ],
     [ "LEDController", "classLEDController.html", null ],
     [ "LoggedReading", "structLoggedReading.html", null ],
+    [ "LoggerReading", "structLoggerReading.html", null ],
     [ "LogSink", "classLogSink.html", [
       [ "MultipleLogSink< Sinks >", "classMultipleLogSink.html", null ],
       [ "MultipleLogSink< Sink, Sinks... >", "classMultipleLogSink_3_01Sink_00_01Sinks_8_8_8_01_4.html", null ]

@@ -11,12 +11,13 @@ var searchData=
   ['getrecent_8',['getRecent',['../structSensorData.html#a527e26a910cead311006c7a2cf092183',1,'SensorData']]],
   ['getrecentunsync_9',['getRecentUnsync',['../structSensorData.html#ae1434bddd44c30d2f31908bcba0baf48',1,'SensorData']]],
   ['gettimesrecent_10',['getTimesRecent',['../structBufferedSensorData.html#a8a44cac90d8eea217a87f490fdc3b0d7',1,'BufferedSensorData']]],
-  ['gps_11',['gps',['../structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23',1,'LoggedReading::gps()'],['../structRocketData.html#adf85ee623bf10a299b7e9d856a195558',1,'RocketData::gps()'],['../structSensors.html#aa5d56efe42b18ed1c9dad1532f500b5b',1,'Sensors::gps()']]],
+  ['gpioaddress_11',['GpioAddress',['../structGpioAddress.html',1,'']]],
   ['gps_12',['GPS',['../structGPS.html',1,'']]],
-  ['gpscouldnotbeinitialized_13',['GPSCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7d5a163ff267ce73b287fae4b4468748',1,'errors.h']]],
-  ['green_14',['GREEN',['../led_8h.html#aadcb6002d2b42fdfe01490f730ab00a6a9de0e5dd94e861317e74964bed179fa0',1,'led.h']]],
-  ['gx_15',['gx',['../structLowGLSM.html#acbd7ed57d038fa437fc2ffa3f574f7a7',1,'LowGLSM::gx()'],['../structOrientation.html#a803b25fe2bb17bf20e55e1d52531d64e',1,'Orientation::gx()']]],
-  ['gy_16',['gy',['../structOrientation.html#a6692296c7346fda8802833c06f1db03c',1,'Orientation::gy()'],['../structLowGLSM.html#a1368293960dc60c094731a0701bb57aa',1,'LowGLSM::gy()']]],
-  ['gyrocouldnotbeinitialized_17',['GyroCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b',1,'errors.h']]],
-  ['gz_18',['gz',['../structOrientation.html#aeefac359c7b4bd3fb4f7706ab5c55593',1,'Orientation::gz()'],['../structLowGLSM.html#a0e9c4f409bd3ca1e85a2a743d5469b52',1,'LowGLSM::gz()']]]
+  ['gps_13',['gps',['../structSensors.html#aa5d56efe42b18ed1c9dad1532f500b5b',1,'Sensors::gps()'],['../structRocketData.html#adf85ee623bf10a299b7e9d856a195558',1,'RocketData::gps()'],['../structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23',1,'LoggedReading::gps()']]],
+  ['gpscouldnotbeinitialized_14',['GPSCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7d5a163ff267ce73b287fae4b4468748',1,'errors.h']]],
+  ['green_15',['GREEN',['../led_8h.html#aadcb6002d2b42fdfe01490f730ab00a6a9de0e5dd94e861317e74964bed179fa0',1,'led.h']]],
+  ['gx_16',['gx',['../structLowGLSM.html#acbd7ed57d038fa437fc2ffa3f574f7a7',1,'LowGLSM::gx()'],['../structOrientation.html#a803b25fe2bb17bf20e55e1d52531d64e',1,'Orientation::gx()']]],
+  ['gy_17',['gy',['../structLowGLSM.html#a1368293960dc60c094731a0701bb57aa',1,'LowGLSM::gy()'],['../structOrientation.html#a6692296c7346fda8802833c06f1db03c',1,'Orientation::gy()']]],
+  ['gyrocouldnotbeinitialized_18',['GyroCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b',1,'errors.h']]],
+  ['gz_19',['gz',['../structLowGLSM.html#a0e9c4f409bd3ca1e85a2a743d5469b52',1,'LowGLSM::gz()'],['../structOrientation.html#aeefac359c7b4bd3fb4f7706ab5c55593',1,'Orientation::gz()']]]
 ];

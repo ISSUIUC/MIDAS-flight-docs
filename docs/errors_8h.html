@@ -121,11 +121,13 @@ Enumerations</h2></td></tr>
 , <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907">SDCouldNotOpenFile</a> = 20
 <br />
  }</td></tr>
+<tr class="memdesc:a59e56af19e754a6aa26a612ebf91d05f"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of all error codes that can arise  <a href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">More...</a><br /></td></tr>
 <tr class="separator:a59e56af19e754a6aa26a612ebf91d05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa0464c00b33ab2b4379a200d989db727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="errors_8h.html#aa0464c00b33ab2b4379a200d989db727">update_error_LED</a> (<a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> error)</td></tr>
+<tr class="memdesc:aa0464c00b33ab2b4379a200d989db727"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes LEDS to indicate errors as described above  <a href="errors_8h.html#aa0464c00b33ab2b4379a200d989db727">More...</a><br /></td></tr>
 <tr class="separator:aa0464c00b33ab2b4379a200d989db727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -140,6 +142,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>list of all error codes that can arise </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f" name="a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f"></a>NoError&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa76da80ef6d6be0da5d2e6c48f297dc7a" name="a59e56af19e754a6aa26a612ebf91d05fa76da80ef6d6be0da5d2e6c48f297dc7a"></a>LowGCouldNotBeInitialized&#160;</td><td class="fielddoc"></td></tr>
@@ -163,7 +167,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907" name="a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907"></a>SDCouldNotOpenFile&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="errors_8h_source.html#l00003">3</a> of file <a class="el" href="errors_8h_source.html">errors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="errors_8h_source.html#l00008">8</a> of file <a class="el" href="errors_8h_source.html">errors.h</a>.</p>
 
 </div>
 </div>
@@ -183,10 +187,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >If an error during initialization was detected, some combination of the blue, green, orange, and red LEDs will be on, The combination of all 4 lights will tell you what the error is</p>
-<p >NONE =&gt; Nothing is wrong BLUE =&gt; LOW G could not init GREEN =&gt; Could not begin SD card ORANGE =&gt; Could not set LOW G range RED =&gt; LOW G Output Data Rate Low Pass Filter could not be set BLUE, GREEN =&gt; HIGH G could not init BLUE, ORANGE =&gt; HIGH G could not update Data Rate BLUE, RED =&gt; MAGNETOMETER could not be init GREEN, ORANGE =&gt; GYRO could not init GREEN, RED =&gt; <a class="el" href="structGPS.html">GPS</a> could not init ORANGE, RED =&gt; CONTINUITY could not init BLUE, GREEN, ORANGE =&gt; BNO could not connect BLUE, GREEN, RED =&gt; BNO could not init BLUE, ORANGE, RED =&gt; GREEN, ORANGE, RED =&gt; BLUE, GREEN, ORANGE, RED =&gt; Default, somehow the function was called with a different error, should never happen </p>
 
-<p class="definition">Definition at line <a class="el" href="errors_8cpp_source.html#l00030">30</a> of file <a class="el" href="errors_8cpp_source.html">errors.cpp</a>.</p>
+<p>writes LEDS to indicate errors as described above </p>
+<p >If an error during initialization was detected, some combination of the blue, green, orange, and red LEDs will be on, The combination of all 4 lights will tell you what the error is</p>
+<p >NONE =&gt; Nothing is wrong BLUE =&gt; LOW G could not init GREEN =&gt; Could not begin SD card ORANGE =&gt; Could not set LOW G range RED =&gt; LOW G Output Data Rate Low Pass Filter could not be set BLUE, GREEN =&gt; HIGH G could not init BLUE, ORANGE =&gt; HIGH G could not update Data Rate BLUE, RED =&gt; MAGNETOMETER could not be init GREEN, ORANGE =&gt; GYRO could not init GREEN, RED =&gt; <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> could not init ORANGE, RED =&gt; CONTINUITY could not init BLUE, GREEN, ORANGE =&gt; BNO could not connect BLUE, GREEN, RED =&gt; BNO could not init BLUE, ORANGE, RED =&gt; GREEN, ORANGE, RED =&gt; BLUE, GREEN, ORANGE, RED =&gt; Default, somehow the function was called with a different error, should never happen</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">error</td><td>Error Code to indicate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="errors_8cpp_source.html#l00035">35</a> of file <a class="el" href="errors_8cpp_source.html">errors.cpp</a>.</p>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MIDAS: Buffer&lt; T, BUFFER_SIZE &gt; Struct Template Reference</title>
+<title>MIDAS: Buffer&lt; T, BUFFER_SIZE &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -88,9 +88,12 @@ $(document).ready(function(){initNavTree('structBuffer.html',''); initResizable(
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structBuffer-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Buffer&lt; T, BUFFER_SIZE &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">Buffer&lt; T, BUFFER_SIZE &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Templeted buffer to quickly calculate averages and derivatives for the FSM.  
+ <a href="structBuffer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="Buffer_8h_source.html">Buffer.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -99,10 +102,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a445e0d28ff2081179f9c76ef93518daa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#a445e0d28ff2081179f9c76ef93518daa">Buffer</a> ()=default</td></tr>
 <tr class="separator:a445e0d28ff2081179f9c76ef93518daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6453c092c48ab4977fae28514b54621d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#a6453c092c48ab4977fae28514b54621d">push</a> (T const &amp;element)</td></tr>
+<tr class="memdesc:a6453c092c48ab4977fae28514b54621d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append data to the end of the circular buffer.  <a href="structBuffer.html#a6453c092c48ab4977fae28514b54621d">More...</a><br /></td></tr>
 <tr class="separator:a6453c092c48ab4977fae28514b54621d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a5d08ecb72171bc671135dc52d4eae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#ad1a5d08ecb72171bc671135dc52d4eae">read</a> (T &amp;item)</td></tr>
+<tr class="memdesc:ad1a5d08ecb72171bc671135dc52d4eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads newest value into the buffer.  <a href="structBuffer.html#ad1a5d08ecb72171bc671135dc52d4eae">More...</a><br /></td></tr>
 <tr class="separator:ad1a5d08ecb72171bc671135dc52d4eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae26d100453940f6902be18f411888104"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#ae26d100453940f6902be18f411888104">read_oldest</a> (T &amp;item)</td></tr>
+<tr class="memdesc:ae26d100453940f6902be18f411888104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads oldest value into the buffer.  <a href="structBuffer.html#ae26d100453940f6902be18f411888104">More...</a><br /></td></tr>
 <tr class="separator:ae26d100453940f6902be18f411888104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fda01997f617905bd39ae0c23b1f28f"><td class="memTemplParams" colspan="2">template&lt;size_t count&gt; </td></tr>
 <tr class="memitem:a0fda01997f617905bd39ae0c23b1f28f"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; T, <a class="el" href="structBuffer.html#a6f5c3c76fb63f9559223ae7527718e1a">count</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structBuffer.html#a0fda01997f617905bd39ae0c23b1f28f">read_recent</a> ()</td></tr>
@@ -111,8 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:abd067cb1ada23587a5fe2cb3fe17439b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#abd067cb1ada23587a5fe2cb3fe17439b">oldest_idx</a> ()</td></tr>
+<tr class="memdesc:abd067cb1ada23587a5fe2cb3fe17439b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets oldest index in the circular buffer  <a href="structBuffer.html#abd067cb1ada23587a5fe2cb3fe17439b">More...</a><br /></td></tr>
 <tr class="separator:abd067cb1ada23587a5fe2cb3fe17439b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02cb7515ccb2d044d41677fd999f2551"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#a02cb7515ccb2d044d41677fd999f2551">newest_idx</a> ()</td></tr>
+<tr class="memdesc:a02cb7515ccb2d044d41677fd999f2551"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets newest index in the circular buffer  <a href="structBuffer.html#a02cb7515ccb2d044d41677fd999f2551">More...</a><br /></td></tr>
 <tr class="separator:a02cb7515ccb2d044d41677fd999f2551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -126,8 +134,16 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T, size_t BUFFER_SIZE&gt;<br />
-struct Buffer&lt; T, BUFFER_SIZE &gt;</div>
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00007">7</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+class Buffer&lt; T, BUFFER_SIZE &gt;</div><p >Templeted buffer to quickly calculate averages and derivatives for the FSM. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>type of data to hold in the buffer </td></tr>
+    <tr><td class="paramname">BUFFER_SIZE</td><td>size of the buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00015">15</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a445e0d28ff2081179f9c76ef93518daa" name="a445e0d28ff2081179f9c76ef93518daa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a445e0d28ff2081179f9c76ef93518daa">&#9670;&nbsp;</a></span>Buffer()</h2>
@@ -182,7 +198,10 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00064">64</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p>gets newest index in the circular buffer </p>
+<dl class="section return"><dt>Returns</dt><dd>the newest index in the buffer </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00101">101</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -211,7 +230,10 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00056">56</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p>gets oldest index in the circular buffer </p>
+<dl class="section return"><dt>Returns</dt><dd>the oldest indext in the buffer </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00088">88</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -241,7 +263,15 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00011">11</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p>Append data to the end of the circular buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>Element to add to thebuffer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00024">24</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -271,7 +301,16 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00023">23</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p>Reads newest value into the buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>reference in which to store the most recent reading</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>boolean indicating a successful read </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00043">43</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +340,16 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00031">31</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p>Reads oldest value into the buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>reference in which to store the oldest reading</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>boolean indicating a successful read </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00058">58</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -332,7 +380,7 @@ template&lt;size_t count&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00040">40</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00067">67</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +407,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00074">74</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00111">111</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -385,7 +433,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00073">73</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00110">110</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -411,11 +459,11 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00072">72</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00109">109</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/MIDAS/src/<a class="el" href="Buffer_8h_source.html">Buffer.h</a></li>
 </ul>
 </div><!-- contents -->

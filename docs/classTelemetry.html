@@ -92,6 +92,9 @@ $(document).ready(function(){initNavTree('classTelemetry.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
+<p>wraps the telemetry system to create and send a packet  
+ <a href="classTelemetry.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="telemetry_8h_source.html">telemetry.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -99,15 +102,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1f7b3556d83e22c061c7eb70cd6507b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#ab1f7b3556d83e22c061c7eb70cd6507b">Telemetry</a> ()=default</td></tr>
 <tr class="separator:ab1f7b3556d83e22c061c7eb70cd6507b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#afc1fca0244f0f8fedf7d8981c0f20fdc">Telemetry</a> (TelemetryBackend &amp;&amp;<a class="el" href="classTelemetry.html#a00887a5cd4d3394013efaec237c0a901">backend</a>)</td></tr>
+<tr class="memdesc:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">move constructor for the telemetry backend  <a href="classTelemetry.html#afc1fca0244f0f8fedf7d8981c0f20fdc">More...</a><br /></td></tr>
 <tr class="separator:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d798539857c3dc0447c714a68aaa313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a6d798539857c3dc0447c714a68aaa313">__attribute__</a> ((warn_unused_result)) init()</td></tr>
 <tr class="separator:a6d798539857c3dc0447c714a68aaa313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ae596ad10b7e4061a838ba73fbc902"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#af6ae596ad10b7e4061a838ba73fbc902">transmit</a> (<a class="el" href="structRocketData.html">RocketData</a> &amp;rocket_data, <a class="el" href="classLEDController.html">LEDController</a> &amp;led)</td></tr>
+<tr class="memdesc:af6ae596ad10b7e4061a838ba73fbc902"><td class="mdescLeft">&#160;</td><td class="mdescRight">transmit telemetry data through LoRa  <a href="classTelemetry.html#af6ae596ad10b7e4061a838ba73fbc902">More...</a><br /></td></tr>
 <tr class="separator:af6ae596ad10b7e4061a838ba73fbc902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a3fcf618dd2b2f670c6efce7970ff331e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTelemetryPacket.html">TelemetryPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a3fcf618dd2b2f670c6efce7970ff331e">makePacket</a> (<a class="el" href="structRocketData.html">RocketData</a> &amp;data)</td></tr>
+<tr class="memdesc:a3fcf618dd2b2f670c6efce7970ff331e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates the packet to send through the telemetry system  <a href="classTelemetry.html#a3fcf618dd2b2f670c6efce7970ff331e">More...</a><br /></td></tr>
 <tr class="separator:a3fcf618dd2b2f670c6efce7970ff331e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -116,8 +122,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a00887a5cd4d3394013efaec237c0a901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00015">15</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
+<div class="textblock"><p >wraps the telemetry system to create and send a packet </p>
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00020">20</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab1f7b3556d83e22c061c7eb70cd6507b" name="ab1f7b3556d83e22c061c7eb70cd6507b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1f7b3556d83e22c061c7eb70cd6507b">&#9670;&nbsp;</a></span>Telemetry() <span class="overload">[1/2]</span></h2>
@@ -168,7 +175,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00036">36</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p>move constructor for the telemetry backend </p>
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00046">46</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
@@ -215,7 +224,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00047">47</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p>creates the packet to send through the telemetry system </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>the data to serialize into a packet </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00067">67</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +262,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00039">39</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p>transmit telemetry data through LoRa </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rocket_data</td><td>rocket_data to transmit </td></tr>
+    <tr><td class="paramname">led</td><td>led state to transmit </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00054">54</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
@@ -270,7 +296,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00026">26</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00031">31</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
 
 </div>
 </div>
