@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['has_5fdata_0',['has_data',['../structOrientation.html#a2f0b69055d58834a39f435747d110e1d',1,'Orientation']]],
-  ['high_5fg_1',['high_g',['../structLoggedReading.html#a44a74a23c78ee4f2b8b75e209e4b6795',1,'LoggedReading::high_g()'],['../structRocketData.html#ad0857684a8083d40487985dee1f31314',1,'RocketData::high_g()'],['../structSensors.html#a47c62db73809da644adb1321123dce5a',1,'Sensors::high_g()']]],
-  ['highg_5fax_2',['highg_ax',['../structTelemetryPacket.html#a4c228a4f68d1733323fb6b09984caf98',1,'TelemetryPacket']]],
-  ['highg_5fay_3',['highg_ay',['../structTelemetryPacket.html#a9c8f8f438509b8cef5bae7540bfbb377',1,'TelemetryPacket']]],
-  ['highg_5faz_4',['highg_az',['../structTelemetryPacket.html#a30fa822da55f6ad1a89f2e50709332bb',1,'TelemetryPacket']]]
+  ['global_5fms_0',['global_ms',['../arduino__emulation_8cpp.html#a0e1eed0e37a87a5c43ca2faf420cc241',1,'global_ms():&#160;emulation.cpp'],['../emulation_8cpp.html#a0e1eed0e37a87a5c43ca2faf420cc241',1,'global_ms():&#160;emulation.cpp']]],
+  ['gps_1',['gps',['../structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23',1,'LoggedReading::gps()'],['../structRocketData.html#adf85ee623bf10a299b7e9d856a195558',1,'RocketData::gps()'],['../structSensors.html#aa5d56efe42b18ed1c9dad1532f500b5b',1,'Sensors::gps()']]],
+  ['gravity_2',['gravity',['../structSimulationParameters.html#aca2c39b4dc8ba54b27104abf481f37ec',1,'SimulationParameters']]],
+  ['gx_3',['gx',['../structLowGLSM.html#acbd7ed57d038fa437fc2ffa3f574f7a7',1,'LowGLSM::gx()'],['../structOrientation.html#a803b25fe2bb17bf20e55e1d52531d64e',1,'Orientation::gx()']]],
+  ['gy_4',['gy',['../structLowGLSM.html#a1368293960dc60c094731a0701bb57aa',1,'LowGLSM::gy()'],['../structOrientation.html#a6692296c7346fda8802833c06f1db03c',1,'Orientation::gy()']]],
+  ['gz_5',['gz',['../structLowGLSM.html#a0e9c4f409bd3ca1e85a2a743d5469b52',1,'LowGLSM::gz()'],['../structOrientation.html#aeefac359c7b4bd3fb4f7706ab5c55593',1,'Orientation::gz()']]]
 ];

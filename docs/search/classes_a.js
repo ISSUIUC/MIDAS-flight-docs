@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['position_0',['Position',['../structPosition.html',1,'']]],
-  ['pyrochannel_1',['PyroChannel',['../structPyroChannel.html',1,'']]],
-  ['pyrostate_2',['PyroState',['../structPyroState.html',1,'']]]
+  ['orientation_0',['Orientation',['../structOrientation.html',1,'']]],
+  ['orientationsensor_1',['OrientationSensor',['../structOrientationSensor.html',1,'']]]
 ];

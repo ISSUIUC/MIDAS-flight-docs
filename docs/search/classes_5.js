@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['highgdata_0',['HighGData',['../structHighGData.html',1,'']]]
+  ['gpioaddress_0',['GpioAddress',['../structGpioAddress.html',1,'']]],
+  ['gps_1',['GPS',['../structGPS.html',1,'']]],
+  ['gpssensor_2',['GPSSensor',['../structGPSSensor.html',1,'']]]
 ];

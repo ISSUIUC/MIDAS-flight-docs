@@ -99,15 +99,16 @@ $(document).ready(function(){initNavTree('hal_8h.html',''); initResizable(); });
 Macros</h2></td></tr>
 <tr class="memitem:a6423a880df59733d2d9b509c7718d3a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a>&#160;&#160;&#160;8192</td></tr>
 <tr class="separator:a6423a880df59733d2d9b509c7718d3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53442e85cd08aca781c9a4f6487f66a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a53442e85cd08aca781c9a4f6487f66a6">SENSOR_CORE</a>&#160;&#160;&#160;((BaseType_t) 0)</td></tr>
+<tr class="memitem:a53442e85cd08aca781c9a4f6487f66a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a53442e85cd08aca781c9a4f6487f66a6">SENSOR_CORE</a>&#160;&#160;&#160;((<a class="el" href="emulation_8h.html#a29e5116fa55b3dec1019fea915f5e641">BaseType_t</a>) 0)</td></tr>
 <tr class="separator:a53442e85cd08aca781c9a4f6487f66a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec647f02b95f8c0936839bacfacb23ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#aec647f02b95f8c0936839bacfacb23ec">DATA_CORE</a>&#160;&#160;&#160;((BaseType_t) 1)</td></tr>
+<tr class="memitem:aec647f02b95f8c0936839bacfacb23ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#aec647f02b95f8c0936839bacfacb23ec">DATA_CORE</a>&#160;&#160;&#160;((<a class="el" href="emulation_8h.html#a29e5116fa55b3dec1019fea915f5e641">BaseType_t</a>) 1)</td></tr>
 <tr class="separator:aec647f02b95f8c0936839bacfacb23ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a892fef0439cc8ce8c95f45a6efe8f630"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a892fef0439cc8ce8c95f45a6efe8f630">DECLARE_THREAD</a>(name,  param)&#160;&#160;&#160;[[noreturn]] void name##_thread(param)</td></tr>
 <tr class="separator:a892fef0439cc8ce8c95f45a6efe8f630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a1a21750d68e31125fa25fc1454f716"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a5a1a21750d68e31125fa25fc1454f716">START_THREAD</a>(name,  core,  arg,  prio)</td></tr>
 <tr class="separator:a5a1a21750d68e31125fa25fc1454f716"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab58c6eec00ff77355e1f86af746a287b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">THREAD_SLEEP</a>(millis)&#160;&#160;&#160;vTaskDelay(pdMS_TO_TICKS(millis))</td></tr>
+<tr class="memitem:ab58c6eec00ff77355e1f86af746a287b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">THREAD_SLEEP</a>(<a class="el" href="arduino__emulation_8h.html#adb94fbd930038e1510574dd4bcf07fe1">millis</a>)&#160;&#160;&#160;<a class="el" href="emulation_8h.html#a088a91ffa278d97be28a522707605be6">vTaskDelay</a>(<a class="el" href="emulation_8h.html#aa7cb1304f96ef54b106ce8071dcefa57">pdMS_TO_TICKS</a>(<a class="el" href="arduino__emulation_8h.html#adb94fbd930038e1510574dd4bcf07fe1">millis</a>))</td></tr>
+<tr class="memdesc:ab58c6eec00ff77355e1f86af746a287b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays the running thread.  <a href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">More...</a><br /></td></tr>
 <tr class="separator:ab58c6eec00ff77355e1f86af746a287b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -118,12 +119,13 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DATA_CORE&#160;&#160;&#160;((BaseType_t) 1)</td>
+          <td class="memname">#define DATA_CORE&#160;&#160;&#160;((<a class="el" href="emulation_8h.html#a29e5116fa55b3dec1019fea915f5e641">BaseType_t</a>) 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >The ESP32 has two physical cores, which will each be dedicated to one group of threads. The DATA_CORE runs the <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> thread, as well as the threads which read from the sensor_data struct (e.g. SD logging). </p>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00026">26</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00030">30</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -152,7 +154,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Macro for declaring the functionality of a thread.</p>
+<p >Macro for declaring a thread. Creates a function with the name suffixed with <code>_thread</code>, annotated with [[noreturn]].</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the task. </td></tr>
@@ -161,7 +163,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00034">34</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00038">38</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -172,13 +174,13 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SENSOR_CORE&#160;&#160;&#160;((BaseType_t) 0)</td>
+          <td class="memname">#define SENSOR_CORE&#160;&#160;&#160;((<a class="el" href="emulation_8h.html#a29e5116fa55b3dec1019fea915f5e641">BaseType_t</a>) 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >The two cores we have: SENSOR_CORE will hold all of the sensor tasks writing to the struct DATA_CORE will have all of the tasks reading from the struct for data logging, along with <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> </p>
+<p >The ESP32 has two physical cores, which will each be dedicated to one group of threads. The SENSOR_CORE runs the threads which write to the sensor_data struct (mostly sensor polling threads). </p>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00025">25</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00024">24</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -236,21 +238,25 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                      StaticTask_t name##_task;                \</div>
+<b>Value:</b><div class="fragment"><div class="line">                                      <a class="code hl_typedef" href="emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a">StaticTask_t</a> name##_task;                \</div>
 <div class="line">                                      static <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> name##_stack[<a class="code hl_define" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a>];            \</div>
-<div class="line">                                      xTaskCreateStaticPinnedToCore(((TaskFunction_t) name##_thread), #name, <a class="code hl_define" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a>, arg, tskIDLE_PRIORITY + prio, name##_stack, &amp;name##_task, core)</div>
+<div class="line">                                      xTaskCreateStaticPinnedToCore(((<a class="code hl_typedef" href="emulation_8h.html#a9b32502ff92c255c686dacde53c1cba0">TaskFunction_t</a>) name##_thread), #name, <a class="code hl_define" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a>, arg, <a class="code hl_define" href="emulation_8h.html#a94ed0b9b3b4e8ccc859c322f18583e67">tskIDLE_PRIORITY</a> + prio, name##_stack, &amp;name##_task, core)</div>
+<div class="ttc" id="aemulation_8h_html_a94ed0b9b3b4e8ccc859c322f18583e67"><div class="ttname"><a href="emulation_8h.html#a94ed0b9b3b4e8ccc859c322f18583e67">tskIDLE_PRIORITY</a></div><div class="ttdeci">#define tskIDLE_PRIORITY</div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00014">emulation.h:14</a></div></div>
+<div class="ttc" id="aemulation_8h_html_a9b32502ff92c255c686dacde53c1cba0"><div class="ttname"><a href="emulation_8h.html#a9b32502ff92c255c686dacde53c1cba0">TaskFunction_t</a></div><div class="ttdeci">void(* TaskFunction_t)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00034">emulation.h:34</a></div></div>
+<div class="ttc" id="aemulation_8h_html_abb9c40bd43c013045ebec6d0427fee4a"><div class="ttname"><a href="emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a">StaticTask_t</a></div><div class="ttdeci">int StaticTask_t</div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00032">emulation.h:32</a></div></div>
 <div class="ttc" id="ahal_8h_html_a6423a880df59733d2d9b509c7718d3a9"><div class="ttname"><a href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a></div><div class="ttdeci">#define STACK_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="hal_8h_source.html#l00018">hal.h:18</a></div></div>
-</div><!-- fragment --><p >Macro for creating the thread itself. This is a statement and has no return value. Never put this in a scope that will end before the thread should.</p>
+</div><!-- fragment --><p >Macro for creating and starting a thread declared with <code>DECLARE_THREAD</code>. This is a statement and has no return value. Never put this in a scope that will end before the thread should.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>name of the thread </td></tr>
-    <tr><td class="paramname">core</td><td>core for the task to be pinned to </td></tr>
-    <tr><td class="paramname">arg</td><td>config arguments for the task to take in </td></tr>
+    <tr><td class="paramname">name</td><td>Name of the thread. </td></tr>
+    <tr><td class="paramname">core</td><td><a class="el" href="structCore.html">Core</a> for the task to be pinned to, either <code>SENSOR_CORE</code> or <code>DATA_CORE</code>. </td></tr>
+    <tr><td class="paramname">arg</td><td>Argument passed in to the <code>param</code> argument of <code>DECLARE_THREAD</code>. </td></tr>
+    <tr><td class="paramname">prio</td><td>Priority of the thread. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00044">44</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00049">49</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -264,19 +270,21 @@ Macros</h2></td></tr>
           <td class="memname">#define THREAD_SLEEP</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">millis</td><td>)</td>
-          <td>&#160;&#160;&#160;vTaskDelay(pdMS_TO_TICKS(millis))</td>
+          <td class="paramname"><a class="el" href="arduino__emulation_8h.html#adb94fbd930038e1510574dd4bcf07fe1">millis</a></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="emulation_8h.html#a088a91ffa278d97be28a522707605be6">vTaskDelay</a>(<a class="el" href="emulation_8h.html#aa7cb1304f96ef54b106ce8071dcefa57">pdMS_TO_TICKS</a>(<a class="el" href="arduino__emulation_8h.html#adb94fbd930038e1510574dd4bcf07fe1">millis</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Parameters for xTaskCreateStaticPinnedToCore are as follows in parameter order: Function to be run by the thread, this contains a <code>while(true)</code> loop Name of thread Size of the stack for each thread in words (1 word = 4 bytes) Arguments to be passed into the function, this will generally eb the config file Priority of the task, in allmost all cases, this will be the idle priority plus one The actual stack memory to use A handle to reference the task with The core to pin the task to delays a task for a certain amount of time in milliseconds </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Delays the running thread. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">millis</td><td>the time to delay in milliseconds </td></tr>
+    <tr><td class="paramname">millis</td><td>The time to delay in milliseconds. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00063">63</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00068">68</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>

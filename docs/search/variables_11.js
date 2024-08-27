@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['tail_5fidx_0',['tail_idx',['../structBuffer.html#a0139f69c2fcb3583264b4a5eb3ace57a',1,'Buffer']]],
-  ['targets_1',['targets',['../classLEDController.html#aef33286a7364645cee0289bad821d496',1,'LEDController']]],
-  ['temperature_2',['temperature',['../structBarometer.html#ac2c18c9ab21041b0f2133c3b473310cc',1,'Barometer::temperature()'],['../structOrientation.html#aeeed29ee3c119beac6eed668c4449eaf',1,'Orientation::temperature()']]],
-  ['tilt_3',['tilt',['../structOrientation.html#af3e746c13c78532f5e4cc7615d871f03',1,'Orientation']]],
-  ['time_4',['time',['../structGPS.html#ad05dcceb77225f057ddc570fd1081f37',1,'GPS']]],
-  ['timestamp_5fms_5',['timestamp_ms',['../structLoggedReading.html#a42767b5dfe8c22d9f344bc5a6562416b',1,'LoggedReading::timestamp_ms()'],['../structReading.html#ac62742e1f93e2539371fc5c4a2d3fc5c',1,'Reading::timestamp_ms()']]],
-  ['tlm_6',['tlm',['../structRocketSystems.html#a2414fad942197ed5645468a600318c77',1,'RocketSystems']]]
+  ['r_0',['R',['../classKalmanFilter.html#a550073505f3e4eb9210773b96555aee0',1,'KalmanFilter']]],
+  ['real_5fstack_5fsize_1',['REAL_STACK_SIZE',['../fiber_8cpp.html#ae20e0c2c2c3af0c9f615b0b421cfe9e1',1,'fiber.cpp']]],
+  ['rf95_2',['rf95',['../classTelemetryBackend.html#ac4f65f42d55d0f54adfee40f4ae2bfaf',1,'TelemetryBackend']]],
+  ['rocket_3',['rocket',['../structLowGSensor.html#a89c09d69a4368fefea8b9f2e9de05d9a',1,'LowGSensor::rocket()'],['../structLowGLSMSensor.html#a414e53648498476ef9b38297a4ff1df0',1,'LowGLSMSensor::rocket()'],['../structHighGSensor.html#a85879c02aadddc56ffd0f4098256fb67',1,'HighGSensor::rocket()'],['../structBarometerSensor.html#aa553c693b5807753e3b78c6c59f1ef85',1,'BarometerSensor::rocket()'],['../structVoltageSensor.html#a58391c79faf8da9aeed2f4007bdd04b9',1,'VoltageSensor::rocket()'],['../structMagnetometerSensor.html#a178694202177c792d6bef3db64494fef',1,'MagnetometerSensor::rocket()'],['../structOrientationSensor.html#ab9954acc41a9367147e31345091fb46a',1,'OrientationSensor::rocket()'],['../structGPSSensor.html#a56cde35887e360067d8abcc227c85ddc',1,'GPSSensor::rocket()']]],
+  ['rocket_5fdata_4',['rocket_data',['../structRocketSystems.html#acc3a9459bd699826d2eb1d18511f4f57',1,'RocketSystems']]],
+  ['rockets_5',['rockets',['../structSimulation.html#af9a6ad27efafd41f9f30b18d27f0bf73',1,'Simulation']]],
+  ['roll_6',['roll',['../structeuler__t.html#abafdae5f47727552547a212018038607',1,'euler_t::roll()'],['../structOrientation.html#a707b9d051a93e9c5616d44c5d858fa78',1,'Orientation::roll()']]]
 ];

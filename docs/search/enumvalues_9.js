@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['orange_0',['ORANGE',['../led_8h.html#aadcb6002d2b42fdfe01490f730ab00a6a5b6490317b6f7270bc3ab5ffd07c1f52',1,'led.h']]]
+  ['noerror_0',['NoError',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f',1,'errors.h']]]
 ];

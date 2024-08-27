@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['latency_0',['Latency',['../classLatency.html',1,'']]],
-  ['ledcontroller_1',['LEDController',['../classLEDController.html',1,'']]],
-  ['loggedreading_2',['LoggedReading',['../structLoggedReading.html',1,'']]],
-  ['loggerreading_3',['LoggerReading',['../structLoggerReading.html',1,'']]],
-  ['logsink_4',['LogSink',['../classLogSink.html',1,'']]],
-  ['lowgdata_5',['LowGData',['../structLowGData.html',1,'']]],
-  ['lowglsm_6',['LowGLSM',['../structLowGLSM.html',1,'']]]
+  ['kalmandata_0',['KalmanData',['../structKalmanData.html',1,'']]],
+  ['kalmanfilter_1',['KalmanFilter',['../classKalmanFilter.html',1,'']]],
+  ['kalmanfilter_3c_203_2c_203_20_3e_2',['KalmanFilter&lt; 3, 3 &gt;',['../classKalmanFilter.html',1,'']]],
+  ['kalmanfilter_3c_209_2c_203_20_3e_3',['KalmanFilter&lt; 9, 3 &gt;',['../classKalmanFilter.html',1,'']]]
 ];

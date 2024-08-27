@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "MIDAS", "index.html", [
+    [ "HILSIM", "md__github_workspace_MIDAS_src_hilsim_README.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -32,15 +33,16 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -51,8 +53,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Buffer_8h.html",
-"structContinuity.html#a0e53b6c0cd294311b2bd81e805173801"
+"Barometer_8cpp.html",
+"data__logging_8cpp.html",
+"hal_8h.html",
+"structLowGSensor.html#ad7a848750fa2cc3ad8c9cbc4818131bc",
+"thresholds_8h.html#a962dc63e34767d8568b4f74a6fbf8a1b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

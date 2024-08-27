@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['newest_5fidx_0',['newest_idx',['../structBuffer.html#a02cb7515ccb2d044d41677fd999f2551',1,'Buffer']]]
+  ['highgdata_0',['HighGData',['../structHighGData.html#a45bae078ff099c012f6e9fd2956b29fc',1,'HighGData::HighGData()=default'],['../structHighGData.html#a2b71f98d45416cc2cfda723d47ee7393',1,'HighGData::HighGData(float x, float y, float z)']]]
 ];

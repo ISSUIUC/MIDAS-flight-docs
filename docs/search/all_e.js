@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['oldest_5fidx_0',['oldest_idx',['../structBuffer.html#abd067cb1ada23587a5fe2cb3fe17439b',1,'Buffer']]],
-  ['orange_1',['ORANGE',['../led_8h.html#aadcb6002d2b42fdfe01490f730ab00a6a5b6490317b6f7270bc3ab5ffd07c1f52',1,'led.h']]],
-  ['orientation_2',['Orientation',['../structOrientation.html',1,'']]],
-  ['orientation_3',['orientation',['../structLoggedReading.html#a0b5056d1a80282a581a4bac10522af64',1,'LoggedReading::orientation()'],['../structRocketData.html#ae5616cf2fba6ebede1e92ea4063a690e',1,'RocketData::orientation()'],['../structSensors.html#a1de05e0b8d4b674ae1e7d4ab2be2ac32',1,'Sensors::orientation()']]],
-  ['orientation_5facceleration_4',['orientation_acceleration',['../structOrientation.html#a8eb6efbab07ee4b9502a8186a7b21a64',1,'Orientation']]],
-  ['orientation_5fvelocity_5',['orientation_velocity',['../structOrientation.html#a9c45d4340decdc2db9a2845db6971409',1,'Orientation']]]
+  ['name_0',['name',['../structThreadInfo.html#a8f6555f0dff092890cb47e49f676146b',1,'ThreadInfo']]],
+  ['new_5ftune_5fstarted_1',['new_tune_started',['../structBuzzerController.html#a6c30879beaf133f0322b54e48b0eac7f',1,'BuzzerController']]],
+  ['newest_5fidx_2',['newest_idx',['../structBuffer.html#a02cb7515ccb2d044d41677fd999f2551',1,'Buffer']]],
+  ['next_5fidx_3',['next_idx',['../structCore.html#a61c91fc16e92457388dae05c950b80d6',1,'Core']]],
+  ['noerror_4',['NoError',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f',1,'errors.h']]]
 ];

@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('errors_8cpp.html',''); initResizable()
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="errors_8h_source.html">errors.h</a>&quot;</code><br />
 <code>#include &quot;TCAL9539.h&quot;</code><br />
-<code>#include &quot;hardware/pins.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="pins_8h_source.html">hardware/pins.h</a>&quot;</code><br />
 </div>
 <p><a href="errors_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
 
 <p>writes LEDS to indicate errors as described above </p>
 <p >If an error during initialization was detected, some combination of the blue, green, orange, and red LEDs will be on, The combination of all 4 lights will tell you what the error is</p>
-<p >NONE =&gt; Nothing is wrong BLUE =&gt; LOW G could not init GREEN =&gt; Could not begin SD card ORANGE =&gt; Could not set LOW G range RED =&gt; LOW G Output Data Rate Low Pass Filter could not be set BLUE, GREEN =&gt; HIGH G could not init BLUE, ORANGE =&gt; HIGH G could not update Data Rate BLUE, RED =&gt; MAGNETOMETER could not be init GREEN, ORANGE =&gt; GYRO could not init GREEN, RED =&gt; <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> could not init ORANGE, RED =&gt; CONTINUITY could not init BLUE, GREEN, ORANGE =&gt; BNO could not connect BLUE, GREEN, RED =&gt; BNO could not init BLUE, ORANGE, RED =&gt; GREEN, ORANGE, RED =&gt; BLUE, GREEN, ORANGE, RED =&gt; Default, somehow the function was called with a different error, should never happen</p>
+<p >NONE =&gt; Nothing is wrong BLUE =&gt; LOW G could not init GREEN =&gt; Could not begin SD card ORANGE =&gt; Could not set LOW G range RED =&gt; LOW G Output Data Rate Low Pass Filter could not be set BLUE, GREEN =&gt; HIGH G could not init BLUE, ORANGE =&gt; HIGH G could not update Data Rate BLUE, RED =&gt; MAGNETOMETER could not be init GREEN, ORANGE =&gt; GYRO could not init GREEN, RED =&gt; <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> could not init ORANGE, RED =&gt; CONTINUITY could not init BLUE, GREEN, ORANGE =&gt; <a class="el" href="structBNO.html">BNO</a> could not connect BLUE, GREEN, RED =&gt; <a class="el" href="structBNO.html">BNO</a> could not init BLUE, ORANGE, RED =&gt; GREEN, ORANGE, RED =&gt; BLUE, GREEN, ORANGE, RED =&gt; Default, somehow the function was called with a different error, should never happen</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">error</td><td>Error Code to indicate </td></tr>

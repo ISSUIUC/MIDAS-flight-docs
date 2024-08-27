@@ -97,8 +97,8 @@ $(document).ready(function(){initNavTree('systems_8h.html',''); initResizable();
 <code>#include &quot;<a class="el" href="buzzer_8h_source.html">buzzer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="led_8h_source.html">led.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="telemetry_8h_source.html">telemetry.h</a>&quot;</code><br />
-<code>#include &quot;finite-state-machines/fsm.h&quot;</code><br />
-<code>#include &quot;hardware/sensors.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="fsm_8h_source.html">finite-state-machines/fsm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sensors_8h_source.html">hardware/sensors.h</a>&quot;</code><br />
 </div>
 <p><a href="systems_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -113,7 +113,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8h.html#a7678b869b133b9ea5fe1a8fe71946d1a">begin_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *config)</td></tr>
-<tr class="memdesc:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates all threads for each sensor, FSM, Kalman algorithm, and data logging member Starts thread scheduler to actually start doing jobs.  <a href="systems_8h.html#a7678b869b133b9ea5fe1a8fe71946d1a">More...</a><br /></td></tr>
+<tr class="memdesc:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the systems, and then creates and starts the thread for each system. If initialization fails, then this enters an infinite loop.  <a href="systems_8h.html#a7678b869b133b9ea5fe1a8fe71946d1a">More...</a><br /></td></tr>
 <tr class="separator:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -133,9 +133,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates all threads for each sensor, FSM, Kalman algorithm, and data logging member Starts thread scheduler to actually start doing jobs. </p>
+<p>Initializes the systems, and then creates and starts the thread for each system. If initialization fails, then this enters an infinite loop. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00227">227</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00196">196</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,10 @@
 var dir_68267d1309a1af8e8297ef4c3efbcdba =
 [
+    [ "finite-state-machines", "dir_4732e78918d33d2d66941b86aa88c740.html", "dir_4732e78918d33d2d66941b86aa88c740" ],
+    [ "gnc", "dir_5c5055aaea0821fb3bcfa48e70dc144f.html", "dir_5c5055aaea0821fb3bcfa48e70dc144f" ],
+    [ "hardware", "dir_59b1e980a670de987a696efba6dbbdbc.html", "dir_59b1e980a670de987a696efba6dbbdbc" ],
+    [ "hilsim", "dir_39ad1d7d9cb151adc861bccb56dcb3f7.html", null ],
+    [ "silsim", "dir_d32857ca2393668b6b085baf1feeda01.html", "dir_d32857ca2393668b6b085baf1feeda01" ],
     [ "Buffer.h", "Buffer_8h.html", [
       [ "Buffer< T, BUFFER_SIZE >", "structBuffer.html", "structBuffer" ]
     ] ],

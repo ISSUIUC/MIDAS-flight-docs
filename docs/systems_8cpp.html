@@ -91,14 +91,13 @@ $(document).ready(function(){initNavTree('systems_8cpp.html',''); initResizable(
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="systems_8h_source.html">systems.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hal_8h_source.html">hal.h</a>&quot;</code><br />
-<code>#include &quot;gnc/yessir.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="yessir_8h_source.html">gnc/yessir.h</a>&quot;</code><br />
 </div>
 <p><a href="systems_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a4547493089d63386b029161f4ff308e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a4547493089d63386b029161f4ff308e7">INIT_SYSTEM</a>(s)&#160;&#160;&#160;do { <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> code = (s).init(); if (code != <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f">NoError</a>) { return code; } } while (0)</td></tr>
-<tr class="memdesc:a4547493089d63386b029161f4ff308e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes all systems  <a href="systems_8cpp.html#a4547493089d63386b029161f4ff308e7">More...</a><br /></td></tr>
 <tr class="separator:a4547493089d63386b029161f4ff308e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -124,10 +123,11 @@ Functions</h2></td></tr>
 <tr class="separator:aa626d5e646121511c99a835eb9928c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab3f6c1bdd5abfe96db6ed94d451e22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#acab3f6c1bdd5abfe96db6ed94d451e22">DECLARE_THREAD</a> (telemetry, <a class="el" href="structRocketSystems.html">RocketSystems</a> *arg)</td></tr>
 <tr class="separator:acab3f6c1bdd5abfe96db6ed94d451e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac1889a32ea9cd3040c8c0685feeb38a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a">init_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> &amp;systems)</td></tr>
+<tr class="memitem:aac1889a32ea9cd3040c8c0685feeb38a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a">init_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> &amp;<a class="el" href="hardware_2main_8cpp.html#ab811e499a5a61221e37cabaf6a1e959f">systems</a>)</td></tr>
+<tr class="memdesc:aac1889a32ea9cd3040c8c0685feeb38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes all systems in order, returning early if a system's initialization process errors out. Turns on the Orange LED while initialization is running.  <a href="systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a">More...</a><br /></td></tr>
 <tr class="separator:aac1889a32ea9cd3040c8c0685feeb38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a7678b869b133b9ea5fe1a8fe71946d1a">begin_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *config)</td></tr>
-<tr class="memdesc:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates all threads for each sensor, FSM, Kalman algorithm, and data logging member Starts thread scheduler to actually start doing jobs.  <a href="systems_8cpp.html#a7678b869b133b9ea5fe1a8fe71946d1a">More...</a><br /></td></tr>
+<tr class="memdesc:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the systems, and then creates and starts the thread for each system. If initialization fails, then this enters an infinite loop.  <a href="systems_8cpp.html#a7678b869b133b9ea5fe1a8fe71946d1a">More...</a><br /></td></tr>
 <tr class="separator:a7678b869b133b9ea5fe1a8fe71946d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -147,9 +147,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>initializes all systems </p>
-
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00198">198</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00161">161</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -170,9 +168,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates all threads for each sensor, FSM, Kalman algorithm, and data logging member Starts thread scheduler to actually start doing jobs. </p>
+<p>Initializes the systems, and then creates and starts the thread for each system. If initialization fails, then this enters an infinite loop. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00227">227</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00196">196</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -201,9 +199,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See accelerometers_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00050">50</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00038">38</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -232,9 +229,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See barometer_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00039">39</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00030">30</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,9 +259,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See buzzer_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00147">147</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00119">119</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -294,9 +289,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See fsm_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00124">124</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00099">99</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -325,10 +319,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See i2c_thread</p>
-<dl class="section note"><dt>Note</dt><dd>this thread holds all instructios for all components on i2c </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00095">95</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00072">72</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -357,9 +349,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See kalman_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00158">158</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00127">127</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -390,15 +381,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>These are all the functions that will run in each task Each function has a <code>while (true)</code> loop within that should not be returned out of or yielded in any way. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>the name of the thread, replace with the actual name </td></tr>
-    <tr><td class="paramname">arg</td><td>the config file for the rocket See data_logger_thread </td></tr>
-  </table>
-  </dd>
-</dl>
+<p >The <code>DECLARE_THREAD</code> macro creates a function whose name is suffixed by _thread, and annotates it with [[noreturn]] </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00025">25</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00019">19</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -427,9 +412,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See magnetometer_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00081">81</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00063">63</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -458,9 +442,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See orientation_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00067">67</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00052">52</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -489,9 +472,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >See telemetry_thread </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00187">187</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00153">153</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -511,7 +493,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00199">199</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p>Initializes all systems in order, returning early if a system's initialization process errors out. Turns on the Orange LED while initialization is running. </p>
+
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00167">167</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['y_0',['y',['../structVec3.html#abc1d241232cb04aa98217a942402ae68',1,'Vec3']]],
-  ['yaw_1',['yaw',['../structeuler__t.html#a3e83aabc66a5fd3901f4a2f68861c23f',1,'euler_t::yaw()'],['../structOrientation.html#a4b541db9a6b982b8b1c51032cd5bcf2c',1,'Orientation::yaw()']]]
+  ['velocity_0',['velocity',['../structKalmanData.html#ac693e252af58bce34848eb84e4526a36',1,'KalmanData::velocity()'],['../structSimulatedRocket.html#ab60eb23e8bfbf220e3b3817ff1e52a0b',1,'SimulatedRocket::velocity()']]],
+  ['vertical_5fspeed_1',['vertical_speed',['../structStateEstimate.html#a03cafe160cfe3ab0ce1d3702d41171da',1,'StateEstimate']]],
+  ['voltage_2',['voltage',['../structLoggedReading.html#ac541ccde6116fceae96bc170e94e5529',1,'LoggedReading::voltage()'],['../structRocketData.html#a1615a5e2560a7715cd9c2f817087c5c9',1,'RocketData::voltage()'],['../structVoltage.html#a7c921f008db270e2c09827b891c9e550',1,'Voltage::voltage()'],['../structSensors.html#aa843430b21d2fb67fd14b986019c4474',1,'Sensors::voltage()']]],
+  ['vx_3',['vx',['../structVelocity.html#a2592d4678c041df7b39ae7663ec0ed5d',1,'Velocity']]],
+  ['vy_4',['vy',['../structVelocity.html#ae2a7111ea8910254dce8882f3ab760a3',1,'Velocity']]],
+  ['vz_5',['vz',['../structVelocity.html#a673687999f3f7ae616cd1dd23f2e9b9b',1,'Velocity']]]
 ];
