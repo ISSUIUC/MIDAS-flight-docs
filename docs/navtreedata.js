@@ -26,13 +26,21 @@ var NAVTREE =
 [
   [ "MIDAS", "index.html", [
     [ "HILSIM", "md__github_workspace_MIDAS_src_hilsim_README.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
@@ -53,11 +61,14 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Barometer_8cpp.html",
-"data__logging_8cpp.html",
-"hal_8h.html",
-"structLowGSensor.html#ad7a848750fa2cc3ad8c9cbc4818131bc",
-"thresholds_8h.html#a962dc63e34767d8568b4f74a6fbf8a1b"
+"Buffer_8h.html",
+"classnanopb__generator_1_1EncodedSize.html#ac195d6c41610bb52120b8f30858a3179",
+"classnanopb__generator_1_1Message.html#a9a4219e56d5f33235d468656d8d5075a",
+"emulation_8h.html#a23bb56c095db9b0e9bf90f063cb761d4",
+"hardware_2LowG_8cpp.html",
+"namespaceproto_1_1nanopb__pb2.html#af93096ca7f5a8f26dc1d3b43c21e4854",
+"structGPS.html#ad05dcceb77225f057ddc570fd1081f37",
+"structStateEstimate.html#a23728148c5f1a590af6dd30b1ab4d6d4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

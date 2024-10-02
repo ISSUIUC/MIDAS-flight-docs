@@ -7,6 +7,6 @@ var searchData=
   ['kalmanfilter_4',['KalmanFilter',['../classKalmanFilter.html',1,'KalmanFilter&lt; _NumStates, _NumInputs &gt;'],['../classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed',1,'KalmanFilter::KalmanFilter()']]],
   ['kalmanfilter_3c_203_2c_203_20_3e_5',['KalmanFilter&lt; 3, 3 &gt;',['../classKalmanFilter.html',1,'']]],
   ['kalmanfilter_3c_209_2c_203_20_3e_6',['KalmanFilter&lt; 9, 3 &gt;',['../classKalmanFilter.html',1,'']]],
-  ['kx_7',['KX',['../HighG_8cpp.html#aa2e5b77238c2bece15a2343229c297de',1,'HighG.cpp']]],
+  ['kx_7',['KX',['../hardware_2HighG_8cpp.html#aa2e5b77238c2bece15a2343229c297de',1,'HighG.cpp']]],
   ['kx134_5fcs_8',['KX134_CS',['../pins_8h.html#ac9e2c6fe24530091c612f7a2a32b23dd',1,'pins.h']]]
 ];

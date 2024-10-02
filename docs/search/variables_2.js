@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['channels_0',['channels',['../structPyroState.html#a04d7d67f53aa789fb3761d8cee6cdf03',1,'PyroState::channels()'],['../emulation_8cpp.html#a33065184bb15c606d40556b8ca6a80c1',1,'channels():&#160;emulation.cpp']]],
-  ['check_1',['check',['../structMutex.html#ad64ef2ff0a906308904afdf15f7ca389',1,'Mutex']]],
-  ['coast_5ftime_2',['coast_time',['../classFSM.html#a3273befa345ec8e9af28bc5cfe9e66c6',1,'FSM']]],
-  ['continuity_3',['continuity',['../structLoggedReading.html#a905c46f27caec7d43533c94cb772f861',1,'LoggedReading::continuity()'],['../structRocketData.html#a3da724e42064a4b67400f5ac9b33c269',1,'RocketData::continuity()'],['../structSensors.html#a7056dfd268e5f500c61b3917258adbba',1,'Sensors::continuity()']]],
-  ['core_4',['core',['../structThreadInfo.html#aa1fc1d684528eff3a04da0bac5afd29a',1,'ThreadInfo']]],
-  ['core_5fidx_5',['core_idx',['../structCore.html#a8f63f93981e9996fa6b323514edf020a',1,'Core::core_idx()'],['../structThreadManager.html#a750e51e7118e936bc45891b0983fc926',1,'ThreadManager::core_idx()']]],
-  ['cores_6',['cores',['../structThreadManager.html#a545a4d7bd3c2450d9a3fcbf0d5b03496',1,'ThreadManager']]],
-  ['count_7',['count',['../classStaticQueue__t.html#a2e6ffa022fad09e83452f75f0a433558',1,'StaticQueue_t::count()'],['../structBuffer.html#a6f5c3c76fb63f9559223ae7527718e1a',1,'Buffer::count()']]],
-  ['cross_5fsectional_5farea_8',['cross_sectional_area',['../structRocketParameters.html#afb744a1cc471af41f7f5875d9fe32b1c',1,'RocketParameters']]],
-  ['current_9',['current',['../structSensorData.html#a695fa2815f14a810ad7a451952affdd1',1,'SensorData']]],
-  ['current_5fcontext_10',['current_context',['../fiber_8cpp.html#a2162b884268b8e9181d650316f4ba247',1,'fiber.cpp']]],
-  ['current_5fquantum_11',['current_quantum',['../structCore.html#ab95af94b21da228485757dc2f9e7fd4b',1,'Core']]],
-  ['current_5ftime_12',['current_time',['../structSimulation.html#acb00e749e95259bc54f0d115979569df',1,'Simulation']]],
-  ['current_5ftune_5f_13',['current_tune_',['../structBuzzerController.html#ad24d1122a86a6fd05143ac270403571c',1,'BuzzerController']]]
+  ['b_0',['B',['../classKalmanFilter.html#a70f5995c89f95324f503d6d32fcc95b2',1,'KalmanFilter']]],
+  ['backend_1',['backend',['../classTelemetry.html#a00887a5cd4d3394013efaec237c0a901',1,'Telemetry']]],
+  ['baro_5falt_2',['baro_alt',['../structTelemetryPacket.html#aef4abfc77fab19acb7cd43e3fe717bc2',1,'TelemetryPacket']]],
+  ['barometer_3',['barometer',['../structLoggedReading.html#a34ee48c238a39efcc89b31dd0a87d761',1,'LoggedReading::barometer()'],['../structRocketData.html#a77c717815953d619392b4e8bee40b749',1,'RocketData::barometer()'],['../structSensors.html#a48d9837dbc9cbc70e7bd90762f8befb9',1,'Sensors::barometer()']]],
+  ['barometer_5faltitude_4',['barometer_altitude',['../struct__HILSIMPacket.html#afecc85d8ee91dbc28ff83df628c36f2a',1,'_HILSIMPacket']]],
+  ['barometer_5fpressure_5',['barometer_pressure',['../struct__HILSIMPacket.html#a9f8b75682d5fe38d96c9edad087616a0',1,'_HILSIMPacket']]],
+  ['barometer_5ftemperature_6',['barometer_temperature',['../struct__HILSIMPacket.html#ab24d7317c31af0ef6c300be0ae09c239',1,'_HILSIMPacket']]],
+  ['base_5fname_7',['base_name',['../classnanopb__generator_1_1MangleNames.html#abafdcbcdf5b70475aa3cee4cc33da7df',1,'nanopb_generator::MangleNames']]],
+  ['batt_5fvolt_8',['batt_volt',['../structTelemetryPacket.html#aa8cf300892bcc55fcadc2b96fd3a68ec',1,'TelemetryPacket']]],
+  ['buffer_9',['buffer',['../structBuffer.html#aa821c411050fd36a82b4418303960647',1,'Buffer::buffer()'],['../classQueue.html#ac3e8d368827254733c12ebc6115c66f6',1,'Queue::buffer()'],['../structBufferedSensorData.html#a6c6349be2ab4bec2b727bb15e1f8904f',1,'BufferedSensorData::buffer()'],['../classStaticQueue__t.html#a3106e33b78e28890a6776dfe796c6c1f',1,'StaticQueue_t::buffer()']]],
+  ['build_5fdir_10',['build_dir',['../namespaceplatformio__generator.html#a6d930f01a5a6de20d89b19275393dc0c',1,'platformio_generator']]],
+  ['burn_5ftime_11',['burn_time',['../structSimulatedMotor.html#a1be7a920cb2ced9eb19d19393cf778b5',1,'SimulatedMotor']]],
+  ['burnout_5ftime_12',['burnout_time',['../classFSM.html#a8ae5e7f8045c3a42684a90b680cec782',1,'FSM']]],
+  ['buzzer_13',['buzzer',['../structRocketSystems.html#a2ee1785a79c2e014c465d3f33f9dc4e7',1,'RocketSystems']]]
 ];

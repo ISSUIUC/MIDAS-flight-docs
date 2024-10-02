@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['continuity_0',['Continuity',['../structContinuity.html',1,'']]],
-  ['continuitysensor_1',['ContinuitySensor',['../structContinuitySensor.html',1,'']]],
-  ['core_2',['Core',['../structCore.html',1,'']]]
+  ['barometer_0',['Barometer',['../structBarometer.html',1,'']]],
+  ['barometersensor_1',['BarometerSensor',['../structBarometerSensor.html',1,'']]],
+  ['bno_2',['BNO',['../structBNO.html',1,'']]],
+  ['buffer_3',['Buffer',['../structBuffer.html',1,'']]],
+  ['bufferedsensordata_4',['BufferedSensorData',['../structBufferedSensorData.html',1,'']]],
+  ['buzzercontroller_5',['BuzzerController',['../structBuzzerController.html',1,'']]]
 ];

@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('structPyro.html',''); initResizable();
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="sensors_8h_source.html">sensors.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -98,13 +98,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced7ff5500cd6c1606d7292f990d93ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aced7ff5500cd6c1606d7292f990d93ff">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation)</td></tr>
 <tr class="separator:aced7ff5500cd6c1606d7292f990d93ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555">init</a> ()</td></tr>
+<tr class="separator:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced7ff5500cd6c1606d7292f990d93ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aced7ff5500cd6c1606d7292f990d93ff">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation)</td></tr>
+<tr class="separator:aced7ff5500cd6c1606d7292f990d93ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555">init</a> ()</td></tr>
+<tr class="separator:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced7ff5500cd6c1606d7292f990d93ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aced7ff5500cd6c1606d7292f990d93ff">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation)</td></tr>
+<tr class="separator:aced7ff5500cd6c1606d7292f990d93ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="sensors_8h_source.html#l00085">85</a> of file <a class="el" href="sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00085">85</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab6a58e6edd90e00f27810cb5c57ed555" name="ab6a58e6edd90e00f27810cb5c57ed555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6a58e6edd90e00f27810cb5c57ed555">&#9670;&nbsp;</a></span>init()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a58e6edd90e00f27810cb5c57ed555">&#9670;&nbsp;</a></span>init() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,12 +128,104 @@ Public Member Functions</h2></td></tr>
 
 <p>Initializes the pyro thread. The main initialization will be done by the GPIO expander, so the pyro thread doesn't have to do anything special and will always return NoError. </p>
 
-<p class="definition">Definition at line <a class="el" href="Pyro_8cpp_source.html#l00035">35</a> of file <a class="el" href="Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00035">35</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab6a58e6edd90e00f27810cb5c57ed555" name="ab6a58e6edd90e00f27810cb5c57ed555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a58e6edd90e00f27810cb5c57ed555">&#9670;&nbsp;</a></span>init() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> Pyro::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6a58e6edd90e00f27810cb5c57ed555" name="ab6a58e6edd90e00f27810cb5c57ed555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a58e6edd90e00f27810cb5c57ed555">&#9670;&nbsp;</a></span>init() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> Pyro::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="aced7ff5500cd6c1606d7292f990d93ff" name="aced7ff5500cd6c1606d7292f990d93ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aced7ff5500cd6c1606d7292f990d93ff">&#9670;&nbsp;</a></span>tick()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aced7ff5500cd6c1606d7292f990d93ff">&#9670;&nbsp;</a></span>tick() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structPyroState.html">PyroState</a> Pyro::tick </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
+          <td class="paramname"><em>fsm_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2Pyro_8cpp_source.html#l00008">8</a> of file <a class="el" href="hilsim_2sensors_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aced7ff5500cd6c1606d7292f990d93ff" name="aced7ff5500cd6c1606d7292f990d93ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced7ff5500cd6c1606d7292f990d93ff">&#9670;&nbsp;</a></span>tick() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structPyroState.html">PyroState</a> Pyro::tick </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
+          <td class="paramname"><em>fsm_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aced7ff5500cd6c1606d7292f990d93ff" name="aced7ff5500cd6c1606d7292f990d93ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced7ff5500cd6c1606d7292f990d93ff">&#9670;&nbsp;</a></span>tick() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153,8 +253,11 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="sensors_8h_source.html">sensors.h</a></li>
-<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="Pyro_8cpp_source.html">Pyro.cpp</a></li>
+<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/<a class="el" href="hilsim_2sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2Pyro_8cpp_source.html">Pyro.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

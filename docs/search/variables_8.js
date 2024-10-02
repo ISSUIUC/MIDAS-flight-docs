@@ -1,14 +1,17 @@
 var searchData=
 [
-  ['ignition_5ftime_0',['ignition_time',['../structSimulatedRocket.html#a902e0c3c0c6a41afdfe221a4250f9d24',1,'SimulatedRocket']]],
-  ['index_5f_1',['index_',['../structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8',1,'BuzzerController']]],
-  ['initial_5fflag_2',['initial_flag',['../structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c',1,'OrientationSensor']]],
-  ['initial_5forientation_3',['initial_orientation',['../structOrientationSensor.html#aa12421586b86ad987f838d31bf373975',1,'OrientationSensor']]],
-  ['is_5factive_4',['is_active',['../structSimulatedRocket.html#a2bc29ee261e09dd5bb9fb853827b8c25',1,'SimulatedRocket']]],
-  ['is_5farmed_5',['is_armed',['../structPyroChannel.html#a4f2b632cce763e033d8f1f6395f68a2f',1,'PyroChannel']]],
-  ['is_5ffiring_6',['is_firing',['../structPyroChannel.html#ac86bd669d3ea44003c014b64418f39e2',1,'PyroChannel']]],
-  ['is_5fglobal_5farmed_7',['is_global_armed',['../structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266',1,'PyroState']]],
-  ['is_5fleap_8',['is_leap',['../structGPSSensor.html#ae0a61aefe2311f0e6c543547aeca04ef',1,'GPSSensor']]],
-  ['is_5fmain_9',['is_main',['../structFiberHandle.html#a5350713b828d2a9c0d930cd7006132de',1,'FiberHandle']]],
-  ['item_5fsize_10',['item_size',['../classStaticQueue__t.html#a4eb36607984ee4835f84855649878456',1,'StaticQueue_t']]]
+  ['h_0',['H',['../classKalmanFilter.html#ac19a7e2b4518f8c2cf237ac92ec9d8ac',1,'KalmanFilter']]],
+  ['handle_1',['handle',['../structFiberHandle.html#a26babda0bf22ed92d30fe812296c9e27',1,'FiberHandle']]],
+  ['has_5fdata_2',['has_data',['../structOrientation.html#a2f0b69055d58834a39f435747d110e1d',1,'Orientation']]],
+  ['has_5fmsg_5fcb_3',['has_msg_cb',['../classnanopb__generator_1_1OneOf.html#a6858d48c7ba76ea3ab41f24ad80d545b',1,'nanopb_generator::OneOf']]],
+  ['head_5fidx_4',['head_idx',['../classStaticQueue__t.html#a43d6e4d1174f5f34ccbb3f1fbda6dc74',1,'StaticQueue_t']]],
+  ['header_5ffile_5',['header_file',['../namespaceplatformio__generator.html#ad52368f3b51902ea5f2bd2f53edc0025',1,'platformio_generator']]],
+  ['header_5ffile_5fabs_6',['header_file_abs',['../namespaceplatformio__generator.html#a77f64d8208979c5a9a274ec5f5a0d107',1,'platformio_generator']]],
+  ['height_7',['height',['../structSimulatedRocket.html#aa2373a1ab303c1ad14802a06396a6d41',1,'SimulatedRocket']]],
+  ['help_8',['help',['../namespacenanopb__generator.html#a715621217970301c83aeab580e1d3c49',1,'nanopb_generator']]],
+  ['high_5fg_9',['high_g',['../structLoggedReading.html#a44a74a23c78ee4f2b8b75e209e4b6795',1,'LoggedReading::high_g()'],['../structRocketData.html#ad0857684a8083d40487985dee1f31314',1,'RocketData::high_g()'],['../structSensors.html#a47c62db73809da644adb1321123dce5a',1,'Sensors::high_g()']]],
+  ['highg_5fax_10',['highg_ax',['../structTelemetryPacket.html#a4c228a4f68d1733323fb6b09984caf98',1,'TelemetryPacket']]],
+  ['highg_5fay_11',['highg_ay',['../structTelemetryPacket.html#a9c8f8f438509b8cef5bae7540bfbb377',1,'TelemetryPacket']]],
+  ['highg_5faz_12',['highg_az',['../structTelemetryPacket.html#a30fa822da55f6ad1a89f2e50709332bb',1,'TelemetryPacket']]],
+  ['hilsimpacket_5fmsg_13',['HILSIMPacket_msg',['../hilsimpacket_8pb_8h.html#a76983eb6183ca7a88419709dd72a6cda',1,'hilsimpacket.pb.h']]]
 ];

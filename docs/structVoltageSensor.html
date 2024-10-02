@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('structVoltageSensor.html',''); initRes
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="sensors_8h_source.html">sensors.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,6 +104,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc24c7466cc2e37f8b2aaf7aea1b1fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebfdd049b9aabd92f375217ebedcabc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVoltage.html">Voltage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6">read</a> ()</td></tr>
 <tr class="separator:aebfdd049b9aabd92f375217ebedcabc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc24c7466cc2e37f8b2aaf7aea1b1fd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2">init</a> ()</td></tr>
+<tr class="separator:afc24c7466cc2e37f8b2aaf7aea1b1fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfdd049b9aabd92f375217ebedcabc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVoltage.html">Voltage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6">read</a> ()</td></tr>
+<tr class="separator:aebfdd049b9aabd92f375217ebedcabc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc24c7466cc2e37f8b2aaf7aea1b1fd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2">init</a> ()</td></tr>
+<tr class="separator:afc24c7466cc2e37f8b2aaf7aea1b1fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfdd049b9aabd92f375217ebedcabc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVoltage.html">Voltage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6">read</a> ()</td></tr>
+<tr class="separator:aebfdd049b9aabd92f375217ebedcabc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -112,10 +120,10 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="sensors_8h_source.html#l00058">58</a> of file <a class="el" href="sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00058">58</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afc24c7466cc2e37f8b2aaf7aea1b1fd2" name="afc24c7466cc2e37f8b2aaf7aea1b1fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc24c7466cc2e37f8b2aaf7aea1b1fd2">&#9670;&nbsp;</a></span>init() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc24c7466cc2e37f8b2aaf7aea1b1fd2">&#9670;&nbsp;</a></span>init() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,14 +138,49 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>"Initializes" the voltage sensor. Since it reads directly from a pin without a library, there is no specific initialization. </p>
-<dl class="section return"><dt>Returns</dt><dd>Error Code, will always be NoError </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Error Code, will always be NoError</dd></dl>
+<p>"Initializes" the voltage sensor. Since it reads directly from a pin without a library, there is no specific initialization. </p>
 
-<p class="definition">Definition at line <a class="el" href="Voltage_8cpp_source.html#l00012">12</a> of file <a class="el" href="Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Voltage_8cpp_source.html#l00012">12</a> of file <a class="el" href="hardware_2Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
 
 </div>
 </div>
 <a id="afc24c7466cc2e37f8b2aaf7aea1b1fd2" name="afc24c7466cc2e37f8b2aaf7aea1b1fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc24c7466cc2e37f8b2aaf7aea1b1fd2">&#9670;&nbsp;</a></span>init() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc24c7466cc2e37f8b2aaf7aea1b1fd2">&#9670;&nbsp;</a></span>init() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> VoltageSensor::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc24c7466cc2e37f8b2aaf7aea1b1fd2" name="afc24c7466cc2e37f8b2aaf7aea1b1fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc24c7466cc2e37f8b2aaf7aea1b1fd2">&#9670;&nbsp;</a></span>init() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> VoltageSensor::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc24c7466cc2e37f8b2aaf7aea1b1fd2" name="afc24c7466cc2e37f8b2aaf7aea1b1fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc24c7466cc2e37f8b2aaf7aea1b1fd2">&#9670;&nbsp;</a></span>init() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +197,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aebfdd049b9aabd92f375217ebedcabc6" name="aebfdd049b9aabd92f375217ebedcabc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebfdd049b9aabd92f375217ebedcabc6">&#9670;&nbsp;</a></span>read() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfdd049b9aabd92f375217ebedcabc6">&#9670;&nbsp;</a></span>read() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,14 +212,49 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads the value of the given analog pin and converts it to a battery voltage with the assumption that the voltage sensor is plugged into that pin. </p>
-<dl class="section return"><dt>Returns</dt><dd>The scaled voltage given by the voltage sensor </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The scaled voltage given by the voltage sensor</dd></dl>
+<p>Reads the value of the given analog pin and converts it to a battery voltage with the assumption that the voltage sensor is plugged into that pin </p><dl class="section return"><dt>Returns</dt><dd>The scaled voltage given by the voltage sensor </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Voltage_8cpp_source.html#l00021">21</a> of file <a class="el" href="Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Voltage_8cpp_source.html#l00021">21</a> of file <a class="el" href="hardware_2Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
 
 </div>
 </div>
 <a id="aebfdd049b9aabd92f375217ebedcabc6" name="aebfdd049b9aabd92f375217ebedcabc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebfdd049b9aabd92f375217ebedcabc6">&#9670;&nbsp;</a></span>read() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfdd049b9aabd92f375217ebedcabc6">&#9670;&nbsp;</a></span>read() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structVoltage.html">Voltage</a> VoltageSensor::read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebfdd049b9aabd92f375217ebedcabc6" name="aebfdd049b9aabd92f375217ebedcabc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfdd049b9aabd92f375217ebedcabc6">&#9670;&nbsp;</a></span>read() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structVoltage.html">Voltage</a> VoltageSensor::read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebfdd049b9aabd92f375217ebedcabc6" name="aebfdd049b9aabd92f375217ebedcabc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfdd049b9aabd92f375217ebedcabc6">&#9670;&nbsp;</a></span>read() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,9 +288,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a></li>
 <li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__sensors_8h_source.html">emulated_sensors.h</a></li>
-<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="Voltage_8cpp_source.html">Voltage.cpp</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/<a class="el" href="hilsim_2sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2Voltage_8cpp_source.html">Voltage.cpp</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2Voltage_8cpp_source.html">Voltage.cpp</a></li>
 <li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__sensors_8cpp_source.html">emulated_sensors.cpp</a></li>
 </ul>
 </div><!-- contents -->

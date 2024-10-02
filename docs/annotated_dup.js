@@ -1,5 +1,27 @@
 var annotated_dup =
 [
+    [ "nanopb_generator", "namespacenanopb__generator.html", [
+      [ "EncodedSize", "classnanopb__generator_1_1EncodedSize.html", "classnanopb__generator_1_1EncodedSize" ],
+      [ "Enum", "classnanopb__generator_1_1Enum.html", "classnanopb__generator_1_1Enum" ],
+      [ "ExtensionField", "classnanopb__generator_1_1ExtensionField.html", "classnanopb__generator_1_1ExtensionField" ],
+      [ "ExtensionRange", "classnanopb__generator_1_1ExtensionRange.html", "classnanopb__generator_1_1ExtensionRange" ],
+      [ "Field", "classnanopb__generator_1_1Field.html", "classnanopb__generator_1_1Field" ],
+      [ "FieldMaxSize", "classnanopb__generator_1_1FieldMaxSize.html", "classnanopb__generator_1_1FieldMaxSize" ],
+      [ "Globals", "classnanopb__generator_1_1Globals.html", "classnanopb__generator_1_1Globals" ],
+      [ "MangleNames", "classnanopb__generator_1_1MangleNames.html", "classnanopb__generator_1_1MangleNames" ],
+      [ "Message", "classnanopb__generator_1_1Message.html", "classnanopb__generator_1_1Message" ],
+      [ "Names", "classnanopb__generator_1_1Names.html", "classnanopb__generator_1_1Names" ],
+      [ "NamingStyle", "classnanopb__generator_1_1NamingStyle.html", "classnanopb__generator_1_1NamingStyle" ],
+      [ "NamingStyleC", "classnanopb__generator_1_1NamingStyleC.html", "classnanopb__generator_1_1NamingStyleC" ],
+      [ "OneOf", "classnanopb__generator_1_1OneOf.html", "classnanopb__generator_1_1OneOf" ],
+      [ "ProtoElement", "classnanopb__generator_1_1ProtoElement.html", "classnanopb__generator_1_1ProtoElement" ],
+      [ "ProtoFile", "classnanopb__generator_1_1ProtoFile.html", "classnanopb__generator_1_1ProtoFile" ]
+    ] ],
+    [ "proto", "namespaceproto.html", [
+      [ "TemporaryDirectory", "classproto_1_1TemporaryDirectory.html", "classproto_1_1TemporaryDirectory" ]
+    ] ],
+    [ "_HILSIMPacket", "struct__HILSIMPacket.html", "struct__HILSIMPacket" ],
+    [ "_RocketState", "struct__RocketState.html", "struct__RocketState" ],
     [ "Acceleration", "structAcceleration.html", "structAcceleration" ],
     [ "Barometer", "structBarometer.html", "structBarometer" ],
     [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],

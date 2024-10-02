@@ -7,6 +7,8 @@ var searchData=
   ['bodytoglobal_4',['bodyToGlobal',['../classExampleKalmanFilter.html#a621c2d082dc3021061852adaa5291573',1,'ExampleKalmanFilter']]],
   ['buffer_5',['Buffer',['../structBuffer.html#a445e0d28ff2081179f9c76ef93518daa',1,'Buffer']]],
   ['bufferedsensordata_6',['BufferedSensorData',['../structBufferedSensorData.html#ad5ec58cbb0a365cfee872b0a249d1525',1,'BufferedSensorData']]],
-  ['busy_5fwait_5fcurrent_5fcore_7',['busy_wait_current_core',['../structThreadManager.html#a2010fb78cce8ee73b426b6c7dada6814',1,'ThreadManager']]],
-  ['buzzercontroller_8',['BuzzerController',['../structBuzzerController.html#aba1946731c465f8d67f3571b5f7170a8',1,'BuzzerController']]]
+  ['build_5fnanopb_5fproto_7',['build_nanopb_proto',['../namespaceproto.html#a4dddb85896584e1df8c2b36df994a13b',1,'proto']]],
+  ['busy_5fwait_5fcurrent_5fcore_8',['busy_wait_current_core',['../structThreadManager.html#a2010fb78cce8ee73b426b6c7dada6814',1,'ThreadManager']]],
+  ['buzzercontroller_9',['BuzzerController',['../structBuzzerController.html#aba1946731c465f8d67f3571b5f7170a8',1,'BuzzerController']]],
+  ['bytes_5ftype_10',['bytes_type',['../classnanopb__generator_1_1NamingStyle.html#a5a3f7c160e286d17823a7c9fbd33567d',1,'nanopb_generator.NamingStyle.bytes_type()'],['../classnanopb__generator_1_1NamingStyleC.html#a37d82d727b91bc37a855963a94579021',1,'nanopb_generator.NamingStyleC.bytes_type()']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['acceleration_0',['Acceleration',['../structAcceleration.html',1,'']]]
+  ['_5fhilsimpacket_0',['_HILSIMPacket',['../struct__HILSIMPacket.html',1,'']]],
+  ['_5frocketstate_1',['_RocketState',['../struct__RocketState.html',1,'']]]
 ];

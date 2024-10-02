@@ -1,5 +1,7 @@
 var hierarchy =
 [
+    [ "_HILSIMPacket", "struct__HILSIMPacket.html", null ],
+    [ "_RocketState", "struct__RocketState.html", null ],
     [ "Acceleration", "structAcceleration.html", null ],
     [ "Barometer", "structBarometer.html", null ],
     [ "BarometerSensor", "structBarometerSensor.html", null ],
@@ -9,9 +11,12 @@ var hierarchy =
     [ "Continuity", "structContinuity.html", null ],
     [ "ContinuitySensor", "structContinuitySensor.html", null ],
     [ "Core", "structCore.html", null ],
+    [ "nanopb_generator.EncodedSize", "classnanopb__generator_1_1EncodedSize.html", null ],
     [ "euler_t", "structeuler__t.html", null ],
     [ "FiberHandle", "structFiberHandle.html", null ],
+    [ "nanopb_generator.FieldMaxSize", "classnanopb__generator_1_1FieldMaxSize.html", null ],
     [ "FSM", "classFSM.html", null ],
+    [ "nanopb_generator.Globals", "classnanopb__generator_1_1Globals.html", null ],
     [ "GpioAddress", "structGpioAddress.html", null ],
     [ "GPS", "structGPS.html", null ],
     [ "GPSSensor", "structGPSSensor.html", null ],
@@ -44,10 +49,27 @@ var hierarchy =
     [ "LowGSensor", "structLowGSensor.html", null ],
     [ "Magnetometer", "structMagnetometer.html", null ],
     [ "MagnetometerSensor", "structMagnetometerSensor.html", null ],
+    [ "nanopb_generator.MangleNames", "classnanopb__generator_1_1MangleNames.html", null ],
     [ "Mutex< T >", "structMutex.html", null ],
+    [ "nanopb_generator.Names", "classnanopb__generator_1_1Names.html", null ],
+    [ "nanopb_generator.NamingStyle", "classnanopb__generator_1_1NamingStyle.html", [
+      [ "nanopb_generator.NamingStyleC", "classnanopb__generator_1_1NamingStyleC.html", null ]
+    ] ],
+    [ "object", null, [
+      [ "nanopb_generator.ProtoElement", "classnanopb__generator_1_1ProtoElement.html", [
+        [ "nanopb_generator.Enum", "classnanopb__generator_1_1Enum.html", null ],
+        [ "nanopb_generator.Field", "classnanopb__generator_1_1Field.html", [
+          [ "nanopb_generator.ExtensionField", "classnanopb__generator_1_1ExtensionField.html", null ],
+          [ "nanopb_generator.ExtensionRange", "classnanopb__generator_1_1ExtensionRange.html", null ],
+          [ "nanopb_generator.OneOf", "classnanopb__generator_1_1OneOf.html", null ]
+        ] ],
+        [ "nanopb_generator.Message", "classnanopb__generator_1_1Message.html", null ]
+      ] ]
+    ] ],
     [ "Orientation", "structOrientation.html", null ],
     [ "OrientationSensor", "structOrientationSensor.html", null ],
     [ "Position", "structPosition.html", null ],
+    [ "nanopb_generator.ProtoFile", "classnanopb__generator_1_1ProtoFile.html", null ],
     [ "Pyro", "structPyro.html", null ],
     [ "PyroChannel", "structPyroChannel.html", null ],
     [ "PyroState", "structPyroState.html", null ],
@@ -72,6 +94,7 @@ var hierarchy =
     [ "Telemetry", "classTelemetry.html", null ],
     [ "TelemetryBackend", "classTelemetryBackend.html", null ],
     [ "TelemetryPacket", "structTelemetryPacket.html", null ],
+    [ "proto.TemporaryDirectory", "classproto_1_1TemporaryDirectory.html", null ],
     [ "ThreadInfo", "structThreadInfo.html", null ],
     [ "ThreadManager", "structThreadManager.html", null ],
     [ "Vec3", "structVec3.html", null ],
