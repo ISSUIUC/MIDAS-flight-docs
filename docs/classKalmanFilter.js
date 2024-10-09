@@ -2,10 +2,10 @@ var classKalmanFilter =
 [
     [ "KalmanFilter", "classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed", null ],
     [ "getState", "classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9", null ],
-    [ "initialize", "classKalmanFilter.html#ac0cab8a038c5641be649dbd0c303a786", null ],
+    [ "initialize", "classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7", null ],
     [ "priori", "classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d", null ],
-    [ "setState", "classKalmanFilter.html#adb8f3eecb05302f5a0991e34d72a2264", null ],
-    [ "update", "classKalmanFilter.html#ac260d12a464c46f470a5a5a388bd4cb0", null ],
+    [ "setState", "classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f", null ],
+    [ "update", "classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e", null ],
     [ "B", "classKalmanFilter.html#a70f5995c89f95324f503d6d32fcc95b2", null ],
     [ "F_mat", "classKalmanFilter.html#af517a83f24904109e3217733185576b2", null ],
     [ "H", "classKalmanFilter.html#ac19a7e2b4518f8c2cf237ac92ec9d8ac", null ],

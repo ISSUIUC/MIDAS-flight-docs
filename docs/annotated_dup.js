@@ -45,6 +45,7 @@ var annotated_dup =
     [ "HighGSensor", "structHighGSensor.html", "structHighGSensor" ],
     [ "KalmanData", "structKalmanData.html", "structKalmanData" ],
     [ "KalmanFilter", "classKalmanFilter.html", "classKalmanFilter" ],
+    [ "KalmanState", "structKalmanState.html", "structKalmanState" ],
     [ "Latency", "classLatency.html", "classLatency" ],
     [ "LEDController", "classLEDController.html", "classLEDController" ],
     [ "LoggedReading", "structLoggedReading.html", "structLoggedReading" ],

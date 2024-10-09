@@ -112,6 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0fda01997f617905bd39ae0c23b1f28f"><td class="memTemplParams" colspan="2">template&lt;size_t count&gt; </td></tr>
 <tr class="memitem:a0fda01997f617905bd39ae0c23b1f28f"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; T, <a class="el" href="structBuffer.html#a6f5c3c76fb63f9559223ae7527718e1a">count</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structBuffer.html#a0fda01997f617905bd39ae0c23b1f28f">read_recent</a> ()</td></tr>
 <tr class="separator:a0fda01997f617905bd39ae0c23b1f28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9a09cef04a8c8a5c728b5f9fb854ab"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuffer.html#a3c9a09cef04a8c8a5c728b5f9fb854ab">readSlice</a> (T write_to[], size_t start, size_t len)</td></tr>
+<tr class="memdesc:a3c9a09cef04a8c8a5c728b5f9fb854ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a range of items into a passed array, which can be larger than the actual count of items.  <a href="structBuffer.html#a3c9a09cef04a8c8a5c728b5f9fb854ab">More...</a><br /></td></tr>
+<tr class="separator:a3c9a09cef04a8c8a5c728b5f9fb854ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -200,7 +203,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 <p>gets newest index in the circular buffer </p>
 <dl class="section return"><dt>Returns</dt><dd>the newest index in the buffer </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00101">101</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00122">122</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -232,7 +235,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 <p>gets oldest index in the circular buffer </p>
 <dl class="section return"><dt>Returns</dt><dd>the oldest indext in the buffer </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00088">88</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00109">109</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -383,6 +386,63 @@ template&lt;size_t count&gt; </div>
 
 </div>
 </div>
+<a id="a3c9a09cef04a8c8a5c728b5f9fb854ab" name="a3c9a09cef04a8c8a5c728b5f9fb854ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9a09cef04a8c8a5c728b5f9fb854ab">&#9670;&nbsp;</a></span>readSlice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="structBuffer.html">Buffer</a>&lt; T, BUFFER_SIZE &gt;::readSlice </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>write_to</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads a range of items into a passed array, which can be larger than the actual count of items. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">write_to</td><td>An array of at least n items to write to </td></tr>
+    <tr><td class="paramname">start</td><td>The index to start reading from (inclusive) </td></tr>
+    <tr><td class="paramname">length</td><td>the number of items to read </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>How many items were actually read </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00090">90</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa821c411050fd36a82b4418303960647" name="aa821c411050fd36a82b4418303960647"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa821c411050fd36a82b4418303960647">&#9670;&nbsp;</a></span>buffer</h2>
@@ -406,7 +466,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00111">111</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00132">132</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -432,7 +492,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00110">110</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00131">131</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>
@@ -458,7 +518,7 @@ template&lt;typename T , size_t BUFFER_SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00109">109</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8h_source.html#l00130">130</a> of file <a class="el" href="Buffer_8h_source.html">Buffer.h</a>.</p>
 
 </div>
 </div>

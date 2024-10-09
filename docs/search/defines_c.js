@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['output_0',['OUTPUT',['../emulation_8h.html#a61a3c9a18380aafb6e430e79bf596557',1,'emulation.h']]]
+  ['num_5fsensor_5finputs_0',['NUM_SENSOR_INPUTS',['../yessir_8h.html#ac6ef2495692adee513161f504fefaebe',1,'yessir.h']]],
+  ['num_5fstates_1',['NUM_STATES',['../yessir_8h.html#a6e67a587012cd0570839daca590cf822',1,'yessir.h']]]
 ];

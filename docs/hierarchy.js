@@ -25,12 +25,13 @@ var hierarchy =
     [ "HighGSensor", "structHighGSensor.html", null ],
     [ "KalmanData", "structKalmanData.html", null ],
     [ "KalmanFilter< _NumStates, _NumInputs >", "classKalmanFilter.html", null ],
-    [ "KalmanFilter< 3, 3 >", "classKalmanFilter.html", [
-      [ "Yessir", "classYessir.html", null ]
-    ] ],
-    [ "KalmanFilter< 9, 3 >", "classKalmanFilter.html", [
+    [ "KalmanFilter< 9, 4 >", "classKalmanFilter.html", [
       [ "ExampleKalmanFilter", "classExampleKalmanFilter.html", null ]
     ] ],
+    [ "KalmanFilter< NUM_STATES, NUM_SENSOR_INPUTS >", "classKalmanFilter.html", [
+      [ "Yessir", "classYessir.html", null ]
+    ] ],
+    [ "KalmanState", "structKalmanState.html", null ],
     [ "Latency", "classLatency.html", null ],
     [ "LEDController", "classLEDController.html", null ],
     [ "LoggedReading", "structLoggedReading.html", null ],

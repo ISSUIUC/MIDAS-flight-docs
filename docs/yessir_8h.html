@@ -84,12 +84,14 @@ $(document).ready(function(){initNavTree('yessir_8h.html',''); initResizable(); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">yessir.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Buffer_8h_source.html">Buffer.h</a>&quot;</code><br />
 </div>
 <p><a href="yessir_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -98,11 +100,69 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html">Yessir</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a6e67a587012cd0570839daca590cf822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yessir_8h.html#a6e67a587012cd0570839daca590cf822">NUM_STATES</a>&#160;&#160;&#160;9</td></tr>
+<tr class="separator:a6e67a587012cd0570839daca590cf822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ef2495692adee513161f504fefaebe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yessir_8h.html#ac6ef2495692adee513161f504fefaebe">NUM_SENSOR_INPUTS</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ac6ef2495692adee513161f504fefaebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ec77922c1d205f043f088f449c7d55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yessir_8h.html#af6ec77922c1d205f043f088f449c7d55">ALTITUDE_BUFFER_SIZE</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:af6ec77922c1d205f043f088f449c7d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a1aef70a6a3309e37b84b17008cb7d80d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classYessir.html">Yessir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yessir_8h.html#a1aef70a6a3309e37b84b17008cb7d80d">yessir</a></td></tr>
 <tr class="separator:a1aef70a6a3309e37b84b17008cb7d80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af6ec77922c1d205f043f088f449c7d55" name="af6ec77922c1d205f043f088f449c7d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6ec77922c1d205f043f088f449c7d55">&#9670;&nbsp;</a></span>ALTITUDE_BUFFER_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ALTITUDE_BUFFER_SIZE&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00009">9</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+
+</div>
+</div>
+<a id="ac6ef2495692adee513161f504fefaebe" name="ac6ef2495692adee513161f504fefaebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ef2495692adee513161f504fefaebe">&#9670;&nbsp;</a></span>NUM_SENSOR_INPUTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NUM_SENSOR_INPUTS&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00008">8</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+
+</div>
+</div>
+<a id="a6e67a587012cd0570839daca590cf822" name="a6e67a587012cd0570839daca590cf822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e67a587012cd0570839daca590cf822">&#9670;&nbsp;</a></span>NUM_STATES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NUM_STATES&#160;&#160;&#160;9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00007">7</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a1aef70a6a3309e37b84b17008cb7d80d" name="a1aef70a6a3309e37b84b17008cb7d80d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1aef70a6a3309e37b84b17008cb7d80d">&#9670;&nbsp;</a></span>yessir</h2>
@@ -124,7 +184,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00047">47</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00325">325</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>

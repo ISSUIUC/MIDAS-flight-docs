@@ -96,16 +96,16 @@ $(document).ready(function(){initNavTree('classKalmanFilter.html',''); initResiz
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a2ddeb7db16a968709fa99761eb6fed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed">KalmanFilter</a> ()</td></tr>
 <tr class="separator:a4a2ddeb7db16a968709fa99761eb6fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0cab8a038c5641be649dbd0c303a786"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#ac0cab8a038c5641be649dbd0c303a786">initialize</a> ()=0</td></tr>
-<tr class="separator:ac0cab8a038c5641be649dbd0c303a786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35afde069f6bb6415279718559fe91d7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">initialize</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *args)=0</td></tr>
+<tr class="separator:a35afde069f6bb6415279718559fe91d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abce6f8b7fa8ee8b3512bd8eed4b99e2d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">priori</a> ()=0</td></tr>
 <tr class="separator:abce6f8b7fa8ee8b3512bd8eed4b99e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac260d12a464c46f470a5a5a388bd4cb0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#ac260d12a464c46f470a5a5a388bd4cb0">update</a> ()=0</td></tr>
-<tr class="separator:ac260d12a464c46f470a5a5a388bd4cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0ee7932f153afffc4df303f905e33e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> current_state)=0</td></tr>
+<tr class="separator:a8f0ee7932f153afffc4df303f905e33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b2acd7140b5bc2360037682c2d296b9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">getState</a> ()=0</td></tr>
 <tr class="separator:a5b2acd7140b5bc2360037682c2d296b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb8f3eecb05302f5a0991e34d72a2264"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#adb8f3eecb05302f5a0991e34d72a2264">setState</a> (<a class="el" href="structKalmanData.html">KalmanData</a> state)=0</td></tr>
-<tr class="separator:adb8f3eecb05302f5a0991e34d72a2264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54e119f7afc440dcda1b604191a9ab1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> state)=0</td></tr>
+<tr class="separator:a54e119f7afc440dcda1b604191a9ab1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -135,7 +135,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;int _NumStates, int _NumInputs&gt;<br />
 class KalmanFilter&lt; _NumStates, _NumInputs &gt;</div>
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00012">12</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00026">26</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4a2ddeb7db16a968709fa99761eb6fed" name="a4a2ddeb7db16a968709fa99761eb6fed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a2ddeb7db16a968709fa99761eb6fed">&#9670;&nbsp;</a></span>KalmanFilter()</h2>
@@ -162,7 +162,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00029">29</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00043">43</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -196,8 +196,8 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 
 </div>
 </div>
-<a id="ac0cab8a038c5641be649dbd0c303a786" name="ac0cab8a038c5641be649dbd0c303a786"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0cab8a038c5641be649dbd0c303a786">&#9670;&nbsp;</a></span>initialize()</h2>
+<a id="a35afde069f6bb6415279718559fe91d7" name="a35afde069f6bb6415279718559fe91d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35afde069f6bb6415279718559fe91d7">&#9670;&nbsp;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +210,8 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
         <tr>
           <td class="memname">virtual void <a class="el" href="classKalmanFilter.html">KalmanFilter</a>&lt; _NumStates, _NumInputs &gt;::initialize </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structRocketSystems.html">RocketSystems</a> *&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -221,7 +222,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classExampleKalmanFilter.html#ad0cb2d727752623b42b6094e8651d9eb">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#a0df811a0a2cc3693dda1ff612aec09eb">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classExampleKalmanFilter.html#af971ddd4b20342c292aba97f5c0539dd">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#aec3d4e2dc7b404c9b210a769371773a1">Yessir</a>.</p>
 
 </div>
 </div>
@@ -254,8 +255,8 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 
 </div>
 </div>
-<a id="adb8f3eecb05302f5a0991e34d72a2264" name="adb8f3eecb05302f5a0991e34d72a2264"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb8f3eecb05302f5a0991e34d72a2264">&#9670;&nbsp;</a></span>setState()</h2>
+<a id="a54e119f7afc440dcda1b604191a9ab1f" name="a54e119f7afc440dcda1b604191a9ab1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54e119f7afc440dcda1b604191a9ab1f">&#9670;&nbsp;</a></span>setState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +269,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
         <tr>
           <td class="memname">virtual void <a class="el" href="classKalmanFilter.html">KalmanFilter</a>&lt; _NumStates, _NumInputs &gt;::setState </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structKalmanState.html">KalmanState</a>&#160;</td>
           <td class="paramname"><em>state</em></td><td>)</td>
           <td></td>
         </tr>
@@ -280,12 +281,12 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classExampleKalmanFilter.html#a6f213713765d5fd31c6f17ceafb4d766">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#a6918454444e729539f893b0e06fc5180">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classExampleKalmanFilter.html#ac810f2987173c137088508e332f9e776">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#acc617206831cccbc9fc25bd1dbd2d3a2">Yessir</a>.</p>
 
 </div>
 </div>
-<a id="ac260d12a464c46f470a5a5a388bd4cb0" name="ac260d12a464c46f470a5a5a388bd4cb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac260d12a464c46f470a5a5a388bd4cb0">&#9670;&nbsp;</a></span>update()</h2>
+<a id="a8f0ee7932f153afffc4df303f905e33e" name="a8f0ee7932f153afffc4df303f905e33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f0ee7932f153afffc4df303f905e33e">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,8 +299,31 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
         <tr>
           <td class="memname">virtual void <a class="el" href="classKalmanFilter.html">KalmanFilter</a>&lt; _NumStates, _NumInputs &gt;::update </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structBarometer.html">Barometer</a>&#160;</td>
+          <td class="paramname"><em>barometer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td>
+          <td class="paramname"><em>acceleration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
+          <td class="paramname"><em>orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
+          <td class="paramname"><em>current_state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -309,7 +333,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classExampleKalmanFilter.html#ae0d284f81f50ce5f2bf0856edb10c802">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#af10555595470da28ec14df09162eb762">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classExampleKalmanFilter.html#a909be5fa91952bb900bf9a6efb8d64c7">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#a11cee359979927f26afb2476aa84132e">Yessir</a>.</p>
 
 </div>
 </div>
@@ -336,7 +360,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00026">26</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00040">40</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -362,7 +386,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00016">16</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00030">30</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +412,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00017">17</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00031">31</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -414,7 +438,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00023">23</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00037">37</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -440,7 +464,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00018">18</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00032">32</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -466,7 +490,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00021">21</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00035">35</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +516,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00019">19</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00033">33</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -518,7 +542,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00020">20</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00034">34</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -544,7 +568,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00015">15</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00029">29</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -570,7 +594,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00022">22</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00036">36</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>
@@ -596,7 +620,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00024">24</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="kalman__filter_8h_source.html#l00038">38</a> of file <a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>.</p>
 
 </div>
 </div>

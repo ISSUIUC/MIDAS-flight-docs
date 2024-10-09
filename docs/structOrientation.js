@@ -1,5 +1,6 @@
 var structOrientation =
 [
+    [ "getEuler", "structOrientation.html#a70f405db78789749842022ad9ca4cd77", null ],
     [ "gx", "structOrientation.html#a803b25fe2bb17bf20e55e1d52531d64e", null ],
     [ "gy", "structOrientation.html#a6692296c7346fda8802833c06f1db03c", null ],
     [ "gz", "structOrientation.html#aeefac359c7b4bd3fb4f7706ab5c55593", null ],
