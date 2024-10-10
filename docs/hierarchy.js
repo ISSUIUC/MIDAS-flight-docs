@@ -94,6 +94,7 @@ var hierarchy =
     [ "StaticQueue_t", "classStaticQueue__t.html", null ],
     [ "Telemetry", "classTelemetry.html", null ],
     [ "TelemetryBackend", "classTelemetryBackend.html", null ],
+    [ "TelemetryCommand", "structTelemetryCommand.html", null ],
     [ "TelemetryPacket", "structTelemetryPacket.html", null ],
     [ "proto.TemporaryDirectory", "classproto_1_1TemporaryDirectory.html", null ],
     [ "ThreadInfo", "structThreadInfo.html", null ],

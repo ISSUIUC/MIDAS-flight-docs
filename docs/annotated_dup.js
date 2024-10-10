@@ -86,6 +86,7 @@ var annotated_dup =
     [ "StaticQueue_t", "classStaticQueue__t.html", "classStaticQueue__t" ],
     [ "Telemetry", "classTelemetry.html", "classTelemetry" ],
     [ "TelemetryBackend", "classTelemetryBackend.html", "classTelemetryBackend" ],
+    [ "TelemetryCommand", "structTelemetryCommand.html", "structTelemetryCommand" ],
     [ "TelemetryPacket", "structTelemetryPacket.html", "structTelemetryPacket" ],
     [ "ThreadInfo", "structThreadInfo.html", "structThreadInfo" ],
     [ "ThreadManager", "structThreadManager.html", "structThreadManager" ],

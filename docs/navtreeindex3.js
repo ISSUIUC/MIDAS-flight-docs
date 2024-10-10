@@ -1,5 +1,9 @@
 var NAVTREEINDEX3 =
 {
+"emulation_8cpp.html#a988ba6b3fafddcd9fd028e450ec5533f":[3,0,0,4,7,12],
+"emulation_8cpp.html#ab9f363ae0cc82a5cd2afae5fa5e00726":[3,0,0,4,7,16],
+"emulation_8cpp.html#abf453c1659ee9fafa5af689523ac71e7":[3,0,0,4,7,10],
+"emulation_8cpp.html#accbb3ab4f5804c7cd6eeb0ba8a27ce0f":[3,0,0,4,7,4],
 "emulation_8cpp.html#ad431c1eaff563a9c693de3f161f42e2d":[3,0,0,4,7,13],
 "emulation_8cpp.html#adea976003aca24127c6ab82bca7609dc":[3,0,0,4,7,17],
 "emulation_8cpp.html#ae2d36ef66ff3d8970304e7aaf716712d":[3,0,0,4,7,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "hardware_2Continuity_8cpp.html":[3,0,0,2,1],
 "hardware_2Continuity_8cpp.html#a3d1f828520fd5aedeee475bd8f42b6f1":[3,0,0,2,1,0],
 "hardware_2Continuity_8cpp.html#a6bc9da6653a0309d4ba0a856e2c6c0ae":[3,0,0,2,1,1],
-"hardware_2Continuity_8cpp_source.html":[3,0,0,2,1],
-"hardware_2GPSSensor_8cpp.html":[3,0,0,2,4],
-"hardware_2GPSSensor_8cpp.html#a0d87eb31f189896391c721f3f6923263":[3,0,0,2,4,2],
-"hardware_2GPSSensor_8cpp.html#acc8396deec12880c1ff73846d14684d6":[3,0,0,2,4,0],
-"hardware_2GPSSensor_8cpp.html#ae99b155780fbef0efbc29a36daef5bdb":[3,0,0,2,4,1]
+"hardware_2Continuity_8cpp_source.html":[3,0,0,2,1]
 };

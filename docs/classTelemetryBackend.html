@@ -112,10 +112,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">send</a> (const T &amp;data)</td></tr>
 <tr class="memdesc:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transmits data from the struct provided as the parameter (data collected from sensor suite) to the ground station. The function also switches to a new commanded frequency based on a previously received command and waits for a response from the ground station.  <a href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">More...</a><br /></td></tr>
 <tr class="separator:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a580f9a0cbcc25179820c7455df358451"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a580f9a0cbcc25179820c7455df358451"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451">read</a> (T *write)</td></tr>
-<tr class="memdesc:a580f9a0cbcc25179820c7455df358451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads message from the LoRa.  <a href="classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451">More...</a><br /></td></tr>
-<tr class="separator:a580f9a0cbcc25179820c7455df358451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa729fcb0d202ee8a921b3833939d8ca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afa729fcb0d202ee8a921b3833939d8ca"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca">read</a> (T *write, int wait_milliseconds)</td></tr>
+<tr class="memdesc:afa729fcb0d202ee8a921b3833939d8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads message from the LoRa.  <a href="classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca">More...</a><br /></td></tr>
+<tr class="separator:afa729fcb0d202ee8a921b3833939d8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29700ff76a72b825470aededa21a00cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a29700ff76a72b825470aededa21a00cf">TelemetryBackend</a> ()=default</td></tr>
 <tr class="separator:a29700ff76a72b825470aededa21a00cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ec613c63d25d8b420a5838becb12aef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a4ec613c63d25d8b420a5838becb12aef">TelemetryBackend</a> (const char *file_name)</td></tr>
@@ -398,16 +398,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Reads message from the LoRa. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">write</td><td>The buffer to write the data to</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>bool indicating a successful read and write to buffer </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00063">63</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hilsim_2telemetry__backend_8h_source.html#l00024">24</a> of file <a class="el" href="hilsim_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -437,12 +428,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hilsim_2telemetry__backend_8h_source.html#l00024">24</a> of file <a class="el" href="hilsim_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00023">23</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
 
 </div>
 </div>
-<a id="a580f9a0cbcc25179820c7455df358451" name="a580f9a0cbcc25179820c7455df358451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a580f9a0cbcc25179820c7455df358451">&#9670;&nbsp;</a></span>read() <span class="overload">[3/3]</span></h2>
+<a id="afa729fcb0d202ee8a921b3833939d8ca" name="afa729fcb0d202ee8a921b3833939d8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa729fcb0d202ee8a921b3833939d8ca">&#9670;&nbsp;</a></span>read() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,8 +447,18 @@ template&lt;typename T &gt; </div>
           <td class="memname">bool TelemetryBackend::read </td>
           <td>(</td>
           <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>write</em></td><td>)</td>
+          <td class="paramname"><em>write</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>wait_milliseconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -467,7 +468,16 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00023">23</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
+<p>Reads message from the LoRa. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">write</td><td>The buffer to write the data to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool indicating a successful read and write to buffer </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00063">63</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -655,7 +665,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00076">76</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00092">92</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -703,7 +713,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00074">74</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00090">90</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>

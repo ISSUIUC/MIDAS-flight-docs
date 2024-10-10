@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"hardware_2GPSSensor_8cpp.html":[3,0,0,2,4],
+"hardware_2GPSSensor_8cpp.html#a0d87eb31f189896391c721f3f6923263":[3,0,0,2,4,2],
+"hardware_2GPSSensor_8cpp.html#acc8396deec12880c1ff73846d14684d6":[3,0,0,2,4,0],
+"hardware_2GPSSensor_8cpp.html#ae99b155780fbef0efbc29a36daef5bdb":[3,0,0,2,4,1],
 "hardware_2GPSSensor_8cpp_source.html":[3,0,0,2,4],
 "hardware_2HighG_8cpp.html":[3,0,0,2,5],
 "hardware_2HighG_8cpp.html#aa2e5b77238c2bece15a2343229c297de":[3,0,0,2,5,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "namespaceplatformio__generator.html#afc8c87c1d1bf03dfa220db4d4e8d418f":[1,0,3,14],
 "namespaceproto.html":[1,0,4],
 "namespaceproto.html#a4dddb85896584e1df8c2b36df994a13b":[1,0,4,3],
-"namespaceproto.html#aa33af22ccabe1a830312c17a66b2f03b":[1,0,4,4],
-"namespaceproto_1_1__utils.html":[1,0,4,0],
-"namespaceproto_1_1__utils.html#a428c0a96ba6edeeca4e0ad791da00a0c":[1,0,4,0,0],
-"namespaceproto_1_1__utils.html#abe4ce40eb7ff058b244b7ba7a4a29338":[1,0,4,0,1],
-"namespaceproto_1_1__utils.html#ac0806060f18425df0b2e15653c983e28":[1,0,4,0,2]
+"namespaceproto.html#aa33af22ccabe1a830312c17a66b2f03b":[1,0,4,4]
 };

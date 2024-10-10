@@ -12,7 +12,7 @@ var classTelemetryBackend =
     [ "getRecentRssi", "classTelemetryBackend.html#a9e7e8291481280d59648381b0a6aea31", null ],
     [ "read", "classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451", null ],
     [ "read", "classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451", null ],
-    [ "read", "classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451", null ],
+    [ "read", "classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca", null ],
     [ "send", "classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65", null ],
     [ "send", "classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65", null ],
     [ "send", "classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65", null ],
