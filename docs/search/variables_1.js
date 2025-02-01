@@ -5,7 +5,7 @@ var searchData=
   ['allocation_2',['allocation',['../classnanopb__generator_1_1OneOf.html#abca963cd66ad714bab48bf2fb332e9d6',1,'nanopb_generator.OneOf.allocation()'],['../classnanopb__generator_1_1ExtensionRange.html#ab587a3f60473ef8ce973b7e2ca79c870',1,'nanopb_generator.ExtensionRange.allocation()'],['../classnanopb__generator_1_1Field.html#aefbe5719d1304d9a1a515756441a9ea7',1,'nanopb_generator.Field.allocation()']]],
   ['already_5fcalled_5fenv_5fname_3',['already_called_env_name',['../namespaceplatformio__generator.html#a5f89712f146a95358f0c34e3e2fe7318',1,'platformio_generator']]],
   ['alt_4',['alt',['../structTelemetryPacket.html#a2d361ce45182a072473dbb14d35f43c2',1,'TelemetryPacket']]],
-  ['alt_5fbuffer_5',['alt_buffer',['../classYessir.html#a94d56222af68ed85023c4e2daa61214e',1,'Yessir']]],
+  ['alt_5fbuffer_5',['alt_buffer',['../classYessir.html#a42158738eb19ec52d6327656ce76556c',1,'Yessir']]],
   ['altitude_6',['altitude',['../structStateEstimate.html#a3f454e76e09e849ad40701145877d512',1,'StateEstimate::altitude()'],['../structBarometer.html#aa874e2036aba7f739bfe0a101ad3008b',1,'Barometer::altitude()'],['../structGPS.html#a3d5ef7e6f81865883f06add4138a1c8d',1,'GPS::altitude()'],['../structKalmanData.html#a6c0cefd23af7fb313612fd19b9f32c95',1,'KalmanData::altitude()']]],
   ['anonymous_7',['anonymous',['../classnanopb__generator_1_1OneOf.html#a5867baa9b0cf3bc667d984992dbc989f',1,'nanopb_generator::OneOf']]],
   ['apogee_5ftime_8',['apogee_time',['../classFSM.html#a5079fa9c87373326c8f8e3153ecbb725',1,'FSM::apogee_time()'],['../classfsm_1_1SustainerFSM.html#a22ceedc50a6982a2b87c301cf73ede18',1,'fsm.SustainerFSM.apogee_time()'],['../classfsm_1_1BoosterFsm.html#a0765a125ae590bbd35d77fb3661edf46',1,'fsm.BoosterFsm.apogee_time()']]],

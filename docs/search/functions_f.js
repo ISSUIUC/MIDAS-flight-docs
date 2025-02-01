@@ -9,7 +9,7 @@ var searchData=
   ['print_6',['print',['../structSerialPatch.html#abf650be0d82e439415efee414382fb61',1,'SerialPatch']]],
   ['print_5fversions_7',['print_versions',['../namespaceproto_1_1__utils.html#ac0806060f18425df0b2e15653c983e28',1,'proto::_utils']]],
   ['println_8',['println',['../structSerialPatch.html#a6dec8f1fe1c59cb90c39c1427d94620d',1,'SerialPatch']]],
-  ['priori_9',['priori',['../classExampleKalmanFilter.html#a29f0364a2694136b9b53200e37e56ea5',1,'ExampleKalmanFilter::priori()'],['../classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d',1,'KalmanFilter::priori()'],['../classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4',1,'Yessir::priori()']]],
+  ['priori_9',['priori',['../classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4',1,'Yessir::priori()'],['../classExampleKalmanFilter.html#a29f0364a2694136b9b53200e37e56ea5',1,'ExampleKalmanFilter::priori()'],['../classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d',1,'KalmanFilter::priori()'],['../classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4',1,'Yessir::priori()']]],
   ['process_5fcmdline_10',['process_cmdline',['../namespacenanopb__generator.html#abf7c7b720a94e8cef0600bbe1da1eee4',1,'nanopb_generator']]],
   ['process_5ffile_11',['process_file',['../namespacenanopb__generator.html#a161b6e045bd6843c94900ec2047d682d',1,'nanopb_generator']]],
   ['push_12',['push',['../classStaticQueue__t.html#af65ae1344439028263777b31849cf141',1,'StaticQueue_t::push()'],['../structBuffer.html#a6453c092c48ab4977fae28514b54621d',1,'Buffer::push()']]]

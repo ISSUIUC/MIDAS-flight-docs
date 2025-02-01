@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('classYessir.html',''); initResizable()
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="yessir_8h_source.html">yessir.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="ekf_8h_source.html">ekf.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Yessir:</div>
 <div class="dyncontent">
@@ -99,6 +99,7 @@ Inheritance diagram for Yessir:</div>
   <img src="classYessir.png" usemap="#Yessir_map" alt=""/>
   <map id="Yessir_map" name="Yessir_map">
 <area href="classKalmanFilter.html" alt="KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;" shape="rect" coords="0,0,333,24"/>
+<area href="classKalmanFilter.html" alt="KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;" shape="rect" coords="343,0,676,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -122,7 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0cca08c00e34ec6a232e1d8bee83d514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the F matrix given time step.  <a href="classYessir.html#a0cca08c00e34ec6a232e1d8bee83d514">More...</a><br /></td></tr>
 <tr class="separator:a0cca08c00e34ec6a232e1d8bee83d514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17c70fbcd265caca4790031c5498e292"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a17c70fbcd265caca4790031c5498e292">BodyToGlobal</a> (<a class="el" href="structeuler__t.html">euler_t</a> angles, Eigen::Matrix&lt; float, 3, 1 &gt; <a class="el" href="classKalmanFilter.html#a546718e34c959119d0368f0ffec7c75f">x_k</a>)</td></tr>
-<tr class="memdesc:a17c70fbcd265caca4790031c5498e292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a vector in the body frame to the global frame.  <a href="classYessir.html#a17c70fbcd265caca4790031c5498e292">More...</a><br /></td></tr>
+<tr class="memdesc:a17c70fbcd265caca4790031c5498e292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates current state of the rocket without current sensor data.  <a href="classYessir.html#a17c70fbcd265caca4790031c5498e292">More...</a><br /></td></tr>
 <tr class="separator:a17c70fbcd265caca4790031c5498e292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43d8f9990f6c6124b03714a958a8b828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a43d8f9990f6c6124b03714a958a8b828">getState</a> () override</td></tr>
 <tr class="memdesc:a43d8f9990f6c6124b03714a958a8b828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for state X.  <a href="classYessir.html#a43d8f9990f6c6124b03714a958a8b828">More...</a><br /></td></tr>
@@ -132,6 +133,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acc617206831cccbc9fc25bd1dbd2d3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a3b74c7f77b38df88a758fb3c8ca9be25">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>)</td></tr>
 <tr class="memdesc:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classYessir.html#a3b74c7f77b38df88a758fb3c8ca9be25">More...</a><br /></td></tr>
+<tr class="separator:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82960ddf50c7c311a8e9952c846a8b54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a82960ddf50c7c311a8e9952c846a8b54">Yessir</a> ()</td></tr>
+<tr class="separator:a82960ddf50c7c311a8e9952c846a8b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3d4e2dc7b404c9b210a769371773a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#aec3d4e2dc7b404c9b210a769371773a1">initialize</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *args) override</td></tr>
+<tr class="separator:aec3d4e2dc7b404c9b210a769371773a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488fc5fb4a8d425e1161d49e21fe9db4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4">priori</a> () override</td></tr>
+<tr class="separator:a488fc5fb4a8d425e1161d49e21fe9db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11cee359979927f26afb2476aa84132e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a11cee359979927f26afb2476aa84132e">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>) override</td></tr>
+<tr class="separator:a11cee359979927f26afb2476aa84132e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9680b0d107411ffe64dd16aebc6650"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#ace9680b0d107411ffe64dd16aebc6650">setQ</a> (float dt, float sd)</td></tr>
+<tr class="separator:ace9680b0d107411ffe64dd16aebc6650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cca08c00e34ec6a232e1d8bee83d514"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a0cca08c00e34ec6a232e1d8bee83d514">setF</a> (float dt)</td></tr>
+<tr class="separator:a0cca08c00e34ec6a232e1d8bee83d514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c70fbcd265caca4790031c5498e292"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a17c70fbcd265caca4790031c5498e292">BodyToGlobal</a> (<a class="el" href="structeuler__t.html">euler_t</a> angles, Eigen::Matrix&lt; float, 3, 1 &gt; <a class="el" href="classKalmanFilter.html#a546718e34c959119d0368f0ffec7c75f">x_k</a>)</td></tr>
+<tr class="separator:a17c70fbcd265caca4790031c5498e292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d8f9990f6c6124b03714a958a8b828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a43d8f9990f6c6124b03714a958a8b828">getState</a> () override</td></tr>
+<tr class="separator:a43d8f9990f6c6124b03714a958a8b828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc617206831cccbc9fc25bd1dbd2d3a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#acc617206831cccbc9fc25bd1dbd2d3a2">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>) override</td></tr>
+<tr class="separator:acc617206831cccbc9fc25bd1dbd2d3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a3b74c7f77b38df88a758fb3c8ca9be25">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>)</td></tr>
 <tr class="separator:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classKalmanFilter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classKalmanFilter')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classKalmanFilter.html">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a></td></tr>
 <tr class="memitem:a4a2ddeb7db16a968709fa99761eb6fed inherit pub_methods_classKalmanFilter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed">KalmanFilter</a> ()</td></tr>
@@ -152,12 +173,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a24a97076a6c3037eadf07b171fd4d846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85525d9b9289a65b9fd7333b47f30364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanState.html">KalmanState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a85525d9b9289a65b9fd7333b47f30364">kalman_state</a></td></tr>
 <tr class="separator:a85525d9b9289a65b9fd7333b47f30364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adac4e5f66fb43a68d92f9d3e2218e750"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#adac4e5f66fb43a68d92f9d3e2218e750">init_accel</a> = Eigen::Matrix&lt;float, 3, 1&gt;::Zero()</td></tr>
-<tr class="separator:adac4e5f66fb43a68d92f9d3e2218e750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8679592b747867996923f73ce3c6ab52"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a8679592b747867996923f73ce3c6ab52">world_accel</a></td></tr>
-<tr class="separator:a8679592b747867996923f73ce3c6ab52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94d56222af68ed85023c4e2daa61214e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structBuffer.html">Buffer</a>&lt; float, <a class="el" href="yessir_8h.html#af6ec77922c1d205f043f088f449c7d55">ALTITUDE_BUFFER_SIZE</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a94d56222af68ed85023c4e2daa61214e">alt_buffer</a></td></tr>
-<tr class="separator:a94d56222af68ed85023c4e2daa61214e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd63ffc644da09f06b40287cea18ddd4"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#acd63ffc644da09f06b40287cea18ddd4">init_accel</a> = Eigen::Matrix&lt;float, 3, 1&gt;::Zero()</td></tr>
+<tr class="separator:acd63ffc644da09f06b40287cea18ddd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3893d4cae3de3dc51a975a541d98397"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#ad3893d4cae3de3dc51a975a541d98397">world_accel</a></td></tr>
+<tr class="separator:ad3893d4cae3de3dc51a975a541d98397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42158738eb19ec52d6327656ce76556c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structBuffer.html">Buffer</a>&lt; float, <a class="el" href="yessir_8h.html#af6ec77922c1d205f043f088f449c7d55">ALTITUDE_BUFFER_SIZE</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a42158738eb19ec52d6327656ce76556c">alt_buffer</a></td></tr>
+<tr class="separator:a42158738eb19ec52d6327656ce76556c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9749be647231e2d0496dba54f9af8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a></td></tr>
 <tr class="separator:a1d9749be647231e2d0496dba54f9af8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -189,10 +210,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00011">11</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00011">11</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a82960ddf50c7c311a8e9952c846a8b54" name="a82960ddf50c7c311a8e9952c846a8b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82960ddf50c7c311a8e9952c846a8b54">&#9670;&nbsp;</a></span>Yessir()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82960ddf50c7c311a8e9952c846a8b54">&#9670;&nbsp;</a></span>Yessir() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,13 +227,30 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00004">4</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00004">4</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a82960ddf50c7c311a8e9952c846a8b54" name="a82960ddf50c7c311a8e9952c846a8b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82960ddf50c7c311a8e9952c846a8b54">&#9670;&nbsp;</a></span>Yessir() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Yessir::Yessir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a17c70fbcd265caca4790031c5498e292" name="a17c70fbcd265caca4790031c5498e292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c70fbcd265caca4790031c5498e292">&#9670;&nbsp;</a></span>BodyToGlobal()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c70fbcd265caca4790031c5498e292">&#9670;&nbsp;</a></span>BodyToGlobal() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +275,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Converts a vector in the body frame to the global frame. </p>
+<p>Estimates current state of the rocket without current sensor data. </p>
+<p >Converts a vector in the body frame to the global frame.</p>
+<p >The priori step of the Kalman filter is used to estimate the current state of the rocket without knowledge of the current sensor data. In other words, it extrapolates the state at time n+1 based on the state at time n.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">angles</td><td>Roll, pitch, yaw angles </td></tr>
@@ -247,12 +287,40 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the global frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00228">228</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00128">128</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a17c70fbcd265caca4790031c5498e292" name="a17c70fbcd265caca4790031c5498e292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c70fbcd265caca4790031c5498e292">&#9670;&nbsp;</a></span>BodyToGlobal() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt; float, 3, 1 &gt; Yessir::BodyToGlobal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structeuler__t.html">euler_t</a>&#160;</td>
+          <td class="paramname"><em>angles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td>
+          <td class="paramname"><em>x_k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="a43d8f9990f6c6124b03714a958a8b828" name="a43d8f9990f6c6124b03714a958a8b828"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43d8f9990f6c6124b03714a958a8b828">&#9670;&nbsp;</a></span>getState()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43d8f9990f6c6124b03714a958a8b828">&#9670;&nbsp;</a></span>getState() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,12 +347,39 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00242">242</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00258">258</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a43d8f9990f6c6124b03714a958a8b828" name="a43d8f9990f6c6124b03714a958a8b828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43d8f9990f6c6124b03714a958a8b828">&#9670;&nbsp;</a></span>getState() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structKalmanData.html">KalmanData</a> Yessir::getState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
 </div>
 </div>
 <a id="aec3d4e2dc7b404c9b210a769371773a1" name="aec3d4e2dc7b404c9b210a769371773a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec3d4e2dc7b404c9b210a769371773a1">&#9670;&nbsp;</a></span>initialize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3d4e2dc7b404c9b210a769371773a1">&#9670;&nbsp;</a></span>initialize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,12 +407,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00027">27</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00027">27</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aec3d4e2dc7b404c9b210a769371773a1" name="aec3d4e2dc7b404c9b210a769371773a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3d4e2dc7b404c9b210a769371773a1">&#9670;&nbsp;</a></span>initialize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRocketSystems.html">RocketSystems</a> *&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
 </div>
 </div>
 <a id="a488fc5fb4a8d425e1161d49e21fe9db4" name="a488fc5fb4a8d425e1161d49e21fe9db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a488fc5fb4a8d425e1161d49e21fe9db4">&#9670;&nbsp;</a></span>priori()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a488fc5fb4a8d425e1161d49e21fe9db4">&#9670;&nbsp;</a></span>priori() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,12 +467,39 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00127">127</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00136">136</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a488fc5fb4a8d425e1161d49e21fe9db4" name="a488fc5fb4a8d425e1161d49e21fe9db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488fc5fb4a8d425e1161d49e21fe9db4">&#9670;&nbsp;</a></span>priori() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::priori </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
 </div>
 </div>
 <a id="a0cca08c00e34ec6a232e1d8bee83d514" name="a0cca08c00e34ec6a232e1d8bee83d514"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cca08c00e34ec6a232e1d8bee83d514">&#9670;&nbsp;</a></span>setF()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cca08c00e34ec6a232e1d8bee83d514">&#9670;&nbsp;</a></span>setF() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,12 +523,30 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The F matrix is the state transition matrix and is defined by how the states change over time. </p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00313">313</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00329">329</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0cca08c00e34ec6a232e1d8bee83d514" name="a0cca08c00e34ec6a232e1d8bee83d514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cca08c00e34ec6a232e1d8bee83d514">&#9670;&nbsp;</a></span>setF() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::setF </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="ace9680b0d107411ffe64dd16aebc6650" name="ace9680b0d107411ffe64dd16aebc6650"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace9680b0d107411ffe64dd16aebc6650">&#9670;&nbsp;</a></span>setQ()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ace9680b0d107411ffe64dd16aebc6650">&#9670;&nbsp;</a></span>setQ() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -413,12 +581,40 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The Q matrix is the covariance matrix for the process noise and is updated based on the time taken per cycle of the Kalman Filter Thread. </p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00272">272</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00288">288</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ace9680b0d107411ffe64dd16aebc6650" name="ace9680b0d107411ffe64dd16aebc6650"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace9680b0d107411ffe64dd16aebc6650">&#9670;&nbsp;</a></span>setQ() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::setQ </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>sd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="acc617206831cccbc9fc25bd1dbd2d3a2" name="acc617206831cccbc9fc25bd1dbd2d3a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc617206831cccbc9fc25bd1dbd2d3a2">&#9670;&nbsp;</a></span>setState()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acc617206831cccbc9fc25bd1dbd2d3a2">&#9670;&nbsp;</a></span>setState() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,12 +647,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00251">251</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00267">267</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acc617206831cccbc9fc25bd1dbd2d3a2" name="acc617206831cccbc9fc25bd1dbd2d3a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc617206831cccbc9fc25bd1dbd2d3a2">&#9670;&nbsp;</a></span>setState() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::setState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structKalmanState.html">KalmanState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
 </div>
 </div>
 <a id="a3b74c7f77b38df88a758fb3c8ca9be25" name="a3b74c7f77b38df88a758fb3c8ca9be25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b74c7f77b38df88a758fb3c8ca9be25">&#9670;&nbsp;</a></span>tick()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b74c7f77b38df88a758fb3c8ca9be25">&#9670;&nbsp;</a></span>tick() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,12 +742,64 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00212">212</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00228">228</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3b74c7f77b38df88a758fb3c8ca9be25" name="a3b74c7f77b38df88a758fb3c8ca9be25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b74c7f77b38df88a758fb3c8ca9be25">&#9670;&nbsp;</a></span>tick() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::tick </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>sd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBarometer.html">Barometer</a> &amp;&#160;</td>
+          <td class="paramname"><em>barometer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td>
+          <td class="paramname"><em>acceleration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a> &amp;&#160;</td>
+          <td class="paramname"><em>orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="a11cee359979927f26afb2476aa84132e" name="a11cee359979927f26afb2476aa84132e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11cee359979927f26afb2476aa84132e">&#9670;&nbsp;</a></span>update()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a11cee359979927f26afb2476aa84132e">&#9670;&nbsp;</a></span>update() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -573,13 +849,63 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00142">142</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00158">158</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a11cee359979927f26afb2476aa84132e" name="a11cee359979927f26afb2476aa84132e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11cee359979927f26afb2476aa84132e">&#9670;&nbsp;</a></span>update() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Yessir::update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBarometer.html">Barometer</a>&#160;</td>
+          <td class="paramname"><em>barometer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td>
+          <td class="paramname"><em>acceleration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
+          <td class="paramname"><em>orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a94d56222af68ed85023c4e2daa61214e" name="a94d56222af68ed85023c4e2daa61214e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94d56222af68ed85023c4e2daa61214e">&#9670;&nbsp;</a></span>alt_buffer</h2>
+<a id="a42158738eb19ec52d6327656ce76556c" name="a42158738eb19ec52d6327656ce76556c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42158738eb19ec52d6327656ce76556c">&#9670;&nbsp;</a></span>alt_buffer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,7 +914,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structBuffer.html">Buffer</a>&lt;float, <a class="el" href="yessir_8h.html#af6ec77922c1d205f043f088f449c7d55">ALTITUDE_BUFFER_SIZE</a>&gt; Yessir::alt_buffer</td>
+          <td class="memname"><a class="el" href="structBuffer.html">Buffer</a>&lt; float, <a class="el" href="yessir_8h.html#af6ec77922c1d205f043f088f449c7d55">ALTITUDE_BUFFER_SIZE</a> &gt; Yessir::alt_buffer</td>
         </tr>
       </table>
   </td>
@@ -598,12 +924,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00037">37</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00037">37</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
-<a id="adac4e5f66fb43a68d92f9d3e2218e750" name="adac4e5f66fb43a68d92f9d3e2218e750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adac4e5f66fb43a68d92f9d3e2218e750">&#9670;&nbsp;</a></span>init_accel</h2>
+<a id="acd63ffc644da09f06b40287cea18ddd4" name="acd63ffc644da09f06b40287cea18ddd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd63ffc644da09f06b40287cea18ddd4">&#9670;&nbsp;</a></span>init_accel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,7 +938,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;float, 3, 1&gt; Yessir::init_accel = Eigen::Matrix&lt;float, 3, 1&gt;::Zero()</td>
+          <td class="memname">Eigen::Matrix&lt; float, 3, 1 &gt; Yessir::init_accel = Eigen::Matrix&lt;float, 3, 1&gt;::Zero()</td>
         </tr>
       </table>
   </td>
@@ -622,7 +948,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00035">35</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00035">35</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -646,7 +972,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00032">32</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00032">32</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -670,7 +996,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00033">33</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00033">33</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -694,7 +1020,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00030">30</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00030">30</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -710,7 +1036,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00028">28</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00028">28</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -734,7 +1060,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00031">31</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00031">31</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -758,12 +1084,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00038">38</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00038">38</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
-<a id="a8679592b747867996923f73ce3c6ab52" name="a8679592b747867996923f73ce3c6ab52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8679592b747867996923f73ce3c6ab52">&#9670;&nbsp;</a></span>world_accel</h2>
+<a id="ad3893d4cae3de3dc51a975a541d98397" name="ad3893d4cae3de3dc51a975a541d98397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3893d4cae3de3dc51a975a541d98397">&#9670;&nbsp;</a></span>world_accel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -772,7 +1098,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;float, 3, 1&gt; Yessir::world_accel</td>
+          <td class="memname">Eigen::Matrix&lt; float, 3, 1 &gt; Yessir::world_accel</td>
         </tr>
       </table>
   </td>
@@ -782,12 +1108,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yessir_8h_source.html#l00036">36</a> of file <a class="el" href="yessir_8h_source.html">yessir.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00036">36</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
+<li>/github/workspace/MIDAS/src/gnc/<a class="el" href="ekf_8h_source.html">ekf.h</a></li>
 <li>/github/workspace/MIDAS/src/gnc/<a class="el" href="yessir_8h_source.html">yessir.h</a></li>
+<li>/github/workspace/MIDAS/src/gnc/<a class="el" href="ekf_8cpp_source.html">ekf.cpp</a></li>
 <li>/github/workspace/MIDAS/src/gnc/<a class="el" href="yessir_8cpp_source.html">yessir.cpp</a></li>
 </ul>
 </div><!-- contents -->
