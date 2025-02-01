@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hilsimpacket_5fpb2_0',['hilsimpacket_pb2',['../namespacehilsimpacket__pb2.html',1,'']]]
+  ['generate_5fsize_0',['generate_size',['../namespacegenerate__size.html',1,'']]]
 ];

@@ -1,5 +1,11 @@
 var annotated_dup =
 [
+    [ "fsm", "namespacefsm.html", [
+      [ "BoosterFsm", "classfsm_1_1BoosterFsm.html", "classfsm_1_1BoosterFsm" ],
+      [ "FSMState", "classfsm_1_1FSMState.html", "classfsm_1_1FSMState" ],
+      [ "StateEstimate", "classfsm_1_1StateEstimate.html", null ],
+      [ "SustainerFSM", "classfsm_1_1SustainerFSM.html", "classfsm_1_1SustainerFSM" ]
+    ] ],
     [ "nanopb_generator", "namespacenanopb__generator.html", [
       [ "EncodedSize", "classnanopb__generator_1_1EncodedSize.html", "classnanopb__generator_1_1EncodedSize" ],
       [ "Enum", "classnanopb__generator_1_1Enum.html", "classnanopb__generator_1_1Enum" ],
