@@ -24,6 +24,6 @@ var searchData=
   ['newest_5fidx_21',['newest_idx',['../structBuffer.html#a02cb7515ccb2d044d41677fd999f2551',1,'Buffer']]],
   ['next_5fidx_22',['next_idx',['../structCore.html#a61c91fc16e92457388dae05c950b80d6',1,'Core']]],
   ['noerror_23',['NoError',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f',1,'errors.h']]],
-  ['num_5fsensor_5finputs_24',['NUM_SENSOR_INPUTS',['../ekf_8h.html#ac6ef2495692adee513161f504fefaebe',1,'NUM_SENSOR_INPUTS():&#160;ekf.h'],['../yessir_8h.html#ac6ef2495692adee513161f504fefaebe',1,'NUM_SENSOR_INPUTS():&#160;yessir.h']]],
-  ['num_5fstates_25',['NUM_STATES',['../ekf_8h.html#a6e67a587012cd0570839daca590cf822',1,'NUM_STATES():&#160;ekf.h'],['../yessir_8h.html#a6e67a587012cd0570839daca590cf822',1,'NUM_STATES():&#160;yessir.h']]]
+  ['num_5fsensor_5finputs_24',['NUM_SENSOR_INPUTS',['../yessir_8h.html#ac6ef2495692adee513161f504fefaebe',1,'yessir.h']]],
+  ['num_5fstates_25',['NUM_STATES',['../yessir_8h.html#a6e67a587012cd0570839daca590cf822',1,'yessir.h']]]
 ];

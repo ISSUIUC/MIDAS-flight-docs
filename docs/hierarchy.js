@@ -30,7 +30,6 @@ var hierarchy =
       [ "ExampleKalmanFilter", "classExampleKalmanFilter.html", null ]
     ] ],
     [ "KalmanFilter< NUM_STATES, NUM_SENSOR_INPUTS >", "classKalmanFilter.html", [
-      [ "Yessir", "classYessir.html", null ],
       [ "Yessir", "classYessir.html", null ]
     ] ],
     [ "KalmanState", "structKalmanState.html", null ],

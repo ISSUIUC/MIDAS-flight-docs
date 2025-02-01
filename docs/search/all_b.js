@@ -4,7 +4,7 @@ var searchData=
   ['kalman_1',['kalman',['../structLoggedReading.html#a8729ba227cbf4295cc5d9e8275d805f3',1,'LoggedReading::kalman()'],['../structRocketData.html#a7e5fd732aa751d57ba6cd3fe91cc31f4',1,'RocketData::kalman()']]],
   ['kalman_5fapo_2',['kalman_apo',['../classYessir.html#a24a97076a6c3037eadf07b171fd4d846',1,'Yessir']]],
   ['kalman_5ffilter_2eh_3',['kalman_filter.h',['../kalman__filter_8h.html',1,'']]],
-  ['kalman_5fstate_4',['kalman_state',['../classYessir.html#a85525d9b9289a65b9fd7333b47f30364',1,'Yessir::kalman_state()'],['../classExampleKalmanFilter.html#a146f7f573699b6c4291e191524b80bcd',1,'ExampleKalmanFilter::kalman_state()']]],
+  ['kalman_5fstate_4',['kalman_state',['../classExampleKalmanFilter.html#a146f7f573699b6c4291e191524b80bcd',1,'ExampleKalmanFilter::kalman_state()'],['../classYessir.html#a85525d9b9289a65b9fd7333b47f30364',1,'Yessir::kalman_state()']]],
   ['kalmandata_5',['KalmanData',['../structKalmanData.html',1,'']]],
   ['kalmanfilter_6',['KalmanFilter',['../classKalmanFilter.html',1,'KalmanFilter&lt; _NumStates, _NumInputs &gt;'],['../classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed',1,'KalmanFilter::KalmanFilter()']]],
   ['kalmanfilter_3c_209_2c_204_20_3e_7',['KalmanFilter&lt; 9, 4 &gt;',['../classKalmanFilter.html',1,'']]],
