@@ -69,7 +69,7 @@ var NAVTREEINDEX =
 "hilsimpacket_8pb_8h.html#a5eaacf0c31ccecd76684602cdf9014ef",
 "nanopb__generator_8py.html#aef56aa8113f39e9776739a7b76429493",
 "structKalmanData.html#aaeb40d4d7c63179577eca10c5e33f76a",
-"structThreadManager.html#a2010fb78cce8ee73b426b6c7dada6814"
+"structThreadInfo.html#aa1fc1d684528eff3a04da0bac5afd29a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

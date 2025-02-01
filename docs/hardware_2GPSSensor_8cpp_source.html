@@ -119,21 +119,21 @@ $(document).ready(function(){initNavTree('hardware_2GPSSensor_8cpp_source.html',
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    GPGGA_Info_t gpgga_message = teseo.getGPGGAData();</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    GPRMC_Info_t gprmc_message = teseo.getGPRMCData();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    float64_t lat = gpgga_message.xyz.lat;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    float64_t lon = gpgga_message.xyz.lon;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    float64_t <a class="code hl_variable" href="telemetry__packet_8h.html#a58d1cfb46a8035aadcb0d2b3f178e1ed">lat</a> = gpgga_message.xyz.lat;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    float64_t <a class="code hl_variable" href="telemetry__packet_8h.html#a14be207fbed30fba5d322cb03bc5f228">lon</a> = gpgga_message.xyz.lon;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">//                                            d ddm m.mm mmm</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// the max value of an unsigned 32 bit int is 2,147,4 83,647</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">// Since the maximum longitude is 180, we can store 3 degree digits, and</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// 7 minute digits, which is all we need, because NMEA gives 6 minute digits.</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">// See https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    int32_t lat_int = <span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(lat*100000);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    int32_t lon_int = <span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(lon*100000);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    int32_t lat_int = <span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(<a class="code hl_variable" href="telemetry__packet_8h.html#a58d1cfb46a8035aadcb0d2b3f178e1ed">lat</a>*100000);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    int32_t lon_int = <span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(<a class="code hl_variable" href="telemetry__packet_8h.html#a14be207fbed30fba5d322cb03bc5f228">lon</a>*100000);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    lat_int *= (gpgga_message.xyz.ns == <span class="charliteral">&#39;N&#39;</span>) ? 1 : -1;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    lon_int *= (gpgga_message.xyz.ew == <span class="charliteral">&#39;E&#39;</span>) ? 1 : -1;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">float</span> alt = gpgga_message.xyz.alt;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">float</span> v = gprmc_message.<a class="code hl_variable" href="structGPS.html#a5ebd297588ed65be9e352a180f9fe29d">speed</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="telemetry__packet_8h.html#aa9e21a998b03fef36dd5aa170491508a">alt</a> = gpgga_message.xyz.alt;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">float</span> v = gprmc_message.speed;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    uint16_t sat_count = gpgga_message.sats;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    uint32_t day = gprmc_message.date / 10000 * 86400;</div>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('hardware_2GPSSensor_8cpp_source.html',
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    time += time_of_day;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    time += (int) ((30 + gprmc_message.date % 100) / 4) * 86400;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> <a class="code hl_struct" href="structGPS.html">GPS</a>{lat_int, lon_int, alt, v, sat_count, time};</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> <a class="code hl_struct" href="structGPS.html">GPS</a>{lat_int, lon_int, <a class="code hl_variable" href="telemetry__packet_8h.html#aa9e21a998b03fef36dd5aa170491508a">alt</a>, v, sat_count, time};</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
 <div class="ttc" id="aerrors_8h_html_a59e56af19e754a6aa26a612ebf91d05f"><div class="ttname"><a href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a></div><div class="ttdeci">ErrorCode</div><div class="ttdoc">list of all error codes that can arise</div><div class="ttdef"><b>Definition:</b> <a href="errors_8h_source.html#l00008">errors.h:8</a></div></div>
 <div class="ttc" id="aerrors_8h_html_a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f"><div class="ttname"><a href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f">NoError</a></div><div class="ttdeci">@ NoError</div><div class="ttdef"><b>Definition:</b> <a href="errors_8h_source.html#l00009">errors.h:9</a></div></div>
@@ -166,7 +166,9 @@ $(document).ready(function(){initNavTree('hardware_2GPSSensor_8cpp_source.html',
 <div class="ttc" id="astructGPSSensor_html_a411100dccb61b1ddf7fc1a2f5cc8530c"><div class="ttname"><a href="structGPSSensor.html#a411100dccb61b1ddf7fc1a2f5cc8530c">GPSSensor::init</a></div><div class="ttdeci">ErrorCode init()</div><div class="ttdoc">Initializes GPS, returns NoError.</div><div class="ttdef"><b>Definition:</b> <a href="hardware_2GPSSensor_8cpp_source.html#l00017">GPSSensor.cpp:17</a></div></div>
 <div class="ttc" id="astructGPSSensor_html_a46585a277745653800c1e0d374194bd7"><div class="ttname"><a href="structGPSSensor.html#a46585a277745653800c1e0d374194bd7">GPSSensor::read</a></div><div class="ttdeci">GPS read()</div><div class="ttdoc">Reads the GPS data from the sensor (lat, long, altitude, sat count, etc)</div><div class="ttdef"><b>Definition:</b> <a href="hardware_2GPSSensor_8cpp_source.html#l00040">GPSSensor.cpp:40</a></div></div>
 <div class="ttc" id="astructGPS_html"><div class="ttname"><a href="structGPS.html">GPS</a></div><div class="ttdoc">data from the GPS</div><div class="ttdef"><b>Definition:</b> <a href="sensor__data_8h_source.html#l00148">sensor_data.h:148</a></div></div>
-<div class="ttc" id="astructGPS_html_a5ebd297588ed65be9e352a180f9fe29d"><div class="ttname"><a href="structGPS.html#a5ebd297588ed65be9e352a180f9fe29d">GPS::speed</a></div><div class="ttdeci">float speed</div><div class="ttdef"><b>Definition:</b> <a href="sensor__data_8h_source.html#l00152">sensor_data.h:152</a></div></div>
+<div class="ttc" id="atelemetry__packet_8h_html_a14be207fbed30fba5d322cb03bc5f228"><div class="ttname"><a href="telemetry__packet_8h.html#a14be207fbed30fba5d322cb03bc5f228">lon</a></div><div class="ttdeci">int32_t lon</div><div class="ttdef"><b>Definition:</b> <a href="telemetry__packet_8h_source.html#l00001">telemetry_packet.h:1</a></div></div>
+<div class="ttc" id="atelemetry__packet_8h_html_a58d1cfb46a8035aadcb0d2b3f178e1ed"><div class="ttname"><a href="telemetry__packet_8h.html#a58d1cfb46a8035aadcb0d2b3f178e1ed">lat</a></div><div class="ttdeci">int32_t lat</div><div class="ttdef"><b>Definition:</b> <a href="telemetry__packet_8h_source.html#l00000">telemetry_packet.h:0</a></div></div>
+<div class="ttc" id="atelemetry__packet_8h_html_aa9e21a998b03fef36dd5aa170491508a"><div class="ttname"><a href="telemetry__packet_8h.html#aa9e21a998b03fef36dd5aa170491508a">alt</a></div><div class="ttdeci">uint16_t alt</div><div class="ttdef"><b>Definition:</b> <a href="telemetry__packet_8h_source.html#l00002">telemetry_packet.h:2</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

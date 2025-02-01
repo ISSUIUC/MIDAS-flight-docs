@@ -7,6 +7,8 @@ var structTelemetryPacket =
     [ "highg_ax", "structTelemetryPacket.html#a4c228a4f68d1733323fb6b09984caf98", null ],
     [ "highg_ay", "structTelemetryPacket.html#a9c8f8f438509b8cef5bae7540bfbb377", null ],
     [ "highg_az", "structTelemetryPacket.html#a30fa822da55f6ad1a89f2e50709332bb", null ],
+    [ "kf_vx", "structTelemetryPacket.html#acf1c31b77493f15ee2317f7833193b18", null ],
     [ "lat", "structTelemetryPacket.html#adf481aa83ec3c59370bdfa6bed6e5ae1", null ],
-    [ "lon", "structTelemetryPacket.html#ae528651a21ba515a05b8e4c4e47b4e2d", null ]
+    [ "lon", "structTelemetryPacket.html#ae528651a21ba515a05b8e4c4e47b4e2d", null ],
+    [ "pyro", "structTelemetryPacket.html#a8f4d916a1fe71b3704b651a07ef8f50c", null ]
 ];

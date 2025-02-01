@@ -97,13 +97,15 @@ $(document).ready(function(){initNavTree('telemetry_8cpp.html',''); initResizabl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aada2d75bc8a8c6eb845bd940eadfa3fd"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">map</a> (long x, long in_min, long in_max, long out_min, long out_max)</td></tr>
+<tr class="separator:aada2d75bc8a8c6eb845bd940eadfa3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d38c0ad909fd09cc2069480a48560b2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a9d38c0ad909fd09cc2069480a48560b2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2">inv_convert_range</a> (float val, float range)</td></tr>
 <tr class="memdesc:a9d38c0ad909fd09cc2069480a48560b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function maps an input value onto within a particular range into a fixed point value of a certin binary size.  <a href="telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2">More...</a><br /></td></tr>
 <tr class="separator:a9d38c0ad909fd09cc2069480a48560b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f8bf134a0611cb1f8de9b3c16703953"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; uint16_t, uint16_t, uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a8f8bf134a0611cb1f8de9b3c16703953">pack_highg_tilt</a> (<a class="el" href="structHighGData.html">HighGData</a> const &amp;highg, uint8_t tilt)</td></tr>
-<tr class="memdesc:a8f8bf134a0611cb1f8de9b3c16703953"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs highg and tilt infomation into 3, 2 byte integers  <a href="telemetry_8cpp.html#a8f8bf134a0611cb1f8de9b3c16703953">More...</a><br /></td></tr>
-<tr class="separator:a8f8bf134a0611cb1f8de9b3c16703953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6e9f899f87477e6fc5afbbcbd91d52"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; uint16_t, uint16_t, uint16_t, uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a4a6e9f899f87477e6fc5afbbcbd91d52">pack_highg_tilt</a> (<a class="el" href="structHighGData.html">HighGData</a> const &amp;highg, uint16_t tilt)</td></tr>
+<tr class="memdesc:a4a6e9f899f87477e6fc5afbbcbd91d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs highg and tilt infomation into 3, 2 byte integers  <a href="telemetry_8cpp.html#a4a6e9f899f87477e6fc5afbbcbd91d52">More...</a><br /></td></tr>
+<tr class="separator:a4a6e9f899f87477e6fc5afbbcbd91d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7892d4e547c901c2bf877a145596d867"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a7892d4e547c901c2bf877a145596d867">__attribute__</a> ((warn_unused_result)) <a class="el" href="classTelemetry.html">Telemetry</a></td></tr>
 <tr class="memdesc:a7892d4e547c901c2bf877a145596d867"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes the <a class="el" href="classTelemetry.html" title="wraps the telemetry system to create and send a packet">Telemetry</a> system  <a href="telemetry_8cpp.html#a7892d4e547c901c2bf877a145596d867">More...</a><br /></td></tr>
 <tr class="separator:a7892d4e547c901c2bf877a145596d867"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,7 +135,7 @@ Functions</h2></td></tr>
 <p>initializes the <a class="el" href="classTelemetry.html" title="wraps the telemetry system to create and send a packet">Telemetry</a> system </p>
 <dl class="section return"><dt>Returns</dt><dd>Error Code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00113">113</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00128">128</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
@@ -175,18 +177,74 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>fixed point value represing val mapped onto the target range </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00017">17</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00021">21</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a8f8bf134a0611cb1f8de9b3c16703953" name="a8f8bf134a0611cb1f8de9b3c16703953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f8bf134a0611cb1f8de9b3c16703953">&#9670;&nbsp;</a></span>pack_highg_tilt()</h2>
+<a id="aada2d75bc8a8c6eb845bd940eadfa3fd" name="aada2d75bc8a8c6eb845bd940eadfa3fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aada2d75bc8a8c6eb845bd940eadfa3fd">&#9670;&nbsp;</a></span>map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long map </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>in_min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>in_max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>out_min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>out_max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00005">5</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4a6e9f899f87477e6fc5afbbcbd91d52" name="a4a6e9f899f87477e6fc5afbbcbd91d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6e9f899f87477e6fc5afbbcbd91d52">&#9670;&nbsp;</a></span>pack_highg_tilt()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::tuple&lt; uint16_t, uint16_t, uint16_t &gt; pack_highg_tilt </td>
+          <td class="memname">std::tuple&lt; uint16_t, uint16_t, uint16_t, uint16_t &gt; pack_highg_tilt </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structHighGData.html">HighGData</a> const &amp;&#160;</td>
           <td class="paramname"><em>highg</em>, </td>
@@ -194,7 +252,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>tilt</em>&#160;</td>
         </tr>
         <tr>
@@ -215,7 +273,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>tuple with packed data </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00031">31</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00035">35</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
