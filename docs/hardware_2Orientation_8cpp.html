@@ -106,6 +106,8 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a84d35d596e6f97fd154af476c4493eca"><td class="memItemLeft" align="right" valign="top">Adafruit_BNO08x&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a84d35d596e6f97fd154af476c4493eca">imu</a> (<a class="el" href="pins_8h.html#a83fe63892059fa450cb7fe4a06a12984">BNO086_RESET</a>)</td></tr>
 <tr class="separator:a84d35d596e6f97fd154af476c4493eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcccb27de2b7bdcbe285e71aa4b99739"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#afcccb27de2b7bdcbe285e71aa4b99739">angle_between_quaternions</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> &amp;q1, const <a class="el" href="structQuaternion.html">Quaternion</a> &amp;q2)</td></tr>
+<tr class="separator:afcccb27de2b7bdcbe285e71aa4b99739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f1534ab1c844aeb82ac588b2cde57f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a68f1534ab1c844aeb82ac588b2cde57f">quaternionToEuler</a> (float qr, float qi, float qj, float qk, bool degrees)</td></tr>
 <tr class="memdesc:a68f1534ab1c844aeb82ac588b2cde57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns a quaternion into its corresponding Euler 3D vector representation.  <a href="hardware_2Orientation_8cpp.html#a68f1534ab1c844aeb82ac588b2cde57f">More...</a><br /></td></tr>
 <tr class="separator:a68f1534ab1c844aeb82ac588b2cde57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +117,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a00fefb564a30775271e7ed3c92a1fa0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a00fefb564a30775271e7ed3c92a1fa0f">quaternionToEulerGI</a> (sh2_GyroIntegratedRV_t *rotational_vector, bool degrees)</td></tr>
 <tr class="memdesc:a00fefb564a30775271e7ed3c92a1fa0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a gyroscope quaternion and turns it into its Euler 3D counterpart.  <a href="hardware_2Orientation_8cpp.html#a00fefb564a30775271e7ed3c92a1fa0f">More...</a><br /></td></tr>
 <tr class="separator:a00fefb564a30775271e7ed3c92a1fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3d17ce50781fd8cd0f5be9bf87f155"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; float, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a6e3d17ce50781fd8cd0f5be9bf87f155">euler_to_vector</a> (float pitch, float yaw)</td></tr>
+<tr class="separator:a6e3d17ce50781fd8cd0f5be9bf87f155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d6d9dadf2f85cec7d99e2e839e5540a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a4d6d9dadf2f85cec7d99e2e839e5540a">angular_difference</a> (float pitch1, float yaw1, float pitch2, float yaw2)</td></tr>
+<tr class="separator:a4d6d9dadf2f85cec7d99e2e839e5540a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a991e6fae47e4eb53bf62cb8806008a"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a8a991e6fae47e4eb53bf62cb8806008a">generate_rotation_matrix</a> (<a class="el" href="structVec3.html">Vec3</a> rpy_vec)</td></tr>
 <tr class="memdesc:a8a991e6fae47e4eb53bf62cb8806008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a rotation matrix that transforms a vector by the rotations described in rpy_vec {roll, pitch, yaw} (in that order!)  <a href="hardware_2Orientation_8cpp.html#a8a991e6fae47e4eb53bf62cb8806008a">More...</a><br /></td></tr>
 <tr class="separator:a8a991e6fae47e4eb53bf62cb8806008a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,11 +145,113 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00010">10</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00009">9</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="afcccb27de2b7bdcbe285e71aa4b99739" name="afcccb27de2b7bdcbe285e71aa4b99739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcccb27de2b7bdcbe285e71aa4b99739">&#9670;&nbsp;</a></span>angle_between_quaternions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float angle_between_quaternions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structQuaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>q1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structQuaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>q2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00036">36</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4d6d9dadf2f85cec7d99e2e839e5540a" name="a4d6d9dadf2f85cec7d99e2e839e5540a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d6d9dadf2f85cec7d99e2e839e5540a">&#9670;&nbsp;</a></span>angular_difference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float angular_difference </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pitch1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yaw1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pitch2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yaw2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00103">103</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6e3d17ce50781fd8cd0f5be9bf87f155" name="a6e3d17ce50781fd8cd0f5be9bf87f155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3d17ce50781fd8cd0f5be9bf87f155">&#9670;&nbsp;</a></span>euler_to_vector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::tuple&lt; float, float, float &gt; euler_to_vector </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pitch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yaw</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00095">95</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a8a991e6fae47e4eb53bf62cb8806008a" name="a8a991e6fae47e4eb53bf62cb8806008a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a991e6fae47e4eb53bf62cb8806008a">&#9670;&nbsp;</a></span>generate_rotation_matrix()</h2>
 
@@ -162,7 +270,7 @@ Variables</h2></td></tr>
 
 <p>Generates a rotation matrix that transforms a vector by the rotations described in rpy_vec {roll, pitch, yaw} (in that order!) </p>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00093">93</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00119">119</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -231,17 +339,17 @@ Variables</h2></td></tr>
 <p>Turns a quaternion into its corresponding Euler 3D vector representation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">qr</td><td>Quaternion real component </td></tr>
-    <tr><td class="paramname">qi</td><td>Quaternion i component </td></tr>
-    <tr><td class="paramname">qj</td><td>Quaternion j component </td></tr>
-    <tr><td class="paramname">qk</td><td>Quaternion k component </td></tr>
-    <tr><td class="paramname">degrees</td><td>Quaternion degrees, not used</td></tr>
+    <tr><td class="paramname">qr</td><td><a class="el" href="structQuaternion.html">Quaternion</a> real component </td></tr>
+    <tr><td class="paramname">qi</td><td><a class="el" href="structQuaternion.html">Quaternion</a> i component </td></tr>
+    <tr><td class="paramname">qj</td><td><a class="el" href="structQuaternion.html">Quaternion</a> j component </td></tr>
+    <tr><td class="paramname">qk</td><td><a class="el" href="structQuaternion.html">Quaternion</a> k component </td></tr>
+    <tr><td class="paramname">degrees</td><td><a class="el" href="structQuaternion.html">Quaternion</a> degrees, not used</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>3D representation of the quaternion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00048">48</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00053">53</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -275,13 +383,13 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rotational_vector</td><td>Gyroscope quaternion </td></tr>
-    <tr><td class="paramname">degrees</td><td>Quaternion degrees, not used</td></tr>
+    <tr><td class="paramname">degrees</td><td><a class="el" href="structQuaternion.html">Quaternion</a> degrees, not used</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Euler angle vector representation of the quaternion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00084">84</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00089">89</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -315,13 +423,13 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rotational_vector</td><td>Rotation quaternion </td></tr>
-    <tr><td class="paramname">degrees</td><td>Quaternion degrees, not used</td></tr>
+    <tr><td class="paramname">degrees</td><td><a class="el" href="structQuaternion.html">Quaternion</a> degrees, not used</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Euler angle vector representation of the quaternion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00070">70</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00075">75</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -338,7 +446,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00012">12</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00011">11</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -354,7 +462,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00011">11</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00010">10</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>

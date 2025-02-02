@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"namespaceproto_1_1__utils.html#ac0806060f18425df0b2e15653c983e28":[1,0,7,0,2],
+"namespaceproto_1_1nanopb__pb2.html":[1,0,7,1],
+"namespaceproto_1_1nanopb__pb2.html#a031623cde7503dc7b61888844c1e369f":[1,0,7,1,1],
+"namespaceproto_1_1nanopb__pb2.html#a11d8ff9b8c3fd390ef8247c8e5a8a592":[1,0,7,1,6],
 "namespaceproto_1_1nanopb__pb2.html#a3f44768aedbd3489288ed4c76118e8e0":[1,0,7,1,4],
 "namespaceproto_1_1nanopb__pb2.html#ac1a2b4763e92b092e6883bc4c270874c":[1,0,7,1,5],
 "namespaceproto_1_1nanopb__pb2.html#ad2ac641276f9c8fe24276716a66e9ae4":[1,0,7,1,0],
@@ -189,14 +193,14 @@ var NAVTREEINDEX6 =
 "structBarometer.html#ac2c18c9ab21041b0f2133c3b473310cc":[2,0,6,4],
 "structBarometer.html#add666cf46ccb7b5695198412ebf28c82":[2,0,6,1],
 "structBarometerSensor.html":[2,0,7],
+"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,7,7],
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,7,6],
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,7,5],
-"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,7,7],
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,7,4],
-"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,7,3],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,7,1],
-"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,7,0],
+"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,7,3],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,7,2],
+"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,7,0],
 "structBarometerSensor.html#aa553c693b5807753e3b78c6c59f1ef85":[2,0,7,8],
 "structBuffer.html":[2,0,9],
 "structBuffer.html#a0139f69c2fcb3583264b4a5eb3ace57a":[2,0,9,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "structContinuitySensor.html#a857476fb6ade62c00182a75861226be9":[2,0,14,8],
 "structContinuitySensor.html#ade54c325abbf315427c8dcb8ce1739f2":[2,0,14,0],
 "structContinuitySensor.html#ade54c325abbf315427c8dcb8ce1739f2":[2,0,14,1],
-"structContinuitySensor.html#ade54c325abbf315427c8dcb8ce1739f2":[2,0,14,2],
-"structContinuitySensor.html#ade54c325abbf315427c8dcb8ce1739f2":[2,0,14,3],
-"structContinuitySensor.html#afc7ec154da1a82e35df5f820fb911628":[2,0,14,4],
-"structContinuitySensor.html#afc7ec154da1a82e35df5f820fb911628":[2,0,14,5],
-"structContinuitySensor.html#afc7ec154da1a82e35df5f820fb911628":[2,0,14,6]
+"structContinuitySensor.html#ade54c325abbf315427c8dcb8ce1739f2":[2,0,14,2]
 };

@@ -7,5 +7,6 @@ var searchData=
   ['define_5fname_4',['define_name',['../classnanopb__generator_1_1NamingStyleC.html#afa1a1104ee3bffecfe89beb7f3b717f6',1,'nanopb_generator.NamingStyleC.define_name()'],['../classnanopb__generator_1_1NamingStyle.html#a7ce05872ddf29669545619a7a2f34643',1,'nanopb_generator.NamingStyle.define_name()']]],
   ['delay_5',['delay',['../emulation_8cpp.html#a6bc5f943544a887f8b23cadfb26a5e30',1,'delay(unsigned long ms):&#160;emulation.cpp'],['../emulation_8h.html#a6bc5f943544a887f8b23cadfb26a5e30',1,'delay(unsigned long ms):&#160;emulation.cpp']]],
   ['digitalwrite_6',['digitalWrite',['../emulation_8cpp.html#ae2d36ef66ff3d8970304e7aaf716712d',1,'digitalWrite(uint8_t pin, uint8_t value):&#160;emulation.cpp'],['../emulation_8h.html#ae2d36ef66ff3d8970304e7aaf716712d',1,'digitalWrite(uint8_t pin, uint8_t value):&#160;emulation.cpp']]],
-  ['disarm_5fall_5fchannels_7',['disarm_all_channels',['../structPyro.html#a7f900421c125d45584383689740fbe57',1,'Pyro']]]
+  ['disarm_5fall_5fchannels_7',['disarm_all_channels',['../structPyro.html#a7f900421c125d45584383689740fbe57',1,'Pyro']]],
+  ['dot_8',['dot',['../structQuaternion.html#a84dda0560a624c1bc3c0ae8284c00e9a',1,'Quaternion']]]
 ];

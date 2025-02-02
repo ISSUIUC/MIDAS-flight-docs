@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"hilsim_2sensors_2HighG_8cpp_source.html":[3,0,0,3,1,3],
+"hilsim_2sensors_2LowGLSM_8cpp.html":[3,0,0,3,1,5],
+"hilsim_2sensors_2LowGLSM_8cpp_source.html":[3,0,0,3,1,5],
+"hilsim_2sensors_2LowG_8cpp.html":[3,0,0,3,1,4],
 "hilsim_2sensors_2LowG_8cpp_source.html":[3,0,0,3,1,4],
 "hilsim_2sensors_2Magnetometer_8cpp.html":[3,0,0,3,1,6],
 "hilsim_2sensors_2Magnetometer_8cpp_source.html":[3,0,0,3,1,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "namespaceproto.html#aa33af22ccabe1a830312c17a66b2f03b":[1,0,7,4],
 "namespaceproto_1_1__utils.html":[1,0,7,0],
 "namespaceproto_1_1__utils.html#a428c0a96ba6edeeca4e0ad791da00a0c":[1,0,7,0,0],
-"namespaceproto_1_1__utils.html#abe4ce40eb7ff058b244b7ba7a4a29338":[1,0,7,0,1],
-"namespaceproto_1_1__utils.html#ac0806060f18425df0b2e15653c983e28":[1,0,7,0,2],
-"namespaceproto_1_1nanopb__pb2.html":[1,0,7,1],
-"namespaceproto_1_1nanopb__pb2.html#a031623cde7503dc7b61888844c1e369f":[1,0,7,1,1],
-"namespaceproto_1_1nanopb__pb2.html#a11d8ff9b8c3fd390ef8247c8e5a8a592":[1,0,7,1,6]
+"namespaceproto_1_1__utils.html#abe4ce40eb7ff058b244b7ba7a4a29338":[1,0,7,0,1]
 };

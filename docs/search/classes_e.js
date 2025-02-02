@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['queue_0',['Queue',['../classQueue.html',1,'']]]
+  ['quaternion_0',['Quaternion',['../structQuaternion.html',1,'']]],
+  ['queue_1',['Queue',['../classQueue.html',1,'']]]
 ];

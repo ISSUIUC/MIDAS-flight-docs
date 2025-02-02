@@ -18,11 +18,14 @@ var searchData=
   ['booster_5fidle_5fto_5ffirst_5fboost_5ftime_5fthreshold_15',['booster_idle_to_first_boost_time_threshold',['../thresholds_8h.html#a0b657fe0ede375d778b3a8756736e123',1,'thresholds.h']]],
   ['booster_5fignition_5fto_5fcoast_5ftimer_5fthreshold_16',['booster_ignition_to_coast_timer_threshold',['../thresholds_8h.html#a6d3e70a27e6e2e72889bca6ccb8aafb3',1,'thresholds.h']]],
   ['booster_5fignition_5fto_5fsecond_5fboost_5ftime_5fthreshold_17',['booster_ignition_to_second_boost_time_threshold',['../thresholds_8h.html#a16500cda9189e1ccae108a9f00b9ebee',1,'thresholds.h']]],
-  ['booster_5flanded_5ftimer_5fthreshold_18',['booster_landed_timer_threshold',['../thresholds_8h.html#afd345838da452823a7d3ee7fccac2591',1,'thresholds.h']]],
-  ['booster_5flanded_5fvertical_5fspeed_5fthreshold_19',['booster_landed_vertical_speed_threshold',['../thresholds_8h.html#a70b1527d4b1675d157daa375eb661d16',1,'thresholds.h']]],
-  ['booster_5fmain_5fdeploy_5faltitude_5fthreshold_20',['booster_main_deploy_altitude_threshold',['../thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce',1,'thresholds.h']]],
-  ['booster_5fmain_5fjerk_5fthreshold_21',['booster_main_jerk_threshold',['../thresholds_8h.html#a1e59b3a323362d080f0e076560fe7377',1,'thresholds.h']]],
-  ['booster_5fmain_5fto_5fmain_5fdeploy_5ftimer_5fthreshold_22',['booster_main_to_main_deploy_timer_threshold',['../thresholds_8h.html#aa4d47dd153cda9c4a7a30fee843a08a9',1,'thresholds.h']]],
-  ['buzzer_5fchannel_23',['BUZZER_CHANNEL',['../buzzer_8cpp.html#ac69331f8facce28cfd7b94076ca7055e',1,'buzzer.cpp']]],
-  ['buzzer_5fpin_24',['BUZZER_PIN',['../buzzer_8cpp.html#ab61d0981ed42df9e18211b273d22cfcd',1,'buzzer.cpp']]]
+  ['booster_5flanded_5ftime_5flockout_18',['booster_landed_time_lockout',['../thresholds_8h.html#aab2880f38ac99bb38a90f9142b15b60e',1,'thresholds.h']]],
+  ['booster_5flanded_5ftimer_5fthreshold_19',['booster_landed_timer_threshold',['../thresholds_8h.html#afd345838da452823a7d3ee7fccac2591',1,'thresholds.h']]],
+  ['booster_5flanded_5fvertical_5fspeed_5fthreshold_20',['booster_landed_vertical_speed_threshold',['../thresholds_8h.html#a70b1527d4b1675d157daa375eb661d16',1,'thresholds.h']]],
+  ['booster_5fmain_5fdeploy_5faltitude_5fthreshold_21',['booster_main_deploy_altitude_threshold',['../thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce',1,'thresholds.h']]],
+  ['booster_5fmain_5fjerk_5fthreshold_22',['booster_main_jerk_threshold',['../thresholds_8h.html#a1e59b3a323362d080f0e076560fe7377',1,'thresholds.h']]],
+  ['booster_5fmain_5fto_5flanded_5flockout_23',['booster_main_to_landed_lockout',['../thresholds_8h.html#a616daf01cb83888b4333f41483d97e0f',1,'thresholds.h']]],
+  ['booster_5fmain_5fto_5fmain_5fdeploy_5ftimer_5fthreshold_24',['booster_main_to_main_deploy_timer_threshold',['../thresholds_8h.html#aa4d47dd153cda9c4a7a30fee843a08a9',1,'thresholds.h']]],
+  ['booster_5fpyro_5ffiring_5ftime_5fminimum_25',['booster_pyro_firing_time_minimum',['../thresholds_8h.html#a3902c365c052d2d907c5fb7adbf92e0e',1,'thresholds.h']]],
+  ['buzzer_5fchannel_26',['BUZZER_CHANNEL',['../buzzer_8cpp.html#ac69331f8facce28cfd7b94076ca7055e',1,'buzzer.cpp']]],
+  ['buzzer_5fpin_27',['BUZZER_PIN',['../buzzer_8cpp.html#ab61d0981ed42df9e18211b273d22cfcd',1,'buzzer.cpp']]]
 ];

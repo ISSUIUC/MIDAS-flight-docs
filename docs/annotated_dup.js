@@ -74,6 +74,7 @@ var annotated_dup =
     [ "Pyro", "structPyro.html", "structPyro" ],
     [ "PyroChannel", "structPyroChannel.html", "structPyroChannel" ],
     [ "PyroState", "structPyroState.html", "structPyroState" ],
+    [ "Quaternion", "structQuaternion.html", "structQuaternion" ],
     [ "Queue", "classQueue.html", "classQueue" ],
     [ "Reading", "structReading.html", "structReading" ],
     [ "RocketData", "structRocketData.html", "structRocketData" ],

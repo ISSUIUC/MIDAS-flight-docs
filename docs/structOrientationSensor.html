@@ -117,6 +117,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa12421586b86ad987f838d31bf373975"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientationSensor.html#aa12421586b86ad987f838d31bf373975">initial_orientation</a></td></tr>
 <tr class="separator:aa12421586b86ad987f838d31bf373975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356bf636907c490e25f35c5e8cdb4891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structQuaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientationSensor.html#a356bf636907c490e25f35c5e8cdb4891">initial_quaternion</a></td></tr>
+<tr class="separator:a356bf636907c490e25f35c5e8cdb4891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade7f0546cf442a31162f9bdfacbce00c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c">initial_flag</a></td></tr>
 <tr class="separator:ade7f0546cf442a31162f9bdfacbce00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79dc9fac697e9d0e6633e35050b44a9e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientationSensor.html#a79dc9fac697e9d0e6633e35050b44a9e">prev_x</a> = 0</td></tr>
@@ -152,7 +154,7 @@ Public Attributes</h2></td></tr>
 <p>Initializes the bno sensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>Error Code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00019">19</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00018">18</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -225,7 +227,7 @@ Public Attributes</h2></td></tr>
 <p>Reads and returns the data from the sensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>An orientation packet with orientation, acceleration, gyroscope, and magenetometer for all axes, along with temperature and pressure </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00124">124</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00150">150</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -293,7 +295,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00070">70</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00071">71</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -313,6 +315,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a356bf636907c490e25f35c5e8cdb4891" name="a356bf636907c490e25f35c5e8cdb4891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356bf636907c490e25f35c5e8cdb4891">&#9670;&nbsp;</a></span>initial_quaternion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structQuaternion.html">Quaternion</a> OrientationSensor::initial_quaternion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00070">70</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
 <a id="a6e6d7330ed4630ce89157af405d7a9a6" name="a6e6d7330ed4630ce89157af405d7a9a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e6d7330ed4630ce89157af405d7a9a6">&#9670;&nbsp;</a></span>prev_tilt</h2>
 
@@ -325,7 +343,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00075">75</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00076">76</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -341,7 +359,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00072">72</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00073">73</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -357,7 +375,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00073">73</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00074">74</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -373,7 +391,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00074">74</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00075">75</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>

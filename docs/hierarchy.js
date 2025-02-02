@@ -76,6 +76,7 @@ var hierarchy =
     [ "Pyro", "structPyro.html", null ],
     [ "PyroChannel", "structPyroChannel.html", null ],
     [ "PyroState", "structPyroState.html", null ],
+    [ "Quaternion", "structQuaternion.html", null ],
     [ "Queue< T, length >", "classQueue.html", null ],
     [ "Reading< SensorData >", "structReading.html", null ],
     [ "RocketData", "structRocketData.html", null ],
