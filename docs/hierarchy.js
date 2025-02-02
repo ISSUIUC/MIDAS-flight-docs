@@ -9,6 +9,7 @@ var hierarchy =
     [ "fsm.BoosterFsm", "classfsm_1_1BoosterFsm.html", null ],
     [ "Buffer< T, BUFFER_SIZE >", "structBuffer.html", null ],
     [ "BuzzerController", "structBuzzerController.html", null ],
+    [ "CommandFlags", "structCommandFlags.html", null ],
     [ "Continuity", "structContinuity.html", null ],
     [ "ContinuitySensor", "structContinuitySensor.html", null ],
     [ "Core", "structCore.html", null ],

@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('classFSM.html',''); initResizable(); }
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7475001bba342bf617e335cc262b1833"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFSM.html#a7475001bba342bf617e335cc262b1833">FSM</a> ()=default</td></tr>
 <tr class="separator:a7475001bba342bf617e335cc262b1833"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af100908b6a4baeecf3e91ae3845bb989"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFSM.html#af100908b6a4baeecf3e91ae3845bb989">tick_fsm</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> &amp;curr_state, <a class="el" href="structStateEstimate.html">StateEstimate</a> state_estimate)</td></tr>
-<tr class="memdesc:af100908b6a4baeecf3e91ae3845bb989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booster <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> tick function, which will advance the current state if necessary.  <a href="classFSM.html#af100908b6a4baeecf3e91ae3845bb989">More...</a><br /></td></tr>
-<tr class="separator:af100908b6a4baeecf3e91ae3845bb989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4dcdb1a3b1982f3d7575fd6158c3bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFSM.html#ac4dcdb1a3b1982f3d7575fd6158c3bfa">tick_fsm</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> &amp;curr_state, <a class="el" href="structStateEstimate.html">StateEstimate</a> state_estimate, <a class="el" href="structCommandFlags.html">CommandFlags</a> &amp;telem_commands)</td></tr>
+<tr class="memdesc:ac4dcdb1a3b1982f3d7575fd6158c3bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booster <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> tick function, which will advance the current state if necessary.  <a href="classFSM.html#ac4dcdb1a3b1982f3d7575fd6158c3bfa">More...</a><br /></td></tr>
+<tr class="separator:ac4dcdb1a3b1982f3d7575fd6158c3bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -125,6 +125,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad3136b9945d4cdaa0470812d8beb6d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ed08ffb1b66853cd966c1ac713547ba"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFSM.html#a6ed08ffb1b66853cd966c1ac713547ba">first_separation_time</a></td></tr>
 <tr class="separator:a6ed08ffb1b66853cd966c1ac713547ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4e6158513504394e6307b2cdd57d7d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFSM.html#acd4e6158513504394e6307b2cdd57d7d">pyro_test_entry_time</a></td></tr>
+<tr class="separator:acd4e6158513504394e6307b2cdd57d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains fsm tick function and timestamps for different events used for future calculations. </p>
@@ -157,8 +159,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af100908b6a4baeecf3e91ae3845bb989" name="af100908b6a4baeecf3e91ae3845bb989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af100908b6a4baeecf3e91ae3845bb989">&#9670;&nbsp;</a></span>tick_fsm()</h2>
+<a id="ac4dcdb1a3b1982f3d7575fd6158c3bfa" name="ac4dcdb1a3b1982f3d7575fd6158c3bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4dcdb1a3b1982f3d7575fd6158c3bfa">&#9670;&nbsp;</a></span>tick_fsm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +175,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structStateEstimate.html">StateEstimate</a>&#160;</td>
-          <td class="paramname"><em>state_estimate</em>&#160;</td>
+          <td class="paramname"><em>state_estimate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCommandFlags.html">CommandFlags</a> &amp;&#160;</td>
+          <td class="paramname"><em>telem_commands</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -194,7 +202,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> State </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="fsm_8cpp_source.html#l00253">253</a> of file <a class="el" href="fsm_8cpp_source.html">fsm.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fsm_8cpp_source.html#l00307">307</a> of file <a class="el" href="fsm_8cpp_source.html">fsm.cpp</a>.</p>
 
 </div>
 </div>
@@ -388,6 +396,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="fsm_8h_source.html#l00045">45</a> of file <a class="el" href="fsm_8h_source.html">fsm.h</a>.</p>
+
+</div>
+</div>
+<a id="acd4e6158513504394e6307b2cdd57d7d" name="acd4e6158513504394e6307b2cdd57d7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4e6158513504394e6307b2cdd57d7d">&#9670;&nbsp;</a></span>pyro_test_entry_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double FSM::pyro_test_entry_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fsm_8h_source.html#l00048">48</a> of file <a class="el" href="fsm_8h_source.html">fsm.h</a>.</p>
 
 </div>
 </div>

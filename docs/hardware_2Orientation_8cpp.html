@@ -84,12 +84,16 @@ $(document).ready(function(){initNavTree('hardware_2Orientation_8cpp.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Orientation.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;Eigen/Eigen&gt;</code><br />
+<code>#include &quot;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 <code>#include &quot;Adafruit_BNO08x.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 </div>
 <p><a href="hardware_2Orientation_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -111,6 +115,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a00fefb564a30775271e7ed3c92a1fa0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a00fefb564a30775271e7ed3c92a1fa0f">quaternionToEulerGI</a> (sh2_GyroIntegratedRV_t *rotational_vector, bool degrees)</td></tr>
 <tr class="memdesc:a00fefb564a30775271e7ed3c92a1fa0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a gyroscope quaternion and turns it into its Euler 3D counterpart.  <a href="hardware_2Orientation_8cpp.html#a00fefb564a30775271e7ed3c92a1fa0f">More...</a><br /></td></tr>
 <tr class="separator:a00fefb564a30775271e7ed3c92a1fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a991e6fae47e4eb53bf62cb8806008a"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a8a991e6fae47e4eb53bf62cb8806008a">generate_rotation_matrix</a> (<a class="el" href="structVec3.html">Vec3</a> rpy_vec)</td></tr>
+<tr class="memdesc:a8a991e6fae47e4eb53bf62cb8806008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a rotation matrix that transforms a vector by the rotations described in rpy_vec {roll, pitch, yaw} (in that order!)  <a href="hardware_2Orientation_8cpp.html#a8a991e6fae47e4eb53bf62cb8806008a">More...</a><br /></td></tr>
+<tr class="separator:a8a991e6fae47e4eb53bf62cb8806008a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a22cb446e5271d5d2c4b2e23792fb1966"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a22cb446e5271d5d2c4b2e23792fb1966">lastTime</a> = 0</td></tr>
+<tr class="separator:a22cb446e5271d5d2c4b2e23792fb1966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a61318ed6aa02b4ff346e7eb8f68891"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Orientation_8cpp.html#a1a61318ed6aa02b4ff346e7eb8f68891">deltaTime</a> = 0</td></tr>
+<tr class="separator:a1a61318ed6aa02b4ff346e7eb8f68891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a86d072ab83ae31e2d3aa25831d8dd56b" name="a86d072ab83ae31e2d3aa25831d8dd56b"></a>
@@ -125,11 +139,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00006">6</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00010">10</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8a991e6fae47e4eb53bf62cb8806008a" name="a8a991e6fae47e4eb53bf62cb8806008a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a991e6fae47e4eb53bf62cb8806008a">&#9670;&nbsp;</a></span>generate_rotation_matrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix3f generate_rotation_matrix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structVec3.html">Vec3</a>&#160;</td>
+          <td class="paramname"><em>rpy_vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a rotation matrix that transforms a vector by the rotations described in rpy_vec {roll, pitch, yaw} (in that order!) </p>
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00093">93</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a84d35d596e6f97fd154af476c4493eca" name="a84d35d596e6f97fd154af476c4493eca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84d35d596e6f97fd154af476c4493eca">&#9670;&nbsp;</a></span>imu()</h2>
 
@@ -205,7 +241,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>3D representation of the quaternion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00039">39</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00048">48</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +281,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Euler angle vector representation of the quaternion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00074">74</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00084">84</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>
@@ -285,7 +321,40 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Euler angle vector representation of the quaternion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00060">60</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00070">70</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a1a61318ed6aa02b4ff346e7eb8f68891" name="a1a61318ed6aa02b4ff346e7eb8f68891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a61318ed6aa02b4ff346e7eb8f68891">&#9670;&nbsp;</a></span>deltaTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float deltaTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00012">12</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a22cb446e5271d5d2c4b2e23792fb1966" name="a22cb446e5271d5d2c4b2e23792fb1966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22cb446e5271d5d2c4b2e23792fb1966">&#9670;&nbsp;</a></span>lastTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long lastTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Orientation_8cpp_source.html#l00011">11</a> of file <a class="el" href="hardware_2Orientation_8cpp_source.html">Orientation.cpp</a>.</p>
 
 </div>
 </div>

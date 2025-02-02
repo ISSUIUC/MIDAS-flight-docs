@@ -15,7 +15,6 @@ var classYessir =
     [ "kalman_apo", "classYessir.html#a24a97076a6c3037eadf07b171fd4d846", null ],
     [ "kalman_state", "classYessir.html#a85525d9b9289a65b9fd7333b47f30364", null ],
     [ "s_dt", "classYessir.html#ae817b56943fd4f169eff9a7fef296577", null ],
-    [ "should_reinit", "classYessir.html#a9ee28ca50860ca331271a8385c4c2a0b", null ],
     [ "spectral_density_", "classYessir.html#aee2e7d227386af4f03ac4bd952175a17", null ],
     [ "state", "classYessir.html#a1d9749be647231e2d0496dba54f9af8e", null ],
     [ "world_accel", "classYessir.html#a8679592b747867996923f73ce3c6ab52", null ]

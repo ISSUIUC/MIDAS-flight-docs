@@ -26,6 +26,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
       [ "SensorData< S >", "structSensorData.html", "structSensorData" ],
       [ "BufferedSensorData< S, count >", "structBufferedSensorData.html", "structBufferedSensorData" ],
       [ "Latency", "classLatency.html", "classLatency" ],
+      [ "CommandFlags", "structCommandFlags.html", "structCommandFlags" ],
       [ "RocketData", "structRocketData.html", "structRocketData" ]
     ] ],
     [ "sensor_data.h", "sensor__data_8h.html", [

@@ -53,7 +53,7 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -62,14 +62,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Buffer_8h.html",
-"classfsm_1_1BoosterFsm.html#a583cae21f5755d51d3d9b5db81a91e21",
-"classnanopb__generator_1_1Field.html#ad7e85fbe7c748d24b5dfca432b3572d3",
-"classnanopb__generator_1_1ProtoFile.html#a14732768f866b2e3d55472e281174c46",
-"fsm__thresholds_8py.html#abc7c1b6d76904a57ce08c69376064b46",
-"hilsimpacket_8pb_8h.html#a5eaacf0c31ccecd76684602cdf9014ef",
-"nanopb__generator_8py.html#aef56aa8113f39e9776739a7b76429493",
-"structKalmanData.html#aaeb40d4d7c63179577eca10c5e33f76a",
-"structThreadInfo.html#aa1fc1d684528eff3a04da0bac5afd29a"
+"classfsm_1_1BoosterFsm.html",
+"classnanopb__generator_1_1Field.html#abcdb58b406ea7c1316264a9bb0e1ff98",
+"classnanopb__generator_1_1ProtoElement.html#ad70718de0b65827ca3bd879a14c1d6c2",
+"fsm__thresholds_8py.html#a69c20bf75eaf5404b469879ecec851ea",
+"hilsim_2sensors_2LowG_8cpp_source.html",
+"namespaceproto_1_1nanopb__pb2.html#a3f44768aedbd3489288ed4c76118e8e0",
+"structContinuitySensor.html#afc7ec154da1a82e35df5f820fb911628",
+"structSerialPatch.html#a6dec8f1fe1c59cb90c39c1427d94620d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

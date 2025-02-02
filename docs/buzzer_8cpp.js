@@ -16,7 +16,13 @@ var buzzer_8cpp =
     [ "f_nat_4_quart", "buzzer_8cpp.html#a9e377241a232d8303ce8d54557bb7049", null ],
     [ "g4_eight", "buzzer_8cpp.html#aeb7e0fbd5060ffbb0ac0ba1ce95d7521", null ],
     [ "g4_quart", "buzzer_8cpp.html#accefc53eda79c73caeb6f5bfbf9699b2", null ],
+    [ "LAND_TONE_PITCH", "buzzer_8cpp.html#a55f8a9b04bd968b6fb6cf9af4806fd83", null ],
+    [ "LAND_TONE_WAIT", "buzzer_8cpp.html#a73e5dd1621b08b562dab5c768b984de9", null ],
     [ "MS_PER_4BEAT", "buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1", null ],
     [ "rest", "buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03", null ],
-    [ "free_bird", "buzzer_8cpp.html#a605b4b88226d87e28ac325ee22a267cd", null ]
+    [ "WARN_TONE_BLANK", "buzzer_8cpp.html#a82ca6cf0701a6e01951a18df0a846c0f", null ],
+    [ "WARN_TONE_PITCH", "buzzer_8cpp.html#a6c19674b0213c92d1e52e7bd8abada3b", null ],
+    [ "free_bird", "buzzer_8cpp.html#a605b4b88226d87e28ac325ee22a267cd", null ],
+    [ "land_tone", "buzzer_8cpp.html#af970644c4505d996f9def6fedd2ab2be", null ],
+    [ "warn_tone", "buzzer_8cpp.html#aadb1ef1f5370dc175e36f96ad3cc7fc0", null ]
 ];

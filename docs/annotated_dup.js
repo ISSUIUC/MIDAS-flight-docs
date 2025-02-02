@@ -35,6 +35,7 @@ var annotated_dup =
     [ "Buffer", "structBuffer.html", "structBuffer" ],
     [ "BufferedSensorData", "structBufferedSensorData.html", "structBufferedSensorData" ],
     [ "BuzzerController", "structBuzzerController.html", "structBuzzerController" ],
+    [ "CommandFlags", "structCommandFlags.html", "structCommandFlags" ],
     [ "Continuity", "structContinuity.html", "structContinuity" ],
     [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
     [ "Core", "structCore.html", "structCore" ],

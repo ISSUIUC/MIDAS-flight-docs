@@ -18,6 +18,7 @@ var thresholds_8h =
     [ "booster_main_deploy_altitude_threshold", "thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce", null ],
     [ "booster_main_jerk_threshold", "thresholds_8h.html#a1e59b3a323362d080f0e076560fe7377", null ],
     [ "booster_main_to_main_deploy_timer_threshold", "thresholds_8h.html#aa4d47dd153cda9c4a7a30fee843a08a9", null ],
+    [ "safety_pyro_test_disarm_time", "thresholds_8h.html#af1f39e2fb1d3aa15321460a1e2f9d8c4", null ],
     [ "sustainer_apogee_backto_coast_vertical_speed_threshold", "thresholds_8h.html#af367232354d308bb8c8af09a00b978a4", null ],
     [ "sustainer_apogee_check_threshold", "thresholds_8h.html#a2f8b7d40390651d9daef6e059ce7af71", null ],
     [ "sustainer_apogee_timer_threshold", "thresholds_8h.html#a5ff0a19eff37cb648f529909e7437b68", null ],

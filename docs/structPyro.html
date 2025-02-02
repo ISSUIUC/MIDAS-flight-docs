@@ -84,6 +84,8 @@ $(document).ready(function(){initNavTree('structPyro.html',''); initResizable();
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structPyro-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Pyro Struct Reference</div></div>
 </div><!--header-->
@@ -96,8 +98,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555">init</a> ()</td></tr>
 <tr class="memdesc:ab6a58e6edd90e00f27810cb5c57ed555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the pyro thread. The main initialization will be done by the GPIO expander, so the pyro thread doesn't have to do anything special and will always return NoError.  <a href="structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555">More...</a><br /></td></tr>
 <tr class="separator:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced7ff5500cd6c1606d7292f990d93ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aced7ff5500cd6c1606d7292f990d93ff">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation)</td></tr>
-<tr class="separator:aced7ff5500cd6c1606d7292f990d93ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d16e85255c8788c21f34637db861a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#a58d16e85255c8788c21f34637db861a7">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation, <a class="el" href="structCommandFlags.html">CommandFlags</a> &amp;telem_commands)</td></tr>
+<tr class="separator:a58d16e85255c8788c21f34637db861a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895ecbef3aadc5369ac09cf263c8e516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#a895ecbef3aadc5369ac09cf263c8e516">set_pyro_safety</a> ()</td></tr>
+<tr class="separator:a895ecbef3aadc5369ac09cf263c8e516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff363793962f81d6024cb02b11839467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aff363793962f81d6024cb02b11839467">reset_pyro_safety</a> ()</td></tr>
+<tr class="separator:aff363793962f81d6024cb02b11839467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555">init</a> ()</td></tr>
 <tr class="separator:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced7ff5500cd6c1606d7292f990d93ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aced7ff5500cd6c1606d7292f990d93ff">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation)</td></tr>
@@ -106,11 +112,95 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab6a58e6edd90e00f27810cb5c57ed555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced7ff5500cd6c1606d7292f990d93ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPyroState.html">PyroState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#aced7ff5500cd6c1606d7292f990d93ff">tick</a> (<a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm_state, <a class="el" href="structOrientation.html">Orientation</a> orientation)</td></tr>
 <tr class="separator:aced7ff5500cd6c1606d7292f990d93ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a7f900421c125d45584383689740fbe57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#a7f900421c125d45584383689740fbe57">disarm_all_channels</a> (<a class="el" href="structPyroState.html">PyroState</a> &amp;prev_state)</td></tr>
+<tr class="separator:a7f900421c125d45584383689740fbe57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c9711e44a41c2ddb533b3394165d49c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#a5c9711e44a41c2ddb533b3394165d49c">fire_pyro</a> (int channel_idx, <a class="el" href="structGpioAddress.html">GpioAddress</a> arm_pin, <a class="el" href="structGpioAddress.html">GpioAddress</a> fire_pin)</td></tr>
+<tr class="separator:a5c9711e44a41c2ddb533b3394165d49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2a640de4104cfb91baa776e1ac5f9365"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#a2a640de4104cfb91baa776e1ac5f9365">safety_pyro_start_firing_time</a></td></tr>
+<tr class="separator:a2a640de4104cfb91baa776e1ac5f9365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace37095039f9f593cfd469b07ec97e20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyro.html#ace37095039f9f593cfd469b07ec97e20">safety_has_fired_pyros_this_cycle</a></td></tr>
+<tr class="separator:ace37095039f9f593cfd469b07ec97e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00085">85</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00093">93</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7f900421c125d45584383689740fbe57" name="a7f900421c125d45584383689740fbe57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f900421c125d45584383689740fbe57">&#9670;&nbsp;</a></span>disarm_all_channels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyro::disarm_all_channels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structPyroState.html">PyroState</a> &amp;&#160;</td>
+          <td class="paramname"><em>prev_state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00065">65</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5c9711e44a41c2ddb533b3394165d49c" name="a5c9711e44a41c2ddb533b3394165d49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c9711e44a41c2ddb533b3394165d49c">&#9670;&nbsp;</a></span>fire_pyro()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyro::fire_pyro </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structGpioAddress.html">GpioAddress</a>&#160;</td>
+          <td class="paramname"><em>arm_pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structGpioAddress.html">GpioAddress</a>&#160;</td>
+          <td class="paramname"><em>fire_pin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab6a58e6edd90e00f27810cb5c57ed555" name="ab6a58e6edd90e00f27810cb5c57ed555"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6a58e6edd90e00f27810cb5c57ed555">&#9670;&nbsp;</a></span>init() <span class="overload">[1/3]</span></h2>
 
@@ -128,7 +218,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Initializes the pyro thread. The main initialization will be done by the GPIO expander, so the pyro thread doesn't have to do anything special and will always return NoError. </p>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00035">35</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00040">40</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
 
 </div>
 </div>
@@ -163,6 +253,44 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff363793962f81d6024cb02b11839467" name="aff363793962f81d6024cb02b11839467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff363793962f81d6024cb02b11839467">&#9670;&nbsp;</a></span>reset_pyro_safety()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyro::reset_pyro_safety </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00090">90</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a895ecbef3aadc5369ac09cf263c8e516" name="a895ecbef3aadc5369ac09cf263c8e516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a895ecbef3aadc5369ac09cf263c8e516">&#9670;&nbsp;</a></span>set_pyro_safety()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pyro::set_pyro_safety </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00085">85</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
 
 </div>
 </div>
@@ -224,8 +352,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aced7ff5500cd6c1606d7292f990d93ff" name="aced7ff5500cd6c1606d7292f990d93ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aced7ff5500cd6c1606d7292f990d93ff">&#9670;&nbsp;</a></span>tick() <span class="overload">[3/3]</span></h2>
+<a id="a58d16e85255c8788c21f34637db861a7" name="a58d16e85255c8788c21f34637db861a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d16e85255c8788c21f34637db861a7">&#9670;&nbsp;</a></span>tick() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +368,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
-          <td class="paramname"><em>orientation</em>&#160;</td>
+          <td class="paramname"><em>orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCommandFlags.html">CommandFlags</a> &amp;&#160;</td>
+          <td class="paramname"><em>telem_commands</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -249,6 +383,55 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ace37095039f9f593cfd469b07ec97e20" name="ace37095039f9f593cfd469b07ec97e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace37095039f9f593cfd469b07ec97e20">&#9670;&nbsp;</a></span>safety_has_fired_pyros_this_cycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Pyro::safety_has_fired_pyros_this_cycle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00105">105</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
+<a id="a2a640de4104cfb91baa776e1ac5f9365" name="a2a640de4104cfb91baa776e1ac5f9365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a640de4104cfb91baa776e1ac5f9365">&#9670;&nbsp;</a></span>safety_pyro_start_firing_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Pyro::safety_pyro_start_firing_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00104">104</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>

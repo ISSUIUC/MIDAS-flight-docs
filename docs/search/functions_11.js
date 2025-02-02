@@ -10,6 +10,7 @@ var searchData=
   ['receive_7',['receive',['../classQueue.html#ac117d9c8b2dc6d8a6bbae0fbd38b1fcb',1,'Queue::receive()'],['../classTelemetry.html#a83e2787d3fe6d4f83049ee94cbd771b7',1,'Telemetry::receive()']]],
   ['required_5fdescriptor_5fwidth_8',['required_descriptor_width',['../classnanopb__generator_1_1Message.html#af627f61d511d95a075eddd906fa08efc',1,'nanopb_generator::Message']]],
   ['requires_5fcustom_5ffield_5fcallback_9',['requires_custom_field_callback',['../classnanopb__generator_1_1Field.html#a2dcebd74ec4a1de35a6e7e35dfc2847b',1,'nanopb_generator.Field.requires_custom_field_callback()'],['../classnanopb__generator_1_1ExtensionRange.html#a68f01e5a0a6681588a88a623e6d68972',1,'nanopb_generator.ExtensionRange.requires_custom_field_callback()'],['../classnanopb__generator_1_1OneOf.html#a78cfc259c2fbd9170ffd966cfe3d77b4',1,'nanopb_generator.OneOf.requires_custom_field_callback()']]],
-  ['rocket_5fmain_5fthread_10',['rocket_main_thread',['../silsim_2main_8cpp.html#abece9841739827919bc4a1241b269081',1,'main.cpp']]],
-  ['rocketparameters_11',['RocketParameters',['../structRocketParameters.html#a14c057a6f6369aa483fa17d2f5225624',1,'RocketParameters']]]
+  ['reset_5fpyro_5fsafety_10',['reset_pyro_safety',['../structPyro.html#aff363793962f81d6024cb02b11839467',1,'Pyro']]],
+  ['rocket_5fmain_5fthread_11',['rocket_main_thread',['../silsim_2main_8cpp.html#abece9841739827919bc4a1241b269081',1,'main.cpp']]],
+  ['rocketparameters_12',['RocketParameters',['../structRocketParameters.html#a14c057a6f6369aa483fa17d2f5225624',1,'RocketParameters']]]
 ];

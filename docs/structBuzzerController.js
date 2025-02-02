@@ -2,6 +2,7 @@ var structBuzzerController =
 [
     [ "BuzzerController", "structBuzzerController.html#aba1946731c465f8d67f3571b5f7170a8", null ],
     [ "init", "structBuzzerController.html#a47a57db91ff0135c5899a4bdca3b7603", null ],
+    [ "is_playing", "structBuzzerController.html#ab5a8075ca2247c8ec58570d19b0b83a6", null ],
     [ "play_tune", "structBuzzerController.html#a3b78a0b74eed3695e59f560c6f9fb878", null ],
     [ "tick", "structBuzzerController.html#a7f7711e6ff8c81ff9832b920b0473b7f", null ],
     [ "tick_sounds", "structBuzzerController.html#a9f153dbdd60f8ff32993ce8d69a055a3", null ],

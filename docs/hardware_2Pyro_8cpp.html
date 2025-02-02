@@ -92,11 +92,14 @@ $(document).ready(function(){initNavTree('hardware_2Pyro_8cpp.html',''); initRes
 <code>#include &quot;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pins_8h_source.html">pins.h</a>&quot;</code><br />
 <code>#include &quot;TCAL9539.h&quot;</code><br />
+<code>#include &lt;<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>&gt;</code><br />
 </div>
 <p><a href="hardware_2Pyro_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a5e7eba33196eb80dc8173728fd0f4103"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Pyro_8cpp.html#a5e7eba33196eb80dc8173728fd0f4103">PYRO_TEST_FIRE_TIME</a>&#160;&#160;&#160;1000</td></tr>
+<tr class="separator:a5e7eba33196eb80dc8173728fd0f4103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada246514ed98761712ddde2e43166b8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Pyro_8cpp.html#ada246514ed98761712ddde2e43166b8e">MAXIMUM_TILT_ANGLE</a>&#160;&#160;&#160;(M_PI/9)</td></tr>
 <tr class="separator:ada246514ed98761712ddde2e43166b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -122,7 +125,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00008">8</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00013">13</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5e7eba33196eb80dc8173728fd0f4103" name="a5e7eba33196eb80dc8173728fd0f4103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7eba33196eb80dc8173728fd0f4103">&#9670;&nbsp;</a></span>PYRO_TEST_FIRE_TIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PYRO_TEST_FIRE_TIME&#160;&#160;&#160;1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00011">11</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
 
 </div>
 </div>
@@ -146,7 +165,7 @@ Functions</h2></td></tr>
 <p>Determines if orientation is in an acceptable range to ignite second stage. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if acceptable, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00022">22</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00027">27</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
 
 </div>
 </div>
@@ -168,7 +187,7 @@ Functions</h2></td></tr>
 
 <p>Returns true if the error_code signals failure. </p>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00013">13</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Pyro_8cpp_source.html#l00018">18</a> of file <a class="el" href="hardware_2Pyro_8cpp_source.html">Pyro.cpp</a>.</p>
 
 </div>
 </div>

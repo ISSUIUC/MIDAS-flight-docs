@@ -14,6 +14,7 @@ var searchData=
   ['need_5fgenerate_11',['need_generate',['../namespaceplatformio__generator.html#a341ed81968288b11b276de6f62f2d6a5',1,'platformio_generator']]],
   ['nested_5fenum_12',['NESTED_ENUM',['../classnanopb__generator_1_1ProtoElement.html#aafae828c0eedc7be39cf767872aff6b0',1,'nanopb_generator::ProtoElement']]],
   ['nested_5ftype_13',['NESTED_TYPE',['../classnanopb__generator_1_1ProtoElement.html#a713eb7d124a7452472ac8ea802abe4d7',1,'nanopb_generator::ProtoElement']]],
-  ['new_5ftune_5fstarted_14',['new_tune_started',['../structBuzzerController.html#a6c30879beaf133f0322b54e48b0eac7f',1,'BuzzerController']]],
-  ['next_5fidx_15',['next_idx',['../structCore.html#a61c91fc16e92457388dae05c950b80d6',1,'Core']]]
+  ['new_5ffreq_14',['new_freq',['../structTelemetryCommand.html#a068a763185184462cf786f396687e72e',1,'TelemetryCommand']]],
+  ['new_5ftune_5fstarted_15',['new_tune_started',['../structBuzzerController.html#a6c30879beaf133f0322b54e48b0eac7f',1,'BuzzerController']]],
+  ['next_5fidx_16',['next_idx',['../structCore.html#a61c91fc16e92457388dae05c950b80d6',1,'Core']]]
 ];

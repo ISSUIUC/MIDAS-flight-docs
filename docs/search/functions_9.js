@@ -8,6 +8,7 @@ var searchData=
   ['inv_5fconvert_5frange_5',['inv_convert_range',['../telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2',1,'telemetry.cpp']]],
   ['invoke_5fprotoc_6',['invoke_protoc',['../namespaceproto_1_1__utils.html#abe4ce40eb7ff058b244b7ba7a4a29338',1,'proto::_utils']]],
   ['is_5fleapyear_7',['is_leapyear',['../hardware_2GPSSensor_8cpp.html#acc8396deec12880c1ff73846d14684d6',1,'GPSSensor.cpp']]],
-  ['iterate_5fextensions_8',['iterate_extensions',['../namespacenanopb__generator.html#a0cb2b76e5e4be8fd787d72f070d3e21c',1,'nanopb_generator']]],
-  ['iterate_5fmessages_9',['iterate_messages',['../namespacenanopb__generator.html#a28556934de6720b65636115d0e747bfe',1,'nanopb_generator']]]
+  ['is_5fplaying_8',['is_playing',['../structBuzzerController.html#ab5a8075ca2247c8ec58570d19b0b83a6',1,'BuzzerController']]],
+  ['iterate_5fextensions_9',['iterate_extensions',['../namespacenanopb__generator.html#a0cb2b76e5e4be8fd787d72f070d3e21c',1,'nanopb_generator']]],
+  ['iterate_5fmessages_10',['iterate_messages',['../namespacenanopb__generator.html#a28556934de6720b65636115d0e747bfe',1,'nanopb_generator']]]
 ];
