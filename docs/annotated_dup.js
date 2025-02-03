@@ -72,7 +72,6 @@ var annotated_dup =
     [ "OrientationSensor", "structOrientationSensor.html", "structOrientationSensor" ],
     [ "Position", "structPosition.html", "structPosition" ],
     [ "Pyro", "structPyro.html", "structPyro" ],
-    [ "PyroChannel", "structPyroChannel.html", "structPyroChannel" ],
     [ "PyroState", "structPyroState.html", "structPyroState" ],
     [ "Quaternion", "structQuaternion.html", "structQuaternion" ],
     [ "Queue", "classQueue.html", "classQueue" ],

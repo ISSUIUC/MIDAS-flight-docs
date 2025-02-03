@@ -68,9 +68,8 @@ var NAVTREEINDEX =
 "fsm__thresholds_8py.html#a66c016f68b633a00108646e0d97a5324",
 "hilsim_2sensors_2HighG_8cpp_source.html",
 "namespaceproto_1_1__utils.html#ac0806060f18425df0b2e15653c983e28",
-"structContinuitySensor.html#ade54c325abbf315427c8dcb8ce1739f2",
-"structSensors.html#a1de05e0b8d4b674ae1e7d4ab2be2ac32",
-"yessir_8h_source.html"
+"structContinuitySensor.html#afc7ec154da1a82e35df5f820fb911628",
+"structSensors.html#aa843430b21d2fb67fd14b986019c4474"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

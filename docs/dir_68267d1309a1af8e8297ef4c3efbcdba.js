@@ -46,7 +46,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
       [ "Quaternion", "structQuaternion.html", "structQuaternion" ],
       [ "Orientation", "structOrientation.html", "structOrientation" ],
       [ "KalmanData", "structKalmanData.html", "structKalmanData" ],
-      [ "PyroChannel", "structPyroChannel.html", "structPyroChannel" ],
       [ "PyroState", "structPyroState.html", "structPyroState" ]
     ] ],
     [ "systems.cpp", "systems_8cpp.html", "systems_8cpp" ],

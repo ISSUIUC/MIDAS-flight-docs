@@ -74,7 +74,6 @@ var hierarchy =
     [ "Position", "structPosition.html", null ],
     [ "nanopb_generator.ProtoFile", "classnanopb__generator_1_1ProtoFile.html", null ],
     [ "Pyro", "structPyro.html", null ],
-    [ "PyroChannel", "structPyroChannel.html", null ],
     [ "PyroState", "structPyroState.html", null ],
     [ "Quaternion", "structQuaternion.html", null ],
     [ "Queue< T, length >", "classQueue.html", null ],
