@@ -3,12 +3,15 @@ var hierarchy =
     [ "_HILSIMPacket", "struct__HILSIMPacket.html", null ],
     [ "_RocketState", "struct__RocketState.html", null ],
     [ "Acceleration", "structAcceleration.html", null ],
+    [ "AeroCoeff", "structAeroCoeff.html", null ],
+    [ "B2BInterface", "structB2BInterface.html", null ],
     [ "Barometer", "structBarometer.html", null ],
     [ "BarometerSensor", "structBarometerSensor.html", null ],
     [ "BNO", "structBNO.html", null ],
     [ "fsm.BoosterFsm", "classfsm_1_1BoosterFsm.html", null ],
     [ "Buffer< T, BUFFER_SIZE >", "structBuffer.html", null ],
     [ "BuzzerController", "structBuzzerController.html", null ],
+    [ "CameraB2B", "structCameraB2B.html", null ],
     [ "CommandFlags", "structCommandFlags.html", null ],
     [ "Continuity", "structContinuity.html", null ],
     [ "ContinuitySensor", "structContinuitySensor.html", null ],
@@ -25,12 +28,14 @@ var hierarchy =
     [ "HighG", "structHighG.html", null ],
     [ "HighGData", "structHighGData.html", null ],
     [ "HighGSensor", "structHighGSensor.html", null ],
+    [ "Interface", "structInterface.html", null ],
     [ "KalmanData", "structKalmanData.html", null ],
     [ "KalmanFilter< _NumStates, _NumInputs >", "classKalmanFilter.html", null ],
     [ "KalmanFilter< 9, 4 >", "classKalmanFilter.html", [
       [ "ExampleKalmanFilter", "classExampleKalmanFilter.html", null ]
     ] ],
     [ "KalmanFilter< NUM_STATES, NUM_SENSOR_INPUTS >", "classKalmanFilter.html", [
+      [ "EKF", "classEKF.html", null ],
       [ "Yessir", "classYessir.html", null ]
     ] ],
     [ "KalmanState", "structKalmanState.html", null ],
@@ -95,6 +100,7 @@ var hierarchy =
     [ "StateEstimate", "structStateEstimate.html", null ],
     [ "StaticQueue_t", "classStaticQueue__t.html", null ],
     [ "fsm.SustainerFSM", "classfsm_1_1SustainerFSM.html", null ],
+    [ "SX1268", "classSX1268.html", null ],
     [ "Telemetry", "classTelemetry.html", null ],
     [ "TelemetryBackend", "classTelemetryBackend.html", null ],
     [ "TelemetryCommand", "structTelemetryCommand.html", null ],

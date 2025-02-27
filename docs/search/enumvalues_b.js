@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pyrogpiocouldnotbeinitialized_0',['PyroGPIOCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa80c420385d24e0ae7b14d87554eaa23e',1,'errors.h']]]
+  ['orange_0',['ORANGE',['../led_8h.html#aadcb6002d2b42fdfe01490f730ab00a6a5b6490317b6f7270bc3ab5ffd07c1f52',1,'led.h']]]
 ];

@@ -83,94 +83,37 @@ $(document).ready(function(){initNavTree('hardware_2GPSSensor_8cpp.html',''); in
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">GPSSensor.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Wire.h&gt;</code><br />
-<code>#include &quot;MicroNMEA.h&quot;</code><br />
-<code>#include &quot;teseo_liv3f_class.h&quot;</code><br />
+<code>#include &lt;SparkFun_u-blox_GNSS_v3.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="pins_8h_source.html">pins.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
 </div>
 <p><a href="hardware_2GPSSensor_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:acc8396deec12880c1ff73846d14684d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#acc8396deec12880c1ff73846d14684d6">is_leapyear</a> (int year)</td></tr>
-<tr class="separator:acc8396deec12880c1ff73846d14684d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0d87eb31f189896391c721f3f6923263"><td class="memItemLeft" align="right" valign="top">TeseoLIV3F teseo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#a0d87eb31f189896391c721f3f6923263">Wire</a></td></tr>
-<tr class="separator:a0d87eb31f189896391c721f3f6923263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae99b155780fbef0efbc29a36daef5bdb"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#ae99b155780fbef0efbc29a36daef5bdb">months</a> [12]</td></tr>
-<tr class="separator:ae99b155780fbef0efbc29a36daef5bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586df2245b00169e4fbedd73e84b9508"><td class="memItemLeft" align="right" valign="top">SFE_UBLOX_GNSS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#a586df2245b00169e4fbedd73e84b9508">ublox</a></td></tr>
+<tr class="separator:a586df2245b00169e4fbedd73e84b9508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="acc8396deec12880c1ff73846d14684d6" name="acc8396deec12880c1ff73846d14684d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc8396deec12880c1ff73846d14684d6">&#9670;&nbsp;</a></span>is_leapyear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool is_leapyear </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>year</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="hardware_2GPSSensor_8cpp_source.html#l00030">30</a> of file <a class="el" href="hardware_2GPSSensor_8cpp_source.html">GPSSensor.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ae99b155780fbef0efbc29a36daef5bdb" name="ae99b155780fbef0efbc29a36daef5bdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae99b155780fbef0efbc29a36daef5bdb">&#9670;&nbsp;</a></span>months</h2>
+<a id="a586df2245b00169e4fbedd73e84b9508" name="a586df2245b00169e4fbedd73e84b9508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586df2245b00169e4fbedd73e84b9508">&#9670;&nbsp;</a></span>ublox</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint16_t months[12]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="hardware_2GPSSensor_8cpp_source.html#l00026">26</a> of file <a class="el" href="hardware_2GPSSensor_8cpp_source.html">GPSSensor.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a0d87eb31f189896391c721f3f6923263" name="a0d87eb31f189896391c721f3f6923263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d87eb31f189896391c721f3f6923263">&#9670;&nbsp;</a></span>Wire</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TeseoLIV3F teseo&amp; Wire</td>
+          <td class="memname">SFE_UBLOX_GNSS ublox</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2GPSSensor_8cpp_source.html#l00010">10</a> of file <a class="el" href="hardware_2GPSSensor_8cpp_source.html">GPSSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2GPSSensor_8cpp_source.html#l00009">9</a> of file <a class="el" href="hardware_2GPSSensor_8cpp_source.html">GPSSensor.cpp</a>.</p>
 
 </div>
 </div>

@@ -14,7 +14,7 @@ var searchData=
   ['imu_5flow_5flsm_5fgy_11',['imu_low_lsm_gy',['../struct__HILSIMPacket.html#a7072c55280450a02f60d312a63f48064',1,'_HILSIMPacket']]],
   ['imu_5flow_5flsm_5fgz_12',['imu_low_lsm_gz',['../struct__HILSIMPacket.html#aea5112853f12132ce67089af97a224c5',1,'_HILSIMPacket']]],
   ['index_5f_13',['index_',['../structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8',1,'BuzzerController']]],
-  ['init_5faccel_14',['init_accel',['../classYessir.html#adac4e5f66fb43a68d92f9d3e2218e750',1,'Yessir']]],
+  ['init_5faccel_14',['init_accel',['../classEKF.html#aabdb1a80017bb8248db8bf0716b11208',1,'EKF::init_accel()'],['../classYessir.html#adac4e5f66fb43a68d92f9d3e2218e750',1,'Yessir::init_accel()']]],
   ['initial_5fflag_15',['initial_flag',['../structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c',1,'OrientationSensor']]],
   ['initial_5forientation_16',['initial_orientation',['../structOrientationSensor.html#aa12421586b86ad987f838d31bf373975',1,'OrientationSensor']]],
   ['initial_5fquaternion_17',['initial_quaternion',['../structOrientationSensor.html#a356bf636907c490e25f35c5e8cdb4891',1,'OrientationSensor']]],

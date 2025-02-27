@@ -5,6 +5,8 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "hardware", "dir_59b1e980a670de987a696efba6dbbdbc.html", "dir_59b1e980a670de987a696efba6dbbdbc" ],
     [ "hilsim", "dir_39ad1d7d9cb151adc861bccb56dcb3f7.html", "dir_39ad1d7d9cb151adc861bccb56dcb3f7" ],
     [ "silsim", "dir_d32857ca2393668b6b085baf1feeda01.html", "dir_d32857ca2393668b6b085baf1feeda01" ],
+    [ "b2b_interface.cpp", "b2b__interface_8cpp.html", null ],
+    [ "b2b_interface.h", "b2b__interface_8h.html", "b2b__interface_8h" ],
     [ "Buffer.h", "Buffer_8h.html", [
       [ "Buffer< T, BUFFER_SIZE >", "structBuffer.html", "structBuffer" ]
     ] ],

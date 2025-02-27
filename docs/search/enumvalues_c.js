@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['radioinitfailed_0',['RadioInitFailed',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa5c39f96c17665bc9336566e2daadd22d',1,'errors.h']]],
-  ['radiosetfrequencyfailed_1',['RadioSetFrequencyFailed',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa574ffa4552078644bf1b9a3d6f5f6b00',1,'errors.h']]],
-  ['red_2',['RED',['../led_8h.html#aadcb6002d2b42fdfe01490f730ab00a6aa2d9547b5d3dd9f05984475f7c926da0',1,'led.h']]],
-  ['reset_5fkf_3',['RESET_KF',['../telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea87fac078df9d992a6bc96978672f8a41',1,'telemetry_packet.h']]]
+  ['packet_5ftype_5fgfsk_0',['PACKET_TYPE_GFSK',['../E22_8h.html#ac00c75c7366fd5fed088b16d89ab108bab8c7c692a4a9cc7e0ee7c2ac6f21e60a',1,'E22.h']]],
+  ['packet_5ftype_5flora_1',['PACKET_TYPE_LORA',['../E22_8h.html#ac00c75c7366fd5fed088b16d89ab108bab905caebfa612d206efcc6bccbc6811c',1,'E22.h']]],
+  ['pyrogpiocouldnotbeinitialized_2',['PyroGPIOCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa80c420385d24e0ae7b14d87554eaa23e',1,'errors.h']]]
 ];

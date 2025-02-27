@@ -8,7 +8,8 @@ var searchData=
   ['verify_5',['verify',['../structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b',1,'TelemetryCommand']]],
   ['vertical_5fspeed_6',['vertical_speed',['../structStateEstimate.html#a03cafe160cfe3ab0ce1d3702d41171da',1,'StateEstimate']]],
   ['voltage_7',['voltage',['../structLoggedReading.html#ac541ccde6116fceae96bc170e94e5529',1,'LoggedReading::voltage()'],['../structRocketData.html#a1615a5e2560a7715cd9c2f817087c5c9',1,'RocketData::voltage()'],['../structVoltage.html#a7c921f008db270e2c09827b891c9e550',1,'Voltage::voltage()'],['../structSensors.html#aa843430b21d2fb67fd14b986019c4474',1,'Sensors::voltage()']]],
-  ['vx_8',['vx',['../structVelocity.html#a2592d4678c041df7b39ae7663ec0ed5d',1,'Velocity']]],
-  ['vy_9',['vy',['../structVelocity.html#ae2a7111ea8910254dce8882f3ab760a3',1,'Velocity']]],
-  ['vz_10',['vz',['../structVelocity.html#a673687999f3f7ae616cd1dd23f2e9b9b',1,'Velocity']]]
+  ['vtx_5fstate_5f_8',['vtx_state_',['../structCameraB2B.html#ae5e50dba844ceaf04bcb54a746ac3c46',1,'CameraB2B']]],
+  ['vx_9',['vx',['../structVelocity.html#a2592d4678c041df7b39ae7663ec0ed5d',1,'Velocity']]],
+  ['vy_10',['vy',['../structVelocity.html#ae2a7111ea8910254dce8882f3ab760a3',1,'Velocity']]],
+  ['vz_11',['vz',['../structVelocity.html#a673687999f3f7ae616cd1dd23f2e9b9b',1,'Velocity']]]
 ];

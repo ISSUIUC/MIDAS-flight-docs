@@ -105,11 +105,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6bd3e287aa56e28e9f5a787f74880691"><td class="memItemLeft" align="right" valign="top"><a class="el" href="telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7e">CommandType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#a6bd3e287aa56e28e9f5a787f74880691">command</a></td></tr>
 <tr class="separator:a6bd3e287aa56e28e9f5a787f74880691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4aa535aa2b347cb4e56306b9d496cc1"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a8a9755ab7c4520630984449024743857"><td class="memItemLeft" >&#160;&#160;&#160;char&#160;&#160;&#160;<a class="el" href="structTelemetryCommand.html#a601251fc9e02ac8f9c094827f42d5e71">callsign</a> [8]</td></tr>
+<tr class="separator:a8a9755ab7c4520630984449024743857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fa842acd1eb7b3ebd0c53bc39c2ba15"><td class="memItemLeft" >&#160;&#160;&#160;float&#160;&#160;&#160;<a class="el" href="structTelemetryCommand.html#a068a763185184462cf786f396687e72e">new_freq</a></td></tr>
 <tr class="separator:a1fa842acd1eb7b3ebd0c53bc39c2ba15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d6083f84f6647ddcc0b31423aad8ad"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="structTelemetryCommand.html#a903b615475c917cdb3029b2a5e834891">do_abort</a></td></tr>
+<tr class="separator:af5d6083f84f6647ddcc0b31423aad8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4aa535aa2b347cb4e56306b9d496cc1"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:ae4aa535aa2b347cb4e56306b9d496cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da2aafd43f0f1237d4d080afc9a9f5b"><td class="memItemLeft" align="right" valign="top">std::array&lt; char, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b">verify</a> = {{'B', 'R', 'K'}}</td></tr>
+<tr class="memitem:a9da2aafd43f0f1237d4d080afc9a9f5b"><td class="memItemLeft" align="right" valign="top">std::array&lt; char, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b">verify</a></td></tr>
 <tr class="separator:a9da2aafd43f0f1237d4d080afc9a9f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -140,7 +144,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00046">46</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00048">48</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>
@@ -156,6 +160,22 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a601251fc9e02ac8f9c094827f42d5e71" name="a601251fc9e02ac8f9c094827f42d5e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a601251fc9e02ac8f9c094827f42d5e71">&#9670;&nbsp;</a></span>callsign</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char TelemetryCommand::callsign[8]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00042">42</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>
@@ -175,6 +195,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a903b615475c917cdb3029b2a5e834891" name="a903b615475c917cdb3029b2a5e834891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a903b615475c917cdb3029b2a5e834891">&#9670;&nbsp;</a></span>do_abort</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TelemetryCommand::do_abort</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00044">44</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+
+</div>
+</div>
 <a id="a068a763185184462cf786f396687e72e" name="a068a763185184462cf786f396687e72e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a068a763185184462cf786f396687e72e">&#9670;&nbsp;</a></span>new_freq</h2>
 
@@ -187,7 +223,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00042">42</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00043">43</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>
@@ -198,12 +234,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;char, 3&gt; TelemetryCommand::verify = {{'B', 'R', 'K'}}</td>
+          <td class="memname">std::array&lt;char, 3&gt; TelemetryCommand::verify</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00044">44</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00046">46</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>

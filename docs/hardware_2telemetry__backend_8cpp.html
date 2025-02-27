@@ -87,31 +87,228 @@ $(document).ready(function(){initNavTree('hardware_2telemetry__backend_8cpp.html
   <div class="headertitle"><div class="title">telemetry_backend.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;RHHardwareSPI.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="hardware_2telemetry__backend_8h_source.html">hardware/telemetry_backend.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="hardware_2telemetry__backend_8h_source.html">hardware/telemetry_backend.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pins_8h_source.html">hardware/pins.h</a>&quot;</code><br />
 </div>
 <p><a href="hardware_2telemetry__backend_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2240e28a2e7f70d896b1a46ea3c5ce39"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a2240e28a2e7f70d896b1a46ea3c5ce39">RF95_FREQ</a>&#160;&#160;&#160;426.15</td></tr>
-<tr class="separator:a2240e28a2e7f70d896b1a46ea3c5ce39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8f042691c935523a26dea7fdb0d76f5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#ae8f042691c935523a26dea7fdb0d76f5">TX_FREQ</a>&#160;&#160;&#160;426.15</td></tr>
+<tr class="separator:ae8f042691c935523a26dea7fdb0d76f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f52a6357b2c76476595bce9571db72e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a1f52a6357b2c76476595bce9571db72e">TX_OUTPUT_POWER</a>&#160;&#160;&#160;22</td></tr>
+<tr class="separator:a1f52a6357b2c76476595bce9571db72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33702007527b9cea6e029b919322a7a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a33702007527b9cea6e029b919322a7a5">LORA_BANDWIDTH</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a33702007527b9cea6e029b919322a7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e25fd82f3b77562dde8259fef5e79a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a58e25fd82f3b77562dde8259fef5e79a">LORA_SPREADING_FACTOR</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a58e25fd82f3b77562dde8259fef5e79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab807a12d6fbc6b8a16235233f54fbba1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#ab807a12d6fbc6b8a16235233f54fbba1">LORA_CODINGRATE</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ab807a12d6fbc6b8a16235233f54fbba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5b496aeaf1062018a929480d244284"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a1e5b496aeaf1062018a929480d244284">LORA_PREAMBLE_LENGTH</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:a1e5b496aeaf1062018a929480d244284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad341b0dbadfa50a71b6a8359628a925b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#ad341b0dbadfa50a71b6a8359628a925b">LORA_SYMBOL_TIMEOUT</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad341b0dbadfa50a71b6a8359628a925b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a815cf21c43eb992d2579b34f9e804c6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a815cf21c43eb992d2579b34f9e804c6a">LORA_FIX_LENGTH_PAYLOAD_ON</a>&#160;&#160;&#160;false</td></tr>
+<tr class="separator:a815cf21c43eb992d2579b34f9e804c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04314cf408af47a93473fd028133d2f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a04314cf408af47a93473fd028133d2f4">LORA_IQ_INVERSION_ON</a>&#160;&#160;&#160;false</td></tr>
+<tr class="separator:a04314cf408af47a93473fd028133d2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcc0a0e39acb2db2cf207834ec686e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a0dcc0a0e39acb2db2cf207834ec686e2">RX_TIMEOUT_VALUE</a>&#160;&#160;&#160;1000</td></tr>
+<tr class="separator:a0dcc0a0e39acb2db2cf207834ec686e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a787165d9ce76cde0f22b9a55eb6f8a8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a787165d9ce76cde0f22b9a55eb6f8a8f">TX_TIMEOUT_VALUE</a>&#160;&#160;&#160;1000</td></tr>
+<tr class="separator:a787165d9ce76cde0f22b9a55eb6f8a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b462483d6913b2cf208a42bea840555"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2telemetry__backend_8cpp.html#a4b462483d6913b2cf208a42bea840555">LORA_BUFFER_SIZE</a>&#160;&#160;&#160;64</td></tr>
+<tr class="separator:a4b462483d6913b2cf208a42bea840555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2240e28a2e7f70d896b1a46ea3c5ce39" name="a2240e28a2e7f70d896b1a46ea3c5ce39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2240e28a2e7f70d896b1a46ea3c5ce39">&#9670;&nbsp;</a></span>RF95_FREQ</h2>
+<a id="a33702007527b9cea6e029b919322a7a5" name="a33702007527b9cea6e029b919322a7a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33702007527b9cea6e029b919322a7a5">&#9670;&nbsp;</a></span>LORA_BANDWIDTH</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RF95_FREQ&#160;&#160;&#160;426.15</td>
+          <td class="memname">#define LORA_BANDWIDTH&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00030">30</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4b462483d6913b2cf208a42bea840555" name="a4b462483d6913b2cf208a42bea840555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b462483d6913b2cf208a42bea840555">&#9670;&nbsp;</a></span>LORA_BUFFER_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_BUFFER_SIZE&#160;&#160;&#160;64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00039">39</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab807a12d6fbc6b8a16235233f54fbba1" name="ab807a12d6fbc6b8a16235233f54fbba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab807a12d6fbc6b8a16235233f54fbba1">&#9670;&nbsp;</a></span>LORA_CODINGRATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_CODINGRATE&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00032">32</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a815cf21c43eb992d2579b34f9e804c6a" name="a815cf21c43eb992d2579b34f9e804c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a815cf21c43eb992d2579b34f9e804c6a">&#9670;&nbsp;</a></span>LORA_FIX_LENGTH_PAYLOAD_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_FIX_LENGTH_PAYLOAD_ON&#160;&#160;&#160;false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00035">35</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a04314cf408af47a93473fd028133d2f4" name="a04314cf408af47a93473fd028133d2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04314cf408af47a93473fd028133d2f4">&#9670;&nbsp;</a></span>LORA_IQ_INVERSION_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_IQ_INVERSION_ON&#160;&#160;&#160;false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00036">36</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1e5b496aeaf1062018a929480d244284" name="a1e5b496aeaf1062018a929480d244284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e5b496aeaf1062018a929480d244284">&#9670;&nbsp;</a></span>LORA_PREAMBLE_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_PREAMBLE_LENGTH&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00033">33</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a58e25fd82f3b77562dde8259fef5e79a" name="a58e25fd82f3b77562dde8259fef5e79a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e25fd82f3b77562dde8259fef5e79a">&#9670;&nbsp;</a></span>LORA_SPREADING_FACTOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_SPREADING_FACTOR&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00031">31</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad341b0dbadfa50a71b6a8359628a925b" name="ad341b0dbadfa50a71b6a8359628a925b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad341b0dbadfa50a71b6a8359628a925b">&#9670;&nbsp;</a></span>LORA_SYMBOL_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LORA_SYMBOL_TIMEOUT&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00034">34</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0dcc0a0e39acb2db2cf207834ec686e2" name="a0dcc0a0e39acb2db2cf207834ec686e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dcc0a0e39acb2db2cf207834ec686e2">&#9670;&nbsp;</a></span>RX_TIMEOUT_VALUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RX_TIMEOUT_VALUE&#160;&#160;&#160;1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00037">37</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae8f042691c935523a26dea7fdb0d76f5" name="ae8f042691c935523a26dea7fdb0d76f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8f042691c935523a26dea7fdb0d76f5">&#9670;&nbsp;</a></span>TX_FREQ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TX_FREQ&#160;&#160;&#160;426.15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00026">26</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f52a6357b2c76476595bce9571db72e" name="a1f52a6357b2c76476595bce9571db72e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f52a6357b2c76476595bce9571db72e">&#9670;&nbsp;</a></span>TX_OUTPUT_POWER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TX_OUTPUT_POWER&#160;&#160;&#160;22</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00029">29</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a787165d9ce76cde0f22b9a55eb6f8a8f" name="a787165d9ce76cde0f22b9a55eb6f8a8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a787165d9ce76cde0f22b9a55eb6f8a8f">&#9670;&nbsp;</a></span>TX_TIMEOUT_VALUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TX_TIMEOUT_VALUE&#160;&#160;&#160;1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00038">38</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
 
 </div>
 </div>

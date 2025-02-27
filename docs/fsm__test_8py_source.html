@@ -92,62 +92,71 @@ $(document).ready(function(){initNavTree('fsm__test_8py_source.html',''); initRe
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">import</span> math</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a876d4ec5277dbcc1914df07b7dec4a20">    9</a></span>parser = argparse.ArgumentParser()</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a1b24e5bf18e54f60c4aa01e5b1f1df4a">   10</a></span>parser.add_argument(<span class="stringliteral">&quot;filename&quot;</span>, type=pathlib.Path)</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#aaa829ad73cc29862d97e9e77852aea8a">   11</a></span>parser.add_argument(<span class="stringliteral">&quot;-s&quot;</span>, <span class="stringliteral">&quot;--stage&quot;</span>, help=<span class="stringliteral">&quot;boost/sus&quot;</span>, default=<span class="stringliteral">&quot;sus&quot;</span>)</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"># ACCEL_STRING = &quot;acceleration&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"># TIME_STRING = &quot;time&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"># HEIGHT_STRING = &quot;height&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"># SPEED_STRING = &quot;speed&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#aa98e1662d407ef811621fbaa203aa974">   13</a></span>args = parser.parse_args()</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a18d0c7337dac760c26bb95c408ecc95f">   15</a></span>state_machine = <a class="code hl_class" href="classfsm_1_1SustainerFSM.html">fsm.SustainerFSM</a>()</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordflow">if</span> args.stage == <span class="stringliteral">&quot;boost&quot;</span>:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    state_machine = <a class="code hl_class" href="classfsm_1_1BoosterFsm.html">fsm.BoosterFsm</a>()</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a175e0ef11c717ec058977771111d215f">   20</a></span>df = pd.read_csv(args.filename)</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a0099e5e77499da76d03cba886891d7de">   21</a></span>packet = <a class="code hl_class" href="classfsm_1_1StateEstimate.html">fsm.StateEstimate</a>()</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a9ddf1abc5797b2bcbb392a07d49de02f">   23</a></span>state_rows = []</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordflow">for</span> i, line <span class="keywordflow">in</span> df.iterrows():</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    packet[<span class="stringliteral">&#39;acceleration&#39;</span>] = float(line[<span class="stringliteral">&#39;accel_x&#39;</span>])</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    packet[<span class="stringliteral">&#39;altitude&#39;</span>] = float(line[<span class="stringliteral">&#39;pos_x&#39;</span>])</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    packet[<span class="stringliteral">&#39;current_time&#39;</span>] = float(line[<span class="stringliteral">&#39;time&#39;</span>])</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    packet[<span class="stringliteral">&#39;jerk&#39;</span>] = 0</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordflow">if</span> i &gt; 0 <span class="keywordflow">and</span> line[<span class="stringliteral">&#39;time&#39;</span>] - df[<span class="stringliteral">&#39;time&#39;</span>][i - 1] != 0:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        packet[<span class="stringliteral">&#39;jerk&#39;</span>] = float((line[<span class="stringliteral">&#39;accel_x&#39;</span>] - df[<span class="stringliteral">&#39;accel_x&#39;</span>][i - 1]) / (line[<span class="stringliteral">&#39;time&#39;</span>] - df[<span class="stringliteral">&#39;time&#39;</span>][i - 1]))</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a63a242a007955f8fe98bcdadef92728a">   13</a></span>ACCEL_STRING = <span class="stringliteral">&quot;accel_x&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a61c1d3144af416723b415de3a792678a">   14</a></span>TIME_STRING = <span class="stringliteral">&quot;time&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#af8cc51f5ca9ba5e27f8c0e3e1ef4db00">   15</a></span>HEIGHT_STRING = <span class="stringliteral">&quot;pos_x&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a570d9209f9209b5e16d1de910ed6ad9e">   16</a></span>SPEED_STRING = <span class="stringliteral">&quot;vel_x&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a876d4ec5277dbcc1914df07b7dec4a20">   18</a></span>parser = argparse.ArgumentParser()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a1b24e5bf18e54f60c4aa01e5b1f1df4a">   19</a></span>parser.add_argument(<span class="stringliteral">&quot;filename&quot;</span>, type=pathlib.Path)</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#aaa829ad73cc29862d97e9e77852aea8a">   20</a></span>parser.add_argument(<span class="stringliteral">&quot;-s&quot;</span>, <span class="stringliteral">&quot;--stage&quot;</span>, help=<span class="stringliteral">&quot;boost/sus&quot;</span>, default=<span class="stringliteral">&quot;sus&quot;</span>)</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#aa98e1662d407ef811621fbaa203aa974">   22</a></span>args = parser.parse_args()</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a18d0c7337dac760c26bb95c408ecc95f">   24</a></span>state_machine = <a class="code hl_class" href="classfsm_1_1SustainerFSM.html">fsm.SustainerFSM</a>()</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordflow">if</span> args.stage == <span class="stringliteral">&quot;boost&quot;</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    state_machine = <a class="code hl_class" href="classfsm_1_1BoosterFsm.html">fsm.BoosterFsm</a>()</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a175e0ef11c717ec058977771111d215f">   29</a></span>df = pd.read_csv(args.filename)</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a0099e5e77499da76d03cba886891d7de">   30</a></span>packet = <a class="code hl_class" href="classfsm_1_1StateEstimate.html">fsm.StateEstimate</a>()</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a9ddf1abc5797b2bcbb392a07d49de02f">   32</a></span>state_rows = []</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    packet[<span class="stringliteral">&#39;vertical_speed&#39;</span>] = float(line[<span class="stringliteral">&#39;vel_x&#39;</span>])</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#afe613263b9a7a96ecafcc9af41f4e7ba">   36</a></span>    state, transition_reason = state_machine.tick_fsm(packet)</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">if</span> transition_reason != <span class="stringliteral">&quot;&quot;</span>:</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        print(<span class="stringliteral">&quot;\t&quot;</span>.join([fsm.FSM_STATE_TO_STRING[state], transition_reason, <a class="code hl_function" href="namespacenanopb__generator.html#ae5c6e655940bb3833b062c2d78b0a0d3">str</a>(state.value)]))</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    state_rows.append(state.value)</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordflow">for</span> i, line <span class="keywordflow">in</span> df.iterrows():</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    packet[<span class="stringliteral">&#39;acceleration&#39;</span>] = float(line[ACCEL_STRING])</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    packet[<span class="stringliteral">&#39;altitude&#39;</span>] = float(line[HEIGHT_STRING])</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    packet[<span class="stringliteral">&#39;current_time&#39;</span>] = float(line[TIME_STRING])</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    packet[<span class="stringliteral">&#39;jerk&#39;</span>] = 0</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">if</span> i &gt; 0 <span class="keywordflow">and</span> line[TIME_STRING] - df[TIME_STRING][i - 1] != 0:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        packet[<span class="stringliteral">&#39;jerk&#39;</span>] = float((line[ACCEL_STRING] - df[ACCEL_STRING][i - 1]) / (line[TIME_STRING] - df[TIME_STRING][i - 1]))</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#ab67f531b83783874c7f604cd9d22b698">   43</a></span>top_state = max(state_rows)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    packet[<span class="stringliteral">&#39;vertical_speed&#39;</span>] = float(line[SPEED_STRING])</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>df = pd.read_csv(args.filename)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#afe613263b9a7a96ecafcc9af41f4e7ba">   45</a></span>    state, transition_reason = state_machine.tick_fsm(packet)</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a257defdd5f99d72b9c18394d2bbaf1e6">   47</a></span>yticks = [fsm.FSM_STATE_TO_STRING[s] <span class="keywordflow">for</span> s <span class="keywordflow">in</span> <a class="code hl_class" href="classfsm_1_1FSMState.html">fsm.FSMState</a>]</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a793337e09ec5a85c834163e541d03956">   48</a></span>ynums = [i <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(14)]</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>plt.yticks(ynums, yticks)</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>plt.xlabel(<span class="stringliteral">&quot;Time (s)&quot;</span>)</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>plt.plot(df[<span class="stringliteral">&quot;time&quot;</span>], state_rows)</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">if</span> transition_reason != <span class="stringliteral">&quot;&quot;</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        print(<span class="stringliteral">&quot;\t&quot;</span>.join([fsm.FSM_STATE_TO_STRING[state], transition_reason, <a class="code hl_function" href="namespacenanopb__generator.html#ae5c6e655940bb3833b062c2d78b0a0d3">str</a>(state.value)]))</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    state_rows.append(state.value)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#ab67f531b83783874c7f604cd9d22b698">   52</a></span>top_state = max(state_rows)</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#abc44d73e4c16ad769d31c10b57ac13e2">   54</a></span>plt.vlines(60, 0, top_state, label=<span class="stringliteral">&quot;Booster Ignition&quot;</span>, colors=<span class="stringliteral">&quot;r&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>plt.vlines(64, 0, top_state, label=<span class="stringliteral">&quot;Booster Burnout&quot;</span>, colors=<span class="stringliteral">&quot;b&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>plt.vlines(65, 0, top_state, label=<span class="stringliteral">&quot;Sustainer Ignition&quot;</span>, colors=<span class="stringliteral">&quot;g&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>plt.vlines(70, 0, top_state, label=<span class="stringliteral">&quot;Sustainer Burnout&quot;</span>, colors=<span class="stringliteral">&quot;c&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>df = pd.read_csv(args.filename)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a257defdd5f99d72b9c18394d2bbaf1e6">   56</a></span>yticks = [fsm.FSM_STATE_TO_STRING[s] <span class="keywordflow">for</span> s <span class="keywordflow">in</span> <a class="code hl_class" href="classfsm_1_1FSMState.html">fsm.FSMState</a>]</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#a793337e09ec5a85c834163e541d03956">   57</a></span>ynums = [i <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(14)]</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>plt.legend()</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>plt.show()</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>plt.yticks(ynums, yticks)</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>plt.xlabel(<span class="stringliteral">&quot;Time (s)&quot;</span>)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>plt.plot(df[<span class="stringliteral">&quot;time&quot;</span>], state_rows)</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="ttc" id="aclassfsm_1_1BoosterFsm_html"><div class="ttname"><a href="classfsm_1_1BoosterFsm.html">fsm.BoosterFsm</a></div><div class="ttdef"><b>Definition:</b> <a href="fsm_8py_source.html#l00197">fsm.py:197</a></div></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="namespacefsm__test.html#abc44d73e4c16ad769d31c10b57ac13e2">   63</a></span>plt.vlines(60, 0, top_state, label=<span class="stringliteral">&quot;Booster Ignition&quot;</span>, colors=<span class="stringliteral">&quot;r&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>plt.vlines(64, 0, top_state, label=<span class="stringliteral">&quot;Booster Burnout&quot;</span>, colors=<span class="stringliteral">&quot;b&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>plt.vlines(65, 0, top_state, label=<span class="stringliteral">&quot;Sustainer Ignition&quot;</span>, colors=<span class="stringliteral">&quot;g&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>plt.vlines(70, 0, top_state, label=<span class="stringliteral">&quot;Sustainer Burnout&quot;</span>, colors=<span class="stringliteral">&quot;c&quot;</span>, linestyles=<span class="stringliteral">&#39;--&#39;</span>)</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>plt.legend()</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>plt.show()</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="ttc" id="aclassfsm_1_1BoosterFsm_html"><div class="ttname"><a href="classfsm_1_1BoosterFsm.html">fsm.BoosterFsm</a></div><div class="ttdef"><b>Definition:</b> <a href="fsm_8py_source.html#l00203">fsm.py:203</a></div></div>
 <div class="ttc" id="aclassfsm_1_1FSMState_html"><div class="ttname"><a href="classfsm_1_1FSMState.html">fsm.FSMState</a></div><div class="ttdef"><b>Definition:</b> <a href="fsm_8py_source.html#l00006">fsm.py:6</a></div></div>
 <div class="ttc" id="aclassfsm_1_1StateEstimate_html"><div class="ttname"><a href="classfsm_1_1StateEstimate.html">fsm.StateEstimate</a></div><div class="ttdef"><b>Definition:</b> <a href="fsm_8py_source.html#l00039">fsm.py:39</a></div></div>
 <div class="ttc" id="aclassfsm_1_1SustainerFSM_html"><div class="ttname"><a href="classfsm_1_1SustainerFSM.html">fsm.SustainerFSM</a></div><div class="ttdef"><b>Definition:</b> <a href="fsm_8py_source.html#l00048">fsm.py:48</a></div></div>

@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a261cb20abad2b3c7a2ab6343976d2490"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDSink.html#a261cb20abad2b3c7a2ab6343976d2490">SDSink</a> ()=default</td></tr>
 <tr class="separator:a261cb20abad2b3c7a2ab6343976d2490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c0ab857a966085e9f271f7d1a2875b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDSink.html#a6c0ab857a966085e9f271f7d1a2875b4">init</a> () override</td></tr>
-<tr class="memdesc:a6c0ab857a966085e9f271f7d1a2875b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the SD card logger.  <a href="classSDSink.html#a6c0ab857a966085e9f271f7d1a2875b4">More...</a><br /></td></tr>
+<tr class="memdesc:a6c0ab857a966085e9f271f7d1a2875b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the SD card logger In MIDAS v2.x, the flash module has the same interface as the SD card, we just need to set the appropiate pins.  <a href="classSDSink.html#a6c0ab857a966085e9f271f7d1a2875b4">More...</a><br /></td></tr>
 <tr class="separator:a6c0ab857a966085e9f271f7d1a2875b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581e1131bf8b1142e6ff029809f75d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDSink.html#a581e1131bf8b1142e6ff029809f75d49">write</a> (const uint8_t *data, size_t size) override</td></tr>
 <tr class="memdesc:a581e1131bf8b1142e6ff029809f75d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a byte buffer to the SD card.  <a href="classSDSink.html#a581e1131bf8b1142e6ff029809f75d49">More...</a><br /></td></tr>
@@ -249,12 +249,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Initializes the SD card logger. </p>
+<p>Initializes the SD card logger In MIDAS v2.x, the flash module has the same interface as the SD card, we just need to set the appropiate pins. </p>
 <dl class="section return"><dt>Returns</dt><dd>Error Code </dd></dl>
 
 <p>Implements <a class="el" href="classLogSink.html#a540c35c2c2562c28b9eff5b8caab2218">LogSink</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="SDLog_8cpp_source.html#l00012">12</a> of file <a class="el" href="SDLog_8cpp_source.html">SDLog.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SDLog_8cpp_source.html#l00014">14</a> of file <a class="el" href="SDLog_8cpp_source.html">SDLog.cpp</a>.</p>
 
 </div>
 </div>
@@ -341,7 +341,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classLogSink.html#aba8e22aa3590e256d2790beef29905f2">LogSink</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="SDLog_8cpp_source.html#l00041">41</a> of file <a class="el" href="SDLog_8cpp_source.html">SDLog.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SDLog_8cpp_source.html#l00043">43</a> of file <a class="el" href="SDLog_8cpp_source.html">SDLog.cpp</a>.</p>
 
 </div>
 </div>

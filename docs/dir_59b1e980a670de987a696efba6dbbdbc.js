@@ -2,6 +2,8 @@ var dir_59b1e980a670de987a696efba6dbbdbc =
 [
     [ "Barometer.cpp", "hardware_2Barometer_8cpp.html", "hardware_2Barometer_8cpp" ],
     [ "Continuity.cpp", "hardware_2Continuity_8cpp.html", "hardware_2Continuity_8cpp" ],
+    [ "E22.cpp", "E22_8cpp.html", "E22_8cpp" ],
+    [ "E22.h", "E22_8h.html", "E22_8h" ],
     [ "Emmc.cpp", "Emmc_8cpp.html", null ],
     [ "Emmc.h", "Emmc_8h.html", [
       [ "EMMCSink", "classEMMCSink.html", "classEMMCSink" ]

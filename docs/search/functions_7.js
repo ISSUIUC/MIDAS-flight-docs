@@ -19,8 +19,11 @@ var searchData=
   ['getlatency_16',['getLatency',['../classLatency.html#a7df26184e2d18df6b165c13e4a895a03',1,'Latency']]],
   ['getqueued_17',['getQueued',['../structSensorData.html#a46e70849c47ee4a32d7e26bdbeaacb92',1,'SensorData']]],
   ['getrecent_18',['getRecent',['../structSensorData.html#a527e26a910cead311006c7a2cf092183',1,'SensorData']]],
-  ['getrecentrssi_19',['getRecentRssi',['../classTelemetryBackend.html#a9e7e8291481280d59648381b0a6aea31',1,'TelemetryBackend::getRecentRssi()'],['../classTelemetryBackend.html#a9e7e8291481280d59648381b0a6aea31',1,'TelemetryBackend::getRecentRssi()'],['../classTelemetryBackend.html#a9e7e8291481280d59648381b0a6aea31',1,'TelemetryBackend::getRecentRssi()']]],
+  ['getrecentrssi_19',['getRecentRssi',['../classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52',1,'TelemetryBackend::getRecentRssi()'],['../classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52',1,'TelemetryBackend::getRecentRssi()'],['../classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52',1,'TelemetryBackend::getRecentRssi()']]],
   ['getrecentunsync_20',['getRecentUnsync',['../structSensorData.html#ae1434bddd44c30d2f31908bcba0baf48',1,'SensorData']]],
-  ['getstate_21',['getState',['../classExampleKalmanFilter.html#a021d12a61e39f4f7c9196b343069599c',1,'ExampleKalmanFilter::getState()'],['../classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9',1,'KalmanFilter::getState()'],['../classYessir.html#a43d8f9990f6c6124b03714a958a8b828',1,'Yessir::getState()']]],
-  ['gettimesrecent_22',['getTimesRecent',['../structBufferedSensorData.html#a8a44cac90d8eea217a87f490fdc3b0d7',1,'BufferedSensorData']]]
+  ['getstate_21',['getState',['../classEKF.html#a80b18934240de41e18ff6265a818e8a3',1,'EKF::getState()'],['../classExampleKalmanFilter.html#a021d12a61e39f4f7c9196b343069599c',1,'ExampleKalmanFilter::getState()'],['../classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9',1,'KalmanFilter::getState()'],['../classYessir.html#a43d8f9990f6c6124b03714a958a8b828',1,'Yessir::getState()']]],
+  ['getthrust_22',['getThrust',['../classEKF.html#af5dded9639e82f9dc1f1711680f4cc67',1,'EKF']]],
+  ['gettimesrecent_23',['getTimesRecent',['../structBufferedSensorData.html#a8a44cac90d8eea217a87f490fdc3b0d7',1,'BufferedSensorData']]],
+  ['getvelocity_24',['getVelocity',['../structOrientation.html#a4782dcf86c92147d9002264ddf767589',1,'Orientation']]],
+  ['globaltobody_25',['GlobalToBody',['../classEKF.html#aaf391b5880785536fc8dee0d62bbb673',1,'EKF']]]
 ];

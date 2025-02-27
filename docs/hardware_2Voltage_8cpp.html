@@ -83,13 +83,15 @@ $(document).ready(function(){initNavTree('hardware_2Voltage_8cpp.html',''); init
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Voltage.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 <code>#include &lt;Arduino.h&gt;</code><br />
 <code>#include &lt;ads7138-q1.h&gt;</code><br />
+<code>#include &lt;Wire.h&gt;</code><br />
 </div>
 <p><a href="hardware_2Voltage_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -97,6 +99,11 @@ $(document).ready(function(){initNavTree('hardware_2Voltage_8cpp.html',''); init
 Macros</h2></td></tr>
 <tr class="memitem:a3a0b7478dd2911edab3a32101c48c254"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Voltage_8cpp.html#a3a0b7478dd2911edab3a32101c48c254">VOLTAGE_DIVIDER</a>&#160;&#160;&#160;(5.0 / (5.0 + 20.0))</td></tr>
 <tr class="separator:a3a0b7478dd2911edab3a32101c48c254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab08471d5f0dbeaf8a051c227283b4d9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2Voltage_8cpp.html#ab08471d5f0dbeaf8a051c227283b4d9d">read_board_pwr_monitor_register</a> (int reg, int bytes)</td></tr>
+<tr class="separator:ab08471d5f0dbeaf8a051c227283b4d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3a0b7478dd2911edab3a32101c48c254" name="a3a0b7478dd2911edab3a32101c48c254"></a>
@@ -111,7 +118,38 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2Voltage_8cpp_source.html#l00005">5</a> of file <a class="el" href="hardware_2Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2Voltage_8cpp_source.html#l00006">6</a> of file <a class="el" href="hardware_2Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab08471d5f0dbeaf8a051c227283b4d9d" name="ab08471d5f0dbeaf8a051c227283b4d9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab08471d5f0dbeaf8a051c227283b4d9d">&#9670;&nbsp;</a></span>read_board_pwr_monitor_register()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int read_board_pwr_monitor_register </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bytes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2Voltage_8cpp_source.html#l00008">8</a> of file <a class="el" href="hardware_2Voltage_8cpp_source.html">Voltage.cpp</a>.</p>
 
 </div>
 </div>
