@@ -21,13 +21,14 @@ var searchData=
   ['booster_5fignition_5fto_5fsecond_5fboost_5ftime_5fthreshold_18',['booster_ignition_to_second_boost_time_threshold',['../thresholds_8h.html#a16500cda9189e1ccae108a9f00b9ebee',1,'thresholds.h']]],
   ['booster_5flanded_5ftime_5flockout_19',['booster_landed_time_lockout',['../thresholds_8h.html#aab2880f38ac99bb38a90f9142b15b60e',1,'thresholds.h']]],
   ['booster_5flanded_5ftimer_5fthreshold_20',['booster_landed_timer_threshold',['../thresholds_8h.html#afd345838da452823a7d3ee7fccac2591',1,'thresholds.h']]],
-  ['booster_5flanded_5fvertical_5fspeed_5fthreshold_21',['booster_landed_vertical_speed_threshold',['../thresholds_8h.html#a70b1527d4b1675d157daa375eb661d16',1,'thresholds.h']]],
-  ['booster_5fmain_5fdeploy_5faltitude_5fthreshold_22',['booster_main_deploy_altitude_threshold',['../thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce',1,'thresholds.h']]],
-  ['booster_5fmain_5fdeploy_5fdelay_5fafter_5fdrogue_23',['booster_main_deploy_delay_after_drogue',['../thresholds_8h.html#a3236a5bb93d1123b8453ae6cebfab329',1,'thresholds.h']]],
-  ['booster_5fmain_5fjerk_5fthreshold_24',['booster_main_jerk_threshold',['../thresholds_8h.html#a1e59b3a323362d080f0e076560fe7377',1,'thresholds.h']]],
-  ['booster_5fmain_5fto_5flanded_5flockout_25',['booster_main_to_landed_lockout',['../thresholds_8h.html#a616daf01cb83888b4333f41483d97e0f',1,'thresholds.h']]],
-  ['booster_5fmain_5fto_5fmain_5fdeploy_5ftimer_5fthreshold_26',['booster_main_to_main_deploy_timer_threshold',['../thresholds_8h.html#aa4d47dd153cda9c4a7a30fee843a08a9',1,'thresholds.h']]],
-  ['booster_5fpyro_5ffiring_5ftime_5fminimum_27',['booster_pyro_firing_time_minimum',['../thresholds_8h.html#a3902c365c052d2d907c5fb7adbf92e0e',1,'thresholds.h']]],
-  ['buzzer_5fchannel_28',['BUZZER_CHANNEL',['../pins_8h.html#ac69331f8facce28cfd7b94076ca7055e',1,'pins.h']]],
-  ['buzzer_5fpin_29',['BUZZER_PIN',['../pins_8h.html#ab61d0981ed42df9e18211b273d22cfcd',1,'pins.h']]]
+  ['booster_5flanded_5fto_5fmain_5fvertical_5fspeed_5fthreshold_21',['booster_landed_to_main_vertical_speed_threshold',['../thresholds_8h.html#a6c93b938b301fdb16d75aee684c94a20',1,'thresholds.h']]],
+  ['booster_5flanded_5fvertical_5fspeed_5fthreshold_22',['booster_landed_vertical_speed_threshold',['../thresholds_8h.html#a70b1527d4b1675d157daa375eb661d16',1,'thresholds.h']]],
+  ['booster_5fmain_5fdeploy_5faltitude_5fthreshold_23',['booster_main_deploy_altitude_threshold',['../thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce',1,'thresholds.h']]],
+  ['booster_5fmain_5fdeploy_5fdelay_5fafter_5fdrogue_24',['booster_main_deploy_delay_after_drogue',['../thresholds_8h.html#a3236a5bb93d1123b8453ae6cebfab329',1,'thresholds.h']]],
+  ['booster_5fmain_5fjerk_5fthreshold_25',['booster_main_jerk_threshold',['../thresholds_8h.html#a1e59b3a323362d080f0e076560fe7377',1,'thresholds.h']]],
+  ['booster_5fmain_5fto_5flanded_5flockout_26',['booster_main_to_landed_lockout',['../thresholds_8h.html#a616daf01cb83888b4333f41483d97e0f',1,'thresholds.h']]],
+  ['booster_5fmain_5fto_5fmain_5fdeploy_5ftimer_5fthreshold_27',['booster_main_to_main_deploy_timer_threshold',['../thresholds_8h.html#aa4d47dd153cda9c4a7a30fee843a08a9',1,'thresholds.h']]],
+  ['booster_5fpyro_5ffiring_5ftime_5fminimum_28',['booster_pyro_firing_time_minimum',['../thresholds_8h.html#a3902c365c052d2d907c5fb7adbf92e0e',1,'thresholds.h']]],
+  ['buzzer_5fchannel_29',['BUZZER_CHANNEL',['../pins_8h.html#ac69331f8facce28cfd7b94076ca7055e',1,'pins.h']]],
+  ['buzzer_5fpin_30',['BUZZER_PIN',['../pins_8h.html#ab61d0981ed42df9e18211b273d22cfcd',1,'pins.h']]]
 ];
