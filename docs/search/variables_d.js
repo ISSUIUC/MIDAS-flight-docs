@@ -17,7 +17,7 @@ var searchData=
   ['mass_5fsustainer_14',['mass_sustainer',['../ekf_8cpp.html#a23aa54f1c937b4bb4c33a81ba50e1295',1,'ekf.cpp']]],
   ['matched_5fnamemasks_15',['matched_namemasks',['../classnanopb__generator_1_1Globals.html#a4dafcaaa1a767fc212c842a2195ca4d9',1,'nanopb_generator::Globals']]],
   ['math_5finclude_5frequired_16',['math_include_required',['../classnanopb__generator_1_1Field.html#a2bb4824cc6303669ae9e2354361f3d88',1,'nanopb_generator.Field.math_include_required()'],['../classnanopb__generator_1_1Message.html#ab681383cb147fcc89bab0cec97280427',1,'nanopb_generator.Message.math_include_required()'],['../classnanopb__generator_1_1ProtoFile.html#a56bfd9cd805edbf3f87dd85871d93440',1,'nanopb_generator.ProtoFile.math_include_required()']]],
-  ['max_5fcount_17',['max_count',['../classnanopb__generator_1_1Field.html#a15747cfb90c9710bed1bb5f2a5e36c6e',1,'nanopb_generator.Field.max_count()'],['../classnanopb__generator_1_1ExtensionRange.html#accdb9cb76b9f5d04b7613a7ad04f3464',1,'nanopb_generator.ExtensionRange.max_count()'],['../classStaticQueue__t.html#a7e5ca9bddac7c0248131236a12d133ed',1,'StaticQueue_t::max_count()']]],
+  ['max_5fcount_17',['max_count',['../classnanopb__generator_1_1ExtensionRange.html#accdb9cb76b9f5d04b7613a7ad04f3464',1,'nanopb_generator.ExtensionRange.max_count()'],['../classnanopb__generator_1_1Field.html#a15747cfb90c9710bed1bb5f2a5e36c6e',1,'nanopb_generator.Field.max_count()'],['../classStaticQueue__t.html#a7e5ca9bddac7c0248131236a12d133ed',1,'StaticQueue_t::max_count()']]],
   ['max_5fsize_18',['max_size',['../classnanopb__generator_1_1ExtensionRange.html#accd8ec65981fa3dfd4bbde23f8d54d66',1,'nanopb_generator.ExtensionRange.max_size()'],['../classnanopb__generator_1_1Field.html#ab2847922e9540ca0eadae9c50fa57314',1,'nanopb_generator.Field.max_size()']]],
   ['max_5fthrust_19',['max_thrust',['../structSimulatedMotor.html#ab78c29aaac043b0255a21cd655a9dd9f',1,'SimulatedMotor']]],
   ['md5_5fdir_20',['md5_dir',['../namespaceplatformio__generator.html#a9b8b21acd3f8744223eed9c503f3b73a',1,'platformio_generator']]],
@@ -30,7 +30,8 @@ var searchData=
   ['msgid_27',['msgid',['../classnanopb__generator_1_1Message.html#aa155c6ee0e0832e0614243d60e4a1b01',1,'nanopb_generator::Message']]],
   ['mutex_5fbuffer_28',['mutex_buffer',['../structMutex.html#af0b7c00d2d979406b541b83058276a76',1,'Mutex']]],
   ['mutex_5fhandle_29',['mutex_handle',['../structMutex.html#a62001c6fcc5902f91f89a2fbaf9ee2a0',1,'Mutex']]],
-  ['mx_30',['mx',['../structMagnetometer.html#acc48f2adba7634b255674fe3b9e47764',1,'Magnetometer']]],
-  ['my_31',['my',['../structMagnetometer.html#a0c6ec35bb830352d38d97396f1c8f08a',1,'Magnetometer']]],
-  ['mz_32',['mz',['../structMagnetometer.html#af890827fcd2c7cc33b20dbd8ff1a7d7b',1,'Magnetometer']]]
+  ['mux_5fselect_5f_30',['mux_select_',['../structCameraB2B.html#a4dfc928c531eb1149be496348004be69',1,'CameraB2B']]],
+  ['mx_31',['mx',['../structMagnetometer.html#acc48f2adba7634b255674fe3b9e47764',1,'Magnetometer']]],
+  ['my_32',['my',['../structMagnetometer.html#a0c6ec35bb830352d38d97396f1c8f08a',1,'Magnetometer']]],
+  ['mz_33',['mz',['../structMagnetometer.html#af890827fcd2c7cc33b20dbd8ff1a7d7b',1,'Magnetometer']]]
 ];

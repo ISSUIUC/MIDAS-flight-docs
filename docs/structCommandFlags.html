@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('structCommandFlags.html',''); initResi
 </div><!--header-->
 <div class="contents">
 
-<p>Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in.  
+<p>Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in. Works in both directions, say to toggle states based on <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> transitions.  
  <a href="structCommandFlags.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>&gt;</code></p>
@@ -112,12 +112,48 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aaa1352aa0855c1356cf53e5b48bd6378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66ed2d7f838814cdb9dd57cf6ba8845b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#a66ed2d7f838814cdb9dd57cf6ba8845b">should_fire_pyro_d</a> = false</td></tr>
 <tr class="separator:a66ed2d7f838814cdb9dd57cf6ba8845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542ba15da4a82bb5a0696952b9cff030"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#a542ba15da4a82bb5a0696952b9cff030">FSM_should_set_cam_feed_cam1</a> = false</td></tr>
+<tr class="separator:a542ba15da4a82bb5a0696952b9cff030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ce0127ae9ee8b2bb03cbe40aca082d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#a02ce0127ae9ee8b2bb03cbe40aca082d">FSM_should_swap_camera_feed</a> = false</td></tr>
+<tr class="separator:a02ce0127ae9ee8b2bb03cbe40aca082d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in. </p>
+<div class="textblock"><p >Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in. Works in both directions, say to toggle states based on <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> transitions. </p>
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00161">161</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00162">162</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a542ba15da4a82bb5a0696952b9cff030" name="a542ba15da4a82bb5a0696952b9cff030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542ba15da4a82bb5a0696952b9cff030">&#9670;&nbsp;</a></span>FSM_should_set_cam_feed_cam1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CommandFlags::FSM_should_set_cam_feed_cam1 = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00172">172</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+
+</div>
+</div>
+<a id="a02ce0127ae9ee8b2bb03cbe40aca082d" name="a02ce0127ae9ee8b2bb03cbe40aca082d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ce0127ae9ee8b2bb03cbe40aca082d">&#9670;&nbsp;</a></span>FSM_should_swap_camera_feed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CommandFlags::FSM_should_swap_camera_feed = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00173">173</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+
+</div>
+</div>
 <a id="ac5e7e75df98e793a27d0772b43182f29" name="ac5e7e75df98e793a27d0772b43182f29"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5e7e75df98e793a27d0772b43182f29">&#9670;&nbsp;</a></span>should_fire_pyro_a</h2>
 
@@ -130,7 +166,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00166">166</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00167">167</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -146,7 +182,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00167">167</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00168">168</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -162,7 +198,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00168">168</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00169">169</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -178,7 +214,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00169">169</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00170">170</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -194,7 +230,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00162">162</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00163">163</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -210,7 +246,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00164">164</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00165">165</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -226,7 +262,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00165">165</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00166">166</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>
@@ -242,7 +278,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00163">163</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00164">164</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
 
 </div>
 </div>

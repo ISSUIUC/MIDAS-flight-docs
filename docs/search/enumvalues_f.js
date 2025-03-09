@@ -8,6 +8,6 @@ var searchData=
   ['tcxo_5fctrl_5f2_5f7v_5',['TCXO_CTRL_2_7V',['../E22_8h.html#a0e7b8fc833f19ddc9f223c23a57a6a04a0328a45b06b9a8dbb1a664501b4955b4',1,'E22.h']]],
   ['tcxo_5fctrl_5f3_5f0v_6',['TCXO_CTRL_3_0V',['../E22_8h.html#a0e7b8fc833f19ddc9f223c23a57a6a04a5abcf3ccdedccf80eb0cc996e9afe951',1,'E22.h']]],
   ['tcxo_5fctrl_5f3_5f3v_7',['TCXO_CTRL_3_3V',['../E22_8h.html#a0e7b8fc833f19ddc9f223c23a57a6a04ac79c0586b4f5372ad9051d7ef3ff6cb5',1,'E22.h']]],
-  ['toggle_5fcam_8',['TOGGLE_CAM',['../telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea8932a44c8ed0eaea012f8904e3fd74c6',1,'telemetry_packet.h']]],
+  ['toggle_5fcam_5fvmux_8',['TOGGLE_CAM_VMUX',['../telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7eaf1179280d44246ff3338f9abbb7c0b2f',1,'telemetry_packet.h']]],
   ['txtimeout_9',['TxTimeout',['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0ac1b738e736bb67a7a20bb09fc3d6e414',1,'E22.h']]]
 ];
