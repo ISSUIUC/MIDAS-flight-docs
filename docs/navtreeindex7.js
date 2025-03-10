@@ -1,6 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"namespaceplatformio__generator.html#a341ed81968288b11b276de6f62f2d6a5":[1,0,6,17],
 "namespaceplatformio__generator.html#a385072ab003cd7746904d737ebfc7161":[1,0,6,32],
 "namespaceplatformio__generator.html#a42aecf1c59b3e5bfe7dc515d60ecb190":[1,0,6,27],
 "namespaceplatformio__generator.html#a42bdd81f048a14618cf9487ffbbcba0b":[1,0,6,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX7 =
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,1],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,2],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,3],
-"structBarometerSensor.html#aa553c693b5807753e3b78c6c59f1ef85":[2,0,9,8]
+"structBarometerSensor.html#aa553c693b5807753e3b78c6c59f1ef85":[2,0,9,8],
+"structBuffer.html":[2,0,11]
 };

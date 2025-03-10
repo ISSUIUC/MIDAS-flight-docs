@@ -3,7 +3,6 @@ var ekf_8cpp =
     [ "AeroCoeff", "structAeroCoeff.html", "structAeroCoeff" ],
     [ "AERO_DATA_SIZE", "ekf_8cpp.html#a768a0f567c30dc6590529802150fbdc4", null ],
     [ "a", "ekf_8cpp.html#aa3ce4f9e1a9f820974747e717c08e739", null ],
-    [ "aero_data", "ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05", null ],
     [ "ekf", "ekf_8cpp.html#a9d1aba5796338d3c73c8da4a6e8782e6", null ],
     [ "height_full", "ekf_8cpp.html#ab26f7ee8391ebf8469d6038a0df4d1ba", null ],
     [ "height_sustainer", "ekf_8cpp.html#af23230304c6d1eabcf3b76d10613311f", null ],

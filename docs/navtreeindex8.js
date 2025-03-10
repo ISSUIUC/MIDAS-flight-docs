@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"structBuffer.html":[2,0,11],
 "structBuffer.html#a0139f69c2fcb3583264b4a5eb3ace57a":[2,0,11,10],
 "structBuffer.html#a02cb7515ccb2d044d41677fd999f2551":[2,0,11,1],
 "structBuffer.html#a0fda01997f617905bd39ae0c23b1f28f":[2,0,11,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "structPyro.html":[2,0,53],
 "structPyro.html#a2a640de4104cfb91baa776e1ac5f9365":[2,0,53,11],
 "structPyro.html#a58d16e85255c8788c21f34637db861a7":[2,0,53,9],
-"structPyro.html#a5c9711e44a41c2ddb533b3394165d49c":[2,0,53,1]
+"structPyro.html#a5c9711e44a41c2ddb533b3394165d49c":[2,0,53,1],
+"structPyro.html#a7f900421c125d45584383689740fbe57":[2,0,53,0]
 };

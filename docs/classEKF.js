@@ -9,7 +9,7 @@ var classEKF =
     [ "linearInterpolation", "classEKF.html#add0f598c99c21bf9733f809a553f6208", null ],
     [ "priori", "classEKF.html#a0061d7f5bc2cb76f906445d1b0fbcb8e", null ],
     [ "priori", "classEKF.html#aa88aaf475db5ec265515f1c1a8e084e3", null ],
-    [ "setF", "classEKF.html#afa814c12a72bd3fdcd42b8221018fc19", null ],
+    [ "setF", "classEKF.html#ae1c536795df0ca2b915e7ba031e29a6b", null ],
     [ "setQ", "classEKF.html#aad12d218c18072682257c3c9f3bd6102", null ],
     [ "setState", "classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2", null ],
     [ "tick", "classEKF.html#a6799540cf1b6b1f489801d674a13678e", null ],
