@@ -274,7 +274,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the global frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00554">554</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00558">558</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -306,7 +306,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00480">480</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00484">484</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -360,7 +360,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Thrust force in the body frame</dd></dl>
 <p>The thrust force is calculated by interpolating the thrust curve data which is stored in an ordered map (see top of file). The thrust curve data is different for the booster and sustainer stages, so the function checks the <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> state to determine which thrust curve to use. The time since ignition is also important to consider so that is reset once we reach a new stage. The thrust force is then rotated into the body frame using the BodyToGlobal function. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00330">330</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00335">335</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the body frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00581">581</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00584">584</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -433,7 +433,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00147">147</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00148">148</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +483,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>linearly interpolates the a value based on the lower and upper bound, similar to lerp_() in PySim </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00311">311</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00316">316</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +513,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00570">570</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00573">573</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -552,7 +552,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Estimates current state of the rocket without current sensor data. </p>
 <p >The priori step of the Kalman filter is used to estimate the current state of the rocket without knowledge of the current sensor data. In other words, it extrapolates the state at time n+1 based on the state at time n. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00238">238</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00239">239</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -643,7 +643,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The Q matrix is the covariance matrix for the process noise and is updated based on the time taken per cycle of the Kalman Filter Thread. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00512">512</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00516">516</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -681,7 +681,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00490">490</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00494">494</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00458">458</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00462">462</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -803,7 +803,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00384">384</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00388">388</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
