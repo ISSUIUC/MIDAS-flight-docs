@@ -6,6 +6,7 @@ var systems_8cpp =
     [ "DECLARE_THREAD", "systems_8cpp.html#afd10120bf0e98ca4da83c525082d72c1", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#a42725f4294d10a7d9dbda74722c0bdf2", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#ae7434349f63975ea26c39d8484ce4361", null ],
+    [ "DECLARE_THREAD", "systems_8cpp.html#a76a701b738011674b2350bf18ddf2351", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#aea0eabebd2395a6642c4f67da9c38cba", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#a7c628908bf50f22dc07db9c9b144ecf3", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#aa626d5e646121511c99a835eb9928c42", null ],

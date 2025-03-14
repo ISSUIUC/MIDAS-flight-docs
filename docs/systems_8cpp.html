@@ -129,6 +129,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa626d5e646121511c99a835eb9928c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ab54cc01005176f5da52376d8484460"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a1ab54cc01005176f5da52376d8484460">handle_tlm_command</a> (<a class="el" href="structTelemetryCommand.html">TelemetryCommand</a> &amp;command, <a class="el" href="structRocketSystems.html">RocketSystems</a> *arg, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> current_state)</td></tr>
 <tr class="separator:a1ab54cc01005176f5da52376d8484460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a701b738011674b2350bf18ddf2351"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a76a701b738011674b2350bf18ddf2351">DECLARE_THREAD</a> (cam, <a class="el" href="structRocketSystems.html">RocketSystems</a> *arg)</td></tr>
+<tr class="separator:a76a701b738011674b2350bf18ddf2351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab3f6c1bdd5abfe96db6ed94d451e22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#acab3f6c1bdd5abfe96db6ed94d451e22">DECLARE_THREAD</a> (telemetry, <a class="el" href="structRocketSystems.html">RocketSystems</a> *arg)</td></tr>
 <tr class="separator:acab3f6c1bdd5abfe96db6ed94d451e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac1889a32ea9cd3040c8c0685feeb38a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a">init_systems</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> &amp;<a class="el" href="hilsim_2main_8cpp.html#ab811e499a5a61221e37cabaf6a1e959f">systems</a>)</td></tr>
@@ -171,7 +173,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00337">337</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00344">344</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -194,12 +196,12 @@ Functions</h2></td></tr>
 
 <p>Initializes the systems, and then creates and starts the thread for each system. If initialization fails, then this enters an infinite loop. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00372">372</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00379">379</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
 <a id="afd10120bf0e98ca4da83c525082d72c1" name="afd10120bf0e98ca4da83c525082d72c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd10120bf0e98ca4da83c525082d72c1">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[1/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afd10120bf0e98ca4da83c525082d72c1">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +231,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a42725f4294d10a7d9dbda74722c0bdf2" name="a42725f4294d10a7d9dbda74722c0bdf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42725f4294d10a7d9dbda74722c0bdf2">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[2/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42725f4294d10a7d9dbda74722c0bdf2">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +261,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae7434349f63975ea26c39d8484ce4361" name="ae7434349f63975ea26c39d8484ce4361"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7434349f63975ea26c39d8484ce4361">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[3/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7434349f63975ea26c39d8484ce4361">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[3/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,8 +290,38 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a76a701b738011674b2350bf18ddf2351" name="a76a701b738011674b2350bf18ddf2351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a701b738011674b2350bf18ddf2351">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[4/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DECLARE_THREAD </td>
+          <td>(</td>
+          <td class="paramtype">cam&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structRocketSystems.html">RocketSystems</a> *&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00301">301</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+
+</div>
+</div>
 <a id="aea0eabebd2395a6642c4f67da9c38cba" name="aea0eabebd2395a6642c4f67da9c38cba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea0eabebd2395a6642c4f67da9c38cba">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[4/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0eabebd2395a6642c4f67da9c38cba">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[5/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +351,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a7c628908bf50f22dc07db9c9b144ecf3" name="a7c628908bf50f22dc07db9c9b144ecf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c628908bf50f22dc07db9c9b144ecf3">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[5/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c628908bf50f22dc07db9c9b144ecf3">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[6/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,7 +381,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aa626d5e646121511c99a835eb9928c42" name="aa626d5e646121511c99a835eb9928c42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa626d5e646121511c99a835eb9928c42">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[6/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa626d5e646121511c99a835eb9928c42">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +411,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="abca83038d94bbae49b00ec6e584ed27d" name="abca83038d94bbae49b00ec6e584ed27d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abca83038d94bbae49b00ec6e584ed27d">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[7/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abca83038d94bbae49b00ec6e584ed27d">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[8/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +444,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2a8f58889115c0127246cfae17d7f23c" name="a2a8f58889115c0127246cfae17d7f23c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a8f58889115c0127246cfae17d7f23c">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[8/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8f58889115c0127246cfae17d7f23c">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[9/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +474,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae52ad8eef10a32213af00184467014b6" name="ae52ad8eef10a32213af00184467014b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae52ad8eef10a32213af00184467014b6">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[9/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae52ad8eef10a32213af00184467014b6">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[10/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +504,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ad4cd44402d8e5ac87185b187f0b66975" name="ad4cd44402d8e5ac87185b187f0b66975"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4cd44402d8e5ac87185b187f0b66975">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[10/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4cd44402d8e5ac87185b187f0b66975">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[11/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,7 +534,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="acab3f6c1bdd5abfe96db6ed94d451e22" name="acab3f6c1bdd5abfe96db6ed94d451e22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acab3f6c1bdd5abfe96db6ed94d451e22">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[11/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acab3f6c1bdd5abfe96db6ed94d451e22">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[12/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,12 +559,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00301">301</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00308">308</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
 <a id="ad3b2a8e44e9c15fbf905b90e3f03604c" name="ad3b2a8e44e9c15fbf905b90e3f03604c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3b2a8e44e9c15fbf905b90e3f03604c">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[12/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3b2a8e44e9c15fbf905b90e3f03604c">&#9670;&nbsp;</a></span>DECLARE_THREAD() <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -615,7 +647,7 @@ Functions</h2></td></tr>
 
 <p>Initializes all systems in order, returning early if a system's initialization process errors out. Turns on the Orange LED while initialization is running. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00343">343</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00350">350</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

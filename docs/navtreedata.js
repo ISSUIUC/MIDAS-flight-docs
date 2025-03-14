@@ -70,8 +70,8 @@ var NAVTREEINDEX =
 "hardware_2telemetry__backend_8cpp.html#a58e25fd82f3b77562dde8259fef5e79a",
 "namespaceplatformio__generator.html#a21a7de7f036b409faf20263cde13b2cd",
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69",
-"structPosition.html",
-"telemetry_8h.html"
+"structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c",
+"telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

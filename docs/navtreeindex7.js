@@ -247,7 +247,7 @@ var NAVTREEINDEX7 =
 "structBarometer.html#ac2c18c9ab21041b0f2133c3b473310cc":[2,0,8,4],
 "structBarometer.html#add666cf46ccb7b5695198412ebf28c82":[2,0,8,1],
 "structBarometerSensor.html":[2,0,9],
-"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,6],
+"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,4],
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,7],
-"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,5]
+"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,6]
 };
