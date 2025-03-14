@@ -3,8 +3,10 @@ var b2b__interface_8h =
     [ "CameraB2B", "structCameraB2B.html", "structCameraB2B" ],
     [ "B2BInterface", "structB2BInterface.html", "structB2BInterface" ],
     [ "B2B_I2C", "b2b__interface_8h.html#a27964ab7da2151e505cd32d318a20404", null ],
+    [ "BULKHEAD_CAMERA", "b2b__interface_8h.html#a0a0813bf19ecd5e64c6edd20b4bab359", null ],
     [ "CAM_1", "b2b__interface_8h.html#af34da26e78fd0f88f608e248e03d75a0", null ],
     [ "CAM_2", "b2b__interface_8h.html#adcbbd268e30a35a3648fd15ce53fd11f", null ],
+    [ "SIDE_CAMERA", "b2b__interface_8h.html#a792335760ba653f5c75b908613fa6303", null ],
     [ "CameraCommand", "b2b__interface_8h.html#a7aab998eabefbf110eff933beee1811b", [
       [ "CAMERA1_OFF", "b2b__interface_8h.html#a7aab998eabefbf110eff933beee1811ba6567487c415f7cd889a3719cc32e5e0c", null ],
       [ "CAMERA1_ON", "b2b__interface_8h.html#a7aab998eabefbf110eff933beee1811ba57e47ee49b0298bcdd60c23d2c30194b", null ],

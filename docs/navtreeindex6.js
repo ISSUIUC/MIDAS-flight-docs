@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"hardware_2telemetry__backend_8cpp.html#a787165d9ce76cde0f22b9a55eb6f8a8f":[3,0,0,2,18,11],
+"hardware_2telemetry__backend_8cpp.html#a815cf21c43eb992d2579b34f9e804c6a":[3,0,0,2,18,3],
 "hardware_2telemetry__backend_8cpp.html#ab807a12d6fbc6b8a16235233f54fbba1":[3,0,0,2,18,2],
 "hardware_2telemetry__backend_8cpp.html#ad341b0dbadfa50a71b6a8359628a925b":[3,0,0,2,18,7],
 "hardware_2telemetry__backend_8cpp.html#ae8f042691c935523a26dea7fdb0d76f5":[3,0,0,2,18,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "namespaceplatformio__generator.html#a09634a4bb2a828106c376eefbb1b44ad":[1,0,6,6],
 "namespaceplatformio__generator.html#a1559aa1f00c44dc5dc2c3e513c4b4c28":[1,0,6,26],
 "namespaceplatformio__generator.html#a2078b1733cbd1af0ff98b0c8ece2f66f":[1,0,6,18],
-"namespaceplatformio__generator.html#a21a7de7f036b409faf20263cde13b2cd":[1,0,6,16],
-"namespaceplatformio__generator.html#a2c7438e82bc6bc6a6ceba14042c9cdea":[1,0,6,15],
-"namespaceplatformio__generator.html#a2fbedc632bd705f3aa52b881f7bba8a4":[1,0,6,34]
+"namespaceplatformio__generator.html#a21a7de7f036b409faf20263cde13b2cd":[1,0,6,16]
 };

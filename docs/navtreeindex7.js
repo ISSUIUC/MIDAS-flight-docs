@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"namespaceplatformio__generator.html#a2c7438e82bc6bc6a6ceba14042c9cdea":[1,0,6,15],
+"namespaceplatformio__generator.html#a2fbedc632bd705f3aa52b881f7bba8a4":[1,0,6,34],
 "namespaceplatformio__generator.html#a341ed81968288b11b276de6f62f2d6a5":[1,0,6,17],
 "namespaceplatformio__generator.html#a385072ab003cd7746904d737ebfc7161":[1,0,6,32],
 "namespaceplatformio__generator.html#a42aecf1c59b3e5bfe7dc515d60ecb190":[1,0,6,27],
@@ -241,13 +243,11 @@ var NAVTREEINDEX7 =
 "structBarometer.html#ac2c18c9ab21041b0f2133c3b473310cc":[2,0,8,4],
 "structBarometer.html#add666cf46ccb7b5695198412ebf28c82":[2,0,8,1],
 "structBarometerSensor.html":[2,0,9],
-"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,4],
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,5],
-"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,6],
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,7],
-"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,0],
-"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,1],
+"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,6],
+"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,4],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,2],
-"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,3],
-"structBarometerSensor.html#aa553c693b5807753e3b78c6c59f1ef85":[2,0,9,8]
+"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,1],
+"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,0]
 };
