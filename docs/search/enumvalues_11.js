@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vtx_5foff_0',['VTX_OFF',['../b2b__interface_8h.html#a7aab998eabefbf110eff933beee1811bad9227121247b310eb6b22c8377b5d7b0',1,'b2b_interface.h']]],
-  ['vtx_5fon_1',['VTX_ON',['../b2b__interface_8h.html#a7aab998eabefbf110eff933beee1811ba6529faeb4a8ef1519b4ebbad1a680491',1,'b2b_interface.h']]]
+  ['unknownerror_0',['UnknownError',['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0abfaef30f1c8011c5cefa38ae470fb7aa',1,'E22.h']]]
 ];

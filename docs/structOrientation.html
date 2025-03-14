@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2f0b69055d58834a39f435747d110e1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#a2f0b69055d58834a39f435747d110e1d">has_data</a> = false</td></tr>
 <tr class="separator:a2f0b69055d58834a39f435747d110e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dbaa10128f51d6128f7fb229096b363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9">OrientationReadingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#a3dbaa10128f51d6128f7fb229096b363">reading_type</a> = <a class="el" href="sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9ab2cfeb9ef3ff44bc2f0abd0b2379fe1a">OrientationReadingType::FULL_READING</a></td></tr>
+<tr class="separator:a3dbaa10128f51d6128f7fb229096b363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b541db9a6b982b8b1c51032cd5bcf2c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#a4b541db9a6b982b8b1c51032cd5bcf2c">yaw</a> = 0</td></tr>
 <tr class="separator:a4b541db9a6b982b8b1c51032cd5bcf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfcc05dbaf27c19549f80f7058eab0a3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#abfcc05dbaf27c19549f80f7058eab0a3">pitch</a> = 0</td></tr>
@@ -114,6 +116,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a707b9d051a93e9c5616d44c5d858fa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c45d4340decdc2db9a2845db6971409"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVelocity.html">Velocity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#a9c45d4340decdc2db9a2845db6971409">orientation_velocity</a></td></tr>
 <tr class="separator:a9c45d4340decdc2db9a2845db6971409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e55d90bc2ec2ae6740016212754765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVelocity.html">Velocity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#a92e55d90bc2ec2ae6740016212754765">angular_velocity</a></td></tr>
+<tr class="separator:a92e55d90bc2ec2ae6740016212754765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eb6efbab07ee4b9502a8186a7b21a64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#a8eb6efbab07ee4b9502a8186a7b21a64">orientation_acceleration</a></td></tr>
 <tr class="separator:a8eb6efbab07ee4b9502a8186a7b21a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbc40dba570e3f29f6fa1a966ba8dc39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html#acbc40dba570e3f29f6fa1a966ba8dc39">linear_acceleration</a></td></tr>
@@ -136,7 +140,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >data from the <a class="el" href="structBNO.html">BNO</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00189">189</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00197">197</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a70f405db78789749842022ad9ca4cd77" name="a70f405db78789749842022ad9ca4cd77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70f405db78789749842022ad9ca4cd77">&#9670;&nbsp;</a></span>getEuler()</h2>
@@ -161,7 +165,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00196">196</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00205">205</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -188,11 +192,27 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00207">207</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00217">217</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a92e55d90bc2ec2ae6740016212754765" name="a92e55d90bc2ec2ae6740016212754765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e55d90bc2ec2ae6740016212754765">&#9670;&nbsp;</a></span>angular_velocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structVelocity.html">Velocity</a> Orientation::angular_velocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00215">215</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+
+</div>
+</div>
 <a id="a803b25fe2bb17bf20e55e1d52531d64e" name="a803b25fe2bb17bf20e55e1d52531d64e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a803b25fe2bb17bf20e55e1d52531d64e">&#9670;&nbsp;</a></span>gx</h2>
 
@@ -205,7 +225,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00215">215</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00225">225</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -221,7 +241,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00215">215</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00225">225</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -237,7 +257,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00215">215</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00225">225</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -253,7 +273,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00190">190</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00198">198</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -269,7 +289,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00213">213</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00223">223</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -285,7 +305,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00217">217</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00227">227</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +321,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00211">211</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00221">221</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -317,7 +337,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00205">205</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00214">214</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -333,7 +353,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00193">193</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00202">202</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -349,7 +369,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00220">220</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00230">230</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+
+</div>
+</div>
+<a id="a3dbaa10128f51d6128f7fb229096b363" name="a3dbaa10128f51d6128f7fb229096b363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dbaa10128f51d6128f7fb229096b363">&#9670;&nbsp;</a></span>reading_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9">OrientationReadingType</a> Orientation::reading_type = <a class="el" href="sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9ab2cfeb9ef3ff44bc2f0abd0b2379fe1a">OrientationReadingType::FULL_READING</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00199">199</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +401,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00194">194</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00203">203</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -381,7 +417,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00219">219</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00229">229</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +433,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00222">222</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00232">232</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>
@@ -413,7 +449,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00192">192</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00201">201</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>

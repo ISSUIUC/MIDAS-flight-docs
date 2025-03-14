@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['emmccouldnotbegin_0',['EmmcCouldNotBegin',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa0af635304ad70cb121df31b6d2bf1012',1,'errors.h']]],
-  ['emmccouldnotopenfile_1',['EmmcCouldNotOpenFile',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa31e979fab79c142ca0c5d38da3e2a237',1,'errors.h']]],
-  ['emmcpinsarewrong_2',['EmmcPinsAreWrong',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2ca37980a1916a0393269afceb85f4ab',1,'errors.h']]]
+  ['deviceerror_0',['DeviceError',['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0abe252e5b290c865b4d033fe4c4f88e9a',1,'E22.h']]]
 ];
