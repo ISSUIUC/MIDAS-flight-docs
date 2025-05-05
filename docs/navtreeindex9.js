@@ -126,12 +126,9 @@ var NAVTREEINDEX9 =
 "structStateEstimate.html#a3f454e76e09e849ad40701145877d512":[2,0,71,2],
 "structStateEstimate.html#a9d3e1a9d1393f93aaadaa90863bcb6bf":[2,0,71,3],
 "structTelemetryCommand.html":[2,0,76],
-"structTelemetryCommand.html#a068a763185184462cf786f396687e72e":[2,0,76,4],
 "structTelemetryCommand.html#a35babc865f4f4ad55ed4274fb4305cff":[2,0,76,0],
-"structTelemetryCommand.html#a601251fc9e02ac8f9c094827f42d5e71":[2,0,76,1],
-"structTelemetryCommand.html#a6bd3e287aa56e28e9f5a787f74880691":[2,0,76,2],
-"structTelemetryCommand.html#a903b615475c917cdb3029b2a5e834891":[2,0,76,3],
-"structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b":[2,0,76,5],
+"structTelemetryCommand.html#a6bd3e287aa56e28e9f5a787f74880691":[2,0,76,1],
+"structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b":[2,0,76,2],
 "structTelemetryPacket.html":[2,0,77],
 "structTelemetryPacket.html#a2d361ce45182a072473dbb14d35f43c2":[2,0,77,0],
 "structTelemetryPacket.html#a30fa822da55f6ad1a89f2e50709332bb":[2,0,77,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX9 =
 "telemetry_8cpp.html":[3,0,0,25],
 "telemetry_8cpp.html#a4a6e9f899f87477e6fc5afbbcbd91d52":[3,0,0,25,3],
 "telemetry_8cpp.html#a7892d4e547c901c2bf877a145596d867":[3,0,0,25,0],
-"telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2":[3,0,0,25,1]
+"telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2":[3,0,0,25,1],
+"telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd":[3,0,0,25,2],
+"telemetry_8cpp_source.html":[3,0,0,25],
+"telemetry_8h.html":[3,0,0,26]
 };

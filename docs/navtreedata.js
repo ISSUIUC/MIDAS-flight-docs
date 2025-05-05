@@ -71,7 +71,7 @@ var NAVTREEINDEX =
 "namespaceplatformio__generator.html#a21a7de7f036b409faf20263cde13b2cd",
 "structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69",
 "structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c",
-"telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd"
+"telemetry_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
