@@ -274,7 +274,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the global frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00558">558</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00562">562</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -306,7 +306,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00484">484</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00488">488</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -360,7 +360,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Thrust force in the body frame</dd></dl>
 <p>The thrust force is calculated by interpolating the thrust curve data which is stored in an ordered map (see top of file). The thrust curve data is different for the booster and sustainer stages, so the function checks the <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> state to determine which thrust curve to use. The time since ignition is also important to consider so that is reset once we reach a new stage. The thrust force is then rotated into the body frame using the BodyToGlobal function. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00335">335</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00331">331</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -398,9 +398,9 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the body frame </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the body frame TODO: Don't pass in gravity and pass in a vector instead </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00584">584</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00586">586</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -429,7 +429,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets altitude by averaging 30 barometer measurements taken 100 ms apart. </p>
-<p >The following for loop takes a series of barometer measurements on start up and takes the average of them in order to initialize the kalman filter to the correct initial barometric altitude. This is done so that the kalman filter takes minimal time to converge to an accurate state estimate. This process is significantly faster than allowing the state as letting the filter to converge to the correct state can take up to 3 min. This specific process was used because the barometric altitude will change depending on the weather and thus, the initial state estimate cannot be hard coded. A <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> altitude may be used instead but due to <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> losses during high speed/high altitude flight, it is inadvisable with the current hardware to use this as a solution. Reference frames should also be kept consistent (do not mix <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> altitude and barometric). </p>
+<p >The following for loop takes a series of barometer measurements on start up and takes the average of them in order to initialize the kalman filter to the correct initial barometric altitude. This is done so that the kalman filter takes minimal time to converge to an accurate state estimate. This process is significantly faster than allowing the state as letting the filter to converge to the correct state can take up to 3 min. This specific process was used because the barometric altitude will letting the filter to converge to the correct state can take up to 3 min. This specific process was used because the barometric altitude will change depending on the weather and thus, the initial state estimate cannot be hard coded. A <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> altitude may be used instead but due to <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> losses during high speed/high altitude flight, it is inadvisable with the current hardware to use this as a solution. Reference frames should also be kept consistent (do not mix <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> altitude and barometric). </p>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
@@ -483,7 +483,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>linearly interpolates the a value based on the lower and upper bound, similar to lerp_() in PySim </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00316">316</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00312">312</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +513,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00573">573</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00575">575</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The F matrix is the state transition matrix and is defined by how the states change over time and also depends on the current state of the rocket. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00605">605</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00607">607</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -643,7 +643,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The Q matrix is the covariance matrix for the process noise and is updated based on the time taken per cycle of the Kalman Filter Thread. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00516">516</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00520">520</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -681,7 +681,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00494">494</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00498">498</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00462">462</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00466">466</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -803,7 +803,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00388">388</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00384">384</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
