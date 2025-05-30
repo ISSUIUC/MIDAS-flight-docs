@@ -13,7 +13,7 @@ var searchData=
   ['magnetometercouldnotbeinitialized_10',['MagnetometerCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fae8019895a4009e23b5baf002122e1134',1,'errors.h']]],
   ['magnetometersensor_11',['MagnetometerSensor',['../structMagnetometerSensor.html',1,'']]],
   ['main_12',['main',['../namespacegenerate__size.html#a1e0a607789cd1719eb92b1a9407b948a',1,'generate_size.main()'],['../silsim_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp']]],
-  ['main_2ecpp_13',['main.cpp',['../hilsim_2main_8cpp.html',1,'(Global Namespace)'],['../hardware_2main_8cpp.html',1,'(Global Namespace)'],['../silsim_2main_8cpp.html',1,'(Global Namespace)']]],
+  ['main_2ecpp_13',['main.cpp',['../silsim_2main_8cpp.html',1,'(Global Namespace)'],['../hilsim_2main_8cpp.html',1,'(Global Namespace)'],['../hardware_2main_8cpp.html',1,'(Global Namespace)']]],
   ['main_5fcli_14',['main_cli',['../namespacenanopb__generator.html#ab7e70b6aa17c72b54fe21065e7395478',1,'nanopb_generator']]],
   ['main_5fcontext_15',['main_context',['../fiber_8cpp.html#a4f193eb115524a26b15d329fa85b61ab',1,'fiber.cpp']]],
   ['main_5fdeployed_5ftime_16',['main_deployed_time',['../classFSM.html#a1469fc1d7cbfd5e89d2745da7e8cef48',1,'FSM']]],
