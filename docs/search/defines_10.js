@@ -1,8 +1,8 @@
 var searchData=
 [
   ['reg_5focp_0',['REG_OCP',['../E22_8h.html#a4e0e13619868140039378bb218aa5a3b',1,'E22.h']]],
-  ['report_5finterval_5fus_1',['REPORT_INTERVAL_US',['../hardware_2Orientation_8cpp.html#a86d072ab83ae31e2d3aa25831d8dd56b',1,'Orientation.cpp']]],
-  ['report_5finterval_5fus_5fav_2',['REPORT_INTERVAL_US_AV',['../hardware_2Orientation_8cpp.html#a2513727b8273efa75a859dd0d8b820f5',1,'Orientation.cpp']]],
+  ['report_5finterval_5fintg_5fus_1',['REPORT_INTERVAL_INTG_US',['../hardware_2Orientation_8cpp.html#ac3212be0985f7e57c9685f22d6cd3fa0',1,'Orientation.cpp']]],
+  ['report_5finterval_5fstab_5fus_2',['REPORT_INTERVAL_STAB_US',['../hardware_2Orientation_8cpp.html#a9dbd813d4ddb03d4611f6a4b263b5c30',1,'Orientation.cpp']]],
   ['rest_3',['rest',['../buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03',1,'buzzer.cpp']]],
   ['rfm96_5fint_4',['RFM96_INT',['../pins_8h.html#a7150c7f5ee4c4e4875a51379fe4bdc30',1,'pins.h']]],
   ['rfm96w_5fcs_5',['RFM96W_CS',['../pins_8h.html#aa3b95b3cc9c8069e266cfb1cf57542fb',1,'pins.h']]],

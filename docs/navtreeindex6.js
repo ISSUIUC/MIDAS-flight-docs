@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"hardware_2telemetry__backend_8cpp.html#a58e25fd82f3b77562dde8259fef5e79a":[3,0,0,2,18,6],
 "hardware_2telemetry__backend_8cpp.html#a787165d9ce76cde0f22b9a55eb6f8a8f":[3,0,0,2,18,11],
 "hardware_2telemetry__backend_8cpp.html#a815cf21c43eb992d2579b34f9e804c6a":[3,0,0,2,18,3],
 "hardware_2telemetry__backend_8cpp.html#ab807a12d6fbc6b8a16235233f54fbba1":[3,0,0,2,18,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "namespaceplatformio__generator.html#a0569d3cf4dcf2b94e913da02406f9c6b":[1,0,6,25],
 "namespaceplatformio__generator.html#a09634a4bb2a828106c376eefbb1b44ad":[1,0,6,6],
 "namespaceplatformio__generator.html#a1559aa1f00c44dc5dc2c3e513c4b4c28":[1,0,6,26],
-"namespaceplatformio__generator.html#a2078b1733cbd1af0ff98b0c8ece2f66f":[1,0,6,18]
+"namespaceplatformio__generator.html#a2078b1733cbd1af0ff98b0c8ece2f66f":[1,0,6,18],
+"namespaceplatformio__generator.html#a21a7de7f036b409faf20263cde13b2cd":[1,0,6,16]
 };

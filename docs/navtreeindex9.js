@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c":[2,0,51,8],
 "structPosition.html":[2,0,52],
 "structPosition.html#a57bb9e517167962de233cd66ee73d9e3":[2,0,52,0],
 "structPosition.html#a5dd6e09d90b805354f07069e46ef30f9":[2,0,52,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2":[3,0,0,25,1],
 "telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd":[3,0,0,25,2],
 "telemetry_8cpp_source.html":[3,0,0,25],
-"telemetry_8h.html":[3,0,0,26]
+"telemetry_8h.html":[3,0,0,26],
+"telemetry_8h_source.html":[3,0,0,26]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"structBarometerSensor.html#a1e16392802f383f5c909b5df1546ae69":[2,0,9,4],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,2],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,3],
 "structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596":[2,0,9,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,51,4],
 "structOrientationSensor.html#aa12421586b86ad987f838d31bf373975":[2,0,51,9],
 "structOrientationSensor.html#ab9954acc41a9367147e31345091fb46a":[2,0,51,15],
-"structOrientationSensor.html#acc85c2ed2857903b1bac6d83836ada34":[2,0,51,14]
+"structOrientationSensor.html#acc85c2ed2857903b1bac6d83836ada34":[2,0,51,14],
+"structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c":[2,0,51,8]
 };

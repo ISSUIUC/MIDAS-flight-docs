@@ -19,7 +19,6 @@ var classTelemetryBackend =
     [ "setFrequency", "classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0", null ],
     [ "setFrequency", "classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0", null ],
     [ "setFrequency", "classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0", null ],
-    [ "led_state", "classTelemetryBackend.html#a7a45449e06eac8e8b952296970191a44", null ],
     [ "lora", "classTelemetryBackend.html#aaf17b4ca018ffc05b12b1b88aab69628", null ],
     [ "output_file", "classTelemetryBackend.html#a1f5084b46a904dbcb0774b6c0eac6bb8", null ]
 ];

@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"fsm__thresholds_8py.html#a302ed3b0c0b5d5f8fdb39c146d3f48d8":[3,0,0,0,0,2,28],
 "fsm__thresholds_8py.html#a3946c8df3d5967795235f9b1159fdf4f":[3,0,0,0,0,2,35],
 "fsm__thresholds_8py.html#a46ba69b42a582d5aa0041b357a7419d6":[3,0,0,0,0,2,4],
 "fsm__thresholds_8py.html#a4cdbdff713773c75948da5ba688bd5b7":[3,0,0,0,0,2,38],
@@ -215,13 +214,13 @@ var NAVTREEINDEX5 =
 "hardware_2Orientation_8cpp.html#a00fefb564a30775271e7ed3c92a1fa0f":[3,0,0,2,12,8],
 "hardware_2Orientation_8cpp.html#a1a61318ed6aa02b4ff346e7eb8f68891":[3,0,0,2,12,10],
 "hardware_2Orientation_8cpp.html#a22cb446e5271d5d2c4b2e23792fb1966":[3,0,0,2,12,11],
-"hardware_2Orientation_8cpp.html#a2513727b8273efa75a859dd0d8b820f5":[3,0,0,2,12,1],
 "hardware_2Orientation_8cpp.html#a4d6d9dadf2f85cec7d99e2e839e5540a":[3,0,0,2,12,3],
 "hardware_2Orientation_8cpp.html#a68f1534ab1c844aeb82ac588b2cde57f":[3,0,0,2,12,7],
 "hardware_2Orientation_8cpp.html#a6e3d17ce50781fd8cd0f5be9bf87f155":[3,0,0,2,12,4],
 "hardware_2Orientation_8cpp.html#a84d35d596e6f97fd154af476c4493eca":[3,0,0,2,12,6],
-"hardware_2Orientation_8cpp.html#a86d072ab83ae31e2d3aa25831d8dd56b":[3,0,0,2,12,0],
 "hardware_2Orientation_8cpp.html#a8a991e6fae47e4eb53bf62cb8806008a":[3,0,0,2,12,5],
+"hardware_2Orientation_8cpp.html#a9dbd813d4ddb03d4611f6a4b263b5c30":[3,0,0,2,12,1],
+"hardware_2Orientation_8cpp.html#ac3212be0985f7e57c9685f22d6cd3fa0":[3,0,0,2,12,0],
 "hardware_2Orientation_8cpp.html#aec391a57c1842d9766a209c55caa835f":[3,0,0,2,12,9],
 "hardware_2Orientation_8cpp.html#afcccb27de2b7bdcbe285e71aa4b99739":[3,0,0,2,12,2],
 "hardware_2Orientation_8cpp_source.html":[3,0,0,2,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "hardware_2telemetry__backend_8cpp.html#a1e5b496aeaf1062018a929480d244284":[3,0,0,2,18,5],
 "hardware_2telemetry__backend_8cpp.html#a1f52a6357b2c76476595bce9571db72e":[3,0,0,2,18,10],
 "hardware_2telemetry__backend_8cpp.html#a33702007527b9cea6e029b919322a7a5":[3,0,0,2,18,0],
-"hardware_2telemetry__backend_8cpp.html#a4b462483d6913b2cf208a42bea840555":[3,0,0,2,18,1]
+"hardware_2telemetry__backend_8cpp.html#a4b462483d6913b2cf208a42bea840555":[3,0,0,2,18,1],
+"hardware_2telemetry__backend_8cpp.html#a58e25fd82f3b77562dde8259fef5e79a":[3,0,0,2,18,6]
 };
