@@ -2,6 +2,12 @@ var telemetry__packet_8h =
 [
     [ "TelemetryPacket", "structTelemetryPacket.html", "structTelemetryPacket" ],
     [ "TelemetryCommand", "structTelemetryCommand.html", "structTelemetryCommand" ],
+    [ "MAX_ABS_ACCEL_RANGE_G", "telemetry__packet_8h.html#a82f1c118cc3bd48ea56ce3a00dc865a6", null ],
+    [ "MAX_KF_XPOSITION_M", "telemetry__packet_8h.html#ad2b6e50c1fa457e02a8256b4e9af757c", null ],
+    [ "MAX_KF_XVELOCITY_MS", "telemetry__packet_8h.html#a5549d0590e09c15bea42e8e58f406698", null ],
+    [ "MAX_ROLL_RATE_HZ", "telemetry__packet_8h.html#ae3971d57b81d6b4b30e52b00201e1f6a", null ],
+    [ "MAX_TELEM_CONT_I", "telemetry__packet_8h.html#a18216dad98db819da345341e324d67ec", null ],
+    [ "MAX_TELEM_VOLTAGE_V", "telemetry__packet_8h.html#a52f033a8ce9bd6b823325a32f4ac60fe", null ],
     [ "CommandType", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7e", [
       [ "RESET_KF", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea87fac078df9d992a6bc96978672f8a41", null ],
       [ "SWITCH_TO_SAFE", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea53461228729406df701d698934dfe01d", null ],
