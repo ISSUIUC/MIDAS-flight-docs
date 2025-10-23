@@ -9,6 +9,7 @@ var classfsm_1_1SustainerFSM =
     [ "FSMState", "classfsm_1_1SustainerFSM.html#afaeb98b45a296a49da4f379e6d90a2e5", null ],
     [ "landed_time", "classfsm_1_1SustainerFSM.html#a97150aaf67440f1d45ff1ab6bb2fa56f", null ],
     [ "launch_time", "classfsm_1_1SustainerFSM.html#ad6d5a174a4d3e3657d084b7b56f15444", null ],
+    [ "main_deployed_time", "classfsm_1_1SustainerFSM.html#ad59ed621b048576f0906562a48610e26", null ],
     [ "main_time", "classfsm_1_1SustainerFSM.html#aafc7cba2b3bd99e9eca830b3bd0284aa", null ],
     [ "second_boost_time", "classfsm_1_1SustainerFSM.html#aca2f40a1517432a97eb9e2735da88112", null ],
     [ "state", "classfsm_1_1SustainerFSM.html#a6c24a529c2b82e78e7022b71b38c6e32", null ],

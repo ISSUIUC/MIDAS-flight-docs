@@ -19,7 +19,6 @@ var thresholds_8h =
     [ "booster_landed_vertical_speed_threshold", "thresholds_8h.html#a70b1527d4b1675d157daa375eb661d16", null ],
     [ "booster_main_deploy_altitude_threshold", "thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce", null ],
     [ "booster_main_deploy_delay_after_drogue", "thresholds_8h.html#a3236a5bb93d1123b8453ae6cebfab329", null ],
-    [ "booster_main_jerk_threshold", "thresholds_8h.html#a1e59b3a323362d080f0e076560fe7377", null ],
     [ "booster_main_to_landed_lockout", "thresholds_8h.html#a616daf01cb83888b4333f41483d97e0f", null ],
     [ "booster_main_to_main_deploy_timer_threshold", "thresholds_8h.html#aa4d47dd153cda9c4a7a30fee843a08a9", null ],
     [ "booster_pyro_firing_time_minimum", "thresholds_8h.html#a3902c365c052d2d907c5fb7adbf92e0e", null ],

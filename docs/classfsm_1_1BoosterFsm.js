@@ -8,7 +8,9 @@ var classfsm_1_1BoosterFsm =
     [ "FSMState", "classfsm_1_1BoosterFsm.html#aa7b8e3f66a90da1c7a607492f486f540", null ],
     [ "landed_time", "classfsm_1_1BoosterFsm.html#a1091c377e2b964e36aa8a3295e3a57aa", null ],
     [ "launch_time", "classfsm_1_1BoosterFsm.html#ad500a8b571f3c527b24c9f090986cd94", null ],
+    [ "main_deployed_time", "classfsm_1_1BoosterFsm.html#ab6163fa52e6de30893c0298b5368a218", null ],
     [ "main_time", "classfsm_1_1BoosterFsm.html#a0bb5d0b48873d47ecd5bc790b267f939", null ],
+    [ "stage_sep_time", "classfsm_1_1BoosterFsm.html#a891844b6a124d842ca9fd9202d581d1b", null ],
     [ "state", "classfsm_1_1BoosterFsm.html#a009a1e7193a7280acd685982b31092aa", null ],
     [ "sustainer_ignition_time", "classfsm_1_1BoosterFsm.html#a289da8a868561b451cac0d19ae4e6ad0", null ]
 ];
