@@ -13,6 +13,7 @@ var log__format_8h =
       [ "ID_LOWGLSM", "log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a57bfa631139f5c6e118a21d1c9d34e0d", null ],
       [ "ID_FSM", "log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a3947ba0b4f2f30f6bbdece059aca92b5", null ],
       [ "ID_KALMAN", "log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a8ee6c5c2e314c5cddf59b95e136e96c5", null ],
-      [ "ID_PYRO", "log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a80e07063e4ce86c11e0f587fcd93de2d", null ]
+      [ "ID_PYRO", "log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a80e07063e4ce86c11e0f587fcd93de2d", null ],
+      [ "ID_CAMERADATA", "log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a83bb9323159a77b9d85293e35dee1187", null ]
     ] ]
 ];

@@ -68,10 +68,10 @@ var NAVTREEINDEX =
 "classnanopb__generator_1_1ProtoFile.html#a56bfd9cd805edbf3f87dd85871d93440",
 "fsm__thresholds_8py.html#a010c7efc5f65418e086d3178deeb4dfe",
 "hardware_2telemetry__backend_8cpp.html",
-"namespacenanopb__generator.html#aef56aa8113f39e9776739a7b76429493",
-"structBarometer.html#add666cf46ccb7b5695198412ebf28c82",
-"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5",
-"systems_8cpp.html#ad3b2a8e44e9c15fbf905b90e3f03604c"
+"namespacenanopb__generator.html#ae5c6e655940bb3833b062c2d78b0a0d3",
+"structBarometer.html#ac2c18c9ab21041b0f2133c3b473310cc",
+"structOrientationSensor.html#a3625c1e6f72472f368545f56d2c000f5",
+"systems_8cpp.html#a76a701b738011674b2350bf18ddf2351"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

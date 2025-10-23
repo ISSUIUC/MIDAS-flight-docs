@@ -3,7 +3,7 @@ var structCameraB2B =
     [ "camera_off", "structCameraB2B.html#aae3bc46534ae4be432d3e3d3137dffb1", null ],
     [ "camera_on", "structCameraB2B.html#a56e47474be5ad00dde4bb4d8e4c28e47", null ],
     [ "camera_toggle", "structCameraB2B.html#a6efbd00e522d764176edd790909409f5", null ],
-    [ "read", "structCameraB2B.html#a01b9f43e9fd1567c31e4d00be80e5cad", null ],
+    [ "read", "structCameraB2B.html#a78fdff8b30370adf99483d1038268e13", null ],
     [ "transmit_command", "structCameraB2B.html#aac81311168dc24b087ecdaf4648c52d9", null ],
     [ "vmux_set", "structCameraB2B.html#a56ac29b35f1a3b9098865543ec24ab92", null ],
     [ "vmux_toggle", "structCameraB2B.html#ac7758f0bc4934a1cc165426a9aa6322b", null ],

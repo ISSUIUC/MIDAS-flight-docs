@@ -11,6 +11,7 @@ var structOrientation =
     [ "linear_acceleration", "structOrientation.html#acbc40dba570e3f29f6fa1a966ba8dc39", null ],
     [ "magnetometer", "structOrientation.html#ac4b5b295d9134183cbe72c2c4e3bf3da", null ],
     [ "orientation_acceleration", "structOrientation.html#a8eb6efbab07ee4b9502a8186a7b21a64", null ],
+    [ "orientation_quaternion", "structOrientation.html#a8908ca5fe52219572fcf9c5f86661a2f", null ],
     [ "orientation_velocity", "structOrientation.html#a9c45d4340decdc2db9a2845db6971409", null ],
     [ "pitch", "structOrientation.html#abfcc05dbaf27c19549f80f7058eab0a3", null ],
     [ "pressure", "structOrientation.html#ac5f7f8fd3b2b1771001ae2e0932dd4b7", null ],

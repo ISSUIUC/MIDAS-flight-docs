@@ -1,6 +1,7 @@
 var structLoggedReading =
 [
     [ "barometer", "structLoggedReading.html#a34ee48c238a39efcc89b31dd0a87d761", null ],
+    [ "cameradata", "structLoggedReading.html#a2908fc89d4e071a66d093ab3ece718be", null ],
     [ "continuity", "structLoggedReading.html#a905c46f27caec7d43533c94cb772f861", null ],
     [ "data", "structLoggedReading.html#a086ecba387c4ce36d6bca3a5fbb93fc1", null ],
     [ "discriminant", "structLoggedReading.html#a014988d0d1c5df31fab93b2b6ba62086", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"namespacenanopb__generator.html#ae5c6e655940bb3833b062c2d78b0a0d3":[1,0,5,27],
 "namespacenanopb__generator.html#aef56aa8113f39e9776739a7b76429493":[1,0,5,30],
 "namespaceplatformio__generator.html":[1,0,6],
 "namespaceplatformio__generator.html#a037328b96c5de2cd876d811a8d86c31e":[1,0,6,3],
@@ -111,8 +112,8 @@ var NAVTREEINDEX7 =
 "pins_8h.html#a22041e9d141f6f971cb95b39587ce97f":[3,0,0,2,13,18],
 "pins_8h.html#a27405a4e7af5309aa7c55770b509b1f7":[3,0,0,2,13,45],
 "pins_8h.html#a31e20330f8ce94e0dd10b005a15c5898":[3,0,0,2,13,31],
-"pins_8h.html#a328f7f744c552c0ea225158757096e57":[3,0,0,2,13,20],
 "pins_8h.html#a328f7f744c552c0ea225158757096e57":[3,0,0,2,13,19],
+"pins_8h.html#a328f7f744c552c0ea225158757096e57":[3,0,0,2,13,20],
 "pins_8h.html#a3485a883031278b5c8c0a203aa41e7aa":[3,0,0,2,13,35],
 "pins_8h.html#a3cd2f624d6b19487aa2ecfbbb145280a":[3,0,0,2,13,16],
 "pins_8h.html#a423d10ac9c4372fa155e90e0e7170f45":[3,0,0,2,13,46],
@@ -222,9 +223,9 @@ var NAVTREEINDEX7 =
 "rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b":[3,0,0,1,7,1],
 "rotation_8h_source.html":[3,0,0,1,7],
 "sensor__data_8h.html":[3,0,0,22],
-"sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9":[3,0,0,22,17],
-"sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9ab2cfeb9ef3ff44bc2f0abd0b2379fe1a":[3,0,0,22,17,0],
-"sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9aea444252782e923b716dd334cf6d8bda":[3,0,0,22,17,1],
+"sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9":[3,0,0,22,18],
+"sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9ab2cfeb9ef3ff44bc2f0abd0b2379fe1a":[3,0,0,22,18,0],
+"sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9aea444252782e923b716dd334cf6d8bda":[3,0,0,22,18,1],
 "sensor__data_8h_source.html":[3,0,0,22],
 "silsim_2main_8cpp.html":[3,0,0,4,13],
 "silsim_2main_8cpp.html#a4a71f0125cd8d47b4bb42c4c836f8eee":[3,0,0,4,13,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "structBarometer.html":[2,0,8],
 "structBarometer.html#a1c1d755b487ccd6582eceb146896fcba":[2,0,8,3],
 "structBarometer.html#a736afd443927c12a0209d0bebb70b9fd":[2,0,8,0],
-"structBarometer.html#aa874e2036aba7f739bfe0a101ad3008b":[2,0,8,2],
-"structBarometer.html#ac2c18c9ab21041b0f2133c3b473310cc":[2,0,8,4]
+"structBarometer.html#aa874e2036aba7f739bfe0a101ad3008b":[2,0,8,2]
 };
