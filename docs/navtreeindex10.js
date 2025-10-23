@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"struct__HILSIMPacket.html#aeba0549d7ae25392a3eabc0cd82ca40c":[2,0,3,11],
+"struct__HILSIMPacket.html#afcd5189ba40cf22c49c5126ba3b58243":[2,0,3,20],
 "struct__HILSIMPacket.html#afecc85d8ee91dbc28ff83df628c36f2a":[2,0,3,0],
 "struct__RocketState.html":[2,0,4],
 "struct__RocketState.html#ae84e6063b8582a1298230ca55bff805c":[2,0,4,0],

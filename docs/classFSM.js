@@ -8,6 +8,7 @@ var classFSM =
     [ "drogue_time", "classFSM.html#a8d813f05b2e255c0cf36178ed8d02387", null ],
     [ "first_separation_time", "classFSM.html#a6ed08ffb1b66853cd966c1ac713547ba", null ],
     [ "landed_time", "classFSM.html#ad3136b9945d4cdaa0470812d8beb6d6d", null ],
+    [ "landing_lockout_triggered", "classFSM.html#a59590d5301b53220a2a56b46087aed1b", null ],
     [ "launch_time", "classFSM.html#a9e3525fb8abc86f91e668432ba96b93b", null ],
     [ "main_deployed_time", "classFSM.html#a1469fc1d7cbfd5e89d2745da7e8cef48", null ],
     [ "main_time", "classFSM.html#abb93f3b4350ef563d43f041e5ef2b694", null ],

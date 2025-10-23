@@ -1,5 +1,6 @@
 var structCommandFlags =
 [
+    [ "FSM_should_power_save", "structCommandFlags.html#af0e4ebcd0aec730b0dc55ec4f444acbb", null ],
     [ "FSM_should_set_cam_feed_cam1", "structCommandFlags.html#a542ba15da4a82bb5a0696952b9cff030", null ],
     [ "FSM_should_swap_camera_feed", "structCommandFlags.html#a02ce0127ae9ee8b2bb03cbe40aca082d", null ],
     [ "should_fire_pyro_a", "structCommandFlags.html#ac5e7e75df98e793a27d0772b43182f29", null ],

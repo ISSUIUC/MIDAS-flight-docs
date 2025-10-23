@@ -19,11 +19,12 @@ var searchData=
   ['free_5fbird_16',['free_bird',['../buzzer_8cpp.html#a605b4b88226d87e28ac325ee22a267cd',1,'free_bird():&#160;buzzer.cpp'],['../buzzer_8h.html#a605b4b88226d87e28ac325ee22a267cd',1,'free_bird():&#160;buzzer.cpp']]],
   ['frequency_17',['frequency',['../classSX1268.html#a3d3afa96c1f27a210ce527e235e2826c',1,'SX1268::frequency()'],['../structSound.html#ac86e70fe47d77da118cc3336942234ca',1,'Sound::frequency()']]],
   ['fsm_18',['fsm',['../structLoggedReading.html#a0c0c108b88b4d2a86905ac23a8c5231d',1,'LoggedReading']]],
-  ['fsm_5fshould_5fset_5fcam_5ffeed_5fcam1_19',['FSM_should_set_cam_feed_cam1',['../structCommandFlags.html#a542ba15da4a82bb5a0696952b9cff030',1,'CommandFlags']]],
-  ['fsm_5fshould_5fswap_5fcamera_5ffeed_20',['FSM_should_swap_camera_feed',['../structCommandFlags.html#a02ce0127ae9ee8b2bb03cbe40aca082d',1,'CommandFlags']]],
-  ['fsm_5fstate_21',['fsm_state',['../structRocketData.html#a0d19e828a15ca3873f6cc7d367635156',1,'RocketData']]],
-  ['fsm_5fstate_5fcount_22',['FSM_STATE_COUNT',['../classfsm_1_1FSMState.html#ac640eb5b3f070c5d1d0627c0a0854bc8',1,'fsm::FSMState']]],
-  ['fsm_5fstate_5fto_5fstring_23',['FSM_STATE_TO_STRING',['../namespacefsm.html#a4a7e76ba534dc795dcba915f4776d37e',1,'fsm']]],
-  ['fsmstate_24',['FSMState',['../classfsm_1_1SustainerFSM.html#afaeb98b45a296a49da4f379e6d90a2e5',1,'fsm.SustainerFSM.FSMState()'],['../classfsm_1_1BoosterFsm.html#aa7b8e3f66a90da1c7a607492f486f540',1,'fsm.BoosterFsm.FSMState()']]],
-  ['fullname_25',['fullname',['../classnanopb__generator_1_1ExtensionField.html#a9ef8a8c3e7b76e3e2578d1ec1f67dbf3',1,'nanopb_generator::ExtensionField']]]
+  ['fsm_5fshould_5fpower_5fsave_19',['FSM_should_power_save',['../structCommandFlags.html#af0e4ebcd0aec730b0dc55ec4f444acbb',1,'CommandFlags']]],
+  ['fsm_5fshould_5fset_5fcam_5ffeed_5fcam1_20',['FSM_should_set_cam_feed_cam1',['../structCommandFlags.html#a542ba15da4a82bb5a0696952b9cff030',1,'CommandFlags']]],
+  ['fsm_5fshould_5fswap_5fcamera_5ffeed_21',['FSM_should_swap_camera_feed',['../structCommandFlags.html#a02ce0127ae9ee8b2bb03cbe40aca082d',1,'CommandFlags']]],
+  ['fsm_5fstate_22',['fsm_state',['../structRocketData.html#a0d19e828a15ca3873f6cc7d367635156',1,'RocketData']]],
+  ['fsm_5fstate_5fcount_23',['FSM_STATE_COUNT',['../classfsm_1_1FSMState.html#ac640eb5b3f070c5d1d0627c0a0854bc8',1,'fsm::FSMState']]],
+  ['fsm_5fstate_5fto_5fstring_24',['FSM_STATE_TO_STRING',['../namespacefsm.html#a4a7e76ba534dc795dcba915f4776d37e',1,'fsm']]],
+  ['fsmstate_25',['FSMState',['../classfsm_1_1SustainerFSM.html#afaeb98b45a296a49da4f379e6d90a2e5',1,'fsm.SustainerFSM.FSMState()'],['../classfsm_1_1BoosterFsm.html#aa7b8e3f66a90da1c7a607492f486f540',1,'fsm.BoosterFsm.FSMState()']]],
+  ['fullname_26',['fullname',['../classnanopb__generator_1_1ExtensionField.html#a9ef8a8c3e7b76e3e2578d1ec1f67dbf3',1,'nanopb_generator::ExtensionField']]]
 ];

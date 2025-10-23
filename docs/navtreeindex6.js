@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"hardware_2Voltage_8cpp.html":[3,0,0,2,20],
 "hardware_2Voltage_8cpp.html#a3a0b7478dd2911edab3a32101c48c254":[3,0,0,2,20,0],
 "hardware_2Voltage_8cpp.html#ab08471d5f0dbeaf8a051c227283b4d9d":[3,0,0,2,20,1],
 "hardware_2Voltage_8cpp_source.html":[3,0,0,2,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "namespacenanopb__generator.html#a2111bcdc7737fae0485c897b690a5062":[1,0,5,22],
 "namespacenanopb__generator.html#a2462d41466b7f33f8a6e15f410c836d3":[1,0,5,37],
 "namespacenanopb__generator.html#a26f17fe2a1deff299235c0cf6ba99f3e":[1,0,5,15],
-"namespacenanopb__generator.html#a28556934de6720b65636115d0e747bfe":[1,0,5,17],
-"namespacenanopb__generator.html#a38e4f317bbba79d73c3c57a2410349ec":[1,0,5,35]
+"namespacenanopb__generator.html#a28556934de6720b65636115d0e747bfe":[1,0,5,17]
 };
