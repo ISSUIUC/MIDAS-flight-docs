@@ -13,6 +13,7 @@ var hierarchy =
     [ "BuzzerController", "structBuzzerController.html", null ],
     [ "CameraB2B", "structCameraB2B.html", null ],
     [ "CameraData", "structCameraData.html", null ],
+    [ "CameraState", "structCameraState.html", null ],
     [ "CommandFlags", "structCommandFlags.html", null ],
     [ "Continuity", "structContinuity.html", null ],
     [ "ContinuitySensor", "structContinuitySensor.html", null ],

@@ -4,6 +4,7 @@ var structTelemetryPacket =
     [ "baro_alt", "structTelemetryPacket.html#aef4abfc77fab19acb7cd43e3fe717bc2", null ],
     [ "batt_volt", "structTelemetryPacket.html#aa8cf300892bcc55fcadc2b96fd3a68ec", null ],
     [ "callsign_gpsfix_satcount", "structTelemetryPacket.html#ada0733ba1e06d19465fa892db94f73c3", null ],
+    [ "camera_batt_volt", "structTelemetryPacket.html#a8dfa1b1b4fa74fb36331fc12e2484efa", null ],
     [ "camera_state", "structTelemetryPacket.html#a44569b7205bde23ab0877d6ce15c2d27", null ],
     [ "highg_ax", "structTelemetryPacket.html#a4c228a4f68d1733323fb6b09984caf98", null ],
     [ "highg_ay", "structTelemetryPacket.html#a9c8f8f438509b8cef5bae7540bfbb377", null ],

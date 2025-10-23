@@ -1,5 +1,6 @@
 var b2b__interface_8h =
 [
+    [ "CameraState", "structCameraState.html", "structCameraState" ],
     [ "CameraB2B", "structCameraB2B.html", "structCameraB2B" ],
     [ "B2BInterface", "structB2BInterface.html", "structB2BInterface" ],
     [ "B2B_I2C", "b2b__interface_8h.html#a27964ab7da2151e505cd32d318a20404", null ],

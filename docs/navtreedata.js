@@ -70,8 +70,8 @@ var NAVTREEINDEX =
 "hardware_2Voltage_8cpp.html#a3a0b7478dd2911edab3a32101c48c254",
 "namespacenanopb__generator.html#a397b1e9a102b9737f24afd6a971cdad3",
 "simulation_8cpp_source.html",
-"structOrientation.html#a70f405db78789749842022ad9ca4cd77",
-"structaero__coeff__t.html#a04ea8fa7e713c4e3ac0f68a6a58eab0f"
+"structOrientation.html#a4b541db9a6b982b8b1c51032cd5bcf2c",
+"struct__HILSIMPacket.html#afecc85d8ee91dbc28ff83df628c36f2a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
