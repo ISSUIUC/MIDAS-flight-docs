@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['a_0',['a',['../ekf_8cpp.html#aa3ce4f9e1a9f820974747e717c08e739',1,'ekf.cpp']]],
+  ['a_0',['a',['../constants_8h.html#aa3ce4f9e1a9f820974747e717c08e739',1,'constants.h']]],
   ['accel_5fstring_1',['ACCEL_STRING',['../namespacefsm__test.html#a63a242a007955f8fe98bcdadef92728a',1,'fsm_test']]],
   ['acceleration_2',['acceleration',['../structKalmanData.html#a1c6d89ce4766817210cb1c334afdaee4',1,'KalmanData::acceleration()'],['../structStateEstimate.html#a23728148c5f1a590af6dd30b1ab4d6d4',1,'StateEstimate::acceleration()'],['../structSimulatedRocket.html#ab07dc873878090723d9e70cb449a640b',1,'SimulatedRocket::acceleration()']]],
   ['action_3',['action',['../namespaceplatformio__generator.html#a42bdd81f048a14618cf9487ffbbcba0b',1,'platformio_generator.action()'],['../namespacenanopb__generator.html#a61c750732ddb6ebb6167317fe2164233',1,'nanopb_generator.action()']]],
-  ['aero_5fdata_4',['aero_data',['../ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05',1,'ekf.cpp']]],
+  ['aero_5fdata_4',['aero_data',['../aero__coeff_8h.html#ab776fc1c2c085b7765770df1dbdb2d0f',1,'aero_coeff.h']]],
   ['allocation_5',['allocation',['../classnanopb__generator_1_1OneOf.html#abca963cd66ad714bab48bf2fb332e9d6',1,'nanopb_generator.OneOf.allocation()'],['../classnanopb__generator_1_1Field.html#aefbe5719d1304d9a1a515756441a9ea7',1,'nanopb_generator.Field.allocation()'],['../classnanopb__generator_1_1ExtensionRange.html#ab587a3f60473ef8ce973b7e2ca79c870',1,'nanopb_generator.ExtensionRange.allocation()']]],
-  ['alpha_6',['alpha',['../structAeroCoeff.html#a6e55520bca82a669261b1449347e22df',1,'AeroCoeff']]],
+  ['alpha_6',['alpha',['../structaero__coeff__t.html#af320aa0e2a7da7826ede550f3f55d0c5',1,'aero_coeff_t']]],
   ['already_5fcalled_5fenv_5fname_7',['already_called_env_name',['../namespaceplatformio__generator.html#a5f89712f146a95358f0c34e3e2fe7318',1,'platformio_generator']]],
   ['alt_8',['alt',['../structTelemetryPacket.html#a2d361ce45182a072473dbb14d35f43c2',1,'TelemetryPacket']]],
   ['alt_5fbuffer_9',['alt_buffer',['../classYessir.html#a94d56222af68ed85023c4e2daa61214e',1,'Yessir::alt_buffer()'],['../classEKF.html#aaa067fa1a1d8625234387278f1696b83',1,'EKF::alt_buffer()']]],

@@ -83,8 +83,6 @@ $(document).ready(function(){initNavTree('ekf_8cpp.html',''); initResizable(); }
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">ekf.cpp File Reference</div></div>
 </div><!--header-->
@@ -94,120 +92,18 @@ $(document).ready(function(){initNavTree('ekf_8cpp.html',''); initResizable(); }
 </div>
 <p><a href="ekf_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAeroCoeff.html">AeroCoeff</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a768a0f567c30dc6590529802150fbdc4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a768a0f567c30dc6590529802150fbdc4">AERO_DATA_SIZE</a>&#160;&#160;&#160;(sizeof(<a class="el" href="ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05">aero_data</a>) / sizeof(<a class="el" href="ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05">aero_data</a>[0]))</td></tr>
-<tr class="separator:a768a0f567c30dc6590529802150fbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abce8f0db8a5282e441988c8d2e73f79e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#abce8f0db8a5282e441988c8d2e73f79e">pi</a> = 3.14159268</td></tr>
-<tr class="separator:abce8f0db8a5282e441988c8d2e73f79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3ce4f9e1a9f820974747e717c08e739"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#aa3ce4f9e1a9f820974747e717c08e739">a</a> = 343.0</td></tr>
-<tr class="separator:aa3ce4f9e1a9f820974747e717c08e739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace9d150aa7b85c14070e7e9fb72bacdf"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#ace9d150aa7b85c14070e7e9fb72bacdf">rho</a> = 1.225</td></tr>
-<tr class="separator:ace9d150aa7b85c14070e7e9fb72bacdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9275d161581a75241fbf34397c38c58e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a9275d161581a75241fbf34397c38c58e">r</a> = 0.03935</td></tr>
-<tr class="separator:a9275d161581a75241fbf34397c38c58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab26f7ee8391ebf8469d6038a0df4d1ba"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#ab26f7ee8391ebf8469d6038a0df4d1ba">height_full</a> = 4.457</td></tr>
-<tr class="separator:ab26f7ee8391ebf8469d6038a0df4d1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af23230304c6d1eabcf3b76d10613311f"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#af23230304c6d1eabcf3b76d10613311f">height_sustainer</a> = 2.029</td></tr>
-<tr class="separator:af23230304c6d1eabcf3b76d10613311f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7f37f2df8fa01258e600b9dc0061507"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#ad7f37f2df8fa01258e600b9dc0061507">mass_full</a> = 33.84</td></tr>
-<tr class="separator:ad7f37f2df8fa01258e600b9dc0061507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23aa54f1c937b4bb4c33a81ba50e1295"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a23aa54f1c937b4bb4c33a81ba50e1295">mass_sustainer</a> = 10.93</td></tr>
-<tr class="separator:a23aa54f1c937b4bb4c33a81ba50e1295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a874626ac786bd3d82ae03d55c72b7a05"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structAeroCoeff.html">AeroCoeff</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05">aero_data</a> []</td></tr>
-<tr class="separator:a874626ac786bd3d82ae03d55c72b7a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879a8678beaf190eb2b8638ead4f2214"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt; float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a879a8678beaf190eb2b8638ead4f2214">O5500X_data</a></td></tr>
+<tr class="separator:a879a8678beaf190eb2b8638ead4f2214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc3bee95d33c2506cd292a360782407c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt; float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#acc3bee95d33c2506cd292a360782407c">M685W_data</a></td></tr>
 <tr class="separator:acc3bee95d33c2506cd292a360782407c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c0f4417d9e33f0352cbd3d6917cc3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt; float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a39c0f4417d9e33f0352cbd3d6917cc3f">O5500X_data</a></td></tr>
-<tr class="separator:a39c0f4417d9e33f0352cbd3d6917cc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c8633a43c4cc7c547ce0424895b016a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt; std::string, <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt; float, float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a4c8633a43c4cc7c547ce0424895b016a">motor_data</a></td></tr>
+<tr class="separator:a4c8633a43c4cc7c547ce0424895b016a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d1aba5796338d3c73c8da4a6e8782e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEKF.html">EKF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8cpp.html#a9d1aba5796338d3c73c8da4a6e8782e6">ekf</a></td></tr>
 <tr class="separator:a9d1aba5796338d3c73c8da4a6e8782e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a768a0f567c30dc6590529802150fbdc4" name="a768a0f567c30dc6590529802150fbdc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a768a0f567c30dc6590529802150fbdc4">&#9670;&nbsp;</a></span>AERO_DATA_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define AERO_DATA_SIZE&#160;&#160;&#160;(sizeof(<a class="el" href="ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05">aero_data</a>) / sizeof(<a class="el" href="ekf_8cpp.html#a874626ac786bd3d82ae03d55c72b7a05">aero_data</a>[0]))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00058">58</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aa3ce4f9e1a9f820974747e717c08e739" name="aa3ce4f9e1a9f820974747e717c08e739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3ce4f9e1a9f820974747e717c08e739">&#9670;&nbsp;</a></span>a</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float a = 343.0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00011">11</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a874626ac786bd3d82ae03d55c72b7a05" name="a874626ac786bd3d82ae03d55c72b7a05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a874626ac786bd3d82ae03d55c72b7a05">&#9670;&nbsp;</a></span>aero_data</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structAeroCoeff.html">AeroCoeff</a> aero_data[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    {0.04, 0, 1.000001789, 25.80486518, 123.856999},</div>
-<div class="line">    {0.08, 0, 0.899149955, 25.80486518, 123.856999},</div>
-<div class="line">    {0.12, 0, 0.848262793, 25.80486518, 123.856999},</div>
-<div class="line">    {0.16, 0, 0.815490497, 25.80486518, 123.856999},</div>
-<div class="line">    {0.2, 0, 0.791977907, 25.80486518, 123.856999},</div>
-<div class="line">    {0.24, 0, 0.77407759, 25.80486518, 123.856999},</div>
-<div class="line">    {0.28, 0, 0.763046286, 25.80486518, 123.856999},</div>
-<div class="line">    {0.32, 0, 0.758319846, 25.80486518, 123.856999},</div>
-<div class="line">    {0.36, 0, 0.760511343, 25.80486518, 123.856999},</div>
-<div class="line">    {0.4, 0, 0.763737136, 25.80486518, 123.856999},</div>
-<div class="line">    {0.44, 0, 0.767325178, 25.80486518, 123.856999},</div>
-<div class="line">    {0.48, 0, 0.771334851, 25.80486518, 123.856999},</div>
-<div class="line">    {0.52, 0, 0.775843406, 25.80486518, 123.856999},</div>
-<div class="line">    {0.56, 0, 0.780953377, 25.80486518, 123.856999},</div>
-<div class="line">    {0.6, 0, 0.785771581, 25.80486518, 123.856999},</div>
-<div class="line">    {0.64, 0, 0.793730593, 25.80486518, 123.856999},</div>
-<div class="line">    {0.68, 0, 0.80285965, 25.80486518, 123.856999},</div>
-<div class="line">    {0.72, 0, 0.807910063, 25.80486518, 123.856999},</div>
-<div class="line">    {0.76, 0, 0.807403195, 25.80486518, 123.856999},</div>
-<div class="line">    {0.8, 0, 0.806889479, 25.80486518, 123.856999},</div>
-<div class="line">    {0.84, 0, 0.832707826, 25.80486518, 123.856999},</div>
-<div class="line">    {0.88, 0, 0.858519521, 25.80486518, 123.856999},</div>
-<div class="line">    {0.92, 0, 0.895125486, 25.492166, 124.3408619},</div>
-<div class="line">    {0.96, 0, 0.923744595, 24.86676763, 125.3085876},</div>
-<div class="line">    {1, 0, 0.941214699, 24.24136926, 126.2763132},</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00029">29</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
 <a id="a9d1aba5796338d3c73c8da4a6e8782e6" name="a9d1aba5796338d3c73c8da4a6e8782e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d1aba5796338d3c73c8da4a6e8782e6">&#9670;&nbsp;</a></span>ekf</h2>
 
@@ -220,39 +116,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00623">623</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ab26f7ee8391ebf8469d6038a0df4d1ba" name="ab26f7ee8391ebf8469d6038a0df4d1ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26f7ee8391ebf8469d6038a0df4d1ba">&#9670;&nbsp;</a></span>height_full</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float height_full = 4.457</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00014">14</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="af23230304c6d1eabcf3b76d10613311f" name="af23230304c6d1eabcf3b76d10613311f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af23230304c6d1eabcf3b76d10613311f">&#9670;&nbsp;</a></span>height_sustainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float height_sustainer = 2.029</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00015">15</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00560">560</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -261,133 +125,71 @@ Variables</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt;float, float&gt; M685W_data</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    {0.083, 1333.469},</div>
-<div class="line">    {0.13, 1368.376},</div>
-<div class="line">    {0.249, 1361.395},</div>
-<div class="line">    {0.308, 1380.012},</div>
-<div class="line">    {0.403, 1359.068},</div>
-<div class="line">    {0.675, 1184.53},</div>
-<div class="line">    {1.018, 1072.826},</div>
-<div class="line">    {1.456, 996.029},</div>
-<div class="line">    {1.977, 958.794},</div>
-<div class="line">    {2.995, 914.578},</div>
-<div class="line">    {3.99, 856.399},</div>
-<div class="line">    {4.985, 781.929},</div>
-<div class="line">    {5.494, 730.732},</div>
-<div class="line">    {5.991, 679.534},</div>
-<div class="line">    {7.258, 542.231},</div>
-<div class="line">    {7.862, 463.107},</div>
-<div class="line">    {8.015, 456.125},</div>
-<div class="line">    {8.998, 330.458},</div>
-<div class="line">    {9.993, 207.118},</div>
-<div class="line">    {10.514, 137.303},</div>
-<div class="line">    {11.496, 34.908},</div>
-<div class="line">    {11.994, 0.0}}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00061">61</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="aero__coeff_8h_source.html#l00046">46</a> of file <a class="el" href="aero__coeff_8h_source.html">aero_coeff.h</a>.</p>
 
 </div>
 </div>
-<a id="ad7f37f2df8fa01258e600b9dc0061507" name="ad7f37f2df8fa01258e600b9dc0061507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7f37f2df8fa01258e600b9dc0061507">&#9670;&nbsp;</a></span>mass_full</h2>
+<a id="a4c8633a43c4cc7c547ce0424895b016a" name="a4c8633a43c4cc7c547ce0424895b016a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c8633a43c4cc7c547ce0424895b016a">&#9670;&nbsp;</a></span>motor_data</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float mass_full = 33.84</td>
+          <td class="memname">const <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt;std::string, <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt;float, float&gt; &gt; motor_data</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00016">16</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aero__coeff_8h_source.html#l00180">180</a> of file <a class="el" href="aero__coeff_8h_source.html">aero_coeff.h</a>.</p>
 
 </div>
 </div>
-<a id="a23aa54f1c937b4bb4c33a81ba50e1295" name="a23aa54f1c937b4bb4c33a81ba50e1295"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23aa54f1c937b4bb4c33a81ba50e1295">&#9670;&nbsp;</a></span>mass_sustainer</h2>
+<a id="a879a8678beaf190eb2b8638ead4f2214" name="a879a8678beaf190eb2b8638ead4f2214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879a8678beaf190eb2b8638ead4f2214">&#9670;&nbsp;</a></span>O5500X_data</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float mass_sustainer = 10.93</td>
+          <td class="memname">const <a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt;float, float&gt; O5500X_data</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<p >{0.13, 1368.376}, {0.249, 1361.395}, {0.308, 1380.012}, {0.403, 1359.068}, {0.675, 1184.53}, {1.018, 1072.826}, {1.456, 996.029}, {1.977, 958.794}, {2.995, 914.578}, {3.99, 856.399}, {4.985, 781.929}, {5.494, 730.732}, {5.991, 679.534}, {7.258, 542.231}, {7.862, 463.107}, {8.015, 456.125}, {8.998, 330.458}, {9.993, 207.118}, {10.514, 137.303}, {11.496, 34.908}, {11.994, 0.0} </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00017">17</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a39c0f4417d9e33f0352cbd3d6917cc3f" name="a39c0f4417d9e33f0352cbd3d6917cc3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39c0f4417d9e33f0352cbd3d6917cc3f">&#9670;&nbsp;</a></span>O5500X_data</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="telemetry_8cpp.html#aada2d75bc8a8c6eb845bd940eadfa3fd">std::map</a>&lt;float, float&gt; O5500X_data</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00086">86</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="abce8f0db8a5282e441988c8d2e73f79e" name="abce8f0db8a5282e441988c8d2e73f79e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abce8f0db8a5282e441988c8d2e73f79e">&#9670;&nbsp;</a></span>pi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float pi = 3.14159268</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00010">10</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a9275d161581a75241fbf34397c38c58e" name="a9275d161581a75241fbf34397c38c58e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9275d161581a75241fbf34397c38c58e">&#9670;&nbsp;</a></span>r</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float r = 0.03935</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00013">13</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ace9d150aa7b85c14070e7e9fb72bacdf" name="ace9d150aa7b85c14070e7e9fb72bacdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace9d150aa7b85c14070e7e9fb72bacdf">&#9670;&nbsp;</a></span>rho</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float rho = 1.225</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00012">12</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aero__coeff_8h_source.html#l00109">109</a> of file <a class="el" href="aero__coeff_8h_source.html">aero_coeff.h</a>.</p>
 
 </div>
 </div>

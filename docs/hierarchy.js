@@ -3,7 +3,7 @@ var hierarchy =
     [ "_HILSIMPacket", "struct__HILSIMPacket.html", null ],
     [ "_RocketState", "struct__RocketState.html", null ],
     [ "Acceleration", "structAcceleration.html", null ],
-    [ "AeroCoeff", "structAeroCoeff.html", null ],
+    [ "aero_coeff_t", "structaero__coeff__t.html", null ],
     [ "B2BInterface", "structB2BInterface.html", null ],
     [ "Barometer", "structBarometer.html", null ],
     [ "BarometerSensor", "structBarometerSensor.html", null ],

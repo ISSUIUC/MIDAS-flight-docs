@@ -1,5 +1,6 @@
 var structOrientation =
 [
+    [ "getAngularVelocity", "structOrientation.html#a408bd2616d7db875d573118744246365", null ],
     [ "getEuler", "structOrientation.html#a70f405db78789749842022ad9ca4cd77", null ],
     [ "getVelocity", "structOrientation.html#a4782dcf86c92147d9002264ddf767589", null ],
     [ "angular_velocity", "structOrientation.html#a92e55d90bc2ec2ae6740016212754765", null ],

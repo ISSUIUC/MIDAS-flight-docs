@@ -92,6 +92,9 @@ $(document).ready(function(){initNavTree('ekf_8h.html',''); initResizable(); });
 <div class="textblock"><code>#include &quot;<a class="el" href="kalman__filter_8h_source.html">kalman_filter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Buffer_8h_source.html">Buffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="constants_8h_source.html">constants.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="aero__coeff_8h_source.html">aero_coeff.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="rotation_8h_source.html">rotation.h</a>&quot;</code><br />
 </div>
 <p><a href="ekf_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -108,6 +111,8 @@ Macros</h2></td></tr>
 <tr class="separator:ac6ef2495692adee513161f504fefaebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ec77922c1d205f043f088f449c7d55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8h.html#af6ec77922c1d205f043f088f449c7d55">ALTITUDE_BUFFER_SIZE</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:af6ec77922c1d205f043f088f449c7d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a768a0f567c30dc6590529802150fbdc4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ekf_8h.html#a768a0f567c30dc6590529802150fbdc4">AERO_DATA_SIZE</a>&#160;&#160;&#160;(sizeof(<a class="el" href="aero__coeff_8h.html#ab776fc1c2c085b7765770df1dbdb2d0f">aero_data</a>) / sizeof(<a class="el" href="aero__coeff_8h.html#ab776fc1c2c085b7765770df1dbdb2d0f">aero_data</a>[0]))</td></tr>
+<tr class="separator:a768a0f567c30dc6590529802150fbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -115,6 +120,22 @@ Variables</h2></td></tr>
 <tr class="separator:a9d1aba5796338d3c73c8da4a6e8782e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a768a0f567c30dc6590529802150fbdc4" name="a768a0f567c30dc6590529802150fbdc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a768a0f567c30dc6590529802150fbdc4">&#9670;&nbsp;</a></span>AERO_DATA_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AERO_DATA_SIZE&#160;&#160;&#160;(sizeof(<a class="el" href="aero__coeff_8h.html#ab776fc1c2c085b7765770df1dbdb2d0f">aero_data</a>) / sizeof(<a class="el" href="aero__coeff_8h.html#ab776fc1c2c085b7765770df1dbdb2d0f">aero_data</a>[0]))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00015">15</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+
+</div>
+</div>
 <a id="af6ec77922c1d205f043f088f449c7d55" name="af6ec77922c1d205f043f088f449c7d55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6ec77922c1d205f043f088f449c7d55">&#9670;&nbsp;</a></span>ALTITUDE_BUFFER_SIZE</h2>
 
@@ -127,7 +148,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00009">9</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00012">12</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -143,7 +164,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00008">8</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00011">11</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -159,7 +180,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00007">7</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00010">10</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -184,7 +205,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00623">623</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00560">560</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>

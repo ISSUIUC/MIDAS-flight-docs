@@ -29,7 +29,7 @@ var annotated_dup =
     [ "_HILSIMPacket", "struct__HILSIMPacket.html", "struct__HILSIMPacket" ],
     [ "_RocketState", "struct__RocketState.html", "struct__RocketState" ],
     [ "Acceleration", "structAcceleration.html", "structAcceleration" ],
-    [ "AeroCoeff", "structAeroCoeff.html", "structAeroCoeff" ],
+    [ "aero_coeff_t", "structaero__coeff__t.html", "structaero__coeff__t" ],
     [ "B2BInterface", "structB2BInterface.html", "structB2BInterface" ],
     [ "Barometer", "structBarometer.html", "structBarometer" ],
     [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],

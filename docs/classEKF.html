@@ -120,27 +120,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad12d218c18072682257c3c9f3bd6102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#aad12d218c18072682257c3c9f3bd6102">setQ</a> (float dt, float sd)</td></tr>
 <tr class="memdesc:aad12d218c18072682257c3c9f3bd6102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Q matrix given time step and spectral density.  <a href="classEKF.html#aad12d218c18072682257c3c9f3bd6102">More...</a><br /></td></tr>
 <tr class="separator:aad12d218c18072682257c3c9f3bd6102"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c536795df0ca2b915e7ba031e29a6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#ae1c536795df0ca2b915e7ba031e29a6b">setF</a> (float dt, float w_x, float w_y, float w_z)</td></tr>
-<tr class="memdesc:ae1c536795df0ca2b915e7ba031e29a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the F matrix given time step.  <a href="classEKF.html#ae1c536795df0ca2b915e7ba031e29a6b">More...</a><br /></td></tr>
-<tr class="separator:ae1c536795df0ca2b915e7ba031e29a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5dded9639e82f9dc1f1711680f4cc67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#af5dded9639e82f9dc1f1711680f4cc67">getThrust</a> (float timestamp, <a class="el" href="structeuler__t.html">euler_t</a> angles, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state, Eigen::Matrix&lt; float, 3, 1 &gt; &amp;to_modify)</td></tr>
-<tr class="memdesc:af5dded9639e82f9dc1f1711680f4cc67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the approximate thrust force from the motor given the thurst curve.  <a href="classEKF.html#af5dded9639e82f9dc1f1711680f4cc67">More...</a><br /></td></tr>
-<tr class="separator:af5dded9639e82f9dc1f1711680f4cc67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6097e4d4d8ce3ff20f689de4a2e1ea2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a6097e4d4d8ce3ff20f689de4a2e1ea2e">BodyToGlobal</a> (<a class="el" href="structeuler__t.html">euler_t</a> angles, Eigen::Matrix&lt; float, 3, 1 &gt; &amp;<a class="el" href="classKalmanFilter.html#a546718e34c959119d0368f0ffec7c75f">x_k</a>, Eigen::Matrix&lt; float, 3, 1 &gt; &amp;to_modify)</td></tr>
-<tr class="memdesc:a6097e4d4d8ce3ff20f689de4a2e1ea2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a vector in the body frame to the global frame.  <a href="classEKF.html#a6097e4d4d8ce3ff20f689de4a2e1ea2e">More...</a><br /></td></tr>
-<tr class="separator:a6097e4d4d8ce3ff20f689de4a2e1ea2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf391b5880785536fc8dee0d62bbb673"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#aaf391b5880785536fc8dee0d62bbb673">GlobalToBody</a> (<a class="el" href="structeuler__t.html">euler_t</a> angles, Eigen::Matrix&lt; float, 3, 1 &gt; &amp;to_modify)</td></tr>
-<tr class="memdesc:aaf391b5880785536fc8dee0d62bbb673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a vector in the global frame to the body frame.  <a href="classEKF.html#aaf391b5880785536fc8dee0d62bbb673">More...</a><br /></td></tr>
-<tr class="separator:aaf391b5880785536fc8dee0d62bbb673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d778cc2c9745876b77de441b57ad5a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a2d778cc2c9745876b77de441b57ad5a2">setF</a> (float dt, float w_x, float w_y, float w_z, float coeff, float v_x, float v_y, float v_z)</td></tr>
+<tr class="memdesc:a2d778cc2c9745876b77de441b57ad5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the F matrix given time step.  <a href="classEKF.html#a2d778cc2c9745876b77de441b57ad5a2">More...</a><br /></td></tr>
+<tr class="separator:a2d778cc2c9745876b77de441b57ad5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80b18934240de41e18ff6265a818e8a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a80b18934240de41e18ff6265a818e8a3">getState</a> () override</td></tr>
 <tr class="memdesc:a80b18934240de41e18ff6265a818e8a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for state X.  <a href="classEKF.html#a80b18934240de41e18ff6265a818e8a3">More...</a><br /></td></tr>
 <tr class="separator:a80b18934240de41e18ff6265a818e8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee35ef9f08a3d90ade3c6d0eb84eaea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>) override</td></tr>
 <tr class="memdesc:aee35ef9f08a3d90ade3c6d0eb84eaea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets state vector x.  <a href="classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2">More...</a><br /></td></tr>
 <tr class="separator:aee35ef9f08a3d90ade3c6d0eb84eaea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add0f598c99c21bf9733f809a553f6208"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#add0f598c99c21bf9733f809a553f6208">linearInterpolation</a> (float x0, float y0, float x1, float y1, float x)</td></tr>
-<tr class="memdesc:add0f598c99c21bf9733f809a553f6208"><td class="mdescLeft">&#160;</td><td class="mdescRight">linearly interpolates the a value based on the lower and upper bound, similar to lerp_() in PySim  <a href="classEKF.html#add0f598c99c21bf9733f809a553f6208">More...</a><br /></td></tr>
-<tr class="separator:add0f598c99c21bf9733f809a553f6208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de87aa050d160d6e467372302cd6999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a2de87aa050d160d6e467372302cd6999">getThrust</a> (float timestamp, const <a class="el" href="structeuler__t.html">euler_t</a> &amp;angles, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state, Eigen::Vector3f &amp;thrust_out)</td></tr>
+<tr class="memdesc:a2de87aa050d160d6e467372302cd6999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the approximate thrust force from the motor given the thurst curve.  <a href="classEKF.html#a2de87aa050d160d6e467372302cd6999">More...</a><br /></td></tr>
+<tr class="separator:a2de87aa050d160d6e467372302cd6999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6799540cf1b6b1f489801d674a13678e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a6799540cf1b6b1f489801d674a13678e">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>)</td></tr>
 <tr class="memdesc:a6799540cf1b6b1f489801d674a13678e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classEKF.html#a6799540cf1b6b1f489801d674a13678e">More...</a><br /></td></tr>
 <tr class="separator:a6799540cf1b6b1f489801d674a13678e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,12 +143,14 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a09ec3df4df023c82d69ca6b56b93ced0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a09ec3df4df023c82d69ca6b56b93ced0">should_reinit</a> = false</td></tr>
 <tr class="separator:a09ec3df4df023c82d69ca6b56b93ced0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0566f96e0c5109fb7fcf795c96423695"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a0566f96e0c5109fb7fcf795c96423695">current_vel</a> = 0.0f</td></tr>
+<tr class="separator:a0566f96e0c5109fb7fcf795c96423695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a78c417cb9300e85b4e0ed48cc7e20a11"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a78c417cb9300e85b4e0ed48cc7e20a11">s_dt</a> = 0.05f</td></tr>
 <tr class="separator:a78c417cb9300e85b4e0ed48cc7e20a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154498e2e44713df6d8d28adbde06383"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a154498e2e44713df6d8d28adbde06383">spectral_density_</a> = 13.0f</td></tr>
+<tr class="memitem:a154498e2e44713df6d8d28adbde06383"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a154498e2e44713df6d8d28adbde06383">spectral_density_</a> = 0.001f</td></tr>
 <tr class="separator:a154498e2e44713df6d8d28adbde06383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad51c2f4796998912c280866d123efbf6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#ad51c2f4796998912c280866d123efbf6">kalman_apo</a> = 0</td></tr>
 <tr class="separator:ad51c2f4796998912c280866d123efbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,10 +158,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a263af179490a7a18355fcc77b8711540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab960cb11883ff54fb7bb869e25e3a73e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#ab960cb11883ff54fb7bb869e25e3a73e">Cn</a> = 0</td></tr>
 <tr class="separator:ab960cb11883ff54fb7bb869e25e3a73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc8c10f1a54f271137810981b9e7d8c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a5bc8c10f1a54f271137810981b9e7d8c">Wind_alpha</a> = 0.85f</td></tr>
+<tr class="separator:a5bc8c10f1a54f271137810981b9e7d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32bdda30a28fcd0c9c524bbf5b968cce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a32bdda30a28fcd0c9c524bbf5b968cce">Cp</a> = 0</td></tr>
 <tr class="separator:a32bdda30a28fcd0c9c524bbf5b968cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ffa51defe6afad7e27c7b411cec9b57"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a9ffa51defe6afad7e27c7b411cec9b57">gravity</a> = Eigen::Matrix&lt;float,3,1&gt;::Zero()</td></tr>
-<tr class="separator:a9ffa51defe6afad7e27c7b411cec9b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af803df36ca2d6888441b15764ac61b77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanState.html">KalmanState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#af803df36ca2d6888441b15764ac61b77">kalman_state</a></td></tr>
 <tr class="separator:af803df36ca2d6888441b15764ac61b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb7115fd52253d6c7fbcf6aac808e075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#acb7115fd52253d6c7fbcf6aac808e075">last_fsm</a> = <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303aaade5e53e88cf231292cd1142cce2afe">FSMState::STATE_IDLE</a></td></tr>
@@ -210,7 +203,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00011">11</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00017">17</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab48b75de3b276773f474e347ebc5b2a0" name="ab48b75de3b276773f474e347ebc5b2a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab48b75de3b276773f474e347ebc5b2a0">&#9670;&nbsp;</a></span>EKF()</h2>
@@ -227,57 +220,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00004">4</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00008">8</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6097e4d4d8ce3ff20f689de4a2e1ea2e" name="a6097e4d4d8ce3ff20f689de4a2e1ea2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6097e4d4d8ce3ff20f689de4a2e1ea2e">&#9670;&nbsp;</a></span>BodyToGlobal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EKF::BodyToGlobal </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structeuler__t.html">euler_t</a>&#160;</td>
-          <td class="paramname"><em>angles</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; float, 3, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>body_vect</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; float, 3, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>to_modify</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Converts a vector in the body frame to the global frame. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">angles</td><td>Roll, pitch, yaw angles </td></tr>
-    <tr><td class="paramname">body_vect</td><td>Vector for rotation in the body frame </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the global frame </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00562">562</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
 <a id="a80b18934240de41e18ff6265a818e8a3" name="a80b18934240de41e18ff6265a818e8a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80b18934240de41e18ff6265a818e8a3">&#9670;&nbsp;</a></span>getState()</h2>
 
@@ -306,12 +253,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00488">488</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00385">385</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
-<a id="af5dded9639e82f9dc1f1711680f4cc67" name="af5dded9639e82f9dc1f1711680f4cc67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5dded9639e82f9dc1f1711680f4cc67">&#9670;&nbsp;</a></span>getThrust()</h2>
+<a id="a2de87aa050d160d6e467372302cd6999" name="a2de87aa050d160d6e467372302cd6999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de87aa050d160d6e467372302cd6999">&#9670;&nbsp;</a></span>getThrust()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +272,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structeuler__t.html">euler_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structeuler__t.html">euler_t</a> &amp;&#160;</td>
           <td class="paramname"><em>angles</em>, </td>
         </tr>
         <tr>
@@ -337,8 +284,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; float, 3, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>to_modify</em>&#160;</td>
+          <td class="paramtype">Eigen::Vector3f &amp;&#160;</td>
+          <td class="paramname"><em>thrust_out</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -360,47 +307,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Thrust force in the body frame</dd></dl>
 <p>The thrust force is calculated by interpolating the thrust curve data which is stored in an ordered map (see top of file). The thrust curve data is different for the booster and sustainer stages, so the function checks the <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> state to determine which thrust curve to use. The time since ignition is also important to consider so that is reset once we reach a new stage. The thrust force is then rotated into the body frame using the BodyToGlobal function. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00331">331</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aaf391b5880785536fc8dee0d62bbb673" name="aaf391b5880785536fc8dee0d62bbb673"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf391b5880785536fc8dee0d62bbb673">&#9670;&nbsp;</a></span>GlobalToBody()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EKF::GlobalToBody </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structeuler__t.html">euler_t</a>&#160;</td>
-          <td class="paramname"><em>angles</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; float, 3, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>to_modify</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Converts a vector in the global frame to the body frame. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">angles</td><td>Roll, pitch, yaw angles </td></tr>
-    <tr><td class="paramname">world_vector</td><td>Vector for rotation in the global frame</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the body frame TODO: Don't pass in gravity and pass in a vector instead </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00586">586</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00516">516</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -433,57 +340,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00148">148</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
-
-</div>
-</div>
-<a id="add0f598c99c21bf9733f809a553f6208" name="add0f598c99c21bf9733f809a553f6208"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add0f598c99c21bf9733f809a553f6208">&#9670;&nbsp;</a></span>linearInterpolation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float EKF::linearInterpolation </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>linearly interpolates the a value based on the lower and upper bound, similar to lerp_() in PySim </p>
-
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00312">312</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00038">38</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +370,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00575">575</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00016">16</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -552,12 +409,12 @@ Additional Inherited Members</h2></td></tr>
 <p>Estimates current state of the rocket without current sensor data. </p>
 <p >The priori step of the Kalman filter is used to estimate the current state of the rocket without knowledge of the current sensor data. In other words, it extrapolates the state at time n+1 based on the state at time n. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00239">239</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00142">142</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ae1c536795df0ca2b915e7ba031e29a6b" name="ae1c536795df0ca2b915e7ba031e29a6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1c536795df0ca2b915e7ba031e29a6b">&#9670;&nbsp;</a></span>setF()</h2>
+<a id="a2d778cc2c9745876b77de441b57ad5a2" name="a2d778cc2c9745876b77de441b57ad5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d778cc2c9745876b77de441b57ad5a2">&#9670;&nbsp;</a></span>setF()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -572,19 +429,43 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wx</em>, </td>
+          <td class="paramname"><em>w_x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wy</em>, </td>
+          <td class="paramname"><em>w_y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wz</em>&#160;</td>
+          <td class="paramname"><em>w_z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>coeff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>v_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>v_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>v_z</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -603,7 +484,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The F matrix is the state transition matrix and is defined by how the states change over time and also depends on the current state of the rocket. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00607">607</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00461">461</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -643,7 +524,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The Q matrix is the covariance matrix for the process noise and is updated based on the time taken per cycle of the Kalman Filter Thread. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00520">520</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00417">417</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -681,7 +562,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00498">498</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00395">395</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -748,7 +629,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00466">466</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00363">363</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -803,7 +684,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00384">384</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00258">258</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -828,7 +709,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00047">47</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00058">58</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -852,7 +733,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00038">38</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00047">47</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -876,7 +757,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00039">39</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00048">48</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -900,31 +781,23 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00040">40</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00050">50</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
-<a id="a9ffa51defe6afad7e27c7b411cec9b57" name="a9ffa51defe6afad7e27c7b411cec9b57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ffa51defe6afad7e27c7b411cec9b57">&#9670;&nbsp;</a></span>gravity</h2>
+<a id="a0566f96e0c5109fb7fcf795c96423695" name="a0566f96e0c5109fb7fcf795c96423695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0566f96e0c5109fb7fcf795c96423695">&#9670;&nbsp;</a></span>current_vel</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;float,3,1&gt; EKF::gravity = Eigen::Matrix&lt;float,3,1&gt;::Zero()</td>
+          <td class="memname">float EKF::current_vel = 0.0f</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00041">41</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00040">40</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -948,7 +821,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00046">46</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00057">57</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -972,7 +845,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00037">37</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00046">46</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -996,7 +869,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00042">42</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00053">53</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -1020,7 +893,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00043">43</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00054">54</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -1044,7 +917,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00035">35</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00044">44</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +933,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00033">33</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00039">39</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -1074,7 +947,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float EKF::spectral_density_ = 13.0f</td>
+          <td class="memname">float EKF::spectral_density_ = 0.001f</td>
         </tr>
       </table>
   </td>
@@ -1084,7 +957,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00036">36</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00045">45</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -1108,7 +981,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00044">44</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00055">55</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1005,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00048">48</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00059">59</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
+
+</div>
+</div>
+<a id="a5bc8c10f1a54f271137810981b9e7d8c" name="a5bc8c10f1a54f271137810981b9e7d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bc8c10f1a54f271137810981b9e7d8c">&#9670;&nbsp;</a></span>Wind_alpha</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EKF::Wind_alpha = 0.85f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ekf_8h_source.html#l00049">49</a> of file <a class="el" href="ekf_8h_source.html">ekf.h</a>.</p>
 
 </div>
 </div>

@@ -62,16 +62,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Buffer_8h.html",
-"classEKF.html#a5ea4bec147462c4818489a978ddde35d",
-"classfsm_1_1FSMState.html",
-"classnanopb__generator_1_1FieldMaxSize.html#a2a4d07c41702053be0602e2009450e48",
-"classnanopb__generator_1_1ProtoFile.html#a97741f00cb2b3d2e8d8115cec952cbbf",
-"fsm__thresholds_8py.html#a3946c8df3d5967795235f9b1159fdf4f",
-"hardware_2telemetry__backend_8cpp.html#a787165d9ce76cde0f22b9a55eb6f8a8f",
-"namespaceplatformio__generator.html#a2c7438e82bc6bc6a6ceba14042c9cdea",
-"structBarometerSensor.html#a4ec4442c4804f416fb1bb9c21e265596",
-"structOrientationSensor.html#ade7f0546cf442a31162f9bdfacbce00c",
-"telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2"
+"buzzer_8h_source.html",
+"classfsm_1_1BoosterFsm.html#ad500a8b571f3c527b24c9f090986cd94",
+"classnanopb__generator_1_1FieldMaxSize.html",
+"classnanopb__generator_1_1ProtoFile.html#a56bfd9cd805edbf3f87dd85871d93440",
+"fsm__thresholds_8py.html#a010c7efc5f65418e086d3178deeb4dfe",
+"hardware_2telemetry__backend_8cpp.html",
+"namespacenanopb__generator.html#aef56aa8113f39e9776739a7b76429493",
+"structBarometer.html#add666cf46ccb7b5695198412ebf28c82",
+"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5",
+"systems_8cpp.html#ad3b2a8e44e9c15fbf905b90e3f03604c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
