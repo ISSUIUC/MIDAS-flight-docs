@@ -39,7 +39,7 @@ var searchData=
   ['globals_36',['Globals',['../classnanopb__generator_1_1Globals.html',1,'nanopb_generator']]],
   ['globaltobody_37',['GlobalToBody',['../rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b',1,'rotation.h']]],
   ['gnss_5fi2c_5flocation_38',['GNSS_I2C_LOCATION',['../pins_8h.html#a328f7f744c552c0ea225158757096e57',1,'GNSS_I2C_LOCATION():&#160;pins.h'],['../pins_8h.html#a328f7f744c552c0ea225158757096e57',1,'GNSS_I2C_LOCATION():&#160;pins.h']]],
-  ['gpio_5freset_39',['GPIO_RESET',['../errors_8cpp.html#ae6182aa06e6f0c1a7eb8c8eb4a15deef',1,'pins.h']]],
+  ['gpio_5freset_39',['GPIO_RESET',['../pins_8h.html#ae6182aa06e6f0c1a7eb8c8eb4a15deef',1,'pins.h']]],
   ['gpioaddress_40',['GpioAddress',['../structGpioAddress.html',1,'']]],
   ['gps_41',['gps',['../structSensors.html#aa5d56efe42b18ed1c9dad1532f500b5b',1,'Sensors::gps()'],['../structRocketData.html#adf85ee623bf10a299b7e9d856a195558',1,'RocketData::gps()'],['../structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23',1,'LoggedReading::gps()']]],
   ['gps_42',['GPS',['../structGPS.html',1,'']]],

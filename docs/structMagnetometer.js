@@ -1,6 +1,6 @@
 var structMagnetometer =
 [
-    [ "mx", "structMagnetometer.html#acc48f2adba7634b255674fe3b9e47764", null ],
-    [ "my", "structMagnetometer.html#a0c6ec35bb830352d38d97396f1c8f08a", null ],
-    [ "mz", "structMagnetometer.html#af890827fcd2c7cc33b20dbd8ff1a7d7b", null ]
+    [ "mx", "structMagnetometer.html#ac7cc902cd765f3b2be36b6c70a5bb113", null ],
+    [ "my", "structMagnetometer.html#a8c3c2362605227b3052d0eb42e4c1ee4", null ],
+    [ "mz", "structMagnetometer.html#a60f71e168d131c166859eab94865684b", null ]
 ];

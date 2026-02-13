@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"structOrientation.html#a3dbaa10128f51d6128f7fb229096b363":[2,0,52,15],
 "structOrientation.html#a408bd2616d7db875d573118744246365":[2,0,52,0],
 "structOrientation.html#a4782dcf86c92147d9002264ddf767589":[2,0,52,2],
 "structOrientation.html#a4b541db9a6b982b8b1c51032cd5bcf2c":[2,0,52,19],
@@ -20,17 +21,17 @@ var NAVTREEINDEX9 =
 "structOrientation.html#af3e746c13c78532f5e4cc7615d871f03":[2,0,52,18],
 "structOrientationSensor.html":[2,0,53],
 "structOrientationSensor.html#a356bf636907c490e25f35c5e8cdb4891":[2,0,53,10],
-"structOrientationSensor.html#a3625c1e6f72472f368545f56d2c000f5":[2,0,53,3],
 "structOrientationSensor.html#a3625c1e6f72472f368545f56d2c000f5":[2,0,53,2],
 "structOrientationSensor.html#a3625c1e6f72472f368545f56d2c000f5":[2,0,53,1],
 "structOrientationSensor.html#a3625c1e6f72472f368545f56d2c000f5":[2,0,53,0],
+"structOrientationSensor.html#a3625c1e6f72472f368545f56d2c000f5":[2,0,53,3],
 "structOrientationSensor.html#a4ca3ef5ac09d8230bde9dc859e7c76c0":[2,0,53,13],
 "structOrientationSensor.html#a6e6d7330ed4630ce89157af405d7a9a6":[2,0,53,11],
 "structOrientationSensor.html#a79dc9fac697e9d0e6633e35050b44a9e":[2,0,53,12],
-"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,7],
-"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,6],
-"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,5],
 "structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,4],
+"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,6],
+"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,7],
+"structOrientationSensor.html#a8a0b34e9b50ec4ee1ba14392714986d5":[2,0,53,5],
 "structOrientationSensor.html#aa12421586b86ad987f838d31bf373975":[2,0,53,9],
 "structOrientationSensor.html#ab9954acc41a9367147e31345091fb46a":[2,0,53,15],
 "structOrientationSensor.html#acc85c2ed2857903b1bac6d83836ada34":[2,0,53,14],
@@ -45,9 +46,9 @@ var NAVTREEINDEX9 =
 "structPyro.html#a5c9711e44a41c2ddb533b3394165d49c":[2,0,55,1],
 "structPyro.html#a7f900421c125d45584383689740fbe57":[2,0,55,0],
 "structPyro.html#a895ecbef3aadc5369ac09cf263c8e516":[2,0,55,6],
+"structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[2,0,55,2],
 "structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[2,0,55,3],
 "structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[2,0,55,4],
-"structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[2,0,55,2],
 "structPyro.html#ace37095039f9f593cfd469b07ec97e20":[2,0,55,10],
 "structPyro.html#aced7ff5500cd6c1606d7292f990d93ff":[2,0,55,8],
 "structPyro.html#aced7ff5500cd6c1606d7292f990d93ff":[2,0,55,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "struct__HILSIMPacket.html#ad51b06925631cf8dd652ab5fee31b4a1":[2,0,3,23],
 "struct__HILSIMPacket.html#ada3d483e731057c23769d6cd3e95343f":[2,0,3,19],
 "struct__HILSIMPacket.html#adcc2727d61c267646d0a13bc527f7ebe":[2,0,3,28],
-"struct__HILSIMPacket.html#ae8455fe5f319c7cb1002bb0b5c569f34":[2,0,3,33],
-"struct__HILSIMPacket.html#aea5112853f12132ce67089af97a224c5":[2,0,3,14]
+"struct__HILSIMPacket.html#ae8455fe5f319c7cb1002bb0b5c569f34":[2,0,3,33]
 };

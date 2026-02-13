@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"fsm__test_8py.html#a9ddf1abc5797b2bcbb392a07d49de02f":[3,0,0,0,0,1,15],
 "fsm__test_8py.html#aa98e1662d407ef811621fbaa203aa974":[3,0,0,0,0,1,1],
 "fsm__test_8py.html#aaa829ad73cc29862d97e9e77852aea8a":[3,0,0,0,0,1,4],
 "fsm__test_8py.html#ab67f531b83783874c7f604cd9d22b698":[3,0,0,0,0,1,19],
@@ -59,16 +58,16 @@ var NAVTREEINDEX5 =
 "fsm__thresholds_8py.html#afb0969aa9ce921df657b94131845b8f4":[3,0,0,0,0,2,1],
 "fsm__thresholds_8py.html#afc73689e855ae5c1b86d0e2552599143":[3,0,0,0,0,2,38],
 "fsm__thresholds_8py_source.html":[3,0,0,0,0,2],
-"functions.html":[2,3,0],
 "functions.html":[2,3,0,0],
+"functions.html":[2,3,0],
 "functions_a.html":[2,3,0,1],
 "functions_b.html":[2,3,0,2],
 "functions_c.html":[2,3,0,3],
 "functions_d.html":[2,3,0,4],
 "functions_e.html":[2,3,0,5],
 "functions_f.html":[2,3,0,6],
-"functions_func.html":[2,3,1],
 "functions_func.html":[2,3,1,0],
+"functions_func.html":[2,3,1],
 "functions_func_a.html":[2,3,1,1],
 "functions_func_b.html":[2,3,1,2],
 "functions_func_c.html":[2,3,1,3],
@@ -228,7 +227,7 @@ var NAVTREEINDEX5 =
 "hardware_2LowG_8cpp.html#ae9da8ca499f2e4da734e64a13e353703":[3,0,0,2,8,0],
 "hardware_2LowG_8cpp_source.html":[3,0,0,2,8],
 "hardware_2Magnetometer_8cpp.html":[3,0,0,2,10],
-"hardware_2Magnetometer_8cpp.html#a386c5f67e5983239f4eaff5f89844921":[3,0,0,2,10,0],
+"hardware_2Magnetometer_8cpp.html#ad58935915421a6268cc573eb5272ebbe":[3,0,0,2,10,0],
 "hardware_2Magnetometer_8cpp_source.html":[3,0,0,2,10],
 "hardware_2Orientation_8cpp.html":[3,0,0,2,12],
 "hardware_2Orientation_8cpp.html#a00fefb564a30775271e7ed3c92a1fa0f":[3,0,0,2,12,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "hardware_2Pyro_8cpp.html#a5e7eba33196eb80dc8173728fd0f4103":[3,0,0,2,14,1],
 "hardware_2Pyro_8cpp.html#ad29635709c9198450fb3101e6ad10aff":[3,0,0,2,14,2],
 "hardware_2Pyro_8cpp.html#ada246514ed98761712ddde2e43166b8e":[3,0,0,2,14,0],
-"hardware_2Pyro_8cpp_source.html":[3,0,0,2,14]
+"hardware_2Pyro_8cpp_source.html":[3,0,0,2,14],
+"hardware_2Voltage_8cpp.html":[3,0,0,2,20]
 };
