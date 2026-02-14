@@ -1,7 +1,6 @@
 var dir_59b1e980a670de987a696efba6dbbdbc =
 [
     [ "Barometer.cpp", "hardware_2Barometer_8cpp.html", "hardware_2Barometer_8cpp" ],
-    [ "Continuity.cpp", "hardware_2Continuity_8cpp.html", "hardware_2Continuity_8cpp" ],
     [ "E22.cpp", "E22_8cpp.html", "E22_8cpp" ],
     [ "E22.h", "E22_8h.html", "E22_8h" ],
     [ "Emmc.cpp", "Emmc_8cpp.html", null ],
@@ -22,7 +21,6 @@ var dir_59b1e980a670de987a696efba6dbbdbc =
       [ "IMUSensor", "structIMUSensor.html", "structIMUSensor" ],
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
-      [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],
       [ "GPSSensor", "structGPSSensor.html", "structGPSSensor" ],
       [ "Pyro", "structPyro.html", "structPyro" ]

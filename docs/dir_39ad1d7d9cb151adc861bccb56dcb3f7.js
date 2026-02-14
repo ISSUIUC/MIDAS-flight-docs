@@ -14,7 +14,6 @@ var dir_39ad1d7d9cb151adc861bccb56dcb3f7 =
     [ "sensors.h", "hilsim_2sensors_8h.html", [
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
-      [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],
       [ "GPSSensor", "structGPSSensor.html", "structGPSSensor" ],
       [ "Pyro", "structPyro.html", "structPyro" ]

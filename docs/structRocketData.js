@@ -4,7 +4,6 @@ var structRocketData =
     [ "barometer", "structRocketData.html#a81f68b85c124f73bc9095914a8917daa", null ],
     [ "cam_data", "structRocketData.html#a1381b7dc71968d5e2cde6554c55ec607", null ],
     [ "command_flags", "structRocketData.html#af186477160ecf991ae1b5f8cc99255bd", null ],
-    [ "continuity", "structRocketData.html#a3da724e42064a4b67400f5ac9b33c269", null ],
     [ "fsm_state", "structRocketData.html#a0d19e828a15ca3873f6cc7d367635156", null ],
     [ "gps", "structRocketData.html#adf85ee623bf10a299b7e9d856a195558", null ],
     [ "hw_filtered", "structRocketData.html#a0fb8e85e28b5134663b7517b112d0613", null ],

@@ -1,7 +1,6 @@
 var dir_85800c4753ac49d534321efaf152fbd3 =
 [
     [ "Barometer.cpp", "hilsim_2sensors_2Barometer_8cpp.html", null ],
-    [ "Continuity.cpp", "hilsim_2sensors_2Continuity_8cpp.html", null ],
     [ "GPSSensor.cpp", "hilsim_2sensors_2GPSSensor_8cpp.html", null ],
     [ "HighG.cpp", "HighG_8cpp.html", null ],
     [ "LowG.cpp", "LowG_8cpp.html", null ],
@@ -14,7 +13,6 @@ var dir_85800c4753ac49d534321efaf152fbd3 =
       [ "ImuSensor", "structImuSensor.html", "structImuSensor" ],
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
-      [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],
       [ "OrientationSensor", "structOrientationSensor.html", "structOrientationSensor" ],
       [ "GPSSensor", "structGPSSensor.html", "structGPSSensor" ],

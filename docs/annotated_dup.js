@@ -42,7 +42,6 @@ var annotated_dup =
     [ "CameraData", "structCameraData.html", "structCameraData" ],
     [ "CameraState", "structCameraState.html", "structCameraState" ],
     [ "CommandFlags", "structCommandFlags.html", "structCommandFlags" ],
-    [ "Continuity", "structContinuity.html", "structContinuity" ],
     [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
     [ "Core", "structCore.html", "structCore" ],
     [ "EKF", "classEKF.html", "classEKF" ],

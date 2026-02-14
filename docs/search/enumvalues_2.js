@@ -8,6 +8,5 @@ var searchData=
   ['camera2_5fon_5',['CAMERA2_ON',['../b2b__interface_8h.html#a7aab998eabefbf110eff933beee1811bab86b5b8fcc43f79886cc191a3d722d9a',1,'b2b_interface.h']]],
   ['cannotconnectbno_6',['CannotConnectBNO',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa521fcaafcc6b49fdf4b71639d2070f8f',1,'errors.h']]],
   ['cannotinitbno_7',['CannotInitBNO',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa38aca0df2cd97e50b089e5421f117887',1,'errors.h']]],
-  ['continuitycouldnotbeinitialized_8',['ContinuityCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7ab3a4463930031595e69d2cc38600df',1,'errors.h']]],
-  ['crcerror_9',['CrcError',['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0ad2fdb4a266ac32c36d708fc86004e87c',1,'E22.h']]]
+  ['crcerror_8',['CrcError',['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0ad2fdb4a266ac32c36d708fc86004e87c',1,'E22.h']]]
 ];

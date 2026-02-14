@@ -6,7 +6,6 @@ var sensor__data_8h =
     [ "Acceleration", "structAcceleration.html", "structAcceleration" ],
     [ "euler_t", "structeuler__t.html", "structeuler__t" ],
     [ "Barometer", "structBarometer.html", "structBarometer" ],
-    [ "Continuity", "structContinuity.html", "structContinuity" ],
     [ "Voltage", "structVoltage.html", "structVoltage" ],
     [ "GPS", "structGPS.html", "structGPS" ],
     [ "Magnetometer", "structMagnetometer.html", "structMagnetometer" ],

@@ -3,7 +3,6 @@ var structLoggedReading =
     [ "angular_kalman", "structLoggedReading.html#af3b7243953722cb3d14869cf3627db0a", null ],
     [ "barometer", "structLoggedReading.html#a34ee48c238a39efcc89b31dd0a87d761", null ],
     [ "cameradata", "structLoggedReading.html#a2908fc89d4e071a66d093ab3ece718be", null ],
-    [ "continuity", "structLoggedReading.html#a905c46f27caec7d43533c94cb772f861", null ],
     [ "data", "structLoggedReading.html#a086ecba387c4ce36d6bca3a5fbb93fc1", null ],
     [ "discriminant", "structLoggedReading.html#a014988d0d1c5df31fab93b2b6ba62086", null ],
     [ "fsm", "structLoggedReading.html#a0c0c108b88b4d2a86905ac23a8c5231d", null ],

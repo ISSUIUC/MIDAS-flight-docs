@@ -16,7 +16,6 @@ var hierarchy =
     [ "CameraData", "structCameraData.html", null ],
     [ "CameraState", "structCameraState.html", null ],
     [ "CommandFlags", "structCommandFlags.html", null ],
-    [ "Continuity", "structContinuity.html", null ],
     [ "ContinuitySensor", "structContinuitySensor.html", null ],
     [ "Core", "structCore.html", null ],
     [ "nanopb_generator.EncodedSize", "classnanopb__generator_1_1EncodedSize.html", null ],
