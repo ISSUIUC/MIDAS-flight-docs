@@ -1,7 +1,5 @@
 var IMU_8cpp =
 [
-    [ "IMU_CS_PIN", "IMU_8cpp.html#a6ed7e9a3c7803af585f72df5c159526e", null ],
-    [ "IMU_IRQ_PIN", "IMU_8cpp.html#adfd3f8dd843109b9e4be70e493977d75", null ],
     [ "NUM_DIRECTIONS", "IMU_8cpp.html#a394b4d9597382758840287dd52c17292", null ],
     [ "LSM6DSV", "IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6", null ],
     [ "deltaTime", "IMU_8cpp.html#a1a61318ed6aa02b4ff346e7eb8f68891", null ],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"hardware_2Pyro_8cpp.html#a5e7eba33196eb80dc8173728fd0f4103":[3,0,0,2,10,1],
-"hardware_2Pyro_8cpp.html#ada246514ed98761712ddde2e43166b8e":[3,0,0,2,10,0],
 "hardware_2Pyro_8cpp_source.html":[3,0,0,2,10],
 "hardware_2Voltage_8cpp.html":[3,0,0,2,16],
 "hardware_2Voltage_8cpp.html#a3a0b7478dd2911edab3a32101c48c254":[3,0,0,2,16,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX6 =
 "namespacenanopb__generator.html#a0cb2b76e5e4be8fd787d72f070d3e21c":[1,0,5,16],
 "namespacenanopb__generator.html#a161b6e045bd6843c94900ec2047d682d":[1,0,5,24],
 "namespacenanopb__generator.html#a2111bcdc7737fae0485c897b690a5062":[1,0,5,22],
-"namespacenanopb__generator.html#a2462d41466b7f33f8a6e15f410c836d3":[1,0,5,37]
+"namespacenanopb__generator.html#a2462d41466b7f33f8a6e15f410c836d3":[1,0,5,37],
+"namespacenanopb__generator.html#a26f17fe2a1deff299235c0cf6ba99f3e":[1,0,5,15],
+"namespacenanopb__generator.html#a28556934de6720b65636115d0e747bfe":[1,0,5,17]
 };

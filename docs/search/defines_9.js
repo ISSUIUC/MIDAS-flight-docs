@@ -15,8 +15,5 @@ var searchData=
   ['lora_5fpreamble_5flength_12',['LORA_PREAMBLE_LENGTH',['../hardware_2telemetry__backend_8cpp.html#a1e5b496aeaf1062018a929480d244284',1,'telemetry_backend.cpp']]],
   ['lora_5fspreading_5ffactor_13',['LORA_SPREADING_FACTOR',['../hardware_2telemetry__backend_8cpp.html#a58e25fd82f3b77562dde8259fef5e79a',1,'telemetry_backend.cpp']]],
   ['lora_5fsymbol_5ftimeout_14',['LORA_SYMBOL_TIMEOUT',['../hardware_2telemetry__backend_8cpp.html#ad341b0dbadfa50a71b6a8359628a925b',1,'telemetry_backend.cpp']]],
-  ['low_15',['LOW',['../emulation_8h.html#ab811d8c6ff3a505312d3276590444289',1,'emulation.h']]],
-  ['lsm_5fcs_16',['LSM_CS',['../pins_8h.html#a4cb8b156715c0109f65b56c29760f3d1',1,'pins.h']]],
-  ['lsm_5fint1_17',['LSM_INT1',['../pins_8h.html#aff89c76e7256e5e4c98b43570ae0be13',1,'pins.h']]],
-  ['lsm_5fint2_18',['LSM_INT2',['../pins_8h.html#a5580d52bd034e16c35cf596943b9a426',1,'pins.h']]]
+  ['low_15',['LOW',['../emulation_8h.html#ab811d8c6ff3a505312d3276590444289',1,'emulation.h']]]
 ];

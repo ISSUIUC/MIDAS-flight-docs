@@ -100,70 +100,69 @@ $(document).ready(function(){initNavTree('pins_8h_source.html',''); initResizabl
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="pins_8h.html#aa979a868f1f232c8594de2d4cddbc99b">   13</a></span><span class="preprocessor">#define MMC5983_INT 7</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// IMU chip select, interrupt</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="pins_8h.html#aff89c76e7256e5e4c98b43570ae0be13">   16</a></span><span class="preprocessor">#define LSM_INT1 15</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="pins_8h.html#a5580d52bd034e16c35cf596943b9a426">   17</a></span><span class="preprocessor">#define LSM_INT2 42</span><span class="comment">//</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="pins_8h.html#a4cb8b156715c0109f65b56c29760f3d1">   18</a></span><span class="preprocessor">#define LSM_CS 43</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">// i2c bus pins</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="pins_8h.html#a18aefd12ad84d4c33dc97923cb821e47">   21</a></span><span class="preprocessor">#define I2C_SDA 21</span><span class="comment">//</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="pins_8h.html#a212ca328a6409c98f8c3dfbbe1ba561d">   22</a></span><span class="preprocessor">#define I2C_SCL 26</span><span class="comment">//</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">// Buzzer pins</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="pins_8h.html#ab61d0981ed42df9e18211b273d22cfcd">   25</a></span><span class="preprocessor">#define BUZZER_PIN 12</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="pins_8h.html#ac69331f8facce28cfd7b94076ca7055e">   26</a></span><span class="preprocessor">#define BUZZER_CHANNEL 1</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">// GPIO Expander pins</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="pins_8h.html#a51435e7aaf293009d5a916de40340269">   29</a></span><span class="preprocessor">#define EXP_RESET 13</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="pins_8h.html#a57bee1721c267bff771bc5629f94688e">   30</a></span><span class="preprocessor">#define EXP_INT 48</span><span class="comment">//</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">// GPS pins</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="pins_8h.html#a4029f9ec65bf6f287bce20622b93703a">   33</a></span><span class="preprocessor">#define SAM_RESET 5</span><span class="comment">//</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// pyro pins //hmmm</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="pins_8h.html#a3485a883031278b5c8c0a203aa41e7aa">   36</a></span><span class="preprocessor">#define PYRO_GLOBAL_ARM_PIN GpioAddress(0, 3)</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="pins_8h.html#ab62f8f04918c1075ae1989046d0fed0a">   37</a></span><span class="preprocessor">#define PYROA_FIRE_PIN GpioAddress(0, 0)</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="pins_8h.html#a8ce270da41b6c468b807c8acd5ebbcbe">   38</a></span><span class="preprocessor">#define PYROB_FIRE_PIN GpioAddress(0, 1)</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="pins_8h.html#a0024c2ce5054309c5d9a01d4de37ec08">   39</a></span><span class="preprocessor">#define PYROC_FIRE_PIN GpioAddress(0, 7)</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="pins_8h.html#a55c20206ad9c0836789e5d58d9b15aa0">   40</a></span><span class="preprocessor">#define PYROD_FIRE_PIN GpioAddress(0, 6)</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="pins_8h.html#a3ac97a234f2d5dc06f37b748f2fef51d">   41</a></span><span class="preprocessor">#define PYRO_PG GpioAddress(0, 4)</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// Continuity pins (on the ADC)</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="pins_8h.html#a2d70066c2a4b81ed1b35a792eeb7c187">   44</a></span><span class="preprocessor">#define SENSE_A 0</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="pins_8h.html#ae5973f2077097efc70457d93acf572f4">   45</a></span><span class="preprocessor">#define SENSE_B 1</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="pins_8h.html#a3a82c73471efa69e52a7d5d724128250">   46</a></span><span class="preprocessor">#define SENSE_C 4</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="pins_8h.html#aefefda6812dfd6aff0f2980a6c15fd80">   47</a></span><span class="preprocessor">#define SENSE_D 5</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">// Voltage pins (on the ADC)</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="pins_8h.html#a64dc897bae1c30e700d5b199897fe544">   50</a></span><span class="preprocessor">#define PYRO_SENSE 2 </span><span class="comment">//hmmm</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="pins_8h.html#ab3a71e5097497f5e84d117f471234b46">   51</a></span><span class="preprocessor">#define VCAP_SENSE 6</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="pins_8h.html#acdb6199d1e38de4b74327f17b458c244">   52</a></span><span class="preprocessor">#define VBAT_SENSE 7</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">// E22 (radio)</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="pins_8h.html#ab3d7ec8360d956621e386f960bd319da">   55</a></span><span class="preprocessor">#define E22_CS 37</span><span class="comment">//</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="pins_8h.html#a8574086b8fde232f142f954a14d392fa">   56</a></span><span class="preprocessor">#define E22_DI01 41</span><span class="comment">//</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="pins_8h.html#a6226f0e9e0276deaed21ba1406de07ea">   57</a></span><span class="preprocessor">#define E22_DI03 40</span><span class="comment">//</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="pins_8h.html#a1c3af39425d54233fdd2fef3c7abaa5a">   58</a></span><span class="preprocessor">#define E22_BUSY 38</span><span class="comment">//</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="pins_8h.html#a8d5e85821cd18ea9780d2f8b17d0c531">   59</a></span><span class="preprocessor">#define E22_RXEN 39</span><span class="comment">//</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="pins_8h.html#a66a173d29981903f508593108d53df01">   60</a></span><span class="preprocessor">#define E22_RESET 6</span><span class="comment">//</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">// LEDs hmmmm</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="pins_8h.html#ae2e40566d27689f8581d7b0f12271d45">   63</a></span><span class="preprocessor">#define LED_BLUE   8 </span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="pins_8h.html#aca338dbd19d7940923334629f6e5f3b7">   64</a></span><span class="preprocessor">#define LED_GREEN  9 </span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="pins_8h.html#a4d9260fdff3b0a796816640bbac505cc">   65</a></span><span class="preprocessor">#define LED_ORANGE 10 </span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="pins_8h.html#a31e20330f8ce94e0dd10b005a15c5898">   66</a></span><span class="preprocessor">#define LED_RED    11</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">// FLASH memory pins</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="pins_8h.html#a9c1b51e8f314dc7a81bdb1e3e40e7448">   70</a></span><span class="preprocessor">#define FLASH_CMD 47</span><span class="comment">//</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="pins_8h.html#af8d31349b2574fae5868ef9641f34c4b">   71</a></span><span class="preprocessor">#define FLASH_CLK 16</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="pins_8h.html#ae5fe2bedc137a98c825a5522b9708d54">   72</a></span><span class="preprocessor">#define FLASH_DAT0 33</span><span class="comment">//</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="pins_8h.html#a3cd2f624d6b19487aa2ecfbbb145280a">   73</a></span><span class="preprocessor">#define FLASH_DAT1 34</span><span class="comment">//</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="pins_8h.html#aeec4e10ecd0d1d0d8ea20524061a3883">   74</a></span><span class="preprocessor">#define FLASH_DAT2 18</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="pins_8h.html#a22041e9d141f6f971cb95b39587ce97f">   75</a></span><span class="preprocessor">#define FLASH_DAT3 17</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">//Board to Board pins</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="pins_8h.html#aa90a293512dc9f8949209e2d84c03e62">   78</a></span><span class="preprocessor">#define B2B_EN 36</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="pins_8h.html#a3ff1e142379b0666cf5f58f367b8d5a0">   79</a></span><span class="preprocessor">#define B2B_READY 35</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="pins_8h.html#a6ed7e9a3c7803af585f72df5c159526e">   16</a></span><span class="preprocessor">#define IMU_CS_PIN 43</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="pins_8h.html#adfd3f8dd843109b9e4be70e493977d75">   17</a></span><span class="preprocessor">#define IMU_IRQ_PIN 15</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">// i2c bus pins</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="pins_8h.html#a18aefd12ad84d4c33dc97923cb821e47">   20</a></span><span class="preprocessor">#define I2C_SDA 21</span><span class="comment">//</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="pins_8h.html#a212ca328a6409c98f8c3dfbbe1ba561d">   21</a></span><span class="preprocessor">#define I2C_SCL 26</span><span class="comment">//</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">// Buzzer pins</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="pins_8h.html#ab61d0981ed42df9e18211b273d22cfcd">   24</a></span><span class="preprocessor">#define BUZZER_PIN 12</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="pins_8h.html#ac69331f8facce28cfd7b94076ca7055e">   25</a></span><span class="preprocessor">#define BUZZER_CHANNEL 1</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">// GPIO Expander pins</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="pins_8h.html#a51435e7aaf293009d5a916de40340269">   28</a></span><span class="preprocessor">#define EXP_RESET 13</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="pins_8h.html#a57bee1721c267bff771bc5629f94688e">   29</a></span><span class="preprocessor">#define EXP_INT 48</span><span class="comment">//</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// GPS pins</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="pins_8h.html#a4029f9ec65bf6f287bce20622b93703a">   32</a></span><span class="preprocessor">#define SAM_RESET 5</span><span class="comment">//</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">// pyro pins //hmmm</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="pins_8h.html#a3485a883031278b5c8c0a203aa41e7aa">   35</a></span><span class="preprocessor">#define PYRO_GLOBAL_ARM_PIN GpioAddress(0, 3)</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="pins_8h.html#ab62f8f04918c1075ae1989046d0fed0a">   36</a></span><span class="preprocessor">#define PYROA_FIRE_PIN GpioAddress(0, 0)</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="pins_8h.html#a8ce270da41b6c468b807c8acd5ebbcbe">   37</a></span><span class="preprocessor">#define PYROB_FIRE_PIN GpioAddress(0, 1)</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="pins_8h.html#a0024c2ce5054309c5d9a01d4de37ec08">   38</a></span><span class="preprocessor">#define PYROC_FIRE_PIN GpioAddress(0, 7)</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="pins_8h.html#a55c20206ad9c0836789e5d58d9b15aa0">   39</a></span><span class="preprocessor">#define PYROD_FIRE_PIN GpioAddress(0, 6)</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="pins_8h.html#a3ac97a234f2d5dc06f37b748f2fef51d">   40</a></span><span class="preprocessor">#define PYRO_PG GpioAddress(0, 4)</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">// Continuity pins (on the ADC)</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="pins_8h.html#a2d70066c2a4b81ed1b35a792eeb7c187">   43</a></span><span class="preprocessor">#define SENSE_A 0</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="pins_8h.html#ae5973f2077097efc70457d93acf572f4">   44</a></span><span class="preprocessor">#define SENSE_B 1</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="pins_8h.html#a3a82c73471efa69e52a7d5d724128250">   45</a></span><span class="preprocessor">#define SENSE_C 4</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="pins_8h.html#aefefda6812dfd6aff0f2980a6c15fd80">   46</a></span><span class="preprocessor">#define SENSE_D 5</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">// Voltage pins (on the ADC)</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="pins_8h.html#a64dc897bae1c30e700d5b199897fe544">   49</a></span><span class="preprocessor">#define PYRO_SENSE 2 </span><span class="comment">//hmmm</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="pins_8h.html#ab3a71e5097497f5e84d117f471234b46">   50</a></span><span class="preprocessor">#define VCAP_SENSE 6</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="pins_8h.html#acdb6199d1e38de4b74327f17b458c244">   51</a></span><span class="preprocessor">#define VBAT_SENSE 7</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">// E22 (radio)</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="pins_8h.html#ab3d7ec8360d956621e386f960bd319da">   54</a></span><span class="preprocessor">#define E22_CS 37</span><span class="comment">//</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="pins_8h.html#a8574086b8fde232f142f954a14d392fa">   55</a></span><span class="preprocessor">#define E22_DI01 41</span><span class="comment">//</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="pins_8h.html#a6226f0e9e0276deaed21ba1406de07ea">   56</a></span><span class="preprocessor">#define E22_DI03 40</span><span class="comment">//</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="pins_8h.html#a1c3af39425d54233fdd2fef3c7abaa5a">   57</a></span><span class="preprocessor">#define E22_BUSY 38</span><span class="comment">//</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="pins_8h.html#a8d5e85821cd18ea9780d2f8b17d0c531">   58</a></span><span class="preprocessor">#define E22_RXEN 39</span><span class="comment">//</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="pins_8h.html#a66a173d29981903f508593108d53df01">   59</a></span><span class="preprocessor">#define E22_RESET 6</span><span class="comment">//</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">// LEDs hmmmm</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="pins_8h.html#ae2e40566d27689f8581d7b0f12271d45">   62</a></span><span class="preprocessor">#define LED_BLUE   8 </span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="pins_8h.html#aca338dbd19d7940923334629f6e5f3b7">   63</a></span><span class="preprocessor">#define LED_GREEN  9 </span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="pins_8h.html#a4d9260fdff3b0a796816640bbac505cc">   64</a></span><span class="preprocessor">#define LED_ORANGE 10 </span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="pins_8h.html#a31e20330f8ce94e0dd10b005a15c5898">   65</a></span><span class="preprocessor">#define LED_RED    11</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">// FLASH memory pins</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="pins_8h.html#a9c1b51e8f314dc7a81bdb1e3e40e7448">   69</a></span><span class="preprocessor">#define FLASH_CMD 47</span><span class="comment">//</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="pins_8h.html#af8d31349b2574fae5868ef9641f34c4b">   70</a></span><span class="preprocessor">#define FLASH_CLK 16</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="pins_8h.html#ae5fe2bedc137a98c825a5522b9708d54">   71</a></span><span class="preprocessor">#define FLASH_DAT0 33</span><span class="comment">//</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="pins_8h.html#a3cd2f624d6b19487aa2ecfbbb145280a">   72</a></span><span class="preprocessor">#define FLASH_DAT1 34</span><span class="comment">//</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="pins_8h.html#aeec4e10ecd0d1d0d8ea20524061a3883">   73</a></span><span class="preprocessor">#define FLASH_DAT2 18</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="pins_8h.html#a22041e9d141f6f971cb95b39587ce97f">   74</a></span><span class="preprocessor">#define FLASH_DAT3 17</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">//Board to Board pins</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="pins_8h.html#aa90a293512dc9f8949209e2d84c03e62">   77</a></span><span class="preprocessor">#define B2B_EN 36</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="pins_8h.html#a3ff1e142379b0666cf5f58f367b8d5a0">   78</a></span><span class="preprocessor">#define B2B_READY 35</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

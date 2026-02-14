@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03":[3,0,0,8,17],
-"buzzer_8cpp.html#ab9fba4d171205440fcc42e310789d961":[3,0,0,8,6],
 "buzzer_8cpp.html#abaaf059d938a8c0bda91cb689b69b647":[3,0,0,8,4],
 "buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc":[3,0,0,8,3],
 "buzzer_8cpp.html#ac8a088ac37fd16e62ecc29835aa4d8c2":[3,0,0,8,10],
@@ -246,8 +244,10 @@ var NAVTREEINDEX1 =
 "classTelemetryBackend.html#a1b6c3145f14ceee8f69f0bde971c6841":[2,0,75,5],
 "classTelemetryBackend.html#a1f5084b46a904dbcb0774b6c0eac6bb8":[2,0,75,20],
 "classTelemetryBackend.html#a29700ff76a72b825470aededa21a00cf":[2,0,75,1],
-"classTelemetryBackend.html#a4ec613c63d25d8b420a5838becb12aef":[2,0,75,3],
 "classTelemetryBackend.html#a4ec613c63d25d8b420a5838becb12aef":[2,0,75,2],
+"classTelemetryBackend.html#a4ec613c63d25d8b420a5838becb12aef":[2,0,75,3],
+"classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451":[2,0,75,11],
 "classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451":[2,0,75,10],
-"classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451":[2,0,75,11]
+"classTelemetryBackend.html#a80c699dc7f445553aeff60509c68d7aa":[2,0,75,9],
+"classTelemetryBackend.html#a94d843aa82f8be115f9a8f9f12b8d34a":[2,0,75,0]
 };
