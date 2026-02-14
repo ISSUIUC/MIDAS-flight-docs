@@ -13,7 +13,5 @@ var searchData=
   ['emulation_2ecpp_10',['emulation.cpp',['../emulation_8cpp.html',1,'']]],
   ['emulation_2eh_11',['emulation.h',['../emulation_8h.html',1,'']]],
   ['errors_2ecpp_12',['errors.cpp',['../errors_8cpp.html',1,'']]],
-  ['errors_2eh_13',['errors.h',['../errors_8h.html',1,'']]],
-  ['example_5fkf_2ecpp_14',['example_kf.cpp',['../example__kf_8cpp.html',1,'']]],
-  ['example_5fkf_2eh_15',['example_kf.h',['../example__kf_8h.html',1,'']]]
+  ['errors_2eh_13',['errors.h',['../errors_8h.html',1,'']]]
 ];

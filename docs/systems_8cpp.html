@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('systems_8cpp.html',''); initResizable(
 <code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hal_8h_source.html">hal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ekf_8h_source.html">gnc/ekf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mqekf_8h_source.html">gnc/mqekf.h</a>&quot;</code><br />
 </div>
 <p><a href="systems_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -99,7 +100,7 @@ $(document).ready(function(){initNavTree('systems_8cpp.html',''); initResizable(
 Macros</h2></td></tr>
 <tr class="memitem:a5981b03c167aa3961c5b32e57029caf7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a5981b03c167aa3961c5b32e57029caf7">ENABLE_TELEM</a></td></tr>
 <tr class="separator:a5981b03c167aa3961c5b32e57029caf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4547493089d63386b029161f4ff308e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a4547493089d63386b029161f4ff308e7">INIT_SYSTEM</a>(s)&#160;&#160;&#160;do { <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> code = (s).init(); if (code != NoError) { return code; } } while (0)</td></tr>
+<tr class="memitem:a4547493089d63386b029161f4ff308e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systems_8cpp.html#a4547493089d63386b029161f4ff308e7">INIT_SYSTEM</a>(s)</td></tr>
 <tr class="separator:a4547493089d63386b029161f4ff308e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -153,7 +154,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00013">13</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00014">14</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -168,12 +169,21 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">s</td><td>)</td>
-          <td>&#160;&#160;&#160;do { <a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> code = (s).init(); if (code != NoError) { return code; } } while (0)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00363">363</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                               \</div>
+<div class="line">    {                                \</div>
+<div class="line">        ErrorCode code = (s).init(); \</div>
+<div class="line">        if (code != <a class="code hl_enumvalue" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f">NoError</a>)         \</div>
+<div class="line">        {                            \</div>
+<div class="line">            return code;             \</div>
+<div class="line">        }                            \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="ttc" id="aerrors_8h_html_a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f"><div class="ttname"><a href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f">NoError</a></div><div class="ttdeci">@ NoError</div><div class="ttdef"><b>Definition:</b> <a href="errors_8h_source.html#l00009">errors.h:9</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00442">442</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -196,7 +206,7 @@ Functions</h2></td></tr>
 
 <p>Initializes the systems, and then creates and starts the thread for each system. If initialization fails, then this enters an infinite loop. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00394">394</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00480">480</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -226,7 +236,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00193">193</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00218">218</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -256,7 +266,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00032">32</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00035">35</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +296,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00183">183</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00207">207</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -316,7 +326,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00303">303</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00371">371</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -346,7 +356,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00120">120</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00132">132</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -376,7 +386,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00085">85</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00092">92</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -406,7 +416,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00065">65</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00070">70</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -436,7 +446,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00201">201</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00264">264</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -469,7 +479,7 @@ Functions</h2></td></tr>
 <p>These are all the functions that will run in each task Each function has a <code>while (true)</code> loop within that should not be returned out of or yielded in any way. </p>
 <p >The <code>DECLARE_THREAD</code> macro creates a function whose name is suffixed by _thread, and annotates it with [[noreturn]] </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00021">21</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00022">22</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -499,7 +509,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00077">77</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00084">84</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -529,7 +539,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00096">96</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00106">106</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -559,7 +569,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00323">323</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00396">396</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -589,7 +599,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00110">110</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00122">122</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -625,7 +635,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00249">249</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00311">311</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>
@@ -647,7 +657,7 @@ Functions</h2></td></tr>
 
 <p>Initializes all systems in order, returning early if a system's initialization process errors out. Turns on the Orange LED while initialization is running. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00369">369</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00456">456</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

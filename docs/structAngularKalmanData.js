@@ -2,7 +2,7 @@ var structAngularKalmanData =
 [
     [ "getEuler", "structAngularKalmanData.html#a049ce3f65cede21a775b4d5f44e1cd55", null ],
     [ "comp_tilt", "structAngularKalmanData.html#ade5ce7f4f7121cb4f4aea185d46800e9", null ],
-    [ "gyrobias", "structAngularKalmanData.html#a3ce9c16ce50d16349ef7801131010c40", null ],
+    [ "gyrobias", "structAngularKalmanData.html#a27ee65a9a89e0d450af44ef753ab08f8", null ],
     [ "has_data", "structAngularKalmanData.html#aea46bfa8c0cee4e2aab2f57bb89e49fd", null ],
     [ "mq_tilt", "structAngularKalmanData.html#a60b95fd671e7be0aa2c0cd3c9d605f75", null ],
     [ "pitch", "structAngularKalmanData.html#a35e50517a8ddf1ae619a626a76c42032", null ],

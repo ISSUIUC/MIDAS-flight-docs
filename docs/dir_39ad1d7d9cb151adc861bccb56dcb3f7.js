@@ -12,6 +12,7 @@ var dir_39ad1d7d9cb151adc861bccb56dcb3f7 =
     [ "rocketstate.pb.h", "rocketstate_8pb_8h.html", "rocketstate_8pb_8h" ],
     [ "rocketstate_pb2.py", "rocketstate__pb2_8py.html", "rocketstate__pb2_8py" ],
     [ "sensors.h", "hilsim_2sensors_8h.html", [
+      [ "IMUSensor", "structIMUSensor.html", "structIMUSensor" ],
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],

@@ -20,8 +20,9 @@ var searchData=
   ['getrecent_17',['getRecent',['../structSensorData.html#a527e26a910cead311006c7a2cf092183',1,'SensorData']]],
   ['getrecentrssi_18',['getRecentRssi',['../classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52',1,'TelemetryBackend::getRecentRssi()'],['../classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52',1,'TelemetryBackend::getRecentRssi()'],['../classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52',1,'TelemetryBackend::getRecentRssi()']]],
   ['getrecentunsync_19',['getRecentUnsync',['../structSensorData.html#ae1434bddd44c30d2f31908bcba0baf48',1,'SensorData']]],
-  ['getstate_20',['getState',['../classEKF.html#a80b18934240de41e18ff6265a818e8a3',1,'EKF::getState()'],['../classExampleKalmanFilter.html#a021d12a61e39f4f7c9196b343069599c',1,'ExampleKalmanFilter::getState()'],['../classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9',1,'KalmanFilter::getState()'],['../classYessir.html#a43d8f9990f6c6124b03714a958a8b828',1,'Yessir::getState()']]],
-  ['getthrust_21',['getThrust',['../classEKF.html#a2de87aa050d160d6e467372302cd6999',1,'EKF']]],
-  ['gettimesrecent_22',['getTimesRecent',['../structBufferedSensorData.html#a8a44cac90d8eea217a87f490fdc3b0d7',1,'BufferedSensorData']]],
-  ['globaltobody_23',['GlobalToBody',['../rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b',1,'rotation.h']]]
+  ['getstate_20',['getState',['../classEKF.html#a80b18934240de41e18ff6265a818e8a3',1,'EKF::getState()'],['../classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9',1,'KalmanFilter::getState()'],['../classQuaternionMEKF.html#ad6598060aedaad106cc8e6ec1f9fea98',1,'QuaternionMEKF::getState()']]],
+  ['gettimesrecent_21',['getTimesRecent',['../structBufferedSensorData.html#a8a44cac90d8eea217a87f490fdc3b0d7',1,'BufferedSensorData']]],
+  ['globaltobody_22',['GlobalToBody',['../rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b',1,'rotation.h']]],
+  ['gps_5fto_5fecef_23',['gps_to_ecef',['../rotation_8h.html#adf50e5da2d71e9e9b9e26f77bcc46378',1,'rotation.h']]],
+  ['gyroscope_5fbias_24',['gyroscope_bias',['../classQuaternionMEKF.html#a58cc5d5e3d171bcac3ccc3f3a8210e98',1,'QuaternionMEKF']]]
 ];

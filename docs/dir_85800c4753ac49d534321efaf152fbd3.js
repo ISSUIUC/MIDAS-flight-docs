@@ -9,12 +9,10 @@ var dir_85800c4753ac49d534321efaf152fbd3 =
     [ "Orientation.cpp", "Orientation_8cpp.html", null ],
     [ "Pyro.cpp", "hilsim_2sensors_2Pyro_8cpp.html", null ],
     [ "sensors.h", "hilsim_2sensors_2sensors_8h.html", [
-      [ "LowGSensor", "structLowGSensor.html", "structLowGSensor" ],
-      [ "ImuSensor", "structImuSensor.html", "structImuSensor" ],
+      [ "IMUSensor", "structIMUSensor.html", "structIMUSensor" ],
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],
-      [ "OrientationSensor", "structOrientationSensor.html", "structOrientationSensor" ],
       [ "GPSSensor", "structGPSSensor.html", "structGPSSensor" ],
       [ "Pyro", "structPyro.html", "structPyro" ]
     ] ],

@@ -8,7 +8,6 @@ var hierarchy =
     [ "B2BInterface", "structB2BInterface.html", null ],
     [ "Barometer", "structBarometer.html", null ],
     [ "BarometerSensor", "structBarometerSensor.html", null ],
-    [ "BNO", "structBNO.html", null ],
     [ "fsm.BoosterFsm", "classfsm_1_1BoosterFsm.html", null ],
     [ "Buffer< T, BUFFER_SIZE >", "structBuffer.html", null ],
     [ "BuzzerController", "structBuzzerController.html", null ],
@@ -27,21 +26,15 @@ var hierarchy =
     [ "GpioAddress", "structGpioAddress.html", null ],
     [ "GPS", "structGPS.html", null ],
     [ "GPSSensor", "structGPSSensor.html", null ],
-    [ "HighG", "structHighG.html", null ],
     [ "HighGSensor", "structHighGSensor.html", null ],
     [ "IMU", "structIMU.html", null ],
     [ "IMU_SFLP", "structIMU__SFLP.html", null ],
     [ "IMUSensor", "structIMUSensor.html", null ],
-    [ "ImuSensor", "structImuSensor.html", null ],
     [ "Interface", "structInterface.html", null ],
     [ "KalmanData", "structKalmanData.html", null ],
     [ "KalmanFilter< _NumStates, _NumInputs >", "classKalmanFilter.html", null ],
-    [ "KalmanFilter< 9, 4 >", "classKalmanFilter.html", [
-      [ "ExampleKalmanFilter", "classExampleKalmanFilter.html", null ]
-    ] ],
     [ "KalmanFilter< NUM_STATES, NUM_SENSOR_INPUTS >", "classKalmanFilter.html", [
-      [ "EKF", "classEKF.html", null ],
-      [ "Yessir", "classYessir.html", null ]
+      [ "EKF", "classEKF.html", null ]
     ] ],
     [ "KalmanState", "structKalmanState.html", null ],
     [ "Latency", "classLatency.html", null ],
@@ -55,7 +48,6 @@ var hierarchy =
       [ "SDSink", "classSDSink.html", null ],
       [ "SDSink", "classSDSink.html", null ]
     ] ],
-    [ "LowG", "structLowG.html", null ],
     [ "LowGLSM", "structLowGLSM.html", null ],
     [ "LowGLSMSensor", "structLowGLSMSensor.html", null ],
     [ "LowGSensor", "structLowGSensor.html", null ],
@@ -84,6 +76,7 @@ var hierarchy =
     [ "Pyro", "structPyro.html", null ],
     [ "PyroState", "structPyroState.html", null ],
     [ "Quaternion", "structQuaternion.html", null ],
+    [ "QuaternionMEKF", "classQuaternionMEKF.html", null ],
     [ "Queue< T, length >", "classQueue.html", null ],
     [ "Reading< SensorData >", "structReading.html", null ],
     [ "RocketData", "structRocketData.html", null ],

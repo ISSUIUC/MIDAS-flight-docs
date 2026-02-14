@@ -98,10 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a2ddeb7db16a968709fa99761eb6fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35afde069f6bb6415279718559fe91d7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">initialize</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *args)=0</td></tr>
 <tr class="separator:a35afde069f6bb6415279718559fe91d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abce6f8b7fa8ee8b3512bd8eed4b99e2d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">priori</a> ()=0</td></tr>
-<tr class="separator:abce6f8b7fa8ee8b3512bd8eed4b99e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a761ba8d846c582109967a038c937ad75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a761ba8d846c582109967a038c937ad75">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> angularkalman, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state)=0</td></tr>
-<tr class="separator:a761ba8d846c582109967a038c937ad75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6e0c451e86ec3b07a1e3ed8a147e73"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a7d6e0c451e86ec3b07a1e3ed8a147e73">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> current_state, <a class="el" href="structGPS.html">GPS</a> &amp;gps)=0</td></tr>
+<tr class="separator:a7d6e0c451e86ec3b07a1e3ed8a147e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b2acd7140b5bc2360037682c2d296b9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">getState</a> ()=0</td></tr>
 <tr class="separator:a5b2acd7140b5bc2360037682c2d296b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54e119f7afc440dcda1b604191a9ab1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> state)=0</td></tr>
@@ -192,7 +190,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classEKF.html#a80b18934240de41e18ff6265a818e8a3">EKF</a>, <a class="el" href="classExampleKalmanFilter.html#a021d12a61e39f4f7c9196b343069599c">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#a43d8f9990f6c6124b03714a958a8b828">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classEKF.html#a80b18934240de41e18ff6265a818e8a3">EKF</a>.</p>
 
 </div>
 </div>
@@ -222,36 +220,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classEKF.html#a5ea4bec147462c4818489a978ddde35d">EKF</a>, <a class="el" href="classExampleKalmanFilter.html#af971ddd4b20342c292aba97f5c0539dd">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#aec3d4e2dc7b404c9b210a769371773a1">Yessir</a>.</p>
-
-</div>
-</div>
-<a id="abce6f8b7fa8ee8b3512bd8eed4b99e2d" name="abce6f8b7fa8ee8b3512bd8eed4b99e2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abce6f8b7fa8ee8b3512bd8eed4b99e2d">&#9670;&nbsp;</a></span>priori()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int _NumStates, int _NumInputs&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classKalmanFilter.html">KalmanFilter</a>&lt; _NumStates, _NumInputs &gt;::priori </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classEKF.html#a0061d7f5bc2cb76f906445d1b0fbcb8e">EKF</a>, <a class="el" href="classExampleKalmanFilter.html#a29f0364a2694136b9b53200e37e56ea5">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classEKF.html#a5ea4bec147462c4818489a978ddde35d">EKF</a>.</p>
 
 </div>
 </div>
@@ -281,12 +250,12 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2">EKF</a>, <a class="el" href="classExampleKalmanFilter.html#ac810f2987173c137088508e332f9e776">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#acc617206831cccbc9fc25bd1dbd2d3a2">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2">EKF</a>.</p>
 
 </div>
 </div>
-<a id="a761ba8d846c582109967a038c937ad75" name="a761ba8d846c582109967a038c937ad75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a761ba8d846c582109967a038c937ad75">&#9670;&nbsp;</a></span>update()</h2>
+<a id="a7d6e0c451e86ec3b07a1e3ed8a147e73" name="a7d6e0c451e86ec3b07a1e3ed8a147e73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6e0c451e86ec3b07a1e3ed8a147e73">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,13 +281,19 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a>&#160;</td>
-          <td class="paramname"><em>angularkalman</em>, </td>
+          <td class="paramname"><em>orientation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
-          <td class="paramname"><em>FSM_state</em>&#160;</td>
+          <td class="paramname"><em>current_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structGPS.html">GPS</a> &amp;&#160;</td>
+          <td class="paramname"><em>gps</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -333,7 +308,7 @@ template&lt;int _NumStates, int _NumInputs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classEKF.html#abb154c6dce29f492ab2228276dba669f">EKF</a>, <a class="el" href="classExampleKalmanFilter.html#a016c108bd2a67e394ed01a93612d8822">ExampleKalmanFilter</a>, and <a class="el" href="classYessir.html#a482ce42fd96b8c8b9e10c3a58f152fe8">Yessir</a>.</p>
+<p>Implemented in <a class="el" href="classEKF.html#a6408c1b51879cbdf95a80dd8427ead7c">EKF</a>.</p>
 
 </div>
 </div>

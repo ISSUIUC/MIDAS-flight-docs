@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('rotation_8h.html',''); initResizable()
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">rotation.h File Reference</div></div>
 </div><!--header-->
@@ -91,6 +92,19 @@ $(document).ready(function(){initNavTree('rotation_8h.html',''); initResizable()
 </div>
 <p><a href="rotation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a955f504eccf76b4eb2489c0adab03121"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a>&#160;&#160;&#160;6378137.0</td></tr>
+<tr class="separator:a955f504eccf76b4eb2489c0adab03121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc99639987b7ea30f341c34e46747354"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#acc99639987b7ea30f341c34e46747354">Flat</a>&#160;&#160;&#160;(1.0 / 298.257223563)</td></tr>
+<tr class="separator:acc99639987b7ea30f341c34e46747354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111da81ae5883147168bbb8366377b10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a111da81ae5883147168bbb8366377b10">B</a>&#160;&#160;&#160;(<a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> * (1 - <a class="el" href="rotation_8h.html#acc99639987b7ea30f341c34e46747354">Flat</a>))</td></tr>
+<tr class="separator:a111da81ae5883147168bbb8366377b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3947aefc5afc14e466d4c38e3ac735"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a4c3947aefc5afc14e466d4c38e3ac735">E_SQ</a>&#160;&#160;&#160;((<a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> * <a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> - <a class="el" href="rotation_8h.html#a111da81ae5883147168bbb8366377b10">B</a> * <a class="el" href="rotation_8h.html#a111da81ae5883147168bbb8366377b10">B</a>) / (<a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> * <a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a>))</td></tr>
+<tr class="separator:a4c3947aefc5afc14e466d4c38e3ac735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1daf785e3f68d293c7caa1c756d5cb74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a1daf785e3f68d293c7caa1c756d5cb74">pi</a>&#160;&#160;&#160;3.1415</td></tr>
+<tr class="separator:a1daf785e3f68d293c7caa1c756d5cb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a082c529a834820c9f8f9b4a1ab609a48"><td class="memTemplParams" colspan="2">template&lt;typename Angles &gt; </td></tr>
@@ -101,7 +115,94 @@ Functions</h2></td></tr>
 <tr class="memitem:a18cc384c1875943fdc9c43bbdce7e03b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b">GlobalToBody</a> (Angles &amp;angles_rad, Eigen::Matrix&lt; float, 3, 1 &gt; &amp;global_vec)</td></tr>
 <tr class="memdesc:a18cc384c1875943fdc9c43bbdce7e03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a vector in the global frame to the body frame.  <a href="rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b">More...</a><br /></td></tr>
 <tr class="separator:a18cc384c1875943fdc9c43bbdce7e03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf50e5da2d71e9e9b9e26f77bcc46378"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#adf50e5da2d71e9e9b9e26f77bcc46378">gps_to_ecef</a> (float lat, float lon, float alt)</td></tr>
+<tr class="memdesc:adf50e5da2d71e9e9b9e26f77bcc46378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) to ECEF (meters)  <a href="rotation_8h.html#adf50e5da2d71e9e9b9e26f77bcc46378">More...</a><br /></td></tr>
+<tr class="separator:adf50e5da2d71e9e9b9e26f77bcc46378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab2ba5985e21555a8abe3a9425a025b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#acab2ba5985e21555a8abe3a9425a025b">ecef_to_enu</a> (std::vector&lt; float &gt; curr_ecef, std::vector&lt; float &gt; ref_ecef, std::vector&lt; float &gt; ref_gps)</td></tr>
+<tr class="memdesc:acab2ba5985e21555a8abe3a9425a025b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the current ECEF (meters) to ENU (meters) based on a reference in both ECEF (meters) and <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees)  <a href="rotation_8h.html#acab2ba5985e21555a8abe3a9425a025b">More...</a><br /></td></tr>
+<tr class="separator:acab2ba5985e21555a8abe3a9425a025b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a955f504eccf76b4eb2489c0adab03121" name="a955f504eccf76b4eb2489c0adab03121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955f504eccf76b4eb2489c0adab03121">&#9670;&nbsp;</a></span>A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define A&#160;&#160;&#160;6378137.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00005">5</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
+<a id="a111da81ae5883147168bbb8366377b10" name="a111da81ae5883147168bbb8366377b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a111da81ae5883147168bbb8366377b10">&#9670;&nbsp;</a></span>B</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define B&#160;&#160;&#160;(<a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> * (1 - <a class="el" href="rotation_8h.html#acc99639987b7ea30f341c34e46747354">Flat</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00007">7</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c3947aefc5afc14e466d4c38e3ac735" name="a4c3947aefc5afc14e466d4c38e3ac735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3947aefc5afc14e466d4c38e3ac735">&#9670;&nbsp;</a></span>E_SQ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define E_SQ&#160;&#160;&#160;((<a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> * <a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> - <a class="el" href="rotation_8h.html#a111da81ae5883147168bbb8366377b10">B</a> * <a class="el" href="rotation_8h.html#a111da81ae5883147168bbb8366377b10">B</a>) / (<a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a> * <a class="el" href="rotation_8h.html#a955f504eccf76b4eb2489c0adab03121">A</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00008">8</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
+<a id="acc99639987b7ea30f341c34e46747354" name="acc99639987b7ea30f341c34e46747354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc99639987b7ea30f341c34e46747354">&#9670;&nbsp;</a></span>Flat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Flat&#160;&#160;&#160;(1.0 / 298.257223563)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00006">6</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
+<a id="a1daf785e3f68d293c7caa1c756d5cb74" name="a1daf785e3f68d293c7caa1c756d5cb74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1daf785e3f68d293c7caa1c756d5cb74">&#9670;&nbsp;</a></span>pi</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pi&#160;&#160;&#160;3.1415</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00009">9</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a082c529a834820c9f8f9b4a1ab609a48" name="a082c529a834820c9f8f9b4a1ab609a48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a082c529a834820c9f8f9b4a1ab609a48">&#9670;&nbsp;</a></span>BodyToGlobal()</h2>
@@ -141,7 +242,54 @@ template&lt;typename Angles &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the global frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00012">12</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00019">19</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
+<a id="acab2ba5985e21555a8abe3a9425a025b" name="acab2ba5985e21555a8abe3a9425a025b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab2ba5985e21555a8abe3a9425a025b">&#9670;&nbsp;</a></span>ecef_to_enu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; float &gt; ecef_to_enu </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>curr_ecef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>ref_ecef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>ref_gps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts the current ECEF (meters) to ENU (meters) based on a reference in both ECEF (meters) and <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of ENU coordinates {East, North, Up} </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00101">101</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
 
 </div>
 </div>
@@ -183,7 +331,54 @@ template&lt;typename Angles &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the body frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00048">48</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00051">51</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
+
+</div>
+</div>
+<a id="adf50e5da2d71e9e9b9e26f77bcc46378" name="adf50e5da2d71e9e9b9e26f77bcc46378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf50e5da2d71e9e9b9e26f77bcc46378">&#9670;&nbsp;</a></span>gps_to_ecef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; float &gt; gps_to_ecef </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lon</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>alt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) to ECEF (meters) </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of ECEF coordinates {X, Y, Z} </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00083">83</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
 
 </div>
 </div>

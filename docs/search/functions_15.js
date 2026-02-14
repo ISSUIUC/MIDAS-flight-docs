@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['valid_0',['valid',['../structGPSSensor.html#a797d97d0a0062fa157c48ce427807eb0',1,'GPSSensor::valid()'],['../structGPSSensor.html#a797d97d0a0062fa157c48ce427807eb0',1,'GPSSensor::valid()'],['../structTelemetryCommand.html#a35babc865f4f4ad55ed4274fb4305cff',1,'TelemetryCommand::valid()']]],
+  ['valid_0',['valid',['../structGPSSensor.html#a797d97d0a0062fa157c48ce427807eb0',1,'GPSSensor::valid()'],['../structGPSSensor.html#a797d97d0a0062fa157c48ce427807eb0',1,'GPSSensor::valid()'],['../structGPSSensor.html#a797d97d0a0062fa157c48ce427807eb0',1,'GPSSensor::valid()'],['../structTelemetryCommand.html#a35babc865f4f4ad55ed4274fb4305cff',1,'TelemetryCommand::valid()']]],
   ['var_5fname_1',['var_name',['../classnanopb__generator_1_1NamingStyle.html#a46f36e2cf143c1c912d0858892f85682',1,'nanopb_generator.NamingStyle.var_name()'],['../classnanopb__generator_1_1NamingStyleC.html#a8cc12f25cc8a3eab55fddadde8df7f34',1,'nanopb_generator.NamingStyleC.var_name()']]],
   ['varint_5fmax_5fsize_2',['varint_max_size',['../namespacenanopb__generator.html#a90a1f911f0517e95aa4c17ccb805038f',1,'nanopb_generator']]],
   ['vmux_5fset_3',['vmux_set',['../structCameraB2B.html#a56ac29b35f1a3b9098865543ec24ab92',1,'CameraB2B']]],

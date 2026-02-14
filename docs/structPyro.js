@@ -9,7 +9,7 @@ var structPyro =
     [ "set_pyro_safety", "structPyro.html#a895ecbef3aadc5369ac09cf263c8e516", null ],
     [ "tick", "structPyro.html#a0c8f0f3f5ba6ea9f70c9e5b4b435ea23", null ],
     [ "tick", "structPyro.html#af76f37b0c45ff0b0bfa5ef72a45952d2", null ],
-    [ "tick", "structPyro.html#aced7ff5500cd6c1606d7292f990d93ff", null ],
+    [ "tick", "structPyro.html#af76f37b0c45ff0b0bfa5ef72a45952d2", null ],
     [ "safety_has_fired_pyros_this_cycle", "structPyro.html#ace37095039f9f593cfd469b07ec97e20", null ],
     [ "safety_pyro_start_firing_time", "structPyro.html#a2a640de4104cfb91baa776e1ac5f9365", null ]
 ];
