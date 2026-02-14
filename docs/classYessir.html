@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a488fc5fb4a8d425e1161d49e21fe9db4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4">priori</a> () override</td></tr>
 <tr class="memdesc:a488fc5fb4a8d425e1161d49e21fe9db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates current state of the rocket without current sensor data.  <a href="classYessir.html#a488fc5fb4a8d425e1161d49e21fe9db4">More...</a><br /></td></tr>
 <tr class="separator:a488fc5fb4a8d425e1161d49e21fe9db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11cee359979927f26afb2476aa84132e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a11cee359979927f26afb2476aa84132e">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>) override</td></tr>
-<tr class="memdesc:a11cee359979927f26afb2476aa84132e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Kalman Gain and state estimate with current sensor data.  <a href="classYessir.html#a11cee359979927f26afb2476aa84132e">More...</a><br /></td></tr>
-<tr class="separator:a11cee359979927f26afb2476aa84132e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482ce42fd96b8c8b9e10c3a58f152fe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a482ce42fd96b8c8b9e10c3a58f152fe8">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> angularkalman, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state) override</td></tr>
+<tr class="memdesc:a482ce42fd96b8c8b9e10c3a58f152fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Kalman Gain and state estimate with current sensor data.  <a href="classYessir.html#a482ce42fd96b8c8b9e10c3a58f152fe8">More...</a><br /></td></tr>
+<tr class="separator:a482ce42fd96b8c8b9e10c3a58f152fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace9680b0d107411ffe64dd16aebc6650"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#ace9680b0d107411ffe64dd16aebc6650">setQ</a> (float dt, float sd)</td></tr>
 <tr class="memdesc:ace9680b0d107411ffe64dd16aebc6650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Q matrix given time step and spectral density.  <a href="classYessir.html#ace9680b0d107411ffe64dd16aebc6650">More...</a><br /></td></tr>
 <tr class="separator:ace9680b0d107411ffe64dd16aebc6650"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,9 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc617206831cccbc9fc25bd1dbd2d3a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#acc617206831cccbc9fc25bd1dbd2d3a2">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>) override</td></tr>
 <tr class="memdesc:acc617206831cccbc9fc25bd1dbd2d3a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets state vector x.  <a href="classYessir.html#acc617206831cccbc9fc25bd1dbd2d3a2">More...</a><br /></td></tr>
 <tr class="separator:acc617206831cccbc9fc25bd1dbd2d3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a3b74c7f77b38df88a758fb3c8ca9be25">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classYessir.html#a1d9749be647231e2d0496dba54f9af8e">state</a>)</td></tr>
-<tr class="memdesc:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classYessir.html#a3b74c7f77b38df88a758fb3c8ca9be25">More...</a><br /></td></tr>
-<tr class="separator:a3b74c7f77b38df88a758fb3c8ca9be25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d023f726ba491e3606b6da8d287a89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classYessir.html#a87d023f726ba491e3606b6da8d287a89">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structIMU.html">IMU</a> &amp;imudata, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;angularkalman, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state)</td></tr>
+<tr class="memdesc:a87d023f726ba491e3606b6da8d287a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classYessir.html#a87d023f726ba491e3606b6da8d287a89">More...</a><br /></td></tr>
+<tr class="separator:a87d023f726ba491e3606b6da8d287a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classKalmanFilter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classKalmanFilter')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classKalmanFilter.html">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a></td></tr>
 <tr class="memitem:a4a2ddeb7db16a968709fa99761eb6fed inherit pub_methods_classKalmanFilter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed">KalmanFilter</a> ()</td></tr>
 <tr class="separator:a4a2ddeb7db16a968709fa99761eb6fed inherit pub_methods_classKalmanFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,7 +241,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix&lt;float, 3, 1&gt; Rotated vector in the global frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00228">228</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00229">229</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
@@ -273,7 +273,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00242">242</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00243">243</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
@@ -338,7 +338,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00127">127</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00126">126</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
@@ -367,7 +367,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The F matrix is the state transition matrix and is defined by how the states change over time. </p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00313">313</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00314">314</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
@@ -407,7 +407,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The Q matrix is the covariance matrix for the process noise and is updated based on the time taken per cycle of the Kalman Filter Thread. </p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00272">272</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00273">273</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,12 +445,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00251">251</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00252">252</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a3b74c7f77b38df88a758fb3c8ca9be25" name="a3b74c7f77b38df88a758fb3c8ca9be25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b74c7f77b38df88a758fb3c8ca9be25">&#9670;&nbsp;</a></span>tick()</h2>
+<a id="a87d023f726ba491e3606b6da8d287a89" name="a87d023f726ba491e3606b6da8d287a89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d023f726ba491e3606b6da8d287a89">&#9670;&nbsp;</a></span>tick()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,8 +482,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a> &amp;&#160;</td>
-          <td class="paramname"><em>orientation</em>, </td>
+          <td class="paramtype"><a class="el" href="structIMU.html">IMU</a> &amp;&#160;</td>
+          <td class="paramname"><em>imudata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;&#160;</td>
+          <td class="paramname"><em>angularkalman</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -512,12 +518,12 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00212">212</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00213">213</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a11cee359979927f26afb2476aa84132e" name="a11cee359979927f26afb2476aa84132e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11cee359979927f26afb2476aa84132e">&#9670;&nbsp;</a></span>update()</h2>
+<a id="a482ce42fd96b8c8b9e10c3a58f152fe8" name="a482ce42fd96b8c8b9e10c3a58f152fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482ce42fd96b8c8b9e10c3a58f152fe8">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,8 +546,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
-          <td class="paramname"><em>orientation</em>, </td>
+          <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a>&#160;</td>
+          <td class="paramname"><em>angularkalman</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -565,9 +571,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Update Kalman Gain and state estimate with current sensor data. </p>
 <p >After receiving new sensor data, the Kalman filter updates the state estimate and Kalman gain. The Kalman gain can be considered as a measure of how uncertain the new sensor data is. After updating the gain, the state estimate is updated. </p>
 
-<p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
+<p>Implements <a class="el" href="classKalmanFilter.html#a761ba8d846c582109967a038c937ad75">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00142">142</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yessir_8cpp_source.html#l00141">141</a> of file <a class="el" href="yessir_8cpp_source.html">yessir.cpp</a>.</p>
 
 </div>
 </div>

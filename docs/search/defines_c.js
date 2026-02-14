@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['num_5fsensor_5finputs_0',['NUM_SENSOR_INPUTS',['../ekf_8h.html#ac6ef2495692adee513161f504fefaebe',1,'NUM_SENSOR_INPUTS():&#160;ekf.h'],['../yessir_8h.html#ac6ef2495692adee513161f504fefaebe',1,'NUM_SENSOR_INPUTS():&#160;yessir.h']]],
-  ['num_5fstates_1',['NUM_STATES',['../ekf_8h.html#a6e67a587012cd0570839daca590cf822',1,'NUM_STATES():&#160;ekf.h'],['../yessir_8h.html#a6e67a587012cd0570839daca590cf822',1,'NUM_STATES():&#160;yessir.h']]]
+  ['output_0',['OUTPUT',['../emulation_8h.html#a61a3c9a18380aafb6e430e79bf596557',1,'emulation.h']]]
 ];

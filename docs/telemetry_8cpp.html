@@ -103,9 +103,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a9d38c0ad909fd09cc2069480a48560b2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2">inv_convert_range</a> (float val, float range)</td></tr>
 <tr class="memdesc:a9d38c0ad909fd09cc2069480a48560b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function maps an input value onto within a particular range into a fixed point value of a certin binary size.  <a href="telemetry_8cpp.html#a9d38c0ad909fd09cc2069480a48560b2">More...</a><br /></td></tr>
 <tr class="separator:a9d38c0ad909fd09cc2069480a48560b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a6e9f899f87477e6fc5afbbcbd91d52"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; uint16_t, uint16_t, uint16_t, uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a4a6e9f899f87477e6fc5afbbcbd91d52">pack_highg_tilt</a> (<a class="el" href="structHighGData.html">HighGData</a> const &amp;highg, uint16_t tilt)</td></tr>
-<tr class="memdesc:a4a6e9f899f87477e6fc5afbbcbd91d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs highg and tilt infomation into 3, 2 byte integers  <a href="telemetry_8cpp.html#a4a6e9f899f87477e6fc5afbbcbd91d52">More...</a><br /></td></tr>
-<tr class="separator:a4a6e9f899f87477e6fc5afbbcbd91d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7892d4e547c901c2bf877a145596d867"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="telemetry_8cpp.html#a7892d4e547c901c2bf877a145596d867">__attribute__</a> ((warn_unused_result)) <a class="el" href="classTelemetry.html">Telemetry</a></td></tr>
 <tr class="memdesc:a7892d4e547c901c2bf877a145596d867"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes the <a class="el" href="classTelemetry.html" title="wraps the telemetry system to create and send a packet">Telemetry</a> system  <a href="telemetry_8cpp.html#a7892d4e547c901c2bf877a145596d867">More...</a><br /></td></tr>
 <tr class="separator:a7892d4e547c901c2bf877a145596d867"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,7 +132,7 @@ Functions</h2></td></tr>
 <p>initializes the <a class="el" href="classTelemetry.html" title="wraps the telemetry system to create and send a packet">Telemetry</a> system </p>
 <dl class="section return"><dt>Returns</dt><dd>Error Code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00167">167</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00175">175</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
@@ -234,46 +231,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00005">5</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a4a6e9f899f87477e6fc5afbbcbd91d52" name="a4a6e9f899f87477e6fc5afbbcbd91d52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a6e9f899f87477e6fc5afbbcbd91d52">&#9670;&nbsp;</a></span>pack_highg_tilt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::tuple&lt; uint16_t, uint16_t, uint16_t, uint16_t &gt; pack_highg_tilt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structHighGData.html">HighGData</a> const &amp;&#160;</td>
-          <td class="paramname"><em>highg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>tilt</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>packs highg and tilt infomation into 3, 2 byte integers </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">highg</td><td>highg data to store </td></tr>
-    <tr><td class="paramname">tilt</td><td>tilt information to store</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>tuple with packed data </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00035">35</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>

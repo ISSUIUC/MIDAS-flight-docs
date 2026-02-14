@@ -111,12 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ea4bec147462c4818489a978ddde35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0061d7f5bc2cb76f906445d1b0fbcb8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a0061d7f5bc2cb76f906445d1b0fbcb8e">priori</a> ()</td></tr>
 <tr class="separator:a0061d7f5bc2cb76f906445d1b0fbcb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa88aaf475db5ec265515f1c1a8e084e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#aa88aaf475db5ec265515f1c1a8e084e3">priori</a> (float dt, <a class="el" href="structOrientation.html">Orientation</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm)</td></tr>
-<tr class="memdesc:aa88aaf475db5ec265515f1c1a8e084e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates current state of the rocket without current sensor data.  <a href="classEKF.html#aa88aaf475db5ec265515f1c1a8e084e3">More...</a><br /></td></tr>
-<tr class="separator:aa88aaf475db5ec265515f1c1a8e084e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85946520079528b7281458f651418469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a85946520079528b7281458f651418469">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>) override</td></tr>
-<tr class="memdesc:a85946520079528b7281458f651418469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Kalman Gain and state estimate with current sensor data.  <a href="classEKF.html#a85946520079528b7281458f651418469">More...</a><br /></td></tr>
-<tr class="separator:a85946520079528b7281458f651418469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1bece34feeb0e3aace65c6433c1fe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#acf1bece34feeb0e3aace65c6433c1fe0">priori</a> (float dt, <a class="el" href="structIMU.html">IMU</a> &amp;imudata, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;angularkalman)</td></tr>
+<tr class="memdesc:acf1bece34feeb0e3aace65c6433c1fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates current state of the rocket without current sensor data.  <a href="classEKF.html#acf1bece34feeb0e3aace65c6433c1fe0">More...</a><br /></td></tr>
+<tr class="separator:acf1bece34feeb0e3aace65c6433c1fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb154c6dce29f492ab2228276dba669f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#abb154c6dce29f492ab2228276dba669f">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> angularkalman, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state) override</td></tr>
+<tr class="memdesc:abb154c6dce29f492ab2228276dba669f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Kalman Gain and state estimate with current sensor data.  <a href="classEKF.html#abb154c6dce29f492ab2228276dba669f">More...</a><br /></td></tr>
+<tr class="separator:abb154c6dce29f492ab2228276dba669f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad12d218c18072682257c3c9f3bd6102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#aad12d218c18072682257c3c9f3bd6102">setQ</a> (float dt, float sd)</td></tr>
 <tr class="memdesc:aad12d218c18072682257c3c9f3bd6102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Q matrix given time step and spectral density.  <a href="classEKF.html#aad12d218c18072682257c3c9f3bd6102">More...</a><br /></td></tr>
 <tr class="separator:aad12d218c18072682257c3c9f3bd6102"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,9 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2de87aa050d160d6e467372302cd6999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a2de87aa050d160d6e467372302cd6999">getThrust</a> (float timestamp, const <a class="el" href="structeuler__t.html">euler_t</a> &amp;angles, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state, Eigen::Vector3f &amp;thrust_out)</td></tr>
 <tr class="memdesc:a2de87aa050d160d6e467372302cd6999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the approximate thrust force from the motor given the thurst curve.  <a href="classEKF.html#a2de87aa050d160d6e467372302cd6999">More...</a><br /></td></tr>
 <tr class="separator:a2de87aa050d160d6e467372302cd6999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6799540cf1b6b1f489801d674a13678e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a6799540cf1b6b1f489801d674a13678e">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>)</td></tr>
-<tr class="memdesc:a6799540cf1b6b1f489801d674a13678e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classEKF.html#a6799540cf1b6b1f489801d674a13678e">More...</a><br /></td></tr>
-<tr class="separator:a6799540cf1b6b1f489801d674a13678e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e1ec9e71210d9d81d7f1a432855824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a02e1ec9e71210d9d81d7f1a432855824">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structIMU.html">IMU</a> &amp;imudata, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;angularkalman, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state)</td></tr>
+<tr class="memdesc:a02e1ec9e71210d9d81d7f1a432855824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classEKF.html#a02e1ec9e71210d9d81d7f1a432855824">More...</a><br /></td></tr>
+<tr class="separator:a02e1ec9e71210d9d81d7f1a432855824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classKalmanFilter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classKalmanFilter')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classKalmanFilter.html">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a></td></tr>
 <tr class="memitem:a4a2ddeb7db16a968709fa99761eb6fed inherit pub_methods_classKalmanFilter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed">KalmanFilter</a> ()</td></tr>
 <tr class="separator:a4a2ddeb7db16a968709fa99761eb6fed inherit pub_methods_classKalmanFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00008">8</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00009">9</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -253,7 +253,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a5b2acd7140b5bc2360037682c2d296b9">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00385">385</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00365">365</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Thrust force in the body frame</dd></dl>
 <p>The thrust force is calculated by interpolating the thrust curve data which is stored in an ordered map (see top of file). The thrust curve data is different for the booster and sustainer stages, so the function checks the <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> state to determine which thrust curve to use. The time since ignition is also important to consider so that is reset once we reach a new stage. The thrust force is then rotated into the body frame using the BodyToGlobal function. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00516">516</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00496">496</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -340,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00038">38</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00039">39</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -370,12 +370,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00016">16</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00017">17</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aa88aaf475db5ec265515f1c1a8e084e3" name="aa88aaf475db5ec265515f1c1a8e084e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa88aaf475db5ec265515f1c1a8e084e3">&#9670;&nbsp;</a></span>priori() <span class="overload">[2/2]</span></h2>
+<a id="acf1bece34feeb0e3aace65c6433c1fe0" name="acf1bece34feeb0e3aace65c6433c1fe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1bece34feeb0e3aace65c6433c1fe0">&#9670;&nbsp;</a></span>priori() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,14 +389,20 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a> &amp;&#160;</td>
-          <td class="paramname"><em>orientation</em>, </td>
+          <td class="paramtype"><a class="el" href="structIMU.html">IMU</a> &amp;&#160;</td>
+          <td class="paramname"><em>imudata</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
-          <td class="paramname"><em>fsm</em>&#160;</td>
+          <td class="paramname"><em>fsm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;&#160;</td>
+          <td class="paramname"><em>angularkalman</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -409,7 +415,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Estimates current state of the rocket without current sensor data. </p>
 <p >The priori step of the Kalman filter is used to estimate the current state of the rocket without knowledge of the current sensor data. In other words, it extrapolates the state at time n+1 based on the state at time n. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00142">142</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00138">138</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -484,7 +490,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The F matrix is the state transition matrix and is defined by how the states change over time and also depends on the current state of the rocket. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00461">461</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00441">441</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -524,7 +530,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <p>The Q matrix is the covariance matrix for the process noise and is updated based on the time taken per cycle of the Kalman Filter Thread. </p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00417">417</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00397">397</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -562,12 +568,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00395">395</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00375">375</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a6799540cf1b6b1f489801d674a13678e" name="a6799540cf1b6b1f489801d674a13678e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6799540cf1b6b1f489801d674a13678e">&#9670;&nbsp;</a></span>tick()</h2>
+<a id="a02e1ec9e71210d9d81d7f1a432855824" name="a02e1ec9e71210d9d81d7f1a432855824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e1ec9e71210d9d81d7f1a432855824">&#9670;&nbsp;</a></span>tick()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -599,8 +605,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a> &amp;&#160;</td>
-          <td class="paramname"><em>orientation</em>, </td>
+          <td class="paramtype"><a class="el" href="structIMU.html">IMU</a> &amp;&#160;</td>
+          <td class="paramname"><em>imudata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;&#160;</td>
+          <td class="paramname"><em>angularkalman</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -629,12 +641,12 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00363">363</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00343">343</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a85946520079528b7281458f651418469" name="a85946520079528b7281458f651418469"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85946520079528b7281458f651418469">&#9670;&nbsp;</a></span>update()</h2>
+<a id="abb154c6dce29f492ab2228276dba669f" name="abb154c6dce29f492ab2228276dba669f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb154c6dce29f492ab2228276dba669f">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -657,8 +669,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
-          <td class="paramname"><em>orientation</em>, </td>
+          <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a>&#160;</td>
+          <td class="paramname"><em>angularkalman</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -682,9 +694,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Update Kalman Gain and state estimate with current sensor data. </p>
 <p >After receiving new sensor data, the Kalman filter updates the state estimate and Kalman gain. The Kalman gain can be considered as a measure of how uncertain the new sensor data is. After updating the gain, the state estimate is updated. </p>
 
-<p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
+<p>Implements <a class="el" href="classKalmanFilter.html#a761ba8d846c582109967a038c937ad75">KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00258">258</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ekf_8cpp_source.html#l00254">254</a> of file <a class="el" href="ekf_8cpp_source.html">ekf.cpp</a>.</p>
 
 </div>
 </div>

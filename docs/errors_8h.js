@@ -22,7 +22,8 @@ var errors_8h =
       [ "EmmcCouldNotOpenFile", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa31e979fab79c142ca0c5d38da3e2a237", null ],
       [ "SDCouldNotOpenFile", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2f88b8285a5a61f3bfd68a84a329d907", null ],
       [ "LoraCouldNotBeInitialized", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa86926f8f3b0946177a59fdcc4db9144a", null ],
-      [ "LoraCommunicationFailed", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa797b62fe20584e715e035ae56a505693", null ]
+      [ "LoraCommunicationFailed", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa797b62fe20584e715e035ae56a505693", null ],
+      [ "IMUCouldNotBeInitialized", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faaa58a72c343f4740ec761d6583ed5626", null ]
     ] ],
     [ "update_error_LED", "errors_8h.html#aa0464c00b33ab2b4379a200d989db727", null ]
 ];

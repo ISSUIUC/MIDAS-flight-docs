@@ -8,7 +8,7 @@ var classExampleKalmanFilter =
     [ "setF", "classExampleKalmanFilter.html#a011f29f60b6c1e47e8f1768de8524530", null ],
     [ "setQ", "classExampleKalmanFilter.html#a0de8880ec139a2382162f260348b9310", null ],
     [ "setState", "classExampleKalmanFilter.html#ac810f2987173c137088508e332f9e776", null ],
-    [ "update", "classExampleKalmanFilter.html#a909be5fa91952bb900bf9a6efb8d64c7", null ],
+    [ "update", "classExampleKalmanFilter.html#a016c108bd2a67e394ed01a93612d8822", null ],
     [ "kalman_state", "classExampleKalmanFilter.html#a146f7f573699b6c4291e191524b80bcd", null ],
     [ "state", "classExampleKalmanFilter.html#a81779f15a0855b9fecf236f3ef699619", null ]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['nanopb_5fgenerator_2epy_0',['nanopb_generator.py',['../nanopb__generator_8py.html',1,'']]],
-  ['nanopb_5fpb2_2epy_1',['nanopb_pb2.py',['../nanopb__pb2_8py.html',1,'']]]
+  ['magnetometer_2ecpp_0',['Magnetometer.cpp',['../hardware_2Magnetometer_8cpp.html',1,'(Global Namespace)'],['../hilsim_2sensors_2Magnetometer_8cpp.html',1,'(Global Namespace)']]],
+  ['main_2ecpp_1',['main.cpp',['../hardware_2main_8cpp.html',1,'(Global Namespace)'],['../hilsim_2main_8cpp.html',1,'(Global Namespace)'],['../silsim_2main_8cpp.html',1,'(Global Namespace)']]],
+  ['mutex_2eh_2',['Mutex.h',['../Mutex_8h.html',1,'']]]
 ];

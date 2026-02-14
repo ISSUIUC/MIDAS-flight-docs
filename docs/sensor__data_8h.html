@@ -109,17 +109,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structeuler__t.html">euler_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">euler representation of rotation  <a href="structeuler__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLowGData.html">LowGData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structs starting here represent specific sensors and the respective data.  <a href="structLowGData.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHighGData.html">HighGData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data from the <a class="el" href="structHighG.html">HighG</a> sensor  <a href="structHighGData.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLowGLSM.html">LowGLSM</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data from the Low G LSM sensor  <a href="structLowGLSM.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBarometer.html">Barometer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data from the barometer  <a href="structBarometer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structs starting here represent specific sensors and the respective data.  <a href="structBarometer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structContinuity.html">Continuity</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data about pyro continuity  <a href="structContinuity.html#details">More...</a><br /></td></tr>
@@ -135,11 +126,16 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuaternion.html">Quaternion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrientation.html">Orientation</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data from the <a class="el" href="structBNO.html">BNO</a>  <a href="structOrientation.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMU__SFLP.html">IMU_SFLP</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementing obtaining <a class="el" href="structSFLP.html" title="Data from the Sensor Fusion Low Power module.">SFLP</a> data from FIFO.  <a href="structIMU__SFLP.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMU.html">IMU</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structIMU.html" title="IMU that stores High/Low G Acceleration, Angular Velocity, and IMU_SFLP.">IMU</a> that stores High/Low G <a class="el" href="structAcceleration.html">Acceleration</a>, Angular <a class="el" href="structVelocity.html">Velocity</a>, and <a class="el" href="structIMU__SFLP.html" title="Implementing obtaining SFLP data from FIFO.">IMU_SFLP</a>.  <a href="structIMU.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structKalmanData.html">KalmanData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data from the Kalman thread  <a href="structKalmanData.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyroState.html">PyroState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data regarding all pyro channels  <a href="structPyroState.html#details">More...</a><br /></td></tr>
@@ -179,7 +175,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ae25ac8fc5f6429b1fc847dbe4f5009c9aea444252782e923b716dd334cf6d8bda" name="ae25ac8fc5f6429b1fc847dbe4f5009c9aea444252782e923b716dd334cf6d8bda"></a>ANGULAR_VELOCITY_UPDATE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00188">188</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00144">144</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>

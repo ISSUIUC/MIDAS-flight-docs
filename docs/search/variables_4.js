@@ -8,7 +8,7 @@ var searchData=
   ['declarations_5',['declarations',['../classnanopb__generator_1_1EncodedSize.html#a13e277622b3e3a191c9fcea2db5057ed',1,'nanopb_generator::EncodedSize']]],
   ['default_6',['default',['../namespacefsm__test.html#aaa829ad73cc29862d97e9e77852aea8a',1,'fsm_test.default()'],['../namespacenanopb__generator.html#a7dfa3cfe6d6f2e2b7fe234911df11dce',1,'nanopb_generator.default()'],['../classnanopb__generator_1_1OneOf.html#a6ad3edcf6df739af493f265cbdf3d20c',1,'nanopb_generator.OneOf.default()'],['../classnanopb__generator_1_1ExtensionRange.html#a7cd21751e92b255e1e9a0a6e8d2c1202',1,'nanopb_generator.ExtensionRange.default()'],['../classnanopb__generator_1_1Field.html#abcdb58b406ea7c1316264a9bb0e1ff98',1,'nanopb_generator.Field.default()']]],
   ['default_5fhas_7',['default_has',['../classnanopb__generator_1_1Field.html#aec1dc298505aa7cb2eb2235b3b4f0462',1,'nanopb_generator::Field']]],
-  ['deltatime_8',['deltaTime',['../hardware_2Orientation_8cpp.html#a1a61318ed6aa02b4ff346e7eb8f68891',1,'Orientation.cpp']]],
+  ['deltatime_8',['deltaTime',['../IMU_8cpp.html#a1a61318ed6aa02b4ff346e7eb8f68891',1,'IMU.cpp']]],
   ['density_5fof_5fair_9',['density_of_air',['../structSimulationParameters.html#a182b3c556ae7c3325a74b4cbbd387934',1,'SimulationParameters']]],
   ['dependencies_10',['dependencies',['../classnanopb__generator_1_1ProtoFile.html#ae65f87288cbd7655fde4b261d10eb7d9',1,'nanopb_generator::ProtoFile']]],
   ['desc_11',['desc',['../classnanopb__generator_1_1Message.html#a55c7b061a1e5e9986fcf4e1cca0600f0',1,'nanopb_generator::Message']]],

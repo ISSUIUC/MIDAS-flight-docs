@@ -109,8 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af971ddd4b20342c292aba97f5c0539dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29f0364a2694136b9b53200e37e56ea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleKalmanFilter.html#a29f0364a2694136b9b53200e37e56ea5">priori</a> () override</td></tr>
 <tr class="separator:a29f0364a2694136b9b53200e37e56ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a909be5fa91952bb900bf9a6efb8d64c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleKalmanFilter.html#a909be5fa91952bb900bf9a6efb8d64c7">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structOrientation.html">Orientation</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> current_state) override</td></tr>
-<tr class="separator:a909be5fa91952bb900bf9a6efb8d64c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016c108bd2a67e394ed01a93612d8822"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleKalmanFilter.html#a016c108bd2a67e394ed01a93612d8822">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> angularkalman, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state) override</td></tr>
+<tr class="separator:a016c108bd2a67e394ed01a93612d8822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a021d12a61e39f4f7c9196b343069599c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanData.html">KalmanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleKalmanFilter.html#a021d12a61e39f4f7c9196b343069599c">getState</a> () override</td></tr>
 <tr class="separator:a021d12a61e39f4f7c9196b343069599c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac810f2987173c137088508e332f9e776"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExampleKalmanFilter.html#ac810f2987173c137088508e332f9e776">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> <a class="el" href="classExampleKalmanFilter.html#a81779f15a0855b9fecf236f3ef699619">state</a>) override</td></tr>
@@ -378,8 +378,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a909be5fa91952bb900bf9a6efb8d64c7" name="a909be5fa91952bb900bf9a6efb8d64c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a909be5fa91952bb900bf9a6efb8d64c7">&#9670;&nbsp;</a></span>update()</h2>
+<a id="a016c108bd2a67e394ed01a93612d8822" name="a016c108bd2a67e394ed01a93612d8822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a016c108bd2a67e394ed01a93612d8822">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,14 +402,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structOrientation.html">Orientation</a>&#160;</td>
-          <td class="paramname"><em>orientation</em>, </td>
+          <td class="paramtype"><a class="el" href="structAngularKalmanData.html">AngularKalmanData</a>&#160;</td>
+          <td class="paramname"><em>angularkalman</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
-          <td class="paramname"><em>current_state</em>&#160;</td>
+          <td class="paramname"><em>FSM_state</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -424,7 +424,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e">KalmanFilter&lt; 9, 4 &gt;</a>.</p>
+<p>Implements <a class="el" href="classKalmanFilter.html#a761ba8d846c582109967a038c937ad75">KalmanFilter&lt; 9, 4 &gt;</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="example__kf_8cpp_source.html#l00013">13</a> of file <a class="el" href="example__kf_8cpp_source.html">example_kf.cpp</a>.</p>
 

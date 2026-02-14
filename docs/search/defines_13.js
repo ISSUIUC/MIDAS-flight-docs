@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['voltage_5fdivider_0',['VOLTAGE_DIVIDER',['../hardware_2Voltage_8cpp.html#a3a0b7478dd2911edab3a32101c48c254',1,'Voltage.cpp']]],
-  ['voltage_5fpin_1',['VOLTAGE_PIN',['../pins_8h.html#a54f09983e16c8655e9d2409609992757',1,'pins.h']]]
+  ['warn_5ftone_5fblank_0',['WARN_TONE_BLANK',['../buzzer_8cpp.html#a82ca6cf0701a6e01951a18df0a846c0f',1,'buzzer.cpp']]],
+  ['warn_5ftone_5flength_1',['WARN_TONE_LENGTH',['../buzzer_8h.html#a6e317ac1c38d654228a3b5a0b37cc85a',1,'buzzer.h']]],
+  ['warn_5ftone_5fpitch_2',['WARN_TONE_PITCH',['../buzzer_8cpp.html#a6c19674b0213c92d1e52e7bd8abada3b',1,'buzzer.cpp']]]
 ];

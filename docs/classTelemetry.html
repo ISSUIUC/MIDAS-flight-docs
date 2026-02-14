@@ -101,7 +101,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1f7b3556d83e22c061c7eb70cd6507b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#ab1f7b3556d83e22c061c7eb70cd6507b">Telemetry</a> ()=default</td></tr>
 <tr class="separator:ab1f7b3556d83e22c061c7eb70cd6507b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#afc1fca0244f0f8fedf7d8981c0f20fdc">Telemetry</a> (<a class="el" href="classTelemetryBackend.html">TelemetryBackend</a> &amp;&amp;<a class="el" href="classTelemetry.html#a00887a5cd4d3394013efaec237c0a901">backend</a>)</td></tr>
-<tr class="memdesc:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">move constructor for the telemetry backend  <a href="classTelemetry.html#afc1fca0244f0f8fedf7d8981c0f20fdc">More...</a><br /></td></tr>
+<tr class="memdesc:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs highg and tilt infomation into 3, 2 byte integers  <a href="classTelemetry.html#afc1fca0244f0f8fedf7d8981c0f20fdc">More...</a><br /></td></tr>
 <tr class="separator:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d798539857c3dc0447c714a68aaa313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a6d798539857c3dc0447c714a68aaa313">__attribute__</a> ((warn_unused_result)) init()</td></tr>
 <tr class="separator:a6d798539857c3dc0447c714a68aaa313"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,6 +180,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>packs highg and tilt infomation into 3, 2 byte integers </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">highg</td><td>highg data to store </td></tr>
+    <tr><td class="paramname">tilt</td><td>tilt information to store</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>tuple with packed data</dd></dl>
 <p>move constructor for the telemetry backend </p>
 
 <p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00052">52</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>

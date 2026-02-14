@@ -12,14 +12,10 @@ var dir_39ad1d7d9cb151adc861bccb56dcb3f7 =
     [ "rocketstate.pb.h", "rocketstate_8pb_8h.html", "rocketstate_8pb_8h" ],
     [ "rocketstate_pb2.py", "rocketstate__pb2_8py.html", "rocketstate__pb2_8py" ],
     [ "sensors.h", "hilsim_2sensors_8h.html", [
-      [ "LowGSensor", "structLowGSensor.html", "structLowGSensor" ],
-      [ "HighGSensor", "structHighGSensor.html", "structHighGSensor" ],
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
-      [ "LowGLSMSensor", "structLowGLSMSensor.html", "structLowGLSMSensor" ],
       [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],
-      [ "OrientationSensor", "structOrientationSensor.html", "structOrientationSensor" ],
       [ "GPSSensor", "structGPSSensor.html", "structGPSSensor" ],
       [ "Pyro", "structPyro.html", "structPyro" ]
     ] ],

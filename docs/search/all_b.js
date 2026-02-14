@@ -11,7 +11,5 @@ var searchData=
   ['kalmanfilter_3c_20num_5fstates_2c_20num_5fsensor_5finputs_20_3e_8',['KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;',['../classKalmanFilter.html',1,'']]],
   ['kalmanstate_9',['KalmanState',['../structKalmanState.html',1,'']]],
   ['kf_5fpx_10',['kf_px',['../structTelemetryPacket.html#a360c5757407cf5251c0da8920593a9c3',1,'TelemetryPacket']]],
-  ['kf_5fvx_11',['kf_vx',['../structTelemetryPacket.html#acf1c31b77493f15ee2317f7833193b18',1,'TelemetryPacket']]],
-  ['kx_12',['KX',['../hardware_2HighG_8cpp.html#aa2e5b77238c2bece15a2343229c297de',1,'HighG.cpp']]],
-  ['kx134_5fcs_13',['KX134_CS',['../pins_8h.html#ac9e2c6fe24530091c612f7a2a32b23dd',1,'pins.h']]]
+  ['kf_5fvx_11',['kf_vx',['../structTelemetryPacket.html#acf1c31b77493f15ee2317f7833193b18',1,'TelemetryPacket']]]
 ];

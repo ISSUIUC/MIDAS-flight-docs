@@ -5,6 +5,5 @@ var searchData=
   ['kalman_5fapo_2',['kalman_apo',['../classEKF.html#ad51c2f4796998912c280866d123efbf6',1,'EKF::kalman_apo()'],['../classYessir.html#a24a97076a6c3037eadf07b171fd4d846',1,'Yessir::kalman_apo()']]],
   ['kalman_5fstate_3',['kalman_state',['../classEKF.html#af803df36ca2d6888441b15764ac61b77',1,'EKF::kalman_state()'],['../classExampleKalmanFilter.html#a146f7f573699b6c4291e191524b80bcd',1,'ExampleKalmanFilter::kalman_state()'],['../classYessir.html#a85525d9b9289a65b9fd7333b47f30364',1,'Yessir::kalman_state()']]],
   ['kf_5fpx_4',['kf_px',['../structTelemetryPacket.html#a360c5757407cf5251c0da8920593a9c3',1,'TelemetryPacket']]],
-  ['kf_5fvx_5',['kf_vx',['../structTelemetryPacket.html#acf1c31b77493f15ee2317f7833193b18',1,'TelemetryPacket']]],
-  ['kx_6',['KX',['../hardware_2HighG_8cpp.html#aa2e5b77238c2bece15a2343229c297de',1,'HighG.cpp']]]
+  ['kf_5fvx_5',['kf_vx',['../structTelemetryPacket.html#acf1c31b77493f15ee2317f7833193b18',1,'TelemetryPacket']]]
 ];

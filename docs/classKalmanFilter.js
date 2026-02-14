@@ -5,7 +5,7 @@ var classKalmanFilter =
     [ "initialize", "classKalmanFilter.html#a35afde069f6bb6415279718559fe91d7", null ],
     [ "priori", "classKalmanFilter.html#abce6f8b7fa8ee8b3512bd8eed4b99e2d", null ],
     [ "setState", "classKalmanFilter.html#a54e119f7afc440dcda1b604191a9ab1f", null ],
-    [ "update", "classKalmanFilter.html#a8f0ee7932f153afffc4df303f905e33e", null ],
+    [ "update", "classKalmanFilter.html#a761ba8d846c582109967a038c937ad75", null ],
     [ "B", "classKalmanFilter.html#a70f5995c89f95324f503d6d32fcc95b2", null ],
     [ "F_mat", "classKalmanFilter.html#af517a83f24904109e3217733185576b2", null ],
     [ "H", "classKalmanFilter.html#ac19a7e2b4518f8c2cf237ac92ec9d8ac", null ],

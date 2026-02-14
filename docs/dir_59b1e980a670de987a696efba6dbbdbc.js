@@ -9,12 +9,9 @@ var dir_59b1e980a670de987a696efba6dbbdbc =
       [ "EMMCSink", "classEMMCSink.html", "classEMMCSink" ]
     ] ],
     [ "GPSSensor.cpp", "hardware_2GPSSensor_8cpp.html", "hardware_2GPSSensor_8cpp" ],
-    [ "HighG.cpp", "hardware_2HighG_8cpp.html", "hardware_2HighG_8cpp" ],
-    [ "LowG.cpp", "hardware_2LowG_8cpp.html", "hardware_2LowG_8cpp" ],
-    [ "LowGLSM.cpp", "hardware_2LowGLSM_8cpp.html", "hardware_2LowGLSM_8cpp" ],
+    [ "IMU.cpp", "IMU_8cpp.html", "IMU_8cpp" ],
     [ "Magnetometer.cpp", "hardware_2Magnetometer_8cpp.html", "hardware_2Magnetometer_8cpp" ],
     [ "main.cpp", "hardware_2main_8cpp.html", "hardware_2main_8cpp" ],
-    [ "Orientation.cpp", "hardware_2Orientation_8cpp.html", "hardware_2Orientation_8cpp" ],
     [ "pins.h", "pins_8h.html", "pins_8h" ],
     [ "Pyro.cpp", "hardware_2Pyro_8cpp.html", "hardware_2Pyro_8cpp" ],
     [ "SDLog.cpp", "SDLog_8cpp.html", null ],
@@ -22,14 +19,11 @@ var dir_59b1e980a670de987a696efba6dbbdbc =
       [ "SDSink", "classSDSink.html", "classSDSink" ]
     ] ],
     [ "sensors.h", "hardware_2sensors_8h.html", [
-      [ "LowGSensor", "structLowGSensor.html", "structLowGSensor" ],
-      [ "HighGSensor", "structHighGSensor.html", "structHighGSensor" ],
+      [ "IMUSensor", "structIMUSensor.html", "structIMUSensor" ],
       [ "MagnetometerSensor", "structMagnetometerSensor.html", "structMagnetometerSensor" ],
       [ "BarometerSensor", "structBarometerSensor.html", "structBarometerSensor" ],
-      [ "LowGLSMSensor", "structLowGLSMSensor.html", "structLowGLSMSensor" ],
       [ "ContinuitySensor", "structContinuitySensor.html", "structContinuitySensor" ],
       [ "VoltageSensor", "structVoltageSensor.html", "structVoltageSensor" ],
-      [ "OrientationSensor", "structOrientationSensor.html", "structOrientationSensor" ],
       [ "GPSSensor", "structGPSSensor.html", "structGPSSensor" ],
       [ "Pyro", "structPyro.html", "structPyro" ]
     ] ],

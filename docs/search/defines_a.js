@@ -1,20 +1,16 @@
 var searchData=
 [
-  ['land_5ftone_5flength_0',['LAND_TONE_LENGTH',['../buzzer_8h.html#a61de047f157eb27fab195c499587da72',1,'buzzer.h']]],
-  ['land_5ftone_5fpitch_1',['LAND_TONE_PITCH',['../buzzer_8cpp.html#a55f8a9b04bd968b6fb6cf9af4806fd83',1,'buzzer.cpp']]],
-  ['land_5ftone_5fwait_2',['LAND_TONE_WAIT',['../buzzer_8cpp.html#a73e5dd1621b08b562dab5c768b984de9',1,'buzzer.cpp']]],
-  ['led_5fblue_3',['LED_BLUE',['../pins_8h.html#ae2e40566d27689f8581d7b0f12271d45',1,'pins.h']]],
-  ['led_5fgreen_4',['LED_GREEN',['../pins_8h.html#aca338dbd19d7940923334629f6e5f3b7',1,'pins.h']]],
-  ['led_5forange_5',['LED_ORANGE',['../pins_8h.html#a4d9260fdff3b0a796816640bbac505cc',1,'pins.h']]],
-  ['led_5fred_6',['LED_RED',['../pins_8h.html#a31e20330f8ce94e0dd10b005a15c5898',1,'pins.h']]],
-  ['lora_5fbandwidth_7',['LORA_BANDWIDTH',['../hardware_2telemetry__backend_8cpp.html#a33702007527b9cea6e029b919322a7a5',1,'telemetry_backend.cpp']]],
-  ['lora_5fbuffer_5fsize_8',['LORA_BUFFER_SIZE',['../hardware_2telemetry__backend_8cpp.html#a4b462483d6913b2cf208a42bea840555',1,'telemetry_backend.cpp']]],
-  ['lora_5fcodingrate_9',['LORA_CODINGRATE',['../hardware_2telemetry__backend_8cpp.html#ab807a12d6fbc6b8a16235233f54fbba1',1,'telemetry_backend.cpp']]],
-  ['lora_5ffix_5flength_5fpayload_5fon_10',['LORA_FIX_LENGTH_PAYLOAD_ON',['../hardware_2telemetry__backend_8cpp.html#a815cf21c43eb992d2579b34f9e804c6a',1,'telemetry_backend.cpp']]],
-  ['lora_5fiq_5finversion_5fon_11',['LORA_IQ_INVERSION_ON',['../hardware_2telemetry__backend_8cpp.html#a04314cf408af47a93473fd028133d2f4',1,'telemetry_backend.cpp']]],
-  ['lora_5fpreamble_5flength_12',['LORA_PREAMBLE_LENGTH',['../hardware_2telemetry__backend_8cpp.html#a1e5b496aeaf1062018a929480d244284',1,'telemetry_backend.cpp']]],
-  ['lora_5fspreading_5ffactor_13',['LORA_SPREADING_FACTOR',['../hardware_2telemetry__backend_8cpp.html#a58e25fd82f3b77562dde8259fef5e79a',1,'telemetry_backend.cpp']]],
-  ['lora_5fsymbol_5ftimeout_14',['LORA_SYMBOL_TIMEOUT',['../hardware_2telemetry__backend_8cpp.html#ad341b0dbadfa50a71b6a8359628a925b',1,'telemetry_backend.cpp']]],
-  ['low_15',['LOW',['../emulation_8h.html#ab811d8c6ff3a505312d3276590444289',1,'emulation.h']]],
-  ['lsm6ds3_5fcs_16',['LSM6DS3_CS',['../pins_8h.html#a1bcd2c8d1afd8213499056d295067c9a',1,'pins.h']]]
+  ['max_5fabs_5faccel_5frange_5fg_0',['MAX_ABS_ACCEL_RANGE_G',['../telemetry__packet_8h.html#a82f1c118cc3bd48ea56ce3a00dc865a6',1,'telemetry_packet.h']]],
+  ['max_5ffiles_1',['MAX_FILES',['../data__logging_8cpp.html#a2c5eecb22513a88c24ae5831a3265e54',1,'data_logging.cpp']]],
+  ['max_5fkf_5fxposition_5fm_2',['MAX_KF_XPOSITION_M',['../telemetry__packet_8h.html#ad2b6e50c1fa457e02a8256b4e9af757c',1,'telemetry_packet.h']]],
+  ['max_5fkf_5fxvelocity_5fms_3',['MAX_KF_XVELOCITY_MS',['../telemetry__packet_8h.html#a5549d0590e09c15bea42e8e58f406698',1,'telemetry_packet.h']]],
+  ['max_5froll_5frate_5fhz_4',['MAX_ROLL_RATE_HZ',['../telemetry__packet_8h.html#ae3971d57b81d6b4b30e52b00201e1f6a',1,'telemetry_packet.h']]],
+  ['max_5ftelem_5fcont_5fi_5',['MAX_TELEM_CONT_I',['../telemetry__packet_8h.html#a18216dad98db819da345341e324d67ec',1,'telemetry_packet.h']]],
+  ['max_5ftelem_5fvoltage_5fv_6',['MAX_TELEM_VOLTAGE_V',['../telemetry__packet_8h.html#a52f033a8ce9bd6b823325a32f4ac60fe',1,'telemetry_packet.h']]],
+  ['maximum_5ftilt_5fangle_7',['MAXIMUM_TILT_ANGLE',['../hardware_2Pyro_8cpp.html#ada246514ed98761712ddde2e43166b8e',1,'Pyro.cpp']]],
+  ['mmc5983_5fcs_8',['MMC5983_CS',['../pins_8h.html#a7d3df725fa24a3a3cba25f54f42e3194',1,'pins.h']]],
+  ['mmc5983_5fint_9',['MMC5983_INT',['../pins_8h.html#aa979a868f1f232c8594de2d4cddbc99b',1,'pins.h']]],
+  ['ms5611_5fcs_10',['MS5611_CS',['../pins_8h.html#a1d372b626c086ed9229b1b3eb74bdc31',1,'pins.h']]],
+  ['ms_5fper_5f4beat_11',['MS_PER_4BEAT',['../buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1',1,'buzzer.cpp']]],
+  ['mutex_5ftimeout_12',['MUTEX_TIMEOUT',['../Mutex_8h.html#a8af0c73884cd609b9cfc7495f70807b5',1,'Mutex.h']]]
 ];
