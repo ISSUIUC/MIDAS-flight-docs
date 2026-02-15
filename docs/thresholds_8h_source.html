@@ -272,7 +272,7 @@ $(document).ready(function(){initNavTree('thresholds_8h_source.html',''); initRe
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="comment">//       This value should always be set at (launch site ASL) + (desired altitude AGL)</span></div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="comment">// (Flight Parameter)</span></div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="comment">// [STARGAZER 1.4] This is a &quot;dontcare&quot; value --&gt; The booster does not have a drogue, we transition immediately to MAIN</span></div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce">  188</a></span><span class="preprocessor">#define booster_main_deploy_altitude_threshold 545</span></div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="thresholds_8h.html#ae733878245f99ed794b2bcb8697353ce">  188</a></span><span class="preprocessor">#define booster_main_deploy_altitude_threshold 490</span></div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="comment">// The minimum delay between drogue deployment and main deployment (ms)</span></div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="comment">// @REC: This is a safety feature to prevent overpressurization or internal firing, and forces MAIN_DEPLOY to wait at least this much time,</span></div>
@@ -295,7 +295,7 @@ $(document).ready(function(){initNavTree('thresholds_8h_source.html',''); initRe
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="comment">// Amount of time after booster burn that the stage separation event should trigger (ms)</span></div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="comment">// @SDA</span></div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="comment">// (Flight parameter)</span></div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno"><a class="line" href="thresholds_8h.html#ac4cb49cf0501e93747ef97561aed642b">  211</a></span><span class="preprocessor">#define booster_first_boost_to_burnout_time_threshold 1000</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno"><a class="line" href="thresholds_8h.html#ac4cb49cf0501e93747ef97561aed642b">  211</a></span><span class="preprocessor">#define booster_first_boost_to_burnout_time_threshold 500</span></div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="comment">// Transition to LANDED from MAIN if vertical speed is less than this threshold (m/s)</span></div>
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="comment">// @REC: This number should be below the MINIMUM descent velocity of the vehicle with significant margin.</span></div>
