@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('IMU_8cpp_source.html',''); initResizab
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">//Low-G Acceleration</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="comment">//status.xlda is failing wtf</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">if</span>(status.xlda){</div>
@@ -214,10 +214,10 @@ $(document).ready(function(){initNavTree('IMU_8cpp_source.html',''); initResizab
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    </div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="comment">// the second parameter used to be normal instead of high-performance</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.xl_setup(LSM6DSV320X_ODR_AT_7Hz5, LSM6DSV320X_XL_HIGH_PERFORMANCE_MD);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.xl_setup(LSM6DSV320X_ODR_AT_480Hz, LSM6DSV320X_XL_HIGH_PERFORMANCE_MD);</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.gy_setup(LSM6DSV320X_ODR_AT_15Hz, LSM6DSV320X_GY_HIGH_PERFORMANCE_MD);</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.hg_xl_data_rate_set(LSM6DSV320X_HG_XL_ODR_AT_960Hz, 1);<span class="comment">//xl_setup only handles lowg, this should also set the enable register</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.hg_xl_data_rate_set(LSM6DSV320X_HG_XL_ODR_AT_480Hz, 1);<span class="comment">//xl_setup only handles lowg, this should also set the enable register</span></div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    </div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.hg_xl_full_scale_set(LSM6DSV320X_64g);<span class="comment">//highg scale set</span></div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <a class="code hl_function" href="IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6">LSM6DSV</a>.xl_full_scale_set(LSM6DSV320X_8g);<span class="comment">//lowg scale set</span></div>
