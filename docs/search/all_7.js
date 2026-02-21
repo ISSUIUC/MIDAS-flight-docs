@@ -19,7 +19,7 @@ var searchData=
   ['get_5fnanopb_5fsuboptions_16',['get_nanopb_suboptions',['../namespacenanopb__generator.html#a26f17fe2a1deff299235c0cf6ba99f3e',1,'nanopb_generator']]],
   ['get_5fspeed_17',['get_speed',['../structVelocity.html#a5a5fab39d913a765b23185469256f4a3',1,'Velocity']]],
   ['get_5fthrust_18',['get_thrust',['../structSimulatedMotor.html#acb70cc8633485d5be1cbea74881009ae',1,'SimulatedMotor']]],
-  ['get_5ftime_5fsince_5fcalibration_5fstart_19',['get_time_since_calibration_start',['../structIMUSensor.html#ad686cb1ddbbf6932b7873a0146e7aa21',1,'IMUSensor']]],
+  ['get_5ftime_5fsince_5fcalibration_5fstart_19',['get_time_since_calibration_start',['../structIMUSensor.html#ad686cb1ddbbf6932b7873a0146e7aa21',1,'IMUSensor::get_time_since_calibration_start()'],['../structMagnetometerSensor.html#a7ecfa348cba2f422a52d65f0dd964cd3',1,'MagnetometerSensor::get_time_since_calibration_start()']]],
   ['getbufferrecent_20',['getBufferRecent',['../structBufferedSensorData.html#a3e4eeed43a57d36ea48ea4c288e1b286',1,'BufferedSensorData']]],
   ['geteuler_21',['getEuler',['../structAngularKalmanData.html#a049ce3f65cede21a775b4d5f44e1cd55',1,'AngularKalmanData']]],
   ['getlatency_22',['getLatency',['../classLatency.html#a7df26184e2d18df6b165c13e4a895a03',1,'Latency']]],

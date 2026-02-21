@@ -8,9 +8,15 @@ var searchData=
   ['max_5ftelem_5fcont_5fi_5',['MAX_TELEM_CONT_I',['../telemetry__packet_8h.html#a18216dad98db819da345341e324d67ec',1,'telemetry_packet.h']]],
   ['max_5ftelem_5fvoltage_5fv_6',['MAX_TELEM_VOLTAGE_V',['../telemetry__packet_8h.html#a52f033a8ce9bd6b823325a32f4ac60fe',1,'telemetry_packet.h']]],
   ['maximum_5ftilt_5fangle_7',['MAXIMUM_TILT_ANGLE',['../hardware_2Pyro_8cpp.html#ada246514ed98761712ddde2e43166b8e',1,'Pyro.cpp']]],
-  ['mmc5983_5fcs_8',['MMC5983_CS',['../pins_8h.html#a7d3df725fa24a3a3cba25f54f42e3194',1,'pins.h']]],
-  ['mmc5983_5fint_9',['MMC5983_INT',['../pins_8h.html#aa979a868f1f232c8594de2d4cddbc99b',1,'pins.h']]],
-  ['ms5611_5fcs_10',['MS5611_CS',['../pins_8h.html#a1d372b626c086ed9229b1b3eb74bdc31',1,'pins.h']]],
-  ['ms_5fper_5f4beat_11',['MS_PER_4BEAT',['../buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1',1,'buzzer.cpp']]],
-  ['mutex_5ftimeout_12',['MUTEX_TIMEOUT',['../Mutex_8h.html#a8af0c73884cd609b9cfc7495f70807b5',1,'Mutex.h']]]
+  ['mgc_5ftone_5fnoop_8',['MGC_TONE_NOOP',['../hardware_2Magnetometer_8cpp.html#a77ff59f86e1be9e1155213c49292632d',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5fh_9',['MGC_TONE_PITCH_H',['../hardware_2Magnetometer_8cpp.html#ab2806847721cd75e59b35a21ea62e395',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5fl_10',['MGC_TONE_PITCH_L',['../hardware_2Magnetometer_8cpp.html#a764b99156e93c5f3f7fe69f5d108ce18',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5flong_11',['MGC_TONE_PITCH_LONG',['../hardware_2Magnetometer_8cpp.html#a86a2f08649878fa1c86e522f9441af1c',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5flong_5fl_12',['MGC_TONE_PITCH_LONG_L',['../hardware_2Magnetometer_8cpp.html#ac4bd2dd0b4d76efa3bb1062372023ae0',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fwait_13',['MGC_TONE_WAIT',['../hardware_2Magnetometer_8cpp.html#abf6dc709f10dde17d784ee99d4571c51',1,'Magnetometer.cpp']]],
+  ['mmc5983_5fcs_14',['MMC5983_CS',['../pins_8h.html#a7d3df725fa24a3a3cba25f54f42e3194',1,'pins.h']]],
+  ['mmc5983_5fint_15',['MMC5983_INT',['../pins_8h.html#aa979a868f1f232c8594de2d4cddbc99b',1,'pins.h']]],
+  ['ms5611_5fcs_16',['MS5611_CS',['../pins_8h.html#a1d372b626c086ed9229b1b3eb74bdc31',1,'pins.h']]],
+  ['ms_5fper_5f4beat_17',['MS_PER_4BEAT',['../buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1',1,'buzzer.cpp']]],
+  ['mutex_5ftimeout_18',['MUTEX_TIMEOUT',['../Mutex_8h.html#a8af0c73884cd609b9cfc7495f70807b5',1,'Mutex.h']]]
 ];

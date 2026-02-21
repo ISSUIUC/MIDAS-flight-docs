@@ -1,5 +1,10 @@
 var structMagnetometerSensor =
 [
+    [ "begin_calibration", "structMagnetometerSensor.html#ab00fc3ba96b3564cb64d5eb2bfc880ad", null ],
+    [ "calib_reading", "structMagnetometerSensor.html#aa83e7fb091adf63aae25a78795a996b6", null ],
+    [ "calibration_valid", "structMagnetometerSensor.html#a849f7d2a8e3fcb5f50ad4b9cb23022a4", null ],
+    [ "commit_calibration", "structMagnetometerSensor.html#a7aece11297a8f8554d580a2bcf4e6895", null ],
+    [ "get_time_since_calibration_start", "structMagnetometerSensor.html#a7ecfa348cba2f422a52d65f0dd964cd3", null ],
     [ "init", "structMagnetometerSensor.html#ad732182faa308b54e3039510877642c9", null ],
     [ "init", "structMagnetometerSensor.html#ad732182faa308b54e3039510877642c9", null ],
     [ "init", "structMagnetometerSensor.html#ad732182faa308b54e3039510877642c9", null ],
@@ -8,5 +13,16 @@ var structMagnetometerSensor =
     [ "read", "structMagnetometerSensor.html#a6ccb0a40a8a113a33a57b3afe9174767", null ],
     [ "read", "structMagnetometerSensor.html#a6ccb0a40a8a113a33a57b3afe9174767", null ],
     [ "read", "structMagnetometerSensor.html#a6ccb0a40a8a113a33a57b3afe9174767", null ],
+    [ "restore_calibration", "structMagnetometerSensor.html#abc14ecb3117e84f9dfe19ff248cd8142", null ],
+    [ "_calib_beeping", "structMagnetometerSensor.html#a9610e2e89eb2ff1f91c8f85c35f9c6c9", null ],
+    [ "_calib_begin_timestamp", "structMagnetometerSensor.html#a1342bf802ac7b7334643d7532884127f", null ],
+    [ "_calib_magnitude_sum", "structMagnetometerSensor.html#ab91dd8268a12c42d7b84a6f017a9258b", null ],
+    [ "_calib_max_axis", "structMagnetometerSensor.html#aefae014e2e64895ee98df14d404d2c5b", null ],
+    [ "_calib_min_axis", "structMagnetometerSensor.html#a1d1c012f94e9be753ac98a3d83fc712e", null ],
+    [ "_calib_num_datapoints", "structMagnetometerSensor.html#aa8e8b2c96bef6149563e04ab092fe46b", null ],
+    [ "_calib_time", "structMagnetometerSensor.html#a77628e7bb267c1a24707901e52214cf8", null ],
+    [ "calibration_bias_hardiron", "structMagnetometerSensor.html#a2a9f9696f77c2f7594105023d2bc0bf3", null ],
+    [ "calibration_bias_softiron", "structMagnetometerSensor.html#aad94c87f4c9b67fe1e7c5292fc3f5a2c", null ],
+    [ "in_calibration_mode", "structMagnetometerSensor.html#a8ad243b4d0d8d5e12e85386d5e8a60bc", null ],
     [ "rocket", "structMagnetometerSensor.html#a178694202177c792d6bef3db64494fef", null ]
 ];

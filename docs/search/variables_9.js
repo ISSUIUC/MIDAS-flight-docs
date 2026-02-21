@@ -14,11 +14,12 @@ var searchData=
   ['imu_5flow_5flsm_5fgx_11',['imu_low_lsm_gx',['../struct__HILSIMPacket.html#a67e24d0aa5a382c759b493b637726ff2',1,'_HILSIMPacket']]],
   ['imu_5flow_5flsm_5fgy_12',['imu_low_lsm_gy',['../struct__HILSIMPacket.html#a7072c55280450a02f60d312a63f48064',1,'_HILSIMPacket']]],
   ['imu_5flow_5flsm_5fgz_13',['imu_low_lsm_gz',['../struct__HILSIMPacket.html#aea5112853f12132ce67089af97a224c5',1,'_HILSIMPacket']]],
-  ['index_5f_14',['index_',['../structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8',1,'BuzzerController']]],
-  ['init_5faccel_15',['init_accel',['../classEKF.html#aabdb1a80017bb8248db8bf0716b11208',1,'EKF']]],
-  ['is_5factive_16',['is_active',['../structSimulatedRocket.html#a2bc29ee261e09dd5bb9fb853827b8c25',1,'SimulatedRocket']]],
-  ['is_5fglobal_5farmed_17',['is_global_armed',['../structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266',1,'PyroState']]],
-  ['is_5fleap_18',['is_leap',['../structGPSSensor.html#ae0a61aefe2311f0e6c543547aeca04ef',1,'GPSSensor']]],
-  ['is_5fmain_19',['is_main',['../structFiberHandle.html#a5350713b828d2a9c0d930cd7006132de',1,'FiberHandle']]],
-  ['item_5fsize_20',['item_size',['../classStaticQueue__t.html#a4eb36607984ee4835f84855649878456',1,'StaticQueue_t']]]
+  ['in_5fcalibration_5fmode_14',['in_calibration_mode',['../structMagnetometerSensor.html#a8ad243b4d0d8d5e12e85386d5e8a60bc',1,'MagnetometerSensor']]],
+  ['index_5f_15',['index_',['../structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8',1,'BuzzerController']]],
+  ['init_5faccel_16',['init_accel',['../classEKF.html#aabdb1a80017bb8248db8bf0716b11208',1,'EKF']]],
+  ['is_5factive_17',['is_active',['../structSimulatedRocket.html#a2bc29ee261e09dd5bb9fb853827b8c25',1,'SimulatedRocket']]],
+  ['is_5fglobal_5farmed_18',['is_global_armed',['../structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266',1,'PyroState']]],
+  ['is_5fleap_19',['is_leap',['../structGPSSensor.html#ae0a61aefe2311f0e6c543547aeca04ef',1,'GPSSensor']]],
+  ['is_5fmain_20',['is_main',['../structFiberHandle.html#a5350713b828d2a9c0d930cd7006132de',1,'FiberHandle']]],
+  ['item_5fsize_21',['item_size',['../classStaticQueue__t.html#a4eb36607984ee4835f84855649878456',1,'StaticQueue_t']]]
 ];

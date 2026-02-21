@@ -16,9 +16,9 @@ var searchData=
   ['recv_13',['recv',['../classSX1268.html#ad375f787e0a11511e65758ed60f21c93',1,'SX1268']]],
   ['reference_5fgps_14',['reference_GPS',['../classEKF.html#a60ece35ef3f21391644125b5cbe870fa',1,'EKF']]],
   ['required_5fdescriptor_5fwidth_15',['required_descriptor_width',['../classnanopb__generator_1_1Message.html#af627f61d511d95a075eddd906fa08efc',1,'nanopb_generator::Message']]],
-  ['requires_5fcustom_5ffield_5fcallback_16',['requires_custom_field_callback',['../classnanopb__generator_1_1Field.html#a2dcebd74ec4a1de35a6e7e35dfc2847b',1,'nanopb_generator.Field.requires_custom_field_callback()'],['../classnanopb__generator_1_1OneOf.html#a78cfc259c2fbd9170ffd966cfe3d77b4',1,'nanopb_generator.OneOf.requires_custom_field_callback()'],['../classnanopb__generator_1_1ExtensionRange.html#a68f01e5a0a6681588a88a623e6d68972',1,'nanopb_generator.ExtensionRange.requires_custom_field_callback()']]],
+  ['requires_5fcustom_5ffield_5fcallback_16',['requires_custom_field_callback',['../classnanopb__generator_1_1ExtensionRange.html#a68f01e5a0a6681588a88a623e6d68972',1,'nanopb_generator.ExtensionRange.requires_custom_field_callback()'],['../classnanopb__generator_1_1OneOf.html#a78cfc259c2fbd9170ffd966cfe3d77b4',1,'nanopb_generator.OneOf.requires_custom_field_callback()'],['../classnanopb__generator_1_1Field.html#a2dcebd74ec4a1de35a6e7e35dfc2847b',1,'nanopb_generator.Field.requires_custom_field_callback()']]],
   ['reset_5fpyro_5fsafety_17',['reset_pyro_safety',['../structPyro.html#aff363793962f81d6024cb02b11839467',1,'Pyro']]],
-  ['restore_5fcalibration_18',['restore_calibration',['../structIMUSensor.html#a37ac24eb540f302dc6d83b14765656fb',1,'IMUSensor']]],
+  ['restore_5fcalibration_18',['restore_calibration',['../structIMUSensor.html#a37ac24eb540f302dc6d83b14765656fb',1,'IMUSensor::restore_calibration()'],['../structMagnetometerSensor.html#abc14ecb3117e84f9dfe19ff248cd8142',1,'MagnetometerSensor::restore_calibration()']]],
   ['rocket_5fmain_5fthread_19',['rocket_main_thread',['../silsim_2main_8cpp.html#abece9841739827919bc4a1241b269081',1,'main.cpp']]],
   ['rocketparameters_20',['RocketParameters',['../structRocketParameters.html#a14c057a6f6369aa483fa17d2f5225624',1,'RocketParameters']]]
 ];

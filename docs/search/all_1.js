@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['a_0',['A',['../rotation_8h.html#a955f504eccf76b4eb2489c0adab03121',1,'rotation.h']]],
-  ['a_1',['a',['../constants_8h.html#aa3ce4f9e1a9f820974747e717c08e739',1,'constants.h']]],
+  ['a_0',['a',['../constants_8h.html#aa3ce4f9e1a9f820974747e717c08e739',1,'constants.h']]],
+  ['a_1',['A',['../rotation_8h.html#a955f504eccf76b4eb2489c0adab03121',1,'rotation.h']]],
   ['abort_5fcalibration_2',['abort_calibration',['../structIMUSensor.html#ad721a1146ac6709d31e9eaeb369e4c03',1,'IMUSensor']]],
   ['accel_5fnoise_5fdensity_5fx_3',['accel_noise_density_x',['../constants_8h.html#aff7aab7f36e1651f5b52674bcd7d834e',1,'constants.h']]],
   ['accel_5fnoise_5fdensity_5fy_4',['accel_noise_density_y',['../constants_8h.html#aff237eb0ad9ec143dc24dc4cb9aa69e0',1,'constants.h']]],
