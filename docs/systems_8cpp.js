@@ -17,5 +17,7 @@ var systems_8cpp =
     [ "DECLARE_THREAD", "systems_8cpp.html#acab3f6c1bdd5abfe96db6ed94d451e22", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#ad3b2a8e44e9c15fbf905b90e3f03604c", null ],
     [ "handle_tlm_command", "systems_8cpp.html#a1ab54cc01005176f5da52376d8484460", null ],
-    [ "init_systems", "systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a", null ]
+    [ "init_systems", "systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a", null ],
+    [ "spi_mutex", "systems_8cpp.html#a76c0525d646735793add25b18043e600", null ],
+    [ "spi_mutex_buffer", "systems_8cpp.html#abc80fc6d96f9927bf7f7e2f56c68e57a", null ]
 ];

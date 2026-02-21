@@ -16,6 +16,13 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "data_logging.h", "data__logging_8h.html", "data__logging_8h" ],
     [ "errors.cpp", "errors_8cpp.html", "errors_8cpp" ],
     [ "errors.h", "errors_8h.html", "errors_8h" ],
+    [ "esp_eeprom.cpp", "esp__eeprom_8cpp.html", "esp__eeprom_8cpp" ],
+    [ "esp_eeprom.h", "esp__eeprom_8h.html", [
+      [ "EEPROMController", "classEEPROMController.html", "classEEPROMController" ]
+    ] ],
+    [ "esp_eeprom_format.h", "esp__eeprom__format_8h.html", [
+      [ "MIDASEEPROM", "structMIDASEEPROM.html", "structMIDASEEPROM" ]
+    ] ],
     [ "FreeRTOSConfig.h", "FreeRTOSConfig_8h.html", "FreeRTOSConfig_8h" ],
     [ "hal.h", "hal_8h.html", "hal_8h" ],
     [ "led.cpp", "led_8cpp.html", "led_8cpp" ],

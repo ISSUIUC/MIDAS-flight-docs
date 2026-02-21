@@ -83,7 +83,8 @@ $(document).ready(function(){initNavTree('hal_8h.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">hal.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -109,6 +110,11 @@ Macros</h2></td></tr>
 <tr class="memitem:ab58c6eec00ff77355e1f86af746a287b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">THREAD_SLEEP</a>(<a class="el" href="arduino__emulation_8h.html#adb94fbd930038e1510574dd4bcf07fe1">millis</a>)&#160;&#160;&#160;<a class="el" href="emulation_8h.html#a088a91ffa278d97be28a522707605be6">vTaskDelay</a>(<a class="el" href="emulation_8h.html#aa7cb1304f96ef54b106ce8071dcefa57">pdMS_TO_TICKS</a>(<a class="el" href="arduino__emulation_8h.html#adb94fbd930038e1510574dd4bcf07fe1">millis</a>))</td></tr>
 <tr class="memdesc:ab58c6eec00ff77355e1f86af746a287b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays the running thread.  <a href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">More...</a><br /></td></tr>
 <tr class="separator:ab58c6eec00ff77355e1f86af746a287b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a76c0525d646735793add25b18043e600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a76c0525d646735793add25b18043e600">spi_mutex</a></td></tr>
+<tr class="separator:a76c0525d646735793add25b18043e600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aec647f02b95f8c0936839bacfacb23ec" name="aec647f02b95f8c0936839bacfacb23ec"></a>
@@ -284,6 +290,32 @@ Macros</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00068">68</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a76c0525d646735793add25b18043e600" name="a76c0525d646735793add25b18043e600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76c0525d646735793add25b18043e600">&#9670;&nbsp;</a></span>spi_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a> spi_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p ><a class="el" href="structMutex.html" title="A mutex which holds a single value.">Mutex</a> to prevent clashing between the E22 &amp; LSM6DSV320X Initialized in <a class="el" href="systems_8cpp.html#a7678b869b133b9ea5fe1a8fe71946d1a" title="Initializes the systems, and then creates and starts the thread for each system. If initialization fa...">begin_systems()</a> before threads start. </p>
+
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00008">8</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

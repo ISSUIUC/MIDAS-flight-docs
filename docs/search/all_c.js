@@ -95,5 +95,6 @@ var searchData=
   ['lowgodrlpfcouldnotbeset_92',['LowGODRLPFCouldNotBeSet',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa743754d9ecaa862c44f71736574118e4',1,'errors.h']]],
   ['lowgrangecouldnotbeset_93',['LowGRangeCouldNotBeSet',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa876088cd8c8d1997122a275225a94cb3',1,'errors.h']]],
   ['lowgsensor_94',['LowGSensor',['../structLowGSensor.html',1,'']]],
-  ['lsm6dsv_95',['LSM6DSV',['../IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6',1,'IMU.cpp']]]
+  ['lsm6dsv_95',['LSM6DSV',['../IMU_8cpp.html#a7a1139320943cb25c55d785ffb408cf6',1,'IMU.cpp']]],
+  ['lsm6dsv320x_5fhg_5fxl_5fbias_96',['lsm6dsv320x_hg_xl_bias',['../structMIDASEEPROM.html#a1e439934dfcbb8e241dda4efb7977d01',1,'MIDASEEPROM']]]
 ];

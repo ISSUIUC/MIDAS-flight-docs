@@ -99,6 +99,14 @@ $(document).ready(function(){initNavTree('IMU_8cpp.html',''); initResizable(); }
 Macros</h2></td></tr>
 <tr class="memitem:a394b4d9597382758840287dd52c17292"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#a394b4d9597382758840287dd52c17292">NUM_DIRECTIONS</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a394b4d9597382758840287dd52c17292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b5e6a7703ff310de8f398e8ea47fd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#af2b5e6a7703ff310de8f398e8ea47fd0">NUM_READINGS_FOR_CALIB</a>&#160;&#160;&#160;50</td></tr>
+<tr class="separator:af2b5e6a7703ff310de8f398e8ea47fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39afd6dd2a697a2ea10300e16c118246"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 65}</td></tr>
+<tr class="separator:a39afd6dd2a697a2ea10300e16c118246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4548cd266190e1fdd4042116ea724f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 250}</td></tr>
+<tr class="separator:ab4548cd266190e1fdd4042116ea724f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eba05e39149383463e78e117a0f4e14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 50}</td></tr>
+<tr class="separator:a5eba05e39149383463e78e117a0f4e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -117,6 +125,14 @@ Variables</h2></td></tr>
 <tr class="separator:a22cb446e5271d5d2c4b2e23792fb1966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a61318ed6aa02b4ff346e7eb8f68891"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#a1a61318ed6aa02b4ff346e7eb8f68891">deltaTime</a> = 0</td></tr>
 <tr class="separator:a1a61318ed6aa02b4ff346e7eb8f68891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc438a36b9ec097bc7870b511db1e778"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#afc438a36b9ec097bc7870b511db1e778">xl_calib_rdy</a> [<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>, <a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>}</td></tr>
+<tr class="separator:afc438a36b9ec097bc7870b511db1e778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac050c2374ad0fd6bfdd06378e09aa70b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#ac050c2374ad0fd6bfdd06378e09aa70b">xl_calib_next_axis</a> [<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>}</td></tr>
+<tr class="separator:ac050c2374ad0fd6bfdd06378e09aa70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1e28569835b0daa9236afd1621fa800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#ab1e28569835b0daa9236afd1621fa800">xl_calib_done</a> [<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>, <a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>}</td></tr>
+<tr class="separator:ab1e28569835b0daa9236afd1621fa800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a668d665b730bf201d0755ef5f5ac9bc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="IMU_8cpp.html#a668d665b730bf201d0755ef5f5ac9bc2">xl_calib_abort</a> [<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>, <a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>, <a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>}</td></tr>
+<tr class="separator:a668d665b730bf201d0755ef5f5ac9bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a394b4d9597382758840287dd52c17292" name="a394b4d9597382758840287dd52c17292"></a>
@@ -132,6 +148,70 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00006">6</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af2b5e6a7703ff310de8f398e8ea47fd0" name="af2b5e6a7703ff310de8f398e8ea47fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2b5e6a7703ff310de8f398e8ea47fd0">&#9670;&nbsp;</a></span>NUM_READINGS_FOR_CALIB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NUM_READINGS_FOR_CALIB&#160;&#160;&#160;50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00007">7</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a39afd6dd2a697a2ea10300e16c118246" name="a39afd6dd2a697a2ea10300e16c118246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39afd6dd2a697a2ea10300e16c118246">&#9670;&nbsp;</a></span>XLC_TONE_PITCH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define XLC_TONE_PITCH&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 65}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00111">111</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab4548cd266190e1fdd4042116ea724f0" name="ab4548cd266190e1fdd4042116ea724f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4548cd266190e1fdd4042116ea724f0">&#9670;&nbsp;</a></span>XLC_TONE_PITCH_LONG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define XLC_TONE_PITCH_LONG&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 250}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00112">112</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5eba05e39149383463e78e117a0f4e14" name="a5eba05e39149383463e78e117a0f4e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eba05e39149383463e78e117a0f4e14">&#9670;&nbsp;</a></span>XLC_TONE_WAIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define XLC_TONE_WAIT&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 50}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00113">113</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -183,7 +263,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00015">15</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00016">16</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -199,7 +279,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00014">14</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00015">15</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -215,7 +295,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00010">10</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00011">11</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -231,7 +311,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00011">11</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00012">12</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -247,7 +327,71 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00012">12</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00013">13</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a668d665b730bf201d0755ef5f5ac9bc2" name="a668d665b730bf201d0755ef5f5ac9bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a668d665b730bf201d0755ef5f5ac9bc2">&#9670;&nbsp;</a></span>xl_calib_abort</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structSound.html">Sound</a> xl_calib_abort[<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>, <a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>, <a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00118">118</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab1e28569835b0daa9236afd1621fa800" name="ab1e28569835b0daa9236afd1621fa800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1e28569835b0daa9236afd1621fa800">&#9670;&nbsp;</a></span>xl_calib_done</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structSound.html">Sound</a> xl_calib_done[<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#ab4548cd266190e1fdd4042116ea724f0">XLC_TONE_PITCH_LONG</a>, <a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00117">117</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac050c2374ad0fd6bfdd06378e09aa70b" name="ac050c2374ad0fd6bfdd06378e09aa70b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac050c2374ad0fd6bfdd06378e09aa70b">&#9670;&nbsp;</a></span>xl_calib_next_axis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structSound.html">Sound</a> xl_calib_next_axis[<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00116">116</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afc438a36b9ec097bc7870b511db1e778" name="afc438a36b9ec097bc7870b511db1e778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc438a36b9ec097bc7870b511db1e778">&#9670;&nbsp;</a></span>xl_calib_rdy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structSound.html">Sound</a> xl_calib_rdy[<a class="el" href="buzzer_8h.html#a59f34287c2d42b0dc499aa3baeaf725f">C_XL_LENGTH</a>] = {<a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>, <a class="el" href="IMU_8cpp.html#a5eba05e39149383463e78e117a0f4e14">XLC_TONE_WAIT</a>, <a class="el" href="IMU_8cpp.html#a39afd6dd2a697a2ea10300e16c118246">XLC_TONE_PITCH</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00115">115</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>

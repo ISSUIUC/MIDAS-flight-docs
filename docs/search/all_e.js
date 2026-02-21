@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../classnanopb__generator_1_1Field.html#a3e6c474e92d1448245b60ab77ed4ec80',1,'nanopb_generator.Field.name()'],['../classnanopb__generator_1_1ExtensionRange.html#ae274e21ce68ab1b6bc49128d43f29c67',1,'nanopb_generator.ExtensionRange.name()'],['../classnanopb__generator_1_1OneOf.html#a1a9afaefc66d826b83f7535d3faa23f9',1,'nanopb_generator.OneOf.name()'],['../classnanopb__generator_1_1Message.html#a63a060b7476e114b63f697df4e750d8b',1,'nanopb_generator.Message.name()'],['../structThreadInfo.html#a8f6555f0dff092890cb47e49f676146b',1,'ThreadInfo::name()']]],
+  ['name_0',['name',['../structThreadInfo.html#a8f6555f0dff092890cb47e49f676146b',1,'ThreadInfo::name()'],['../classnanopb__generator_1_1Message.html#a63a060b7476e114b63f697df4e750d8b',1,'nanopb_generator.Message.name()'],['../classnanopb__generator_1_1Field.html#a3e6c474e92d1448245b60ab77ed4ec80',1,'nanopb_generator.Field.name()'],['../classnanopb__generator_1_1ExtensionRange.html#ae274e21ce68ab1b6bc49128d43f29c67',1,'nanopb_generator.ExtensionRange.name()'],['../classnanopb__generator_1_1OneOf.html#a1a9afaefc66d826b83f7535d3faa23f9',1,'nanopb_generator.OneOf.name()']]],
   ['name_5fmapping_1',['name_mapping',['../classnanopb__generator_1_1MangleNames.html#ab536bcde928cb1535a466e2bc8270985',1,'nanopb_generator::MangleNames']]],
   ['names_2',['names',['../classnanopb__generator_1_1Enum.html#a888237b880f52b10ecbcb547a2fe7bbd',1,'nanopb_generator::Enum']]],
   ['names_3',['Names',['../classnanopb__generator_1_1Names.html',1,'nanopb_generator']]],
@@ -22,10 +22,13 @@ var searchData=
   ['nested_5ftype_19',['NESTED_TYPE',['../classnanopb__generator_1_1ProtoElement.html#a713eb7d124a7452472ac8ea802abe4d7',1,'nanopb_generator::ProtoElement']]],
   ['new_5ftune_5fstarted_20',['new_tune_started',['../structBuzzerController.html#a6c30879beaf133f0322b54e48b0eac7f',1,'BuzzerController']]],
   ['newest_5fidx_21',['newest_idx',['../structBuffer.html#a02cb7515ccb2d044d41677fd999f2551',1,'Buffer']]],
-  ['next_5fidx_22',['next_idx',['../structCore.html#a61c91fc16e92457388dae05c950b80d6',1,'Core']]],
-  ['noerror_23',['NoError',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f',1,'NoError():&#160;errors.h'],['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0a70a47cae4eb221930f2663fd244369ea',1,'NoError():&#160;E22.h']]],
-  ['num_5fcontrol_5finputs_24',['NUM_CONTROL_INPUTS',['../ekf_8h.html#a7c54d59853f8c857fe4889f23f7d1752',1,'ekf.h']]],
-  ['num_5fdirections_25',['NUM_DIRECTIONS',['../IMU_8cpp.html#a394b4d9597382758840287dd52c17292',1,'IMU.cpp']]],
-  ['num_5fsensor_5finputs_26',['NUM_SENSOR_INPUTS',['../ekf_8h.html#ac6ef2495692adee513161f504fefaebe',1,'ekf.h']]],
-  ['num_5fstates_27',['NUM_STATES',['../ekf_8h.html#a6e67a587012cd0570839daca590cf822',1,'ekf.h']]]
+  ['next_5fcalib_22',['next_calib',['../structIMUSensor.html#abfdd09ccaa2f90c1806f89da390d3a34',1,'IMUSensor']]],
+  ['next_5fidx_23',['next_idx',['../structCore.html#a61c91fc16e92457388dae05c950b80d6',1,'Core']]],
+  ['noerror_24',['NoError',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05faef9104c292609ba6db320509be8fe27f',1,'NoError():&#160;errors.h'],['../E22_8h.html#a622bb57076b5e8c738df8d0791d22ac0a70a47cae4eb221930f2663fd244369ea',1,'NoError():&#160;E22.h']]],
+  ['none_25',['NONE',['../structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3a8b333224330c8b2f098e54549bb384cb',1,'IMUSensor']]],
+  ['num_5fcontrol_5finputs_26',['NUM_CONTROL_INPUTS',['../ekf_8h.html#a7c54d59853f8c857fe4889f23f7d1752',1,'ekf.h']]],
+  ['num_5fdirections_27',['NUM_DIRECTIONS',['../IMU_8cpp.html#a394b4d9597382758840287dd52c17292',1,'IMU.cpp']]],
+  ['num_5freadings_5ffor_5fcalib_28',['NUM_READINGS_FOR_CALIB',['../IMU_8cpp.html#af2b5e6a7703ff310de8f398e8ea47fd0',1,'IMU.cpp']]],
+  ['num_5fsensor_5finputs_29',['NUM_SENSOR_INPUTS',['../ekf_8h.html#ac6ef2495692adee513161f504fefaebe',1,'ekf.h']]],
+  ['num_5fstates_30',['NUM_STATES',['../ekf_8h.html#a6e67a587012cd0570839daca590cf822',1,'ekf.h']]]
 ];

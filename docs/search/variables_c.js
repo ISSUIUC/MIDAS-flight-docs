@@ -21,5 +21,6 @@ var searchData=
   ['lon_18',['lon',['../structTelemetryPacket.html#ae528651a21ba515a05b8e4c4e47b4e2d',1,'TelemetryPacket']]],
   ['longitude_19',['longitude',['../structGPS.html#ad7b97d3a2b5aaba3f76d9848fd09f334',1,'GPS']]],
   ['lora_20',['lora',['../classTelemetryBackend.html#aaf17b4ca018ffc05b12b1b88aab69628',1,'TelemetryBackend']]],
-  ['lowg_5facceleration_21',['lowg_acceleration',['../structIMU.html#a955fc16361532f0d9534390103b6d389',1,'IMU']]]
+  ['lowg_5facceleration_21',['lowg_acceleration',['../structIMU.html#a955fc16361532f0d9534390103b6d389',1,'IMU']]],
+  ['lsm6dsv320x_5fhg_5fxl_5fbias_22',['lsm6dsv320x_hg_xl_bias',['../structMIDASEEPROM.html#a1e439934dfcbb8e241dda4efb7977d01',1,'MIDASEEPROM']]]
 ];

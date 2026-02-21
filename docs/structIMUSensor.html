@@ -83,7 +83,11 @@ $(document).ready(function(){initNavTree('structIMUSensor.html',''); initResizab
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structIMUSensor-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">IMUSensor Struct Reference</div></div>
 </div><!--header-->
@@ -91,6 +95,22 @@ $(document).ready(function(){initNavTree('structIMUSensor.html',''); initResizab
 
 <p><code>#include &lt;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:afd9c0878767bd7ac92143d29af0fc2a3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3">IMUCalibrationState</a> { <br />
+&#160;&#160;<a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3a8b333224330c8b2f098e54549bb384cb">NONE</a> = 0
+, <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3adfd6f358f639663849b285a817d0e73b">CALIB_PX</a> = 1
+, <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3ace93f67864bed3b391bd0b95fb11c431">CALIB_NX</a> = 2
+, <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3aab4d9357e7cf8e8b05779451e7385a6b">CALIB_PY</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3aae56a77ae80542423f55f44b70f9704a">CALIB_NY</a> = 4
+, <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3abf0a2ff3327e2cc067c12b40c624fc05">CALIB_PZ</a> = 5
+, <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3a8970456223710c2de0f8169d2db81e09">CALIB_NZ</a> = 6
+, <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3ac87fdcf5e84dd68fdebfb75eb9d7c982">CALIB_DONE</a> = 7
+<br />
+ }</td></tr>
+<tr class="separator:afd9c0878767bd7ac92143d29af0fc2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3bc309b2a0a76008d067a1210b2b4dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a3bc309b2a0a76008d067a1210b2b4dca">init</a> ()</td></tr>
@@ -99,6 +119,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3f0e0e67b031c39998cf9c9123a9dee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76590a6960854528835e1ba2555c59ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structIMU__SFLP.html">IMU_SFLP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a76590a6960854528835e1ba2555c59ac">read_sflp</a> ()</td></tr>
 <tr class="separator:a76590a6960854528835e1ba2555c59ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bac9c002c81280837eee52fd1c784a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a8bac9c002c81280837eee52fd1c784a6">begin_calibration</a> (<a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;buzzer)</td></tr>
+<tr class="separator:a8bac9c002c81280837eee52fd1c784a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5ccab76418967ca1cab42a0396a3bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#abc5ccab76418967ca1cab42a0396a3bc">calib_reading</a> (<a class="el" href="structAcceleration.html">Acceleration</a> lowg_reading, <a class="el" href="structAcceleration.html">Acceleration</a> highg_reading, <a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;buzzer_indicator, <a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;eeprom)</td></tr>
+<tr class="separator:abc5ccab76418967ca1cab42a0396a3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad686cb1ddbbf6932b7873a0146e7aa21"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#ad686cb1ddbbf6932b7873a0146e7aa21">get_time_since_calibration_start</a> ()</td></tr>
+<tr class="separator:ad686cb1ddbbf6932b7873a0146e7aa21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ac24eb540f302dc6d83b14765656fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a37ac24eb540f302dc6d83b14765656fb">restore_calibration</a> (<a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;eeprom)</td></tr>
+<tr class="separator:a37ac24eb540f302dc6d83b14765656fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad721a1146ac6709d31e9eaeb369e4c03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#ad721a1146ac6709d31e9eaeb369e4c03">abort_calibration</a> (<a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;buzzer, <a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;eeprom)</td></tr>
+<tr class="separator:ad721a1146ac6709d31e9eaeb369e4c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bc309b2a0a76008d067a1210b2b4dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a3bc309b2a0a76008d067a1210b2b4dca">init</a> ()</td></tr>
 <tr class="separator:a3bc309b2a0a76008d067a1210b2b4dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f0e0e67b031c39998cf9c9123a9dee3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structIMU.html">IMU</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a3f0e0e67b031c39998cf9c9123a9dee3">read</a> ()</td></tr>
@@ -111,11 +141,218 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3f0e0e67b031c39998cf9c9123a9dee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76590a6960854528835e1ba2555c59ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structIMU__SFLP.html">IMU_SFLP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a76590a6960854528835e1ba2555c59ac">read_sflp</a> ()</td></tr>
 <tr class="separator:a76590a6960854528835e1ba2555c59ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab1c0bf2618c2b34dae67f50deddabf46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3">IMUCalibrationState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#ab1c0bf2618c2b34dae67f50deddabf46">calibration_state</a> = IMUCalibrationState::NONE</td></tr>
+<tr class="separator:ab1c0bf2618c2b34dae67f50deddabf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3676d92a19fd8804c03bc33d2a103bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a3676d92a19fd8804c03bc33d2a103bfd">calibration_sensor_bias</a> = {0.0, 0.0, 0.0}</td></tr>
+<tr class="separator:a3676d92a19fd8804c03bc33d2a103bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a551be5ec01a49cf0397ec9a369f5212d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a551be5ec01a49cf0397ec9a369f5212d">accept_calib_reading</a> (float lowg_axis_reading, float nominal_axis_value)</td></tr>
+<tr class="separator:a551be5ec01a49cf0397ec9a369f5212d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfdd09ccaa2f90c1806f89da390d3a34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#abfdd09ccaa2f90c1806f89da390d3a34">next_calib</a> (<a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;buzzer, <a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;eeprom)</td></tr>
+<tr class="separator:abfdd09ccaa2f90c1806f89da390d3a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a73b1fb91ef08c01a1a9505c3a695abfa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a73b1fb91ef08c01a1a9505c3a695abfa">_calib_valid_readings</a> = 0</td></tr>
+<tr class="separator:a73b1fb91ef08c01a1a9505c3a695abfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4177a99caf217f4e379d5fe6346bc690"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a4177a99caf217f4e379d5fe6346bc690">_calib_average</a> = 0.0</td></tr>
+<tr class="separator:a4177a99caf217f4e379d5fe6346bc690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a11db1e2d36c22882ffa6a2dc7d1b4"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIMUSensor.html#a02a11db1e2d36c22882ffa6a2dc7d1b4">_calib_begin_timestamp</a></td></tr>
+<tr class="separator:a02a11db1e2d36c22882ffa6a2dc7d1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00013">13</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00015">15</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="afd9c0878767bd7ac92143d29af0fc2a3" name="afd9c0878767bd7ac92143d29af0fc2a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd9c0878767bd7ac92143d29af0fc2a3">&#9670;&nbsp;</a></span>IMUCalibrationState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3">IMUSensor::IMUCalibrationState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3a8b333224330c8b2f098e54549bb384cb" name="afd9c0878767bd7ac92143d29af0fc2a3a8b333224330c8b2f098e54549bb384cb"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3adfd6f358f639663849b285a817d0e73b" name="afd9c0878767bd7ac92143d29af0fc2a3adfd6f358f639663849b285a817d0e73b"></a>CALIB_PX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3ace93f67864bed3b391bd0b95fb11c431" name="afd9c0878767bd7ac92143d29af0fc2a3ace93f67864bed3b391bd0b95fb11c431"></a>CALIB_NX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3aab4d9357e7cf8e8b05779451e7385a6b" name="afd9c0878767bd7ac92143d29af0fc2a3aab4d9357e7cf8e8b05779451e7385a6b"></a>CALIB_PY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3aae56a77ae80542423f55f44b70f9704a" name="afd9c0878767bd7ac92143d29af0fc2a3aae56a77ae80542423f55f44b70f9704a"></a>CALIB_NY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3abf0a2ff3327e2cc067c12b40c624fc05" name="afd9c0878767bd7ac92143d29af0fc2a3abf0a2ff3327e2cc067c12b40c624fc05"></a>CALIB_PZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3a8970456223710c2de0f8169d2db81e09" name="afd9c0878767bd7ac92143d29af0fc2a3a8970456223710c2de0f8169d2db81e09"></a>CALIB_NZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afd9c0878767bd7ac92143d29af0fc2a3ac87fdcf5e84dd68fdebfb75eb9d7c982" name="afd9c0878767bd7ac92143d29af0fc2a3ac87fdcf5e84dd68fdebfb75eb9d7c982"></a>CALIB_DONE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00017">17</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad721a1146ac6709d31e9eaeb369e4c03" name="ad721a1146ac6709d31e9eaeb369e4c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad721a1146ac6709d31e9eaeb369e4c03">&#9670;&nbsp;</a></span>abort_calibration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMUSensor::abort_calibration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;&#160;</td>
+          <td class="paramname"><em>buzzer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;&#160;</td>
+          <td class="paramname"><em>eeprom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00127">127</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a551be5ec01a49cf0397ec9a369f5212d" name="a551be5ec01a49cf0397ec9a369f5212d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551be5ec01a49cf0397ec9a369f5212d">&#9670;&nbsp;</a></span>accept_calib_reading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IMUSensor::accept_calib_reading </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lowg_axis_reading</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>nominal_axis_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00143">143</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a8bac9c002c81280837eee52fd1c784a6" name="a8bac9c002c81280837eee52fd1c784a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bac9c002c81280837eee52fd1c784a6">&#9670;&nbsp;</a></span>begin_calibration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMUSensor::begin_calibration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;&#160;</td>
+          <td class="paramname"><em>buzzer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00132">132</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abc5ccab76418967ca1cab42a0396a3bc" name="abc5ccab76418967ca1cab42a0396a3bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc5ccab76418967ca1cab42a0396a3bc">&#9670;&nbsp;</a></span>calib_reading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMUSensor::calib_reading </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td>
+          <td class="paramname"><em>lowg_reading</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAcceleration.html">Acceleration</a>&#160;</td>
+          <td class="paramname"><em>highg_reading</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;&#160;</td>
+          <td class="paramname"><em>buzzer_indicator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;&#160;</td>
+          <td class="paramname"><em>eeprom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00163">163</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad686cb1ddbbf6932b7873a0146e7aa21" name="ad686cb1ddbbf6932b7873a0146e7aa21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad686cb1ddbbf6932b7873a0146e7aa21">&#9670;&nbsp;</a></span>get_time_since_calibration_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long IMUSensor::get_time_since_calibration_start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00033">33</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
 <a id="a3bc309b2a0a76008d067a1210b2b4dca" name="a3bc309b2a0a76008d067a1210b2b4dca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bc309b2a0a76008d067a1210b2b4dca">&#9670;&nbsp;</a></span>init() <span class="overload">[1/3]</span></h2>
 
@@ -131,7 +368,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00117">117</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00257">257</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -169,6 +406,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abfdd09ccaa2f90c1806f89da390d3a34" name="abfdd09ccaa2f90c1806f89da390d3a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfdd09ccaa2f90c1806f89da390d3a34">&#9670;&nbsp;</a></span>next_calib()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMUSensor::next_calib </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;&#160;</td>
+          <td class="paramname"><em>buzzer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;&#160;</td>
+          <td class="paramname"><em>eeprom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00148">148</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a3f0e0e67b031c39998cf9c9123a9dee3" name="a3f0e0e67b031c39998cf9c9123a9dee3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f0e0e67b031c39998cf9c9123a9dee3">&#9670;&nbsp;</a></span>read() <span class="overload">[1/3]</span></h2>
 
@@ -184,7 +459,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00017">17</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00018">18</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -237,7 +512,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00053">53</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00048">48</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
 
 </div>
 </div>
@@ -272,6 +547,131 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37ac24eb540f302dc6d83b14765656fb" name="a37ac24eb540f302dc6d83b14765656fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ac24eb540f302dc6d83b14765656fb">&#9670;&nbsp;</a></span>restore_calibration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMUSensor::restore_calibration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;&#160;</td>
+          <td class="paramname"><em>eeprom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="IMU_8cpp_source.html#l00120">120</a> of file <a class="el" href="IMU_8cpp_source.html">IMU.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4177a99caf217f4e379d5fe6346bc690" name="a4177a99caf217f4e379d5fe6346bc690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4177a99caf217f4e379d5fe6346bc690">&#9670;&nbsp;</a></span>_calib_average</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float IMUSensor::_calib_average = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00042">42</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
+<a id="a02a11db1e2d36c22882ffa6a2dc7d1b4" name="a02a11db1e2d36c22882ffa6a2dc7d1b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02a11db1e2d36c22882ffa6a2dc7d1b4">&#9670;&nbsp;</a></span>_calib_begin_timestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long IMUSensor::_calib_begin_timestamp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00043">43</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
+<a id="a73b1fb91ef08c01a1a9505c3a695abfa" name="a73b1fb91ef08c01a1a9505c3a695abfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b1fb91ef08c01a1a9505c3a695abfa">&#9670;&nbsp;</a></span>_calib_valid_readings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IMUSensor::_calib_valid_readings = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00041">41</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
+<a id="a3676d92a19fd8804c03bc33d2a103bfd" name="a3676d92a19fd8804c03bc33d2a103bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3676d92a19fd8804c03bc33d2a103bfd">&#9670;&nbsp;</a></span>calibration_sensor_bias</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structAcceleration.html">Acceleration</a> IMUSensor::calibration_sensor_bias = {0.0, 0.0, 0.0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00038">38</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
+<a id="ab1c0bf2618c2b34dae67f50deddabf46" name="ab1c0bf2618c2b34dae67f50deddabf46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c0bf2618c2b34dae67f50deddabf46">&#9670;&nbsp;</a></span>calibration_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structIMUSensor.html#afd9c0878767bd7ac92143d29af0fc2a3">IMUCalibrationState</a> IMUSensor::calibration_state = IMUCalibrationState::NONE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00037">37</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>

@@ -17,6 +17,7 @@ var hierarchy =
     [ "CommandFlags", "structCommandFlags.html", null ],
     [ "ContinuitySensor", "structContinuitySensor.html", null ],
     [ "Core", "structCore.html", null ],
+    [ "EEPROMController", "classEEPROMController.html", null ],
     [ "nanopb_generator.EncodedSize", "classnanopb__generator_1_1EncodedSize.html", null ],
     [ "euler_t", "structeuler__t.html", null ],
     [ "FiberHandle", "structFiberHandle.html", null ],
@@ -54,6 +55,7 @@ var hierarchy =
     [ "Magnetometer", "structMagnetometer.html", null ],
     [ "MagnetometerSensor", "structMagnetometerSensor.html", null ],
     [ "nanopb_generator.MangleNames", "classnanopb__generator_1_1MangleNames.html", null ],
+    [ "MIDASEEPROM", "structMIDASEEPROM.html", null ],
     [ "Mutex< T >", "structMutex.html", null ],
     [ "nanopb_generator.Names", "classnanopb__generator_1_1Names.html", null ],
     [ "nanopb_generator.NamingStyle", "classnanopb__generator_1_1NamingStyle.html", [

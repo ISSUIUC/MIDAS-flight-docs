@@ -19,6 +19,7 @@ var telemetry__packet_8h =
       [ "FIRE_PYRO_D", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7eac300950882f3de46c388712f95d7acca", null ],
       [ "CAM_ON", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea4f81fd79300239ab50aac701e86aa608", null ],
       [ "CAM_OFF", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea9ea2bc9b07d5afab0f102fef6b3245eb", null ],
-      [ "TOGGLE_CAM_VMUX", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7eaf1179280d44246ff3338f9abbb7c0b2f", null ]
+      [ "TOGGLE_CAM_VMUX", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7eaf1179280d44246ff3338f9abbb7c0b2f", null ],
+      [ "CALIB_ACCEL", "telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7ea32301aa44ff86c699065bb7b0b6c1d08", null ]
     ] ]
 ];

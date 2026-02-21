@@ -4,7 +4,7 @@ var searchData=
   ['d4_5feight_1',['d4_eight',['../buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc',1,'buzzer.cpp']]],
   ['d4_5ffifth_2',['d4_fifth',['../buzzer_8cpp.html#abaaf059d938a8c0bda91cb689b69b647',1,'buzzer.cpp']]],
   ['d4_5fquart_3',['d4_quart',['../buzzer_8cpp.html#a954492e87965ea05fb7befd66acc9c2d',1,'buzzer.cpp']]],
-  ['data_4',['data',['../structLoggedReading.html#a086ecba387c4ce36d6bca3a5fbb93fc1',1,'LoggedReading::data()'],['../structMutex.html#a131ffcdb6de88817d881acbff3cde658',1,'Mutex::data()'],['../structReading.html#ae359518725c3c1eb67a7015cbc3fb165',1,'Reading::data()']]],
+  ['data_4',['data',['../classEEPROMController.html#adaab147cb85caf1b215dc69bf00fb239',1,'EEPROMController::data()'],['../structLoggedReading.html#a086ecba387c4ce36d6bca3a5fbb93fc1',1,'LoggedReading::data()'],['../structMutex.html#a131ffcdb6de88817d881acbff3cde658',1,'Mutex::data()'],['../structReading.html#ae359518725c3c1eb67a7015cbc3fb165',1,'Reading::data()']]],
   ['data_5fcore_5',['DATA_CORE',['../hal_8h.html#aec647f02b95f8c0936839bacfacb23ec',1,'hal.h']]],
   ['data_5fitem_5fsize_6',['data_item_size',['../classnanopb__generator_1_1Field.html#a7a6cc17752aca81aaa987a79aa4e0790',1,'nanopb_generator.Field.data_item_size()'],['../classnanopb__generator_1_1ExtensionRange.html#a92039d1e06b27be2965333abaf84aff7',1,'nanopb_generator.ExtensionRange.data_item_size()']]],
   ['data_5flogging_2ecpp_7',['data_logging.cpp',['../data__logging_8cpp.html',1,'']]],
