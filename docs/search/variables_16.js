@@ -12,8 +12,11 @@ var searchData=
   ['verify_9',['verify',['../structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b',1,'TelemetryCommand']]],
   ['vertical_5fspeed_10',['vertical_speed',['../structStateEstimate.html#a03cafe160cfe3ab0ce1d3702d41171da',1,'StateEstimate']]],
   ['voltage_11',['voltage',['../structLoggedReading.html#ac541ccde6116fceae96bc170e94e5529',1,'LoggedReading::voltage()'],['../structRocketData.html#a1615a5e2560a7715cd9c2f817087c5c9',1,'RocketData::voltage()'],['../structSensors.html#aa843430b21d2fb67fd14b986019c4474',1,'Sensors::voltage()']]],
-  ['vtx_5fstate_5f_12',['vtx_state_',['../structCameraB2B.html#ae5e50dba844ceaf04bcb54a746ac3c46',1,'CameraB2B']]],
-  ['vx_13',['vx',['../structVelocity.html#a2592d4678c041df7b39ae7663ec0ed5d',1,'Velocity']]],
-  ['vy_14',['vy',['../structVelocity.html#ae2a7111ea8910254dce8882f3ab760a3',1,'Velocity']]],
-  ['vz_15',['vz',['../structVelocity.html#a673687999f3f7ae616cd1dd23f2e9b9b',1,'Velocity']]]
+  ['voltage_5fdivider_12',['VOLTAGE_DIVIDER',['../hardware_2Voltage_8cpp.html#a8fe5af13bbd6eebf1df8c3fe2cccee58',1,'Voltage.cpp']]],
+  ['voltage_5freg_5fwidth_13',['VOLTAGE_REG_WIDTH',['../hardware_2Voltage_8cpp.html#ac8fd3306b885f5e4b907e4ad23646c2c',1,'Voltage.cpp']]],
+  ['voltage_5fscale_14',['VOLTAGE_SCALE',['../hardware_2Voltage_8cpp.html#a2b4c05c1695e25004472b4cd1d96dfc8',1,'Voltage.cpp']]],
+  ['vtx_5fstate_5f_15',['vtx_state_',['../structCameraB2B.html#ae5e50dba844ceaf04bcb54a746ac3c46',1,'CameraB2B']]],
+  ['vx_16',['vx',['../structVelocity.html#a2592d4678c041df7b39ae7663ec0ed5d',1,'Velocity']]],
+  ['vy_17',['vy',['../structVelocity.html#ae2a7111ea8910254dce8882f3ab760a3',1,'Velocity']]],
+  ['vz_18',['vz',['../structVelocity.html#a673687999f3f7ae616cd1dd23f2e9b9b',1,'Velocity']]]
 ];
