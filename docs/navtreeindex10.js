@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,0],
+"structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,1],
 "structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,2],
 "structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,3],
 "struct__HILSIMPacket.html":[2,0,3],
