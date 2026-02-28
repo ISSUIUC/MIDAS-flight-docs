@@ -7,5 +7,6 @@ var structAngularKalmanData =
     [ "pitch", "structAngularKalmanData.html#a35e50517a8ddf1ae619a626a76c42032", null ],
     [ "quaternion", "structAngularKalmanData.html#af548618a9b87075a0f953d856c24fee5", null ],
     [ "roll", "structAngularKalmanData.html#a21602108ae60fbce90ed264a70e997b4", null ],
+    [ "sflp_tilt", "structAngularKalmanData.html#a24b15c0b6d7eb5a07f003efcfc454a15", null ],
     [ "yaw", "structAngularKalmanData.html#a57b84faf0ddb3c2527724d5e55595889", null ]
 ];

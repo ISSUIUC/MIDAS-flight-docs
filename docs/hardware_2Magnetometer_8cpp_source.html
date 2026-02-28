@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('hardware_2Magnetometer_8cpp_source.htm
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="comment">// We multiply by 8, which is the full scale of the mag.</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">// https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library/blob/main/examples/Example4-SPI_Simple_measurement/Example4-SPI_Simple_measurement.ino</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_struct" href="structMagnetometer.html">Magnetometer</a> reading{X*8, Y*8, Z*8};</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_struct" href="structMagnetometer.html">Magnetometer</a> reading{Y*8, -X*8, -Z*8};</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> reading;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>

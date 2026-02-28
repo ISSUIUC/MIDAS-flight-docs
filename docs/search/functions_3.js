@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calculate_5ftilt_0',['calculate_tilt',['../classQuaternionMEKF.html#a0e1af0350d2a0c198dbd7959cd0e8a97',1,'QuaternionMEKF']]],
+  ['calculate_5ftilt_0',['calculate_tilt',['../classQuaternionMEKF.html#ab89c9a37ae96e950d010eeee5c21554c',1,'QuaternionMEKF::calculate_tilt(IMU_SFLP imu_sflp)'],['../classQuaternionMEKF.html#a0e1af0350d2a0c198dbd7959cd0e8a97',1,'QuaternionMEKF::calculate_tilt()']]],
   ['calib_5freading_1',['calib_reading',['../structIMUSensor.html#abc5ccab76418967ca1cab42a0396a3bc',1,'IMUSensor::calib_reading()'],['../structMagnetometerSensor.html#aa83e7fb091adf63aae25a78795a996b6',1,'MagnetometerSensor::calib_reading()']]],
   ['calibrate_5fimage_2',['calibrate_image',['../classSX1268.html#a732f3d5ae508fa4cbcd94a3bf4b16997',1,'SX1268']]],
   ['calibration_5fvalid_3',['calibration_valid',['../structMagnetometerSensor.html#a849f7d2a8e3fcb5f50ad4b9cb23022a4',1,'MagnetometerSensor']]],

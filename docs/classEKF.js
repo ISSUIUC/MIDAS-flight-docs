@@ -16,7 +16,6 @@ var classEKF =
     [ "Ca", "classEKF.html#a263af179490a7a18355fcc77b8711540", null ],
     [ "Cn", "classEKF.html#ab960cb11883ff54fb7bb869e25e3a73e", null ],
     [ "Cp", "classEKF.html#a32bdda30a28fcd0c9c524bbf5b968cce", null ],
-    [ "curr_mass_kg", "classEKF.html#a2a8a4d3242eb350938cd9804708b3931", null ],
     [ "current_vel", "classEKF.html#a0566f96e0c5109fb7fcf795c96423695", null ],
     [ "gps_latitude_last", "classEKF.html#a575f29e23e07ae222ee3f59e3c9ae802", null ],
     [ "gps_latitude_original", "classEKF.html#a234466a1004bc38d19348e9e1f4caff5", null ],

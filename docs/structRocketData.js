@@ -6,11 +6,11 @@ var structRocketData =
     [ "command_flags", "structRocketData.html#af186477160ecf991ae1b5f8cc99255bd", null ],
     [ "fsm_state", "structRocketData.html#a0d19e828a15ca3873f6cc7d367635156", null ],
     [ "gps", "structRocketData.html#adf85ee623bf10a299b7e9d856a195558", null ],
-    [ "hw_filtered", "structRocketData.html#a0fb8e85e28b5134663b7517b112d0613", null ],
     [ "imu", "structRocketData.html#a6cdc5fb11110219253a10f1b7938d4d6", null ],
     [ "kalman", "structRocketData.html#a7e5fd732aa751d57ba6cd3fe91cc31f4", null ],
     [ "log_latency", "structRocketData.html#a533902e8cce330b3a6cccc8476ea6765", null ],
     [ "magnetometer", "structRocketData.html#a0b5e77d7d312bb8047c9b41416af3b81", null ],
     [ "pyro", "structRocketData.html#a93407e4bf41eb3ce9dfe0e945ce5cc1b", null ],
+    [ "sflp", "structRocketData.html#a8424ab0d133ed40e9f4c73f16c05cbfc", null ],
     [ "voltage", "structRocketData.html#a1615a5e2560a7715cd9c2f817087c5c9", null ]
 ];

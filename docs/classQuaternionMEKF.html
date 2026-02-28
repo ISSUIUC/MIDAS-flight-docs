@@ -110,8 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a711f8908735f859c92b808c48f9c249e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a066988ac7e10014a07351ea73e902f68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#a066988ac7e10014a07351ea73e902f68">measurement_update_partial</a> (Eigen::Matrix&lt; float, 3, 1 &gt; const &amp;meas, Eigen::Ref&lt; Eigen::Matrix&lt; float, 3, 1 &gt; const &gt; const &amp;vhat, Eigen::Ref&lt; Eigen::Matrix&lt; float, 3, 3 &gt; const &gt; const &amp;Rm)</td></tr>
 <tr class="separator:a066988ac7e10014a07351ea73e902f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf6d381f403a750a8736d1d21586c7ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#aaf6d381f403a750a8736d1d21586c7ea">tick</a> (float dt, <a class="el" href="structMagnetometer.html">Magnetometer</a> &amp;magnetometer, <a class="el" href="structVelocity.html">Velocity</a> &amp;angular_velocity, <a class="el" href="structAcceleration.html">Acceleration</a> &amp;acceleration, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state)</td></tr>
-<tr class="separator:aaf6d381f403a750a8736d1d21586c7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1dc0ad3f5a080321d0410384c4d1e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#adc1dc0ad3f5a080321d0410384c4d1e3">tick</a> (float dt, <a class="el" href="structMagnetometer.html">Magnetometer</a> &amp;magnetometer, <a class="el" href="structVelocity.html">Velocity</a> &amp;angular_velocity, <a class="el" href="structAcceleration.html">Acceleration</a> &amp;acceleration, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> FSM_state, <a class="el" href="structVelocity.html">Velocity</a> &amp;gyro_bias_sflp)</td></tr>
+<tr class="separator:adc1dc0ad3f5a080321d0410384c4d1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab81294a26bfed6c0a32123087540f63c"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 4, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#ab81294a26bfed6c0a32123087540f63c">quaternion</a> ()</td></tr>
 <tr class="separator:ab81294a26bfed6c0a32123087540f63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6126f77f28d64ca0551ab7be6830552"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 6, 6 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#ab6126f77f28d64ca0551ab7be6830552">covariance</a> ()</td></tr>
@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add5c703e8dd56fee8301621d2a545db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1af0350d2a0c198dbd7959cd0e8a97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#a0e1af0350d2a0c198dbd7959cd0e8a97">calculate_tilt</a> ()</td></tr>
 <tr class="separator:a0e1af0350d2a0c198dbd7959cd0e8a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab89c9a37ae96e950d010eeee5c21554c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#ab89c9a37ae96e950d010eeee5c21554c">calculate_tilt</a> (<a class="el" href="structIMU__SFLP.html">IMU_SFLP</a> imu_sflp)</td></tr>
+<tr class="separator:ab89c9a37ae96e950d010eeee5c21554c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08fd2a3f7ae88fab2da2f6456d85cfc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#a08fd2a3f7ae88fab2da2f6456d85cfc9">set_transition_matrix</a> (const Eigen::Ref&lt; const Eigen::Matrix&lt; float, 3, 1 &gt; &gt; &amp;gyr, float Ts)</td></tr>
 <tr class="separator:a08fd2a3f7ae88fab2da2f6456d85cfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a975ad43abb6bec50dd69b57a181be21b"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; float, 3, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuaternionMEKF.html#a975ad43abb6bec50dd69b57a181be21b">skew_symmetric_matrix</a> (const Eigen::Ref&lt; const Eigen::Matrix&lt; float, 3, 1 &gt; &gt; &amp;vec) const</td></tr>
@@ -227,7 +229,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00072">72</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00073">73</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -247,12 +249,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00274">274</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00279">279</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a0e1af0350d2a0c198dbd7959cd0e8a97" name="a0e1af0350d2a0c198dbd7959cd0e8a97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e1af0350d2a0c198dbd7959cd0e8a97">&#9670;&nbsp;</a></span>calculate_tilt()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1af0350d2a0c198dbd7959cd0e8a97">&#9670;&nbsp;</a></span>calculate_tilt() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +268,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00353">353</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00358">358</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab89c9a37ae96e950d010eeee5c21554c" name="ab89c9a37ae96e950d010eeee5c21554c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab89c9a37ae96e950d010eeee5c21554c">&#9670;&nbsp;</a></span>calculate_tilt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QuaternionMEKF::calculate_tilt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structIMU__SFLP.html">IMU_SFLP</a>&#160;</td>
+          <td class="paramname"><em>imu_sflp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00387">387</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -302,7 +324,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00348">348</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00353">353</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -321,7 +343,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00318">318</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00323">323</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -341,7 +363,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00014">14</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00015">15</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -371,7 +393,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00292">292</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00297">297</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -399,7 +421,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00284">284</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00289">289</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -418,7 +440,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00279">279</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00284">284</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +470,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00134">134</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00139">139</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -484,7 +506,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00197">197</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00202">202</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -503,7 +525,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00245">245</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00250">250</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -523,7 +545,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00323">323</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00328">328</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +575,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00250">250</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00255">255</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -573,12 +595,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00264">264</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00269">269</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aaf6d381f403a750a8736d1d21586c7ea" name="aaf6d381f403a750a8736d1d21586c7ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf6d381f403a750a8736d1d21586c7ea">&#9670;&nbsp;</a></span>tick()</h2>
+<a id="adc1dc0ad3f5a080321d0410384c4d1e3" name="adc1dc0ad3f5a080321d0410384c4d1e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1dc0ad3f5a080321d0410384c4d1e3">&#9670;&nbsp;</a></span>tick()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,7 +633,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td>
-          <td class="paramname"><em>FSM_state</em>&#160;</td>
+          <td class="paramname"><em>FSM_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structVelocity.html">Velocity</a> &amp;&#160;</td>
+          <td class="paramname"><em>gyro_bias_sflp</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -621,7 +649,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00077">77</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00078">78</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -651,7 +679,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00108">108</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8cpp_source.html#l00113">113</a> of file <a class="el" href="mqekf_8cpp_source.html">mqekf.cpp</a>.</p>
 
 </div>
 </div>
@@ -676,7 +704,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00058">58</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00059">59</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -700,7 +728,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00055">55</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00056">56</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -724,7 +752,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00044">44</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00045">45</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -748,7 +776,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00061">61</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00062">62</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -772,7 +800,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00042">42</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00043">43</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -796,7 +824,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00060">60</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00061">61</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -852,7 +880,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00046">46</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00047">47</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -876,7 +904,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00047">47</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00048">48</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -900,7 +928,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00048">48</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00049">49</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -924,7 +952,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00043">43</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00044">44</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -948,7 +976,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00049">49</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00050">50</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -972,7 +1000,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00050">50</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00051">51</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
@@ -996,7 +1024,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00053">53</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mqekf_8h_source.html#l00054">54</a> of file <a class="el" href="mqekf_8h_source.html">mqekf.h</a>.</p>
 
 </div>
 </div>
