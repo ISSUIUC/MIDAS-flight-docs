@@ -1,16 +1,14 @@
 var NAVTREEINDEX9 =
 {
-"structLoggedReading.html#a014988d0d1c5df31fab93b2b6ba62086":[2,0,39,4],
-"structLoggedReading.html#a086ecba387c4ce36d6bca3a5fbb93fc1":[2,0,39,3],
-"structLoggedReading.html#a0a37e5d1f61528e60d0e74ea615641ae":[2,0,39,7],
 "structLoggedReading.html#a0c0c108b88b4d2a86905ac23a8c5231d":[2,0,39,5],
 "structLoggedReading.html#a2908fc89d4e071a66d093ab3ece718be":[2,0,39,2],
+"structLoggedReading.html#a2d95669ce6bee407615ed058c59c2cf2":[2,0,39,11],
 "structLoggedReading.html#a34ee48c238a39efcc89b31dd0a87d761":[2,0,39,1],
 "structLoggedReading.html#a42767b5dfe8c22d9f344bc5a6562416b":[2,0,39,12],
-"structLoggedReading.html#a4dd7f329abe242983ea191c2d93436a9":[2,0,39,8],
-"structLoggedReading.html#a65e374417f0e31f932d04d92b3e8d701":[2,0,39,10],
-"structLoggedReading.html#a8729ba227cbf4295cc5d9e8275d805f3":[2,0,39,9],
-"structLoggedReading.html#a8dd37e1800fef67e07e3cf05d44d7638":[2,0,39,11],
+"structLoggedReading.html#a4dd7f329abe242983ea191c2d93436a9":[2,0,39,7],
+"structLoggedReading.html#a65e374417f0e31f932d04d92b3e8d701":[2,0,39,9],
+"structLoggedReading.html#a8729ba227cbf4295cc5d9e8275d805f3":[2,0,39,8],
+"structLoggedReading.html#a8dd37e1800fef67e07e3cf05d44d7638":[2,0,39,10],
 "structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23":[2,0,39,6],
 "structLoggedReading.html#ac541ccde6116fceae96bc170e94e5529":[2,0,39,13],
 "structLoggedReading.html#af3b7243953722cb3d14869cf3627db0a":[2,0,39,0],
@@ -91,8 +89,8 @@ var NAVTREEINDEX9 =
 "structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[2,0,53,3],
 "structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[2,0,53,4],
 "structPyro.html#ace37095039f9f593cfd469b07ec97e20":[2,0,53,10],
-"structPyro.html#af76f37b0c45ff0b0bfa5ef72a45952d2":[2,0,53,8],
 "structPyro.html#af76f37b0c45ff0b0bfa5ef72a45952d2":[2,0,53,9],
+"structPyro.html#af76f37b0c45ff0b0bfa5ef72a45952d2":[2,0,53,8],
 "structPyro.html#aff363793962f81d6024cb02b11839467":[2,0,53,5],
 "structPyroState.html":[2,0,54],
 "structPyroState.html#a39b94b93378c28a31e9dbf79c9049d28":[2,0,54,0],
@@ -248,6 +246,8 @@ var NAVTREEINDEX9 =
 "structVoltage.html#af7bc70b56f414742b75cbf573f25b9ae":[2,0,84,1],
 "structVoltageSensor.html":[2,0,85],
 "structVoltageSensor.html#a58391c79faf8da9aeed2f4007bdd04b9":[2,0,85,8],
+"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,4],
+"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,6],
 "structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,5],
-"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,4]
+"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,7]
 };

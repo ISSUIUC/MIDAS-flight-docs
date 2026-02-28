@@ -17,6 +17,5 @@ var searchData=
   ['highg_5fay_14',['highg_ay',['../structTelemetryPacket.html#a9c8f8f438509b8cef5bae7540bfbb377',1,'TelemetryPacket']]],
   ['highg_5faz_15',['highg_az',['../structTelemetryPacket.html#a30fa822da55f6ad1a89f2e50709332bb',1,'TelemetryPacket']]],
   ['hilsimpacket_5fmsg_16',['HILSIMPacket_msg',['../hilsimpacket_8pb_8h.html#a76983eb6183ca7a88419709dd72a6cda',1,'hilsimpacket.pb.h']]],
-  ['hw_5ffilt_17',['hw_filt',['../structLoggedReading.html#a0a37e5d1f61528e60d0e74ea615641ae',1,'LoggedReading']]],
-  ['hw_5ffiltered_18',['hw_filtered',['../structRocketData.html#a0fb8e85e28b5134663b7517b112d0613',1,'RocketData']]]
+  ['hw_5ffiltered_17',['hw_filtered',['../structRocketData.html#a0fb8e85e28b5134663b7517b112d0613',1,'RocketData']]]
 ];

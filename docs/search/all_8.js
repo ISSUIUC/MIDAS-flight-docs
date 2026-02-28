@@ -76,6 +76,5 @@ var searchData=
   ['hilsimpacket_5fpb2_73',['hilsimpacket_pb2',['../namespacehilsimpacket__pb2.html',1,'']]],
   ['hilsimpacket_5fpb2_2epy_74',['hilsimpacket_pb2.py',['../hilsimpacket__pb2_8py.html',1,'']]],
   ['hilsimpacket_5fsize_75',['HILSIMPacket_size',['../hilsimpacket_8pb_8h.html#ab3b8e66c7bf4fc5597cb24ef4b292dc9',1,'hilsimpacket.pb.h']]],
-  ['hw_5ffilt_76',['hw_filt',['../structLoggedReading.html#a0a37e5d1f61528e60d0e74ea615641ae',1,'LoggedReading']]],
-  ['hw_5ffiltered_77',['hw_filtered',['../structRocketData.html#a0fb8e85e28b5134663b7517b112d0613',1,'RocketData']]]
+  ['hw_5ffiltered_76',['hw_filtered',['../structRocketData.html#a0fb8e85e28b5134663b7517b112d0613',1,'RocketData']]]
 ];

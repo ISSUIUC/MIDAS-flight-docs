@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,6],
-"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6":[2,0,85,7],
 "structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,0],
 "structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,1],
 "structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2":[2,0,85,2],

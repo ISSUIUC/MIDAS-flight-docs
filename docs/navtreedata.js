@@ -72,8 +72,8 @@ var NAVTREEINDEX =
 "globals_n.html",
 "namespacefsm__thresholds.html#a75bf73133f44a24c66b60f8703f7e5fb",
 "platformio__generator_8py.html#ac5e46d3c5962e75359ce6dfde7c601a4",
-"structLoggedReading.html#a014988d0d1c5df31fab93b2b6ba62086",
-"structVoltageSensor.html#aebfdd049b9aabd92f375217ebedcabc6"
+"structLoggedReading.html#a0c0c108b88b4d2a86905ac23a8c5231d",
+"structVoltageSensor.html#afc24c7466cc2e37f8b2aaf7aea1b1fd2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
