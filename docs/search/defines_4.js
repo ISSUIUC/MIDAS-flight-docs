@@ -10,6 +10,7 @@ var searchData=
   ['e4_5fquart_7',['e4_quart',['../buzzer_8cpp.html#a089899f4a4fc38dece9b47c3f466833f',1,'buzzer.cpp']]],
   ['e_5fsq_8',['E_SQ',['../rotation_8h.html#a4c3947aefc5afc14e466d4c38e3ac735',1,'rotation.h']]],
   ['enable_5ftelem_9',['ENABLE_TELEM',['../systems_8cpp.html#a5981b03c167aa3961c5b32e57029caf7',1,'systems.cpp']]],
-  ['exp_5fint_10',['EXP_INT',['../pins_8h.html#a57bee1721c267bff771bc5629f94688e',1,'pins.h']]],
-  ['exp_5freset_11',['EXP_RESET',['../pins_8h.html#a51435e7aaf293009d5a916de40340269',1,'pins.h']]]
+  ['event_5fstack_5fsize_10',['EVENT_STACK_SIZE',['../kal__events_8h.html#ab6518bcddc8d272cbcfa8c4ba8562fa0',1,'kal_events.h']]],
+  ['exp_5fint_11',['EXP_INT',['../pins_8h.html#a57bee1721c267bff771bc5629f94688e',1,'pins.h']]],
+  ['exp_5freset_12',['EXP_RESET',['../pins_8h.html#a51435e7aaf293009d5a916de40340269',1,'pins.h']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['_5fhilsimpacket_0',['_HILSIMPacket',['../struct__HILSIMPacket.html',1,'']]],
-  ['_5frocketstate_1',['_RocketState',['../struct__RocketState.html',1,'']]]
+  ['acceleration_0',['Acceleration',['../structAcceleration.html',1,'']]],
+  ['aero_5fcoeff_5ft_1',['aero_coeff_t',['../structaero__coeff__t.html',1,'']]],
+  ['angularkalmandata_2',['AngularKalmanData',['../structAngularKalmanData.html',1,'']]]
 ];

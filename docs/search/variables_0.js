@@ -9,10 +9,11 @@ var searchData=
   ['_5fcalib_5fnum_5fdatapoints_6',['_calib_num_datapoints',['../structMagnetometerSensor.html#aa8e8b2c96bef6149563e04ab092fe46b',1,'MagnetometerSensor']]],
   ['_5fcalib_5ftime_7',['_calib_time',['../structMagnetometerSensor.html#a77628e7bb267c1a24707901e52214cf8',1,'MagnetometerSensor']]],
   ['_5fcalib_5fvalid_5freadings_8',['_calib_valid_readings',['../structIMUSensor.html#a73b1fb91ef08c01a1a9505c3a695abfa',1,'IMUSensor']]],
-  ['_5fglobals_9',['_globals',['../namespacehilsimpacket__pb2.html#a8ca283f7f7d31c5ce22c0e87c2937680',1,'hilsimpacket_pb2._globals()'],['../namespaceproto_1_1nanopb__pb2.html#ad2ac641276f9c8fe24276716a66e9ae4',1,'proto.nanopb_pb2._globals()'],['../namespacerocketstate__pb2.html#a40f1e438b31fa22a9339387b2ba4026a',1,'rocketstate_pb2._globals()']]],
-  ['_5foptions_10',['_options',['../namespacehilsimpacket__pb2.html#aaae557b0c0b959b07201f3885719f6bb',1,'hilsimpacket_pb2._options()'],['../namespacerocketstate__pb2.html#a792a72a88f8540248f1701b67dd564e9',1,'rocketstate_pb2._options()'],['../namespaceproto_1_1nanopb__pb2.html#a031623cde7503dc7b61888844c1e369f',1,'proto.nanopb_pb2._options()']]],
-  ['_5fserialized_5fend_11',['_serialized_end',['../namespacehilsimpacket__pb2.html#a631003f9ffd2869643c3b06f871b0db3',1,'hilsimpacket_pb2._serialized_end()'],['../namespaceproto_1_1nanopb__pb2.html#ae04b0e57134efcd4976fd4b4f7056e32',1,'proto.nanopb_pb2._serialized_end()'],['../namespacerocketstate__pb2.html#a7554c64b78bc8f00c0dcd1e669181fe2',1,'rocketstate_pb2._serialized_end()']]],
-  ['_5fserialized_5foptions_12',['_serialized_options',['../namespaceproto_1_1nanopb__pb2.html#af93096ca7f5a8f26dc1d3b43c21e4854',1,'proto::nanopb_pb2']]],
-  ['_5fserialized_5fstart_13',['_serialized_start',['../namespacehilsimpacket__pb2.html#a7178ccf14fcbecc32ae6108d13d107d0',1,'hilsimpacket_pb2._serialized_start()'],['../namespaceproto_1_1nanopb__pb2.html#a3f44768aedbd3489288ed4c76118e8e0',1,'proto.nanopb_pb2._serialized_start()'],['../namespacerocketstate__pb2.html#ad5d60393d4c7e708901c31fba033c10a',1,'rocketstate_pb2._serialized_start()']]],
-  ['_5fsym_5fdb_14',['_sym_db',['../namespacehilsimpacket__pb2.html#a4ababa4424298c990933c4d864d88095',1,'hilsimpacket_pb2._sym_db()'],['../namespaceproto_1_1nanopb__pb2.html#ac1a2b4763e92b092e6883bc4c270874c',1,'proto.nanopb_pb2._sym_db()'],['../namespacerocketstate__pb2.html#aa07cebfa25e31d701e96f5d198d478cd',1,'rocketstate_pb2._sym_db()']]]
+  ['_5fcv_9',['_cv',['../classInputReader.html#a5e1ac4f3bb86a57fea5aee32f3f5d6ba',1,'InputReader']]],
+  ['_5fdata_5fsize_10',['_data_size',['../structentry__t.html#acaabfe150d406ed06f759a39153d945d',1,'entry_t']]],
+  ['_5fin_11',['_in',['../classInputReader.html#a53956becbdb86a0e995c70d3af13ef64',1,'InputReader']]],
+  ['_5fmut_12',['_mut',['../classInputReader.html#a4035870a49eb00d95fdfa84b71d7a661',1,'InputReader']]],
+  ['_5fq_13',['_q',['../structMetaLogging.html#ad6733385a4b68aa41c9c875f8950d411',1,'MetaLogging::_q()'],['../classInputReader.html#aa724c2011c91d6e054567dd039eee5e5',1,'InputReader::_q()']]],
+  ['_5fstop_14',['_stop',['../classInputReader.html#a874b822764cea9bbb3f9dba40eead390',1,'InputReader']]],
+  ['_5fth_15',['_th',['../classInputReader.html#afcba6400e1bd0ab787dfaa146aecb554',1,'InputReader']]]
 ];

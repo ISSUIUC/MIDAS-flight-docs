@@ -5,7 +5,7 @@ var structLoggedReading =
     [ "cameradata", "structLoggedReading.html#a2908fc89d4e071a66d093ab3ece718be", null ],
     [ "data", "structLoggedReading.html#a086ecba387c4ce36d6bca3a5fbb93fc1", null ],
     [ "discriminant", "structLoggedReading.html#a014988d0d1c5df31fab93b2b6ba62086", null ],
-    [ "fsm", "structLoggedReading.html#a0c0c108b88b4d2a86905ac23a8c5231d", null ],
+    [ "fsm", "structLoggedReading.html#a44c6d9097d1fb2cd3b6d166794c50e9b", null ],
     [ "gps", "structLoggedReading.html#aaef0e23a5eccfed5142b16f40a479b23", null ],
     [ "imu", "structLoggedReading.html#a4dd7f329abe242983ea191c2d93436a9", null ],
     [ "kalman", "structLoggedReading.html#a8729ba227cbf4295cc5d9e8275d805f3", null ],

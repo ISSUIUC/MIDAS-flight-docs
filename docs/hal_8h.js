@@ -6,5 +6,6 @@ var hal_8h =
     [ "STACK_SIZE", "hal_8h.html#a6423a880df59733d2d9b509c7718d3a9", null ],
     [ "START_THREAD", "hal_8h.html#a5a1a21750d68e31125fa25fc1454f716", null ],
     [ "THREAD_SLEEP", "hal_8h.html#ab58c6eec00ff77355e1f86af746a287b", null ],
+    [ "i2c_mutex", "hal_8h.html#a43711ee8200bef84749449589ca78af2", null ],
     [ "spi_mutex", "hal_8h.html#a76c0525d646735793add25b18043e600", null ]
 ];

@@ -89,7 +89,6 @@ $(document).ready(function(){initNavTree('hal_8h.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="FreeRTOSConfig_8h_source.html">FreeRTOSConfig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Mutex_8h_source.html">Mutex.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Queue_8h_source.html">Queue.h</a>&quot;</code><br />
 </div>
@@ -115,6 +114,8 @@ Macros</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a76c0525d646735793add25b18043e600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a76c0525d646735793add25b18043e600">spi_mutex</a></td></tr>
 <tr class="separator:a76c0525d646735793add25b18043e600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43711ee8200bef84749449589ca78af2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hal_8h.html#a43711ee8200bef84749449589ca78af2">i2c_mutex</a></td></tr>
+<tr class="separator:a43711ee8200bef84749449589ca78af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aec647f02b95f8c0936839bacfacb23ec" name="aec647f02b95f8c0936839bacfacb23ec"></a>
@@ -130,7 +131,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p >The ESP32 has two physical cores, which will each be dedicated to one group of threads. The DATA_CORE runs the <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> thread, as well as the threads which read from the sensor_data struct (e.g. SD logging). </p>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00030">30</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00028">28</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -168,7 +169,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00038">38</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00036">36</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -185,7 +186,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p >The ESP32 has two physical cores, which will each be dedicated to one group of threads. The SENSOR_CORE runs the threads which write to the sensor_data struct (mostly sensor polling threads). </p>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00024">24</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00022">22</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -202,7 +203,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p >The size of a thread stack, in bytes. </p>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00018">18</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00016">16</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -243,13 +244,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                      <a class="code hl_typedef" href="emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a">StaticTask_t</a> name##_task;                \</div>
+<b>Value:</b><div class="fragment"><div class="line">                                      <span class="keyword">static</span> <a class="code hl_typedef" href="emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a">StaticTask_t</a> name##_task;         \</div>
 <div class="line">                                      static <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> name##_stack[<a class="code hl_define" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a>];            \</div>
 <div class="line">                                      xTaskCreateStaticPinnedToCore(((<a class="code hl_typedef" href="emulation_8h.html#a9b32502ff92c255c686dacde53c1cba0">TaskFunction_t</a>) name##_thread), #name, <a class="code hl_define" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a>, arg, <a class="code hl_define" href="emulation_8h.html#a94ed0b9b3b4e8ccc859c322f18583e67">tskIDLE_PRIORITY</a> + prio, name##_stack, &amp;name##_task, core)</div>
 <div class="ttc" id="aemulation_8h_html_a94ed0b9b3b4e8ccc859c322f18583e67"><div class="ttname"><a href="emulation_8h.html#a94ed0b9b3b4e8ccc859c322f18583e67">tskIDLE_PRIORITY</a></div><div class="ttdeci">#define tskIDLE_PRIORITY</div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00014">emulation.h:14</a></div></div>
 <div class="ttc" id="aemulation_8h_html_a9b32502ff92c255c686dacde53c1cba0"><div class="ttname"><a href="emulation_8h.html#a9b32502ff92c255c686dacde53c1cba0">TaskFunction_t</a></div><div class="ttdeci">void(* TaskFunction_t)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00034">emulation.h:34</a></div></div>
 <div class="ttc" id="aemulation_8h_html_abb9c40bd43c013045ebec6d0427fee4a"><div class="ttname"><a href="emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a">StaticTask_t</a></div><div class="ttdeci">int StaticTask_t</div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00032">emulation.h:32</a></div></div>
-<div class="ttc" id="ahal_8h_html_a6423a880df59733d2d9b509c7718d3a9"><div class="ttname"><a href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a></div><div class="ttdeci">#define STACK_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="hal_8h_source.html#l00018">hal.h:18</a></div></div>
+<div class="ttc" id="ahal_8h_html_a6423a880df59733d2d9b509c7718d3a9"><div class="ttname"><a href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">STACK_SIZE</a></div><div class="ttdeci">#define STACK_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="hal_8h_source.html#l00016">hal.h:16</a></div></div>
 </div><!-- fragment --><p >Macro for creating and starting a thread declared with <code>DECLARE_THREAD</code>. This is a statement and has no return value. Never put this in a scope that will end before the thread should.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -261,7 +262,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00049">49</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00047">47</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
@@ -289,11 +290,35 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00068">68</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hal_8h_source.html#l00066">66</a> of file <a class="el" href="hal_8h_source.html">hal.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a43711ee8200bef84749449589ca78af2" name="a43711ee8200bef84749449589ca78af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43711ee8200bef84749449589ca78af2">&#9670;&nbsp;</a></span>i2c_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a> i2c_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00012">12</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a76c0525d646735793add25b18043e600" name="a76c0525d646735793add25b18043e600"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76c0525d646735793add25b18043e600">&#9670;&nbsp;</a></span>spi_mutex</h2>
 
@@ -315,7 +340,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p ><a class="el" href="structMutex.html" title="A mutex which holds a single value.">Mutex</a> to prevent clashing between the E22 &amp; LSM6DSV320X Initialized in <a class="el" href="systems_8cpp.html#a7678b869b133b9ea5fe1a8fe71946d1a" title="Initializes the systems, and then creates and starts the thread for each system. If initialization fa...">begin_systems()</a> before threads start. </p>
 
-<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00008">8</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00011">11</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
 
 </div>
 </div>

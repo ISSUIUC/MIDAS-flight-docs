@@ -6,8 +6,10 @@ var classSDSink =
     [ "init", "classSDSink.html#a6c0ab857a966085e9f271f7d1a2875b4", null ],
     [ "write", "classSDSink.html#a6b121739b5ae1414107c7e3a1dced1f9", null ],
     [ "write", "classSDSink.html#a581e1131bf8b1142e6ff029809f75d49", null ],
+    [ "write_meta", "classSDSink.html#a272f9cda52f5dc8bbc9b262cd54623d5", null ],
     [ "failed", "classSDSink.html#a908832c51026aef408f22078c653b67b", null ],
     [ "file", "classSDSink.html#a05d560c3029585d2b3652b27417a5d3d", null ],
+    [ "meta", "classSDSink.html#ace79f9156ab5f1226b6bec2d7941dc6f", null ],
     [ "output_file", "classSDSink.html#a4d603eb3af2fa0352b276d278336fb34", null ],
     [ "unflushed_bytes", "classSDSink.html#aa994584b2f7d5704430e6971e7e9a08d", null ]
 ];

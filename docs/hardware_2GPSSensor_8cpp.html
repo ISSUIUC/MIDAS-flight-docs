@@ -83,11 +83,14 @@ $(document).ready(function(){initNavTree('hardware_2GPSSensor_8cpp.html',''); in
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">GPSSensor.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Wire.h&gt;</code><br />
+<code>#include &lt;freertos/FreeRTOS.h&gt;</code><br />
+<code>#include &lt;freertos/semphr.h&gt;</code><br />
 <code>#include &lt;SparkFun_u-blox_GNSS_v3.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="pins_8h_source.html">pins.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>&quot;</code><br />
@@ -95,25 +98,56 @@ $(document).ready(function(){initNavTree('hardware_2GPSSensor_8cpp.html',''); in
 </div>
 <p><a href="hardware_2GPSSensor_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMIDASUbloxGNSS.html">MIDASUbloxGNSS</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a586df2245b00169e4fbedd73e84b9508"><td class="memItemLeft" align="right" valign="top">SFE_UBLOX_GNSS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#a586df2245b00169e4fbedd73e84b9508">ublox</a></td></tr>
-<tr class="separator:a586df2245b00169e4fbedd73e84b9508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43711ee8200bef84749449589ca78af2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#a43711ee8200bef84749449589ca78af2">i2c_mutex</a></td></tr>
+<tr class="separator:a43711ee8200bef84749449589ca78af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ad9fb908c88d1143bb2dbcba6660138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMIDASUbloxGNSS.html">MIDASUbloxGNSS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hardware_2GPSSensor_8cpp.html#a4ad9fb908c88d1143bb2dbcba6660138">ublox</a></td></tr>
+<tr class="separator:a4ad9fb908c88d1143bb2dbcba6660138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a586df2245b00169e4fbedd73e84b9508" name="a586df2245b00169e4fbedd73e84b9508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a586df2245b00169e4fbedd73e84b9508">&#9670;&nbsp;</a></span>ublox</h2>
+<a id="a43711ee8200bef84749449589ca78af2" name="a43711ee8200bef84749449589ca78af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43711ee8200bef84749449589ca78af2">&#9670;&nbsp;</a></span>i2c_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a> i2c_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="systems_8cpp_source.html#l00012">12</a> of file <a class="el" href="systems_8cpp_source.html">systems.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4ad9fb908c88d1143bb2dbcba6660138" name="a4ad9fb908c88d1143bb2dbcba6660138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad9fb908c88d1143bb2dbcba6660138">&#9670;&nbsp;</a></span>ublox</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SFE_UBLOX_GNSS ublox</td>
+          <td class="memname"><a class="el" href="classMIDASUbloxGNSS.html">MIDASUbloxGNSS</a> ublox</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2GPSSensor_8cpp_source.html#l00009">9</a> of file <a class="el" href="hardware_2GPSSensor_8cpp_source.html">GPSSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2GPSSensor_8cpp_source.html#l00031">31</a> of file <a class="el" href="hardware_2GPSSensor_8cpp_source.html">GPSSensor.cpp</a>.</p>
 
 </div>
 </div>

@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['kalmandata_0',['KalmanData',['../structKalmanData.html',1,'']]],
-  ['kalmanfilter_1',['KalmanFilter',['../classKalmanFilter.html',1,'']]],
-  ['kalmanfilter_3c_20num_5fstates_2c_20num_5fsensor_5finputs_20_3e_2',['KalmanFilter&lt; NUM_STATES, NUM_SENSOR_INPUTS &gt;',['../classKalmanFilter.html',1,'']]],
-  ['kalmanstate_3',['KalmanState',['../structKalmanState.html',1,'']]]
+  ['latency_0',['Latency',['../classLatency.html',1,'']]],
+  ['ledcontroller_1',['LEDController',['../classLEDController.html',1,'']]],
+  ['loggedreading_2',['LoggedReading',['../structLoggedReading.html',1,'']]],
+  ['loggerreading_3',['LoggerReading',['../structLoggerReading.html',1,'']]],
+  ['logsink_4',['LogSink',['../classLogSink.html',1,'']]],
+  ['lowglsmsensor_5',['LowGLSMSensor',['../structLowGLSMSensor.html',1,'']]],
+  ['lowgsensor_6',['LowGSensor',['../structLowGSensor.html',1,'']]]
 ];

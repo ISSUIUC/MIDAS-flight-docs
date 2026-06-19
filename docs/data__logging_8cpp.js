@@ -1,6 +1,5 @@
 var data__logging_8cpp =
 [
-    [ "ASSOCIATE", "data__logging_8cpp.html#a2ddc624038403bd9d50dd1fb9415a0f4", null ],
     [ "MAX_FILES", "data__logging_8cpp.html#a2c5eecb22513a88c24ae5831a3265e54", null ],
     [ "get_discriminant", "data__logging_8cpp.html#afdf37aeaeb21f904a962de2a14e022b4", null ],
     [ "log_begin", "data__logging_8cpp.html#a88f28575054c4d071a7b177cffdb7b6b", null ],

@@ -104,13 +104,15 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a6bd3e287aa56e28e9f5a787f74880691"><td class="memItemLeft" align="right" valign="top"><a class="el" href="telemetry__packet_8h.html#a0e0a1e65aeef2fb8c2a5e4d6e4526f7e">CommandType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#a6bd3e287aa56e28e9f5a787f74880691">command</a></td></tr>
 <tr class="separator:a6bd3e287aa56e28e9f5a787f74880691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da2aafd43f0f1237d4d080afc9a9f5b"><td class="memItemLeft" align="right" valign="top">std::array&lt; char, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#a9da2aafd43f0f1237d4d080afc9a9f5b">verify</a></td></tr>
-<tr class="separator:a9da2aafd43f0f1237d4d080afc9a9f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af369e61051947ee73fe7c6d188601ded"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#af369e61051947ee73fe7c6d188601ded">serial</a></td></tr>
+<tr class="separator:af369e61051947ee73fe7c6d188601ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41619a0da69516e5d89f182f121cd81"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTelemetryCommand.html#aa41619a0da69516e5d89f182f121cd81">serial_check</a></td></tr>
+<tr class="separator:aa41619a0da69516e5d89f182f121cd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >format of the packet that telemetry receives </p>
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00063">63</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00069">69</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a35babc865f4f4ad55ed4274fb4305cff" name="a35babc865f4f4ad55ed4274fb4305cff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35babc865f4f4ad55ed4274fb4305cff">&#9670;&nbsp;</a></span>valid()</h2>
@@ -135,7 +137,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00067">67</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00074">74</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>
@@ -152,23 +154,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00064">64</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00070">70</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>
-<a id="a9da2aafd43f0f1237d4d080afc9a9f5b" name="a9da2aafd43f0f1237d4d080afc9a9f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9da2aafd43f0f1237d4d080afc9a9f5b">&#9670;&nbsp;</a></span>verify</h2>
+<a id="af369e61051947ee73fe7c6d188601ded" name="af369e61051947ee73fe7c6d188601ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af369e61051947ee73fe7c6d188601ded">&#9670;&nbsp;</a></span>serial</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;char, 3&gt; TelemetryCommand::verify</td>
+          <td class="memname">uint8_t TelemetryCommand::serial</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00065">65</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00071">71</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
+
+</div>
+</div>
+<a id="aa41619a0da69516e5d89f182f121cd81" name="aa41619a0da69516e5d89f182f121cd81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41619a0da69516e5d89f182f121cd81">&#9670;&nbsp;</a></span>serial_check</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t TelemetryCommand::serial_check</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry__packet_8h_source.html#l00072">72</a> of file <a class="el" href="telemetry__packet_8h_source.html">telemetry_packet.h</a>.</p>
 
 </div>
 </div>

@@ -5,7 +5,5 @@ var searchData=
   ['was_5fignited_2',['was_ignited',['../structSimulatedRocket.html#abb87f7b7f89729fa787b5f2a726b657a',1,'SimulatedRocket']]],
   ['was_5flanded_5flast_3',['was_landed_last',['../classEKF.html#a912c6baa24f62c30b1201815742cfaff',1,'EKF']]],
   ['when_5fsound_5fstarted_5f_4',['when_sound_started_',['../structBuzzerController.html#ace47a847d33e9f5910fd2efd48fdcd7d',1,'BuzzerController']]],
-  ['wind_5falpha_5',['Wind_alpha',['../classEKF.html#a5bc8c10f1a54f271137810981b9e7d8c',1,'EKF']]],
-  ['worst_6',['worst',['../classnanopb__generator_1_1FieldMaxSize.html#a1fa2b10e1db075649dabe51c2fe4c87f',1,'nanopb_generator::FieldMaxSize']]],
-  ['worst_5ffield_7',['worst_field',['../classnanopb__generator_1_1FieldMaxSize.html#ac4752e630d51ce7c734a4c408dacf8c8',1,'nanopb_generator::FieldMaxSize']]]
+  ['wind_5falpha_5',['Wind_alpha',['../classEKF.html#a5bc8c10f1a54f271137810981b9e7d8c',1,'EKF']]]
 ];

@@ -98,22 +98,24 @@ $(document).ready(function(){initNavTree('structPyroState.html',''); initResizab
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4975ad512d96b8bc9fe149f106a6d266"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyroState.html#a4975ad512d96b8bc9fe149f106a6d266">is_global_armed</a> = false</td></tr>
 <tr class="separator:a4975ad512d96b8bc9fe149f106a6d266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39b94b93378c28a31e9dbf79c9049d28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyroState.html#a39b94b93378c28a31e9dbf79c9049d28">channel_firing</a> [4]</td></tr>
-<tr class="separator:a39b94b93378c28a31e9dbf79c9049d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0aeca0752090f579d9eef5899a01fc0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyroState.html#ac0aeca0752090f579d9eef5899a01fc0">channel_firing</a> [<a class="el" href="pins_8h.html#aeaed7a95d550c979b4416cde7c4923a5">MIDAS_NUM_PYROS</a>]</td></tr>
+<tr class="separator:ac0aeca0752090f579d9eef5899a01fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1964bbb10d8d2d638492b75ddd7d49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPyroState.html#ade1964bbb10d8d2d638492b75ddd7d49">pyro_event_consumed</a> [<a class="el" href="pins_8h.html#aeaed7a95d550c979b4416cde7c4923a5">MIDAS_NUM_PYROS</a>]</td></tr>
+<tr class="separator:ade1964bbb10d8d2d638492b75ddd7d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >data regarding all pyro channels </p>
 
 <p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00290">290</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a39b94b93378c28a31e9dbf79c9049d28" name="a39b94b93378c28a31e9dbf79c9049d28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39b94b93378c28a31e9dbf79c9049d28">&#9670;&nbsp;</a></span>channel_firing</h2>
+<a id="ac0aeca0752090f579d9eef5899a01fc0" name="ac0aeca0752090f579d9eef5899a01fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0aeca0752090f579d9eef5899a01fc0">&#9670;&nbsp;</a></span>channel_firing</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool PyroState::channel_firing[4]</td>
+          <td class="memname">bool PyroState::channel_firing[<a class="el" href="pins_8h.html#aeaed7a95d550c979b4416cde7c4923a5">MIDAS_NUM_PYROS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -135,6 +137,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00291">291</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
+
+</div>
+</div>
+<a id="ade1964bbb10d8d2d638492b75ddd7d49" name="ade1964bbb10d8d2d638492b75ddd7d49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade1964bbb10d8d2d638492b75ddd7d49">&#9670;&nbsp;</a></span>pyro_event_consumed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PyroState::pyro_event_consumed[<a class="el" href="pins_8h.html#aeaed7a95d550c979b4416cde7c4923a5">MIDAS_NUM_PYROS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sensor__data_8h_source.html#l00293">293</a> of file <a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>.</p>
 
 </div>
 </div>

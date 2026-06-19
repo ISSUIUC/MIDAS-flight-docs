@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('rocket__state_8h.html',''); initResiza
 <code>#include &quot;<a class="el" href="sensor__data_8h_source.html">sensor_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hal_8h_source.html">hal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Buffer_8h_source.html">Buffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="data__logging__meta_8h_source.html">data_logging_meta.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fsm_8h_source.html">finite-state-machines/fsm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="command__flags_8h_source.html">command_flags.h</a>&quot;</code><br />
 </div>
 <p><a href="rocket__state_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -107,9 +110,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLatency.html">Latency</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class determining latency between a set time and when the data was created  <a href="classLatency.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html">CommandFlags</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in. Works in both directions, say to toggle states based on <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> transitions.  <a href="structCommandFlags.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRocketData.html">RocketData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structRocketData.html" title="The RocketData struct stores all data that is needed by more than one system/thread of the Rocket.">RocketData</a> struct stores all data that is needed by more than one system/thread of the Rocket.  <a href="structRocketData.html#details">More...</a><br /></td></tr>

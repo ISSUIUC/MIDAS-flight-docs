@@ -109,7 +109,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ea4bec147462c4818489a978ddde35d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a5ea4bec147462c4818489a978ddde35d">initialize</a> (<a class="el" href="structRocketSystems.html">RocketSystems</a> *args) override</td></tr>
 <tr class="memdesc:a5ea4bec147462c4818489a978ddde35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets altitude by averaging 30 barometer measurements taken 100 ms apart.  <a href="classEKF.html#a5ea4bec147462c4818489a978ddde35d">More...</a><br /></td></tr>
 <tr class="separator:a5ea4bec147462c4818489a978ddde35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88d5345368adec625d4204df9d104c42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a88d5345368adec625d4204df9d104c42">priori</a> (float dt, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration)</td></tr>
+<tr class="memitem:a88d5345368adec625d4204df9d104c42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a88d5345368adec625d4204df9d104c42">priori</a> (float dt, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="midas__shell__commands_8h.html#abb637c416ba197d939be752b04255446">fsm</a>, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration)</td></tr>
 <tr class="memdesc:a88d5345368adec625d4204df9d104c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates current state of the rocket without current sensor data.  <a href="classEKF.html#a88d5345368adec625d4204df9d104c42">More...</a><br /></td></tr>
 <tr class="separator:a88d5345368adec625d4204df9d104c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6408c1b51879cbdf95a80dd8427ead7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a6408c1b51879cbdf95a80dd8427ead7c">update</a> (<a class="el" href="structBarometer.html">Barometer</a> barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>, <a class="el" href="structGPS.html">GPS</a> &amp;gps) override</td></tr>
@@ -129,7 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aee35ef9f08a3d90ade3c6d0eb84eaea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2">setState</a> (<a class="el" href="structKalmanState.html">KalmanState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>) override</td></tr>
 <tr class="memdesc:aee35ef9f08a3d90ade3c6d0eb84eaea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets state vector x.  <a href="classEKF.html#aee35ef9f08a3d90ade3c6d0eb84eaea2">More...</a><br /></td></tr>
 <tr class="separator:aee35ef9f08a3d90ade3c6d0eb84eaea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ece35ef3f21391644125b5cbe870fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a60ece35ef3f21391644125b5cbe870fa">reference_GPS</a> (<a class="el" href="structGPS.html">GPS</a> &amp;gps, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> fsm)</td></tr>
+<tr class="memitem:a60ece35ef3f21391644125b5cbe870fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a60ece35ef3f21391644125b5cbe870fa">reference_GPS</a> (<a class="el" href="structGPS.html">GPS</a> &amp;gps, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="midas__shell__commands_8h.html#abb637c416ba197d939be752b04255446">fsm</a>)</td></tr>
 <tr class="separator:a60ece35ef3f21391644125b5cbe870fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a5fd9e13b5371aed11a4e0f7db9cdee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a1a5fd9e13b5371aed11a4e0f7db9cdee">tick</a> (float dt, float sd, <a class="el" href="structBarometer.html">Barometer</a> &amp;barometer, <a class="el" href="structAcceleration.html">Acceleration</a> acceleration, <a class="el" href="structAngularKalmanData.html">AngularKalmanData</a> &amp;orientation, <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> <a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">state</a>, <a class="el" href="structGPS.html">GPS</a> &amp;gps)</td></tr>
 <tr class="memdesc:a1a5fd9e13b5371aed11a4e0f7db9cdee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run Kalman filter calculations as long as <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> has passed IDLE.  <a href="classEKF.html#a1a5fd9e13b5371aed11a4e0f7db9cdee">More...</a><br /></td></tr>
@@ -161,13 +161,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5bc8c10f1a54f271137810981b9e7d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32bdda30a28fcd0c9c524bbf5b968cce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a32bdda30a28fcd0c9c524bbf5b968cce">Cp</a> = 0</td></tr>
 <tr class="separator:a32bdda30a28fcd0c9c524bbf5b968cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89d02b9ce9b87282588094c91267a668"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a89d02b9ce9b87282588094c91267a668">starting_gps</a></td></tr>
-<tr class="separator:a89d02b9ce9b87282588094c91267a668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36159028057096a38de314d7c7bbe9fb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a36159028057096a38de314d7c7bbe9fb">starting_ecef</a></td></tr>
-<tr class="separator:a36159028057096a38de314d7c7bbe9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35bcba0eb091ef816cfa2e5d88bd9ff2"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a35bcba0eb091ef816cfa2e5d88bd9ff2">starting_gps</a></td></tr>
+<tr class="separator:a35bcba0eb091ef816cfa2e5d88bd9ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b25178d6aaac0f910d454dda11202b"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#a74b25178d6aaac0f910d454dda11202b">starting_ecef</a></td></tr>
+<tr class="separator:a74b25178d6aaac0f910d454dda11202b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af803df36ca2d6888441b15764ac61b77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKalmanState.html">KalmanState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#af803df36ca2d6888441b15764ac61b77">kalman_state</a></td></tr>
 <tr class="separator:af803df36ca2d6888441b15764ac61b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb7115fd52253d6c7fbcf6aac808e075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#acb7115fd52253d6c7fbcf6aac808e075">last_fsm</a> = <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303aaade5e53e88cf231292cd1142cce2afe">FSMState::STATE_IDLE</a></td></tr>
+<tr class="memitem:acb7115fd52253d6c7fbcf6aac808e075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#acb7115fd52253d6c7fbcf6aac808e075">last_fsm</a> = <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303a6ca94efc4194be94537b401579061581">FSMState::STATE_ARMED</a></td></tr>
 <tr class="separator:acb7115fd52253d6c7fbcf6aac808e075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41b1bd86b1aaeb2470368d74eaffca8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEKF.html#ab41b1bd86b1aaeb2470368d74eaffca8">stage_timestamp</a> = 0</td></tr>
 <tr class="separator:ab41b1bd86b1aaeb2470368d74eaffca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -984,7 +984,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> EKF::last_fsm = <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303aaade5e53e88cf231292cd1142cce2afe">FSMState::STATE_IDLE</a></td>
+          <td class="memname"><a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303">FSMState</a> EKF::last_fsm = <a class="el" href="fsm__states_8h.html#a4a597c1235e9a9b2d218ed5c4c033303a6ca94efc4194be94537b401579061581">FSMState::STATE_ARMED</a></td>
         </tr>
       </table>
   </td>
@@ -1086,8 +1086,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a36159028057096a38de314d7c7bbe9fb" name="a36159028057096a38de314d7c7bbe9fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36159028057096a38de314d7c7bbe9fb">&#9670;&nbsp;</a></span>starting_ecef</h2>
+<a id="a74b25178d6aaac0f910d454dda11202b" name="a74b25178d6aaac0f910d454dda11202b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74b25178d6aaac0f910d454dda11202b">&#9670;&nbsp;</a></span>starting_ecef</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1096,7 +1096,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;float&gt; EKF::starting_ecef</td>
+          <td class="memname">std::array&lt;float, 3&gt; EKF::starting_ecef</td>
         </tr>
       </table>
   </td>
@@ -1110,8 +1110,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a89d02b9ce9b87282588094c91267a668" name="a89d02b9ce9b87282588094c91267a668"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89d02b9ce9b87282588094c91267a668">&#9670;&nbsp;</a></span>starting_gps</h2>
+<a id="a35bcba0eb091ef816cfa2e5d88bd9ff2" name="a35bcba0eb091ef816cfa2e5d88bd9ff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35bcba0eb091ef816cfa2e5d88bd9ff2">&#9670;&nbsp;</a></span>starting_gps</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1120,7 +1120,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;float&gt; EKF::starting_gps</td>
+          <td class="memname">std::array&lt;float, 3&gt; EKF::starting_gps</td>
         </tr>
       </table>
   </td>

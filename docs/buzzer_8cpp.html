@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('buzzer_8cpp.html',''); initResizable()
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="buzzer_8h_source.html">buzzer.h</a>&quot;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;<a class="el" href="pins_8h_source.html">hardware/pins.h</a>&gt;</code><br />
 </div>
 <p><a href="buzzer_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -98,14 +99,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a0d9a32c066745030d7b18e7f949331c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>&#160;&#160;&#160;6000</td></tr>
 <tr class="memdesc:a0d9a32c066745030d7b18e7f949331c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">notes to use for creating a song, along with a tempo  <a href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">More...</a><br /></td></tr>
 <tr class="separator:a0d9a32c066745030d7b18e7f949331c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadc4b84b7c3a96e8ba93cb9d93379a03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 10}</td></tr>
-<tr class="separator:aadc4b84b7c3a96e8ba93cb9d93379a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7b2c0e3eab5909c271215d7844e9bdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc">d4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{294, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td></tr>
-<tr class="separator:ac7b2c0e3eab5909c271215d7844e9bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb7e0fbd5060ffbb0ac0ba1ce95d7521"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aeb7e0fbd5060ffbb0ac0ba1ce95d7521">g4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td></tr>
-<tr class="separator:aeb7e0fbd5060ffbb0ac0ba1ce95d7521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add2ad1351877ad4c0774a9a7d91dfbcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#add2ad1351877ad4c0774a9a7d91dfbcd">f_nat_4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td></tr>
-<tr class="separator:add2ad1351877ad4c0774a9a7d91dfbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb728e8b70399cd40f689de0131e7b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#adcb728e8b70399cd40f689de0131e7b0">b_flat_4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{466, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td></tr>
 <tr class="separator:adcb728e8b70399cd40f689de0131e7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9fba4d171205440fcc42e310789d961"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#ab9fba4d171205440fcc42e310789d961">e4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td></tr>
@@ -128,6 +121,30 @@ Macros</h2></td></tr>
 <tr class="separator:aabade368b51f494b12ce1f55d757da23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeefaf5365d82e46a89ad51730d6a330b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aeefaf5365d82e46a89ad51730d6a330b">f_nat_4_2fifth</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(0.1 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td></tr>
 <tr class="separator:aeefaf5365d82e46a89ad51730d6a330b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b2c0e3eab5909c271215d7844e9bdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc">d4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{294, static_cast&lt;uint8_t&gt;(240/1.3)}</td></tr>
+<tr class="separator:ac7b2c0e3eab5909c271215d7844e9bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7e0fbd5060ffbb0ac0ba1ce95d7521"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aeb7e0fbd5060ffbb0ac0ba1ce95d7521">g4_eight</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(240/1.3)}</td></tr>
+<tr class="separator:aeb7e0fbd5060ffbb0ac0ba1ce95d7521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c50bde0d16d15a08d32d8df49a80ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{393, static_cast&lt;uint8_t&gt;(255/1.3)}</td></tr>
+<tr class="separator:aa5c50bde0d16d15a08d32d8df49a80ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e88b69dd1a28b19af53250ded88309"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a85e88b69dd1a28b19af53250ded88309">somethingdiv2</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{393, static_cast&lt;uint8_t&gt;(220/1.3)}</td></tr>
+<tr class="separator:a85e88b69dd1a28b19af53250ded88309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf663537c108a4aef96a9384f1fe2b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#afdf663537c108a4aef96a9384f1fe2b8">f_nat_4_quart2</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(220/1.3)}</td></tr>
+<tr class="separator:afdf663537c108a4aef96a9384f1fe2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61cbf69279d3aba66f5a97579774e524"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a61cbf69279d3aba66f5a97579774e524">f_nat_4_eight2</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(220/1.3)}</td></tr>
+<tr class="separator:a61cbf69279d3aba66f5a97579774e524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d2dbe193e8c26972c2134acb1f00a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#ac8d2dbe193e8c26972c2134acb1f00a2">d4_eight2</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{294, static_cast&lt;uint8_t&gt;(220/1.3)}</td></tr>
+<tr class="separator:ac8d2dbe193e8c26972c2134acb1f00a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183cb9371945b3dc67fe33d2223c56ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a183cb9371945b3dc67fe33d2223c56ec">g4_eight2</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(220/1.3)}</td></tr>
+<tr class="separator:a183cb9371945b3dc67fe33d2223c56ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ce2716323ceb0e2133340a161f33a6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a9ce2716323ceb0e2133340a161f33a6c">high</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{467, static_cast&lt;uint8_t&gt;(150/1.3)}</td></tr>
+<tr class="separator:a9ce2716323ceb0e2133340a161f33a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c601b4f90966724c2de786d8bd9eb82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a4c601b4f90966724c2de786d8bd9eb82">low</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{393, static_cast&lt;uint8_t&gt;(200/1.3)}</td></tr>
+<tr class="separator:a4c601b4f90966724c2de786d8bd9eb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa960ad3f1b68f117dc01135e55ad63ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aa960ad3f1b68f117dc01135e55ad63ab">longrest</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 0}</td></tr>
+<tr class="separator:aa960ad3f1b68f117dc01135e55ad63ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc4b84b7c3a96e8ba93cb9d93379a03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, static_cast&lt;uint8_t&gt;(10/1)}</td></tr>
+<tr class="separator:aadc4b84b7c3a96e8ba93cb9d93379a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c19674b0213c92d1e52e7bd8abada3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a6c19674b0213c92d1e52e7bd8abada3b">WARN_TONE_PITCH</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2730, 125}</td></tr>
 <tr class="separator:a6c19674b0213c92d1e52e7bd8abada3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82ca6cf0701a6e01951a18df0a846c0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a82ca6cf0701a6e01951a18df0a846c0f">WARN_TONE_BLANK</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 125}</td></tr>
@@ -136,12 +153,29 @@ Macros</h2></td></tr>
 <tr class="separator:a55f8a9b04bd968b6fb6cf9af4806fd83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73e5dd1621b08b562dab5c768b984de9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a73e5dd1621b08b562dab5c768b984de9">LAND_TONE_WAIT</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 250}</td></tr>
 <tr class="separator:a73e5dd1621b08b562dab5c768b984de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed59a425eee0b790a65587678fc9dd7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aed59a425eee0b790a65587678fc9dd7e">REPORT_WARN</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2730, 200}</td></tr>
+<tr class="separator:aed59a425eee0b790a65587678fc9dd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d220765493a35a134aa65172693140"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a27d220765493a35a134aa65172693140">REPORT_CONTHIGH</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 100}</td></tr>
+<tr class="separator:a27d220765493a35a134aa65172693140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc0136bfe35d28db66e44a33e856062"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a4dc0136bfe35d28db66e44a33e856062">REPORT_CONTLOW</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2500, 100}</td></tr>
+<tr class="separator:a4dc0136bfe35d28db66e44a33e856062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c57a207736be81d0ef4b3a4819d025"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a30c57a207736be81d0ef4b3a4819d025">REPORT_PAUSES</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 50}</td></tr>
+<tr class="separator:a30c57a207736be81d0ef4b3a4819d025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a190c192d05617c9d717c091c597a0b5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a190c192d05617c9d717c091c597a0b5f">REPORT_PAUSEL</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 200}</td></tr>
+<tr class="separator:a190c192d05617c9d717c091c597a0b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887f0d1cbb3fa58ae15d438601a6fb6d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a887f0d1cbb3fa58ae15d438601a6fb6d">REPORT_ERRFSM0</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 150}</td></tr>
+<tr class="separator:a887f0d1cbb3fa58ae15d438601a6fb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5041472c31a7d6c8891f8d5f65c41c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#add5041472c31a7d6c8891f8d5f65c41c">REPORT_ERRFSM1</a>&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2800, 150}</td></tr>
+<tr class="separator:add5041472c31a7d6c8891f8d5f65c41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a605b4b88226d87e28ac325ee22a267cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#a605b4b88226d87e28ac325ee22a267cd">free_bird</a> [<a class="el" href="buzzer_8h.html#a3ba2f2631234a094afd6adae39129577">FREE_BIRD_LENGTH</a>]</td></tr>
 <tr class="memdesc:a605b4b88226d87e28ac325ee22a267cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">free bird solo song, to be played on startup/ second stage iginition  <a href="buzzer_8cpp.html#a605b4b88226d87e28ac325ee22a267cd">More...</a><br /></td></tr>
 <tr class="separator:a605b4b88226d87e28ac325ee22a267cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd219049bd1097551d30670ef11177c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#abd219049bd1097551d30670ef11177c2">james_bond</a> [<a class="el" href="buzzer_8h.html#acb38d5f57112169264c7f683de0869af">JAMES_BOND_LENGTH</a>] = {<a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(240)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(109)}, <a class="el" href="structSound.html">Sound</a>{622, static_cast&lt;uint8_t&gt;(148)}, <a class="el" href="structSound.html">Sound</a>{587, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{587, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{587, static_cast&lt;uint8_t&gt;(112)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(174)}, <a class="el" href="structSound.html">Sound</a>{466, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{466, static_cast&lt;uint8_t&gt;(3)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(140)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(33)}, <a class="el" href="structSound.html">Sound</a>{440, static_cast&lt;uint8_t&gt;(64)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(64)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(67)}, <a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(1)}, <a class="el" href="structSound.html">Sound</a>{277, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{277, static_cast&lt;uint8_t&gt;(245)}}</td></tr>
+<tr class="memdesc:abd219049bd1097551d30670ef11177c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">James Bond theme, only to be played on Midas Mini 007.  <a href="buzzer_8cpp.html#abd219049bd1097551d30670ef11177c2">More...</a><br /></td></tr>
+<tr class="separator:abd219049bd1097551d30670ef11177c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadb1ef1f5370dc175e36f96ad3cc7fc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="buzzer_8cpp.html#aadb1ef1f5370dc175e36f96ad3cc7fc0">warn_tone</a> [<a class="el" href="buzzer_8h.html#a6e317ac1c38d654228a3b5a0b37cc85a">WARN_TONE_LENGTH</a>] = {<a class="el" href="buzzer_8cpp.html#a6c19674b0213c92d1e52e7bd8abada3b">WARN_TONE_PITCH</a>}</td></tr>
 <tr class="memdesc:aadb1ef1f5370dc175e36f96ad3cc7fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warn tone, to be played in "unsafe" non-flight states (STATE_IDLE, STATE_PYRO_TEST)  <a href="buzzer_8cpp.html#aadb1ef1f5370dc175e36f96ad3cc7fc0">More...</a><br /></td></tr>
 <tr class="separator:aadb1ef1f5370dc175e36f96ad3cc7fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,7 +196,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00090">90</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00087">87</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -178,7 +212,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00095">95</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00094">94</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -194,7 +228,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00099">99</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00098">98</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -205,12 +239,28 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define d4_eight&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{294, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td>
+          <td class="memname">#define d4_eight&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{294, static_cast&lt;uint8_t&gt;(240/1.3)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00087">87</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00101">101</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac8d2dbe193e8c26972c2134acb1f00a2" name="ac8d2dbe193e8c26972c2134acb1f00a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d2dbe193e8c26972c2134acb1f00a2">&#9670;&nbsp;</a></span>d4_eight2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define d4_eight2&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{294, static_cast&lt;uint8_t&gt;(220/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00107">107</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -226,7 +276,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00097">97</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00096">96</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -242,7 +292,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00092">92</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00090">90</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -258,7 +308,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00091">91</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00089">89</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -274,7 +324,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00096">96</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00095">95</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,23 +340,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00100">100</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00099">99</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
-<a id="add2ad1351877ad4c0774a9a7d91dfbcd" name="add2ad1351877ad4c0774a9a7d91dfbcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add2ad1351877ad4c0774a9a7d91dfbcd">&#9670;&nbsp;</a></span>f_nat_4_eight</h2>
+<a id="a61cbf69279d3aba66f5a97579774e524" name="a61cbf69279d3aba66f5a97579774e524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61cbf69279d3aba66f5a97579774e524">&#9670;&nbsp;</a></span>f_nat_4_eight2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define f_nat_4_eight&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td>
+          <td class="memname">#define f_nat_4_eight2&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(220/1.3)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00089">89</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00106">106</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -322,7 +372,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00098">98</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00097">97</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -338,7 +388,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00094">94</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00092">92</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afdf663537c108a4aef96a9384f1fe2b8" name="afdf663537c108a4aef96a9384f1fe2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf663537c108a4aef96a9384f1fe2b8">&#9670;&nbsp;</a></span>f_nat_4_quart2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define f_nat_4_quart2&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{350, static_cast&lt;uint8_t&gt;(220/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00105">105</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -349,12 +415,28 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define g4_eight&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(0.125 * <a class="el" href="buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1">MS_PER_4BEAT</a>)}</td>
+          <td class="memname">#define g4_eight&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(240/1.3)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00088">88</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00102">102</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a183cb9371945b3dc67fe33d2223c56ec" name="a183cb9371945b3dc67fe33d2223c56ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183cb9371945b3dc67fe33d2223c56ec">&#9670;&nbsp;</a></span>g4_eight2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define g4_eight2&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(220/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00108">108</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -370,7 +452,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00093">93</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00091">91</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9ce2716323ceb0e2133340a161f33a6c" name="a9ce2716323ceb0e2133340a161f33a6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ce2716323ceb0e2133340a161f33a6c">&#9670;&nbsp;</a></span>high</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define high&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{467, static_cast&lt;uint8_t&gt;(150/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00109">109</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -386,7 +484,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00105">105</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00118">118</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -402,7 +500,39 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00106">106</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00119">119</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa960ad3f1b68f117dc01135e55ad63ab" name="aa960ad3f1b68f117dc01135e55ad63ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa960ad3f1b68f117dc01135e55ad63ab">&#9670;&nbsp;</a></span>longrest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define longrest&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00112">112</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4c601b4f90966724c2de786d8bd9eb82" name="a4c601b4f90966724c2de786d8bd9eb82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c601b4f90966724c2de786d8bd9eb82">&#9670;&nbsp;</a></span>low</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define low&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{393, static_cast&lt;uint8_t&gt;(200/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00110">110</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -420,7 +550,119 @@ Variables</h2></td></tr>
 
 <p>notes to use for creating a song, along with a tempo </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00084">84</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00085">85</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a27d220765493a35a134aa65172693140" name="a27d220765493a35a134aa65172693140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d220765493a35a134aa65172693140">&#9670;&nbsp;</a></span>REPORT_CONTHIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_CONTHIGH&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 100}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00122">122</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4dc0136bfe35d28db66e44a33e856062" name="a4dc0136bfe35d28db66e44a33e856062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc0136bfe35d28db66e44a33e856062">&#9670;&nbsp;</a></span>REPORT_CONTLOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_CONTLOW&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2500, 100}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00123">123</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a887f0d1cbb3fa58ae15d438601a6fb6d" name="a887f0d1cbb3fa58ae15d438601a6fb6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887f0d1cbb3fa58ae15d438601a6fb6d">&#9670;&nbsp;</a></span>REPORT_ERRFSM0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_ERRFSM0&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{3000, 150}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00127">127</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="add5041472c31a7d6c8891f8d5f65c41c" name="add5041472c31a7d6c8891f8d5f65c41c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add5041472c31a7d6c8891f8d5f65c41c">&#9670;&nbsp;</a></span>REPORT_ERRFSM1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_ERRFSM1&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2800, 150}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00128">128</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a190c192d05617c9d717c091c597a0b5f" name="a190c192d05617c9d717c091c597a0b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a190c192d05617c9d717c091c597a0b5f">&#9670;&nbsp;</a></span>REPORT_PAUSEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_PAUSEL&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 200}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00125">125</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a30c57a207736be81d0ef4b3a4819d025" name="a30c57a207736be81d0ef4b3a4819d025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c57a207736be81d0ef4b3a4819d025">&#9670;&nbsp;</a></span>REPORT_PAUSES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_PAUSES&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 50}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00124">124</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aed59a425eee0b790a65587678fc9dd7e" name="aed59a425eee0b790a65587678fc9dd7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed59a425eee0b790a65587678fc9dd7e">&#9670;&nbsp;</a></span>REPORT_WARN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPORT_WARN&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{2730, 200}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00121">121</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -431,12 +673,44 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define rest&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, 10}</td>
+          <td class="memname">#define rest&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{0, static_cast&lt;uint8_t&gt;(10/1)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00086">86</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00113">113</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa5c50bde0d16d15a08d32d8df49a80ae" name="aa5c50bde0d16d15a08d32d8df49a80ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c50bde0d16d15a08d32d8df49a80ae">&#9670;&nbsp;</a></span>something</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define something&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{393, static_cast&lt;uint8_t&gt;(255/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00103">103</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a85e88b69dd1a28b19af53250ded88309" name="a85e88b69dd1a28b19af53250ded88309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e88b69dd1a28b19af53250ded88309">&#9670;&nbsp;</a></span>somethingdiv2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define somethingdiv2&#160;&#160;&#160;<a class="el" href="structSound.html">Sound</a>{393, static_cast&lt;uint8_t&gt;(220/1.3)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00104">104</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -452,7 +726,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00103">103</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00116">116</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -468,7 +742,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00102">102</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00115">115</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -484,18 +758,39 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code hl_define" href="buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc">d4_eight</a>, <a class="code hl_define" href="buzzer_8cpp.html#aeb7e0fbd5060ffbb0ac0ba1ce95d7521">g4_eight</a>, <a class="code hl_define" href="buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc">d4_eight</a>,</div>
-<div class="line">     <a class="code hl_define" href="buzzer_8cpp.html#add2ad1351877ad4c0774a9a7d91dfbcd">f_nat_4_eight</a>, <a class="code hl_define" href="buzzer_8cpp.html#aeb7e0fbd5060ffbb0ac0ba1ce95d7521">g4_eight</a>, <a class="code hl_define" href="buzzer_8cpp.html#a9e377241a232d8303ce8d54557bb7049">f_nat_4_quart</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#a9e377241a232d8303ce8d54557bb7049">f_nat_4_quart</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#add2ad1351877ad4c0774a9a7d91dfbcd">f_nat_4_eight</a>, <a class="code hl_define" href="buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc">d4_eight</a></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code hl_define" href="buzzer_8cpp.html#ac8d2dbe193e8c26972c2134acb1f00a2">d4_eight2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#a183cb9371945b3dc67fe33d2223c56ec">g4_eight2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#ac8d2dbe193e8c26972c2134acb1f00a2">d4_eight2</a>, </div>
+<div class="line">    <a class="code hl_define" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>, <a class="code hl_define" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>, <a class="code hl_define" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>, <a class="code hl_define" href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a>, </div>
+<div class="line">    <a class="code hl_define" href="buzzer_8cpp.html#afdf663537c108a4aef96a9384f1fe2b8">f_nat_4_quart2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#ac8d2dbe193e8c26972c2134acb1f00a2">d4_eight2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#a61cbf69279d3aba66f5a97579774e524">f_nat_4_eight2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#a85e88b69dd1a28b19af53250ded88309">somethingdiv2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#a61cbf69279d3aba66f5a97579774e524">f_nat_4_eight2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#ac8d2dbe193e8c26972c2134acb1f00a2">d4_eight2</a>, <a class="code hl_define" href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a>, <a class="code hl_define" href="buzzer_8cpp.html#a85e88b69dd1a28b19af53250ded88309">somethingdiv2</a>, <a class="code hl_define" href="buzzer_8cpp.html#a85e88b69dd1a28b19af53250ded88309">somethingdiv2</a>, </div>
 <div class="line">}</div>
-<div class="ttc" id="abuzzer_8cpp_html_a9e377241a232d8303ce8d54557bb7049"><div class="ttname"><a href="buzzer_8cpp.html#a9e377241a232d8303ce8d54557bb7049">f_nat_4_quart</a></div><div class="ttdeci">#define f_nat_4_quart</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00094">buzzer.cpp:94</a></div></div>
-<div class="ttc" id="abuzzer_8cpp_html_aadc4b84b7c3a96e8ba93cb9d93379a03"><div class="ttname"><a href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a></div><div class="ttdeci">#define rest</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00086">buzzer.cpp:86</a></div></div>
-<div class="ttc" id="abuzzer_8cpp_html_ac7b2c0e3eab5909c271215d7844e9bdc"><div class="ttname"><a href="buzzer_8cpp.html#ac7b2c0e3eab5909c271215d7844e9bdc">d4_eight</a></div><div class="ttdeci">#define d4_eight</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00087">buzzer.cpp:87</a></div></div>
-<div class="ttc" id="abuzzer_8cpp_html_add2ad1351877ad4c0774a9a7d91dfbcd"><div class="ttname"><a href="buzzer_8cpp.html#add2ad1351877ad4c0774a9a7d91dfbcd">f_nat_4_eight</a></div><div class="ttdeci">#define f_nat_4_eight</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00089">buzzer.cpp:89</a></div></div>
-<div class="ttc" id="abuzzer_8cpp_html_aeb7e0fbd5060ffbb0ac0ba1ce95d7521"><div class="ttname"><a href="buzzer_8cpp.html#aeb7e0fbd5060ffbb0ac0ba1ce95d7521">g4_eight</a></div><div class="ttdeci">#define g4_eight</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00088">buzzer.cpp:88</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_a183cb9371945b3dc67fe33d2223c56ec"><div class="ttname"><a href="buzzer_8cpp.html#a183cb9371945b3dc67fe33d2223c56ec">g4_eight2</a></div><div class="ttdeci">#define g4_eight2</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00108">buzzer.cpp:108</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_a61cbf69279d3aba66f5a97579774e524"><div class="ttname"><a href="buzzer_8cpp.html#a61cbf69279d3aba66f5a97579774e524">f_nat_4_eight2</a></div><div class="ttdeci">#define f_nat_4_eight2</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00106">buzzer.cpp:106</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_a85e88b69dd1a28b19af53250ded88309"><div class="ttname"><a href="buzzer_8cpp.html#a85e88b69dd1a28b19af53250ded88309">somethingdiv2</a></div><div class="ttdeci">#define somethingdiv2</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00104">buzzer.cpp:104</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_aa5c50bde0d16d15a08d32d8df49a80ae"><div class="ttname"><a href="buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae">something</a></div><div class="ttdeci">#define something</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00103">buzzer.cpp:103</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_aadc4b84b7c3a96e8ba93cb9d93379a03"><div class="ttname"><a href="buzzer_8cpp.html#aadc4b84b7c3a96e8ba93cb9d93379a03">rest</a></div><div class="ttdeci">#define rest</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00113">buzzer.cpp:113</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_ac8d2dbe193e8c26972c2134acb1f00a2"><div class="ttname"><a href="buzzer_8cpp.html#ac8d2dbe193e8c26972c2134acb1f00a2">d4_eight2</a></div><div class="ttdeci">#define d4_eight2</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00107">buzzer.cpp:107</a></div></div>
+<div class="ttc" id="abuzzer_8cpp_html_afdf663537c108a4aef96a9384f1fe2b8"><div class="ttname"><a href="buzzer_8cpp.html#afdf663537c108a4aef96a9384f1fe2b8">f_nat_4_quart2</a></div><div class="ttdeci">#define f_nat_4_quart2</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_8cpp_source.html#l00105">buzzer.cpp:105</a></div></div>
 </div><!-- fragment -->
 <p>free bird solo song, to be played on startup/ second stage iginition </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00111">111</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00134">134</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abd219049bd1097551d30670ef11177c2" name="abd219049bd1097551d30670ef11177c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd219049bd1097551d30670ef11177c2">&#9670;&nbsp;</a></span>james_bond</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structSound.html">Sound</a> james_bond[<a class="el" href="buzzer_8h.html#acb38d5f57112169264c7f683de0869af">JAMES_BOND_LENGTH</a>] = {<a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(240)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(109)}, <a class="el" href="structSound.html">Sound</a>{622, static_cast&lt;uint8_t&gt;(148)}, <a class="el" href="structSound.html">Sound</a>{587, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{587, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{587, static_cast&lt;uint8_t&gt;(112)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(174)}, <a class="el" href="structSound.html">Sound</a>{466, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{466, static_cast&lt;uint8_t&gt;(3)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{494, static_cast&lt;uint8_t&gt;(140)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(33)}, <a class="el" href="structSound.html">Sound</a>{440, static_cast&lt;uint8_t&gt;(64)}, <a class="el" href="structSound.html">Sound</a>{392, static_cast&lt;uint8_t&gt;(64)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{370, static_cast&lt;uint8_t&gt;(67)}, <a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{330, static_cast&lt;uint8_t&gt;(1)}, <a class="el" href="structSound.html">Sound</a>{277, static_cast&lt;uint8_t&gt;(255)}, <a class="el" href="structSound.html">Sound</a>{277, static_cast&lt;uint8_t&gt;(245)}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>James Bond theme, only to be played on Midas Mini 007. </p>
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00145">145</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +808,7 @@ Variables</h2></td></tr>
 
 <p>Land state tone, played whenever the board is in the "LANDED" state to provide a audio indicator to recovery parties. </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00123">123</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00157">157</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -531,7 +826,7 @@ Variables</h2></td></tr>
 
 <p>Warn tone, to be played in "unsafe" non-flight states (STATE_IDLE, STATE_PYRO_TEST) </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00118">118</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00152">152</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>

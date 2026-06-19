@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['semaphorehandle_5ft_0',['SemaphoreHandle_t',['../emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c',1,'emulation.h']]],
-  ['staticsemaphore_5ft_1',['StaticSemaphore_t',['../emulation_8h.html#a3383e1da05160e200b6ba66abb27e974',1,'emulation.h']]],
-  ['statictask_5ft_2',['StaticTask_t',['../emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a',1,'emulation.h']]]
+  ['taskfunction_5ft_0',['TaskFunction_t',['../emulation_8h.html#a9b32502ff92c255c686dacde53c1cba0',1,'emulation.h']]],
+  ['threadfunc_1',['ThreadFunc',['../fiber_8h.html#a5f2327dfd6cf07d4b4aa66f419215358',1,'fiber.h']]],
+  ['ticktype_5ft_2',['TickType_t',['../emulation_8h.html#a537e57da57a98108f1a0aae0be716d30',1,'emulation.h']]]
 ];

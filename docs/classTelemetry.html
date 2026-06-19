@@ -105,19 +105,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc1fca0244f0f8fedf7d8981c0f20fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d798539857c3dc0447c714a68aaa313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a6d798539857c3dc0447c714a68aaa313">__attribute__</a> ((warn_unused_result)) init()</td></tr>
 <tr class="separator:a6d798539857c3dc0447c714a68aaa313"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6ae596ad10b7e4061a838ba73fbc902"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#af6ae596ad10b7e4061a838ba73fbc902">transmit</a> (<a class="el" href="structRocketData.html">RocketData</a> &amp;rocket_data, <a class="el" href="classLEDController.html">LEDController</a> &amp;led)</td></tr>
-<tr class="memdesc:af6ae596ad10b7e4061a838ba73fbc902"><td class="mdescLeft">&#160;</td><td class="mdescRight">transmit telemetry data through LoRa  <a href="classTelemetry.html#af6ae596ad10b7e4061a838ba73fbc902">More...</a><br /></td></tr>
-<tr class="separator:af6ae596ad10b7e4061a838ba73fbc902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8397c83a99c2aeaf6e419993047f3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a2d8397c83a99c2aeaf6e419993047f3a">transmit</a> (<a class="el" href="structRocketData.html">RocketData</a> &amp;rocket_data, const <a class="el" href="structMIDASEEPROM.html">MIDASEEPROM</a> &amp;eeprom, <a class="el" href="classLEDController.html">LEDController</a> &amp;led)</td></tr>
+<tr class="memdesc:a2d8397c83a99c2aeaf6e419993047f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">transmit telemetry data through LoRa  <a href="classTelemetry.html#a2d8397c83a99c2aeaf6e419993047f3a">More...</a><br /></td></tr>
+<tr class="separator:a2d8397c83a99c2aeaf6e419993047f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e2787d3fe6d4f83049ee94cbd771b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a83e2787d3fe6d4f83049ee94cbd771b7">receive</a> (<a class="el" href="structTelemetryCommand.html">TelemetryCommand</a> *command, int wait_milliseconds)</td></tr>
 <tr class="separator:a83e2787d3fe6d4f83049ee94cbd771b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c6def1454cd8ec8d2cb466f61c53d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a40c6def1454cd8ec8d2cb466f61c53d8">acknowledgeReceived</a> ()</td></tr>
 <tr class="separator:a40c6def1454cd8ec8d2cb466f61c53d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc73ac4e5e185c2bb004523a08fb620e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#afc73ac4e5e185c2bb004523a08fb620e">setFrequency</a> (float <a class="el" href="midas__shell__commands_8h.html#ae961a339b748f4950db2c0a58822c6a5">frequency</a>)</td></tr>
+<tr class="memdesc:afc73ac4e5e185c2bb004523a08fb620e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets new frequency for the LoRa module.  <a href="classTelemetry.html#afc73ac4e5e185c2bb004523a08fb620e">More...</a><br /></td></tr>
+<tr class="separator:afc73ac4e5e185c2bb004523a08fb620e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3445066318335a1e3c1c83fc49baf43c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a3445066318335a1e3c1c83fc49baf43c">set_spi_mutex</a> (<a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a> mtx)</td></tr>
+<tr class="separator:a3445066318335a1e3c1c83fc49baf43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a3fcf618dd2b2f670c6efce7970ff331e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTelemetryPacket.html">TelemetryPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a3fcf618dd2b2f670c6efce7970ff331e">makePacket</a> (<a class="el" href="structRocketData.html">RocketData</a> &amp;data)</td></tr>
-<tr class="memdesc:a3fcf618dd2b2f670c6efce7970ff331e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates the packet to send through the telemetry system  <a href="classTelemetry.html#a3fcf618dd2b2f670c6efce7970ff331e">More...</a><br /></td></tr>
-<tr class="separator:a3fcf618dd2b2f670c6efce7970ff331e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf428190bf53973630d0937b2e962c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTelemetryPacket.html">TelemetryPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetry.html#a9bf428190bf53973630d0937b2e962c1">makePacket</a> (<a class="el" href="structRocketData.html">RocketData</a> &amp;data, const <a class="el" href="structMIDASEEPROM.html">MIDASEEPROM</a> &amp;eeprom)</td></tr>
+<tr class="memdesc:a9bf428190bf53973630d0937b2e962c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates the packet to send through the telemetry system  <a href="classTelemetry.html#a9bf428190bf53973630d0937b2e962c1">More...</a><br /></td></tr>
+<tr class="separator:a9bf428190bf53973630d0937b2e962c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -129,7 +134,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >wraps the telemetry system to create and send a packet </p>
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00021">21</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00022">22</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab1f7b3556d83e22c061c7eb70cd6507b" name="ab1f7b3556d83e22c061c7eb70cd6507b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1f7b3556d83e22c061c7eb70cd6507b">&#9670;&nbsp;</a></span>Telemetry() <span class="overload">[1/2]</span></h2>
@@ -233,8 +238,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3fcf618dd2b2f670c6efce7970ff331e" name="a3fcf618dd2b2f670c6efce7970ff331e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fcf618dd2b2f670c6efce7970ff331e">&#9670;&nbsp;</a></span>makePacket()</h2>
+<a id="a9bf428190bf53973630d0937b2e962c1" name="a9bf428190bf53973630d0937b2e962c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf428190bf53973630d0937b2e962c1">&#9670;&nbsp;</a></span>makePacket()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,8 +251,18 @@ Private Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="structTelemetryPacket.html">TelemetryPacket</a> Telemetry::makePacket </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structRocketData.html">RocketData</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structMIDASEEPROM.html">MIDASEEPROM</a> &amp;&#160;</td>
+          <td class="paramname"><em>eeprom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -265,7 +280,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00082">82</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00091">91</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
 
 </div>
 </div>
@@ -299,8 +314,64 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af6ae596ad10b7e4061a838ba73fbc902" name="af6ae596ad10b7e4061a838ba73fbc902"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6ae596ad10b7e4061a838ba73fbc902">&#9670;&nbsp;</a></span>transmit()</h2>
+<a id="a3445066318335a1e3c1c83fc49baf43c" name="a3445066318335a1e3c1c83fc49baf43c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3445066318335a1e3c1c83fc49baf43c">&#9670;&nbsp;</a></span>set_spi_mutex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Telemetry::set_spi_mutex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td>
+          <td class="paramname"><em>mtx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00033">33</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
+
+</div>
+</div>
+<a id="afc73ac4e5e185c2bb004523a08fb620e" name="afc73ac4e5e185c2bb004523a08fb620e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc73ac4e5e185c2bb004523a08fb620e">&#9670;&nbsp;</a></span>setFrequency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> Telemetry::setFrequency </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets new frequency for the LoRa module. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>New frequency to set the LoRa module to (MHz) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="telemetry_8cpp_source.html#l00082">82</a> of file <a class="el" href="telemetry_8cpp_source.html">telemetry.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2d8397c83a99c2aeaf6e419993047f3a" name="a2d8397c83a99c2aeaf6e419993047f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d8397c83a99c2aeaf6e419993047f3a">&#9670;&nbsp;</a></span>transmit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,6 +381,12 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structRocketData.html">RocketData</a> &amp;&#160;</td>
           <td class="paramname"><em>rocket_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMIDASEEPROM.html">MIDASEEPROM</a> &amp;&#160;</td>
+          <td class="paramname"><em>eeprom</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -359,7 +436,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00035">35</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00038">38</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +460,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00032">32</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry_8h_source.html#l00035">35</a> of file <a class="el" href="telemetry_8h_source.html">telemetry.h</a>.</p>
 
 </div>
 </div>

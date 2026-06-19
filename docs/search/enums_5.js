@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['orientationreadingtype_0',['OrientationReadingType',['../sensor__data_8h.html#ae25ac8fc5f6429b1fc847dbe4f5009c9',1,'sensor_data.h']]]
+  ['k_5fevent_5ftype_0',['K_EVENT_TYPE',['../kal__events_8h.html#af246071bc9d86f4531610eb28d87b7f7',1,'kal_events.h']]]
 ];

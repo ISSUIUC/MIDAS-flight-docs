@@ -1,14 +1,4 @@
 var searchData=
 [
-  ['pdms_5fto_5fticks_0',['pdMS_TO_TICKS',['../emulation_8h.html#aa7cb1304f96ef54b106ce8071dcefa57',1,'emulation.h']]],
-  ['pdticks_5fto_5fms_1',['pdTICKS_TO_MS',['../emulation_8h.html#acae41b6eceadee76ef8d1d71742d1564',1,'emulation.h']]],
-  ['pi_2',['pi',['../rotation_8h.html#a1daf785e3f68d293c7caa1c756d5cb74',1,'rotation.h']]],
-  ['pyro_5fglobal_5farm_5fpin_3',['PYRO_GLOBAL_ARM_PIN',['../pins_8h.html#a3485a883031278b5c8c0a203aa41e7aa',1,'pins.h']]],
-  ['pyro_5fpg_4',['PYRO_PG',['../pins_8h.html#a3ac97a234f2d5dc06f37b748f2fef51d',1,'pins.h']]],
-  ['pyro_5fsense_5',['PYRO_SENSE',['../pins_8h.html#a64dc897bae1c30e700d5b199897fe544',1,'pins.h']]],
-  ['pyro_5ftest_5ffire_5ftime_6',['PYRO_TEST_FIRE_TIME',['../hardware_2Pyro_8cpp.html#a5e7eba33196eb80dc8173728fd0f4103',1,'Pyro.cpp']]],
-  ['pyroa_5ffire_5fpin_7',['PYROA_FIRE_PIN',['../pins_8h.html#ab62f8f04918c1075ae1989046d0fed0a',1,'pins.h']]],
-  ['pyrob_5ffire_5fpin_8',['PYROB_FIRE_PIN',['../pins_8h.html#a8ce270da41b6c468b807c8acd5ebbcbe',1,'pins.h']]],
-  ['pyroc_5ffire_5fpin_9',['PYROC_FIRE_PIN',['../pins_8h.html#a0024c2ce5054309c5d9a01d4de37ec08',1,'pins.h']]],
-  ['pyrod_5ffire_5fpin_10',['PYROD_FIRE_PIN',['../pins_8h.html#a55c20206ad9c0836789e5d58d9b15aa0',1,'pins.h']]]
+  ['output_0',['OUTPUT',['../emulation_8h.html#a61a3c9a18380aafb6e430e79bf596557',1,'emulation.h']]]
 ];

@@ -115,12 +115,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a18cc384c1875943fdc9c43bbdce7e03b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b">GlobalToBody</a> (Angles &amp;angles_rad, Eigen::Matrix&lt; float, 3, 1 &gt; &amp;global_vec)</td></tr>
 <tr class="memdesc:a18cc384c1875943fdc9c43bbdce7e03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a vector in the global frame to the body frame.  <a href="rotation_8h.html#a18cc384c1875943fdc9c43bbdce7e03b">More...</a><br /></td></tr>
 <tr class="separator:a18cc384c1875943fdc9c43bbdce7e03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf50e5da2d71e9e9b9e26f77bcc46378"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#adf50e5da2d71e9e9b9e26f77bcc46378">gps_to_ecef</a> (float lat, float lon, float alt)</td></tr>
-<tr class="memdesc:adf50e5da2d71e9e9b9e26f77bcc46378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) to ECEF (meters)  <a href="rotation_8h.html#adf50e5da2d71e9e9b9e26f77bcc46378">More...</a><br /></td></tr>
-<tr class="separator:adf50e5da2d71e9e9b9e26f77bcc46378"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acab2ba5985e21555a8abe3a9425a025b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#acab2ba5985e21555a8abe3a9425a025b">ecef_to_enu</a> (std::vector&lt; float &gt; curr_ecef, std::vector&lt; float &gt; ref_ecef, std::vector&lt; float &gt; ref_gps)</td></tr>
-<tr class="memdesc:acab2ba5985e21555a8abe3a9425a025b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the current ECEF (meters) to ENU (meters) based on a reference in both ECEF (meters) and <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees)  <a href="rotation_8h.html#acab2ba5985e21555a8abe3a9425a025b">More...</a><br /></td></tr>
-<tr class="separator:acab2ba5985e21555a8abe3a9425a025b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9cbe89e5ffe3467d908351b1a7f768c"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#ad9cbe89e5ffe3467d908351b1a7f768c">gps_to_ecef</a> (float lat, float lon, float alt)</td></tr>
+<tr class="memdesc:ad9cbe89e5ffe3467d908351b1a7f768c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) to ECEF (meters)  <a href="rotation_8h.html#ad9cbe89e5ffe3467d908351b1a7f768c">More...</a><br /></td></tr>
+<tr class="separator:ad9cbe89e5ffe3467d908351b1a7f768c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a748bf989e59e50ab1885ed3032ab0bb0"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rotation_8h.html#a748bf989e59e50ab1885ed3032ab0bb0">ecef_to_enu</a> (std::array&lt; float, 3 &gt; curr_ecef, std::array&lt; float, 3 &gt; ref_ecef, std::array&lt; float, 3 &gt; ref_gps)</td></tr>
+<tr class="memdesc:a748bf989e59e50ab1885ed3032ab0bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the current ECEF (meters) to ENU (meters) based on a reference in both ECEF (meters) and <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees)  <a href="rotation_8h.html#a748bf989e59e50ab1885ed3032ab0bb0">More...</a><br /></td></tr>
+<tr class="separator:a748bf989e59e50ab1885ed3032ab0bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a955f504eccf76b4eb2489c0adab03121" name="a955f504eccf76b4eb2489c0adab03121"></a>
@@ -246,8 +246,8 @@ template&lt;typename Angles &gt; </div>
 
 </div>
 </div>
-<a id="acab2ba5985e21555a8abe3a9425a025b" name="acab2ba5985e21555a8abe3a9425a025b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acab2ba5985e21555a8abe3a9425a025b">&#9670;&nbsp;</a></span>ecef_to_enu()</h2>
+<a id="a748bf989e59e50ab1885ed3032ab0bb0" name="a748bf989e59e50ab1885ed3032ab0bb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748bf989e59e50ab1885ed3032ab0bb0">&#9670;&nbsp;</a></span>ecef_to_enu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,21 +256,21 @@ template&lt;typename Angles &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; float &gt; ecef_to_enu </td>
+          <td class="memname">std::array&lt; float, 3 &gt; ecef_to_enu </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; float &gt;&#160;</td>
+          <td class="paramtype">std::array&lt; float, 3 &gt;&#160;</td>
           <td class="paramname"><em>curr_ecef</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; float &gt;&#160;</td>
+          <td class="paramtype">std::array&lt; float, 3 &gt;&#160;</td>
           <td class="paramname"><em>ref_ecef</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; float &gt;&#160;</td>
+          <td class="paramtype">std::array&lt; float, 3 &gt;&#160;</td>
           <td class="paramname"><em>ref_gps</em>&#160;</td>
         </tr>
         <tr>
@@ -287,7 +287,7 @@ template&lt;typename Angles &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts the current ECEF (meters) to ENU (meters) based on a reference in both ECEF (meters) and <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) </p>
-<dl class="section return"><dt>Returns</dt><dd>Vector of ENU coordinates {East, North, Up} </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::array of ENU coordinates {East, North, Up} </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00101">101</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
 
@@ -335,8 +335,8 @@ template&lt;typename Angles &gt; </div>
 
 </div>
 </div>
-<a id="adf50e5da2d71e9e9b9e26f77bcc46378" name="adf50e5da2d71e9e9b9e26f77bcc46378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf50e5da2d71e9e9b9e26f77bcc46378">&#9670;&nbsp;</a></span>gps_to_ecef()</h2>
+<a id="ad9cbe89e5ffe3467d908351b1a7f768c" name="ad9cbe89e5ffe3467d908351b1a7f768c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9cbe89e5ffe3467d908351b1a7f768c">&#9670;&nbsp;</a></span>gps_to_ecef()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +345,7 @@ template&lt;typename Angles &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; float &gt; gps_to_ecef </td>
+          <td class="memname">std::array&lt; float, 3 &gt; gps_to_ecef </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>lat</em>, </td>
@@ -376,7 +376,7 @@ template&lt;typename Angles &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts <a class="el" href="structGPS.html" title="data from the GPS">GPS</a> (degrees) to ECEF (meters) </p>
-<dl class="section return"><dt>Returns</dt><dd>Vector of ECEF coordinates {X, Y, Z} </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::array of ECEF coordinates {X, Y, Z} </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="rotation_8h_source.html#l00083">83</a> of file <a class="el" href="rotation_8h_source.html">rotation.h</a>.</p>
 

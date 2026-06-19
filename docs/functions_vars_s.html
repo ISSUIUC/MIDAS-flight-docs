@@ -90,11 +90,14 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>safety_pyro_start_firing_time&#160;:&#160;<a class="el" href="structPyro.html#a2a640de4104cfb91baa776e1ac5f9365">Pyro</a></li>
 <li>sats_in_view&#160;:&#160;<a class="el" href="structGPS.html#a4c2762716823994fe4dc685609d495c8">GPS</a></li>
 <li>sd_file_num_last&#160;:&#160;<a class="el" href="structMIDASEEPROM.html#a4f0dbee8d3d713d5f96ae715d87b0842">MIDASEEPROM</a></li>
-<li>second_boost_time&#160;:&#160;<a class="el" href="classfsm_1_1SustainerFSM.html#aca2f40a1517432a97eb9e2735da88112">fsm.SustainerFSM</a>, <a class="el" href="classFSM.html#a28a84abfe37e4b144daae372d8a01b39">FSM</a></li>
 <li>sensors&#160;:&#160;<a class="el" href="structRocketSystems.html#a9b24df20ffe8ef050ae0b6a8e2cd1099">RocketSystems</a></li>
-<li>separate_options&#160;:&#160;<a class="el" href="classnanopb__generator_1_1Globals.html#ac4a481e1180dd125bb9ffd1136ce7fd5">nanopb_generator.Globals</a></li>
-<li>sflp&#160;:&#160;<a class="el" href="structLoggedReading.html#a2d95669ce6bee407615ed058c59c2cf2">LoggedReading</a>, <a class="el" href="structRocketData.html#a8424ab0d133ed40e9f4c73f16c05cbfc">RocketData</a></li>
+<li>serial&#160;:&#160;<a class="el" href="structMIDASEEPROM.html#ab3987f8a3df0cd2f294bef62f21d88a6">MIDASEEPROM</a>, <a class="el" href="structTelemetryCommand.html#af369e61051947ee73fe7c6d188601ded">TelemetryCommand</a>, <a class="el" href="structTelemetryPacket.html#ab62c1bf0c21e399510b9b938e61dfdc9">TelemetryPacket</a></li>
+<li>serial_check&#160;:&#160;<a class="el" href="structTelemetryCommand.html#aa41619a0da69516e5d89f182f121cd81">TelemetryCommand</a></li>
+<li>settings&#160;:&#160;<a class="el" href="classMShell.html#ae861c92f30226462973e26988e9c39d4">MShell</a></li>
+<li>sflp&#160;:&#160;<a class="el" href="structKRocketData.html#a3d7bee53849a2a0973133135c3d6e45a">KRocketData</a>, <a class="el" href="structLoggedReading.html#a2d95669ce6bee407615ed058c59c2cf2">LoggedReading</a>, <a class="el" href="structRocketData.html#a8424ab0d133ed40e9f4c73f16c05cbfc">RocketData</a></li>
 <li>sflp_tilt&#160;:&#160;<a class="el" href="structAngularKalmanData.html#a24b15c0b6d7eb5a07f003efcfc454a15">AngularKalmanData</a></li>
+<li>sh_en&#160;:&#160;<a class="el" href="structsys__flags__t.html#a21c12015493586419eb37d0403998040">sys_flags_t</a></li>
+<li>shell&#160;:&#160;<a class="el" href="structRocketSystems.html#a6eb357f9fb8634fdf3742fad6f7c5508">RocketSystems</a></li>
 <li>should_be_continous&#160;:&#160;<a class="el" href="structContinuitySensor.html#a857476fb6ade62c00182a75861226be9">ContinuitySensor</a></li>
 <li>should_fire_pyro_a&#160;:&#160;<a class="el" href="structCommandFlags.html#ac5e7e75df98e793a27d0772b43182f29">CommandFlags</a></li>
 <li>should_fire_pyro_b&#160;:&#160;<a class="el" href="structCommandFlags.html#a6c20fd503f317e4c24f467a20c5e2b36">CommandFlags</a></li>
@@ -102,7 +105,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>should_fire_pyro_d&#160;:&#160;<a class="el" href="structCommandFlags.html#a66ed2d7f838814cdb9dd57cf6ba8845b">CommandFlags</a></li>
 <li>should_reinit&#160;:&#160;<a class="el" href="classEKF.html#a09ec3df4df023c82d69ca6b56b93ced0">EKF</a></li>
 <li>should_reset_kf&#160;:&#160;<a class="el" href="structCommandFlags.html#a321fa05f266035c2ef4467a787eabc2e">CommandFlags</a></li>
-<li>should_transition_idle&#160;:&#160;<a class="el" href="structCommandFlags.html#a6b59cd68c7f0f063746c221ab65683e4">CommandFlags</a></li>
+<li>should_transition_armed&#160;:&#160;<a class="el" href="structCommandFlags.html#ada5ea22be78eed6b38d88069b1909c00">CommandFlags</a></li>
 <li>should_transition_pyro_test&#160;:&#160;<a class="el" href="structCommandFlags.html#ad4bfd64191bd7476633628d5046e2ad6">CommandFlags</a></li>
 <li>should_transition_safe&#160;:&#160;<a class="el" href="structCommandFlags.html#abb3b01e33ae9ecffd7265f9ac48b9217">CommandFlags</a></li>
 <li>sigma_a&#160;:&#160;<a class="el" href="classQuaternionMEKF.html#a8b0035d8691b221b93b8533c62360a2b">QuaternionMEKF</a></li>
@@ -111,22 +114,13 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>simulation_parameters&#160;:&#160;<a class="el" href="structSimulation.html#aec07563ce0c7b6665616568340948ab3">Simulation</a></li>
 <li>sink&#160;:&#160;<a class="el" href="classMultipleLogSink_3_01Sink_00_01Sinks_8_8_8_01_4.html#a8d86ed4b52c7fc6edd9122969adff26a">MultipleLogSink&lt; Sink, Sinks... &gt;</a></li>
 <li>sinks&#160;:&#160;<a class="el" href="classMultipleLogSink_3_01Sink_00_01Sinks_8_8_8_01_4.html#a5b4d3d96260a86ebde2df467ad29a1c6">MultipleLogSink&lt; Sink, Sinks... &gt;</a></li>
-<li>skip&#160;:&#160;<a class="el" href="classnanopb__generator_1_1ExtensionField.html#a5857d02567890453a1d3f7b774be516f">nanopb_generator.ExtensionField</a></li>
-<li>sort_by_tag&#160;:&#160;<a class="el" href="classnanopb__generator_1_1Field.html#a4972fa3f83fd7493bb99cad5178ce1b5">nanopb_generator.Field</a>, <a class="el" href="classnanopb__generator_1_1OneOf.html#aa749848b5307a0abc0b65680ada8a43c">nanopb_generator.OneOf</a></li>
+<li>size&#160;:&#160;<a class="el" href="structk__event__t.html#a0c2f3a5b64912fe136d33b58dc9c6c50">k_event_t</a>, <a class="el" href="structMetaLogging_1_1MetaLogEntry.html#a2db41910250f5c753347df6b6af4d97c">MetaLogging::MetaLogEntry</a></li>
 <li>spectral_density_&#160;:&#160;<a class="el" href="classEKF.html#a154498e2e44713df6d8d28adbde06383">EKF</a></li>
 <li>speed&#160;:&#160;<a class="el" href="structGPS.html#a5ebd297588ed65be9e352a180f9fe29d">GPS</a></li>
-<li>spi&#160;:&#160;<a class="el" href="classSX1268.html#a1c1abe79eda1956cc27b9fd9f72bd49c">SX1268</a></li>
-<li>spiSettings&#160;:&#160;<a class="el" href="classSX1268.html#a2b7ed7977ae694923cc1a06c6b8f6af3">SX1268</a></li>
-<li>stage_sep_time&#160;:&#160;<a class="el" href="classfsm_1_1BoosterFsm.html#a891844b6a124d842ca9fd9202d581d1b">fsm.BoosterFsm</a></li>
 <li>stage_timestamp&#160;:&#160;<a class="el" href="classEKF.html#ab41b1bd86b1aaeb2470368d74eaffca8">EKF</a></li>
-<li>starting_ecef&#160;:&#160;<a class="el" href="classEKF.html#a36159028057096a38de314d7c7bbe9fb">EKF</a></li>
-<li>starting_gps&#160;:&#160;<a class="el" href="classEKF.html#a89d02b9ce9b87282588094c91267a668">EKF</a></li>
-<li>state&#160;:&#160;<a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">EKF</a>, <a class="el" href="classfsm_1_1BoosterFsm.html#a009a1e7193a7280acd685982b31092aa">fsm.BoosterFsm</a>, <a class="el" href="classfsm_1_1SustainerFSM.html#a6c24a529c2b82e78e7022b71b38c6e32">fsm.SustainerFSM</a>, <a class="el" href="classQuaternionMEKF.html#a6b6090b4b681afb1d23242d4b086b0e1">QuaternionMEKF</a></li>
-<li>STATE_APOGEE&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#a5a7c7438010dd3c599d1f0ef6ada4466">fsm.FSMState</a></li>
-<li>STATE_BURNOUT&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#aa7c02d73dc0b96e5041927343c2fcaa3">fsm.FSMState</a></li>
-<li>STATE_COAST&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#a0fb059a65cf7204348c9ce74e9342ee3">fsm.FSMState</a></li>
-<li>STATE_DROGUE&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#aa28af5fa3c6c2828903b12528e04fc60">fsm.FSMState</a></li>
-<li>STATE_DROGUE_DEPLOY&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#a610c930175466911645dfcd009aabdd2">fsm.FSMState</a></li>
+<li>starting_ecef&#160;:&#160;<a class="el" href="classEKF.html#a74b25178d6aaac0f910d454dda11202b">EKF</a></li>
+<li>starting_gps&#160;:&#160;<a class="el" href="classEKF.html#a35bcba0eb091ef816cfa2e5d88bd9ff2">EKF</a></li>
+<li>state&#160;:&#160;<a class="el" href="classEKF.html#ab0c19fe5c2784251e7eede3a8b4bc430">EKF</a>, <a class="el" href="structFSMData.html#a3bc79bb3a901a24bb845776412afaa2a">FSMData</a>, <a class="el" href="classQuaternionMEKF.html#a6b6090b4b681afb1d23242d4b086b0e1">QuaternionMEKF</a></li>
 <li>state_est_accel_x&#160;:&#160;<a class="el" href="structKalmanState.html#a2c2413c083aef09a09a70607748013ef">KalmanState</a></li>
 <li>state_est_accel_y&#160;:&#160;<a class="el" href="structKalmanState.html#ae15da6388c77bab492b22c75806b3268">KalmanState</a></li>
 <li>state_est_accel_z&#160;:&#160;<a class="el" href="structKalmanState.html#ab5e202741f2a3bd85eda73eb9445e703">KalmanState</a></li>
@@ -136,20 +130,12 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>state_est_vel_x&#160;:&#160;<a class="el" href="structKalmanState.html#a17b457fd92047569bd83b0a1e4b53d2c">KalmanState</a></li>
 <li>state_est_vel_y&#160;:&#160;<a class="el" href="structKalmanState.html#a6a113e08ae811a3ea7e83809d356f9d1">KalmanState</a></li>
 <li>state_est_vel_z&#160;:&#160;<a class="el" href="structKalmanState.html#ae544f681055d0d109b916ee92f186442">KalmanState</a></li>
-<li>STATE_FIRST_BOOST&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#aa1cfd30edb12bf1eaac74ecb47339efd">fsm.FSMState</a></li>
-<li>STATE_FIRST_SEPARATION&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#af0106c68e3bb8053991a3d202fb7200d">fsm.FSMState</a></li>
-<li>STATE_IDLE&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#ae4991f18f090be4dccee0145a17ae5e2">fsm.FSMState</a></li>
-<li>STATE_LANDED&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#a631c0ded6d737ae52f0b53c8ecbf6ab6">fsm.FSMState</a></li>
-<li>STATE_MAIN&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#a8b8bfc2e1f3db36d8c23cf5e20261d8b">fsm.FSMState</a></li>
-<li>STATE_MAIN_DEPLOY&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#a9daf8b9d0ff01ea9c9411202e2612096">fsm.FSMState</a></li>
-<li>STATE_SECOND_BOOST&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#af216d55457ffacbeb3666d35d6bab2a7">fsm.FSMState</a></li>
-<li>STATE_SUSTAINER_IGNITION&#160;:&#160;<a class="el" href="classfsm_1_1FSMState.html#af60a7490c718bd3e52ce211bf1ccd56b">fsm.FSMState</a></li>
+<li>state_estimate&#160;:&#160;<a class="el" href="structFSMTickData.html#a2515ad6b3cc93ca04acaf1c796e09119">FSMTickData</a></li>
 <li>states&#160;:&#160;<a class="el" href="classLEDController.html#a5dcf3522e295fe2813888d1bc849b2d0">LEDController</a></li>
-<li>strip_prefix&#160;:&#160;<a class="el" href="classnanopb__generator_1_1MangleNames.html#a26a5ebe5b4308d7217ff9917c4a5f784">nanopb_generator.MangleNames</a></li>
-<li>struct_name&#160;:&#160;<a class="el" href="classnanopb__generator_1_1ExtensionRange.html#a7b984ba828f01af1536cdd9d4cfbe0f6">nanopb_generator.ExtensionRange</a>, <a class="el" href="classnanopb__generator_1_1Field.html#a5447f9ec73cbf945c63a08af11b067bf">nanopb_generator.Field</a>, <a class="el" href="classnanopb__generator_1_1OneOf.html#afc3411310613b61eca56c38e23d9febb">nanopb_generator.OneOf</a></li>
-<li>submsgname&#160;:&#160;<a class="el" href="classnanopb__generator_1_1Field.html#aa023f073af3c09b83841fde765ad677a">nanopb_generator.Field</a></li>
-<li>sustainer_ignition_time&#160;:&#160;<a class="el" href="classfsm_1_1BoosterFsm.html#a289da8a868561b451cac0d19ae4e6ad0">fsm.BoosterFsm</a>, <a class="el" href="classfsm_1_1SustainerFSM.html#a22e3fe85aac8aa8750a454beea227962">fsm.SustainerFSM</a>, <a class="el" href="classFSM.html#aec46a5a212fa8ca696af2ab83fe6fb05">FSM</a></li>
-<li>symbols&#160;:&#160;<a class="el" href="classnanopb__generator_1_1EncodedSize.html#a92a2fabb72c01bd40c1e35d5f507cbe1">nanopb_generator.EncodedSize</a></li>
+<li>struct_map&#160;:&#160;<a class="el" href="structSensorMapping.html#a2b35433427db385e61d6d18eaa345ff1">SensorMapping</a></li>
+<li>struct_size&#160;:&#160;<a class="el" href="structSensorMapping.html#a6467541e34cedc2a66d5d3b60865ad2f">SensorMapping</a></li>
+<li>summary&#160;:&#160;<a class="el" href="structMetaLogging.html#ad9c8367b0c47d9b1d1f3d7b956ada4bf">MetaLogging</a></li>
+<li>sysarg&#160;:&#160;<a class="el" href="structMShellContext.html#a3973eeb09c87cd7bf643b5ac275dbb98">MShellContext</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

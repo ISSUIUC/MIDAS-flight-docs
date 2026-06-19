@@ -26,16 +26,13 @@ var pins_8h =
     [ "LED_GREEN", "pins_8h.html#aca338dbd19d7940923334629f6e5f3b7", null ],
     [ "LED_ORANGE", "pins_8h.html#a4d9260fdff3b0a796816640bbac505cc", null ],
     [ "LED_RED", "pins_8h.html#a31e20330f8ce94e0dd10b005a15c5898", null ],
+    [ "MIDAS_NUM_PYROS", "pins_8h.html#aeaed7a95d550c979b4416cde7c4923a5", null ],
     [ "MMC5983_CS", "pins_8h.html#a7d3df725fa24a3a3cba25f54f42e3194", null ],
     [ "MMC5983_INT", "pins_8h.html#aa979a868f1f232c8594de2d4cddbc99b", null ],
     [ "MS5611_CS", "pins_8h.html#a1d372b626c086ed9229b1b3eb74bdc31", null ],
     [ "PYRO_GLOBAL_ARM_PIN", "pins_8h.html#a3485a883031278b5c8c0a203aa41e7aa", null ],
     [ "PYRO_PG", "pins_8h.html#a3ac97a234f2d5dc06f37b748f2fef51d", null ],
     [ "PYRO_SENSE", "pins_8h.html#a64dc897bae1c30e700d5b199897fe544", null ],
-    [ "PYROA_FIRE_PIN", "pins_8h.html#ab62f8f04918c1075ae1989046d0fed0a", null ],
-    [ "PYROB_FIRE_PIN", "pins_8h.html#a8ce270da41b6c468b807c8acd5ebbcbe", null ],
-    [ "PYROC_FIRE_PIN", "pins_8h.html#a0024c2ce5054309c5d9a01d4de37ec08", null ],
-    [ "PYROD_FIRE_PIN", "pins_8h.html#a55c20206ad9c0836789e5d58d9b15aa0", null ],
     [ "SAM_RESET", "pins_8h.html#a4029f9ec65bf6f287bce20622b93703a", null ],
     [ "SENSE_A", "pins_8h.html#a2d70066c2a4b81ed1b35a792eeb7c187", null ],
     [ "SENSE_B", "pins_8h.html#ae5973f2077097efc70457d93acf572f4", null ],
@@ -45,5 +42,6 @@ var pins_8h =
     [ "SPI_MOSI", "pins_8h.html#a7dbebab5f7dd57885adccf6711b13592", null ],
     [ "SPI_SCK", "pins_8h.html#a750ca7c9b92cfc9e57272ff3a49db48b", null ],
     [ "VBAT_SENSE", "pins_8h.html#acdb6199d1e38de4b74327f17b458c244", null ],
-    [ "VCAP_SENSE", "pins_8h.html#ab3a71e5097497f5e84d117f471234b46", null ]
+    [ "VCAP_SENSE", "pins_8h.html#ab3a71e5097497f5e84d117f471234b46", null ],
+    [ "PYRO_PINS", "pins_8h.html#a00139b602bf5e5dabe0b8599afe29c5c", null ]
 ];

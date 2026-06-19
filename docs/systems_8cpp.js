@@ -2,6 +2,7 @@ var systems_8cpp =
 [
     [ "ENABLE_TELEM", "systems_8cpp.html#a5981b03c167aa3961c5b32e57029caf7", null ],
     [ "INIT_SYSTEM", "systems_8cpp.html#a4547493089d63386b029161f4ff308e7", null ],
+    [ "METALOG_TEST", "systems_8cpp.html#a0bb81be4bcdb8cb4c043870b17227e2e", null ],
     [ "begin_systems", "systems_8cpp.html#a7678b869b133b9ea5fe1a8fe71946d1a", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#acdf0d3a18881acc25a7db2d39aeec58a", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#a42725f4294d10a7d9dbda74722c0bdf2", null ],
@@ -14,10 +15,17 @@ var systems_8cpp =
     [ "DECLARE_THREAD", "systems_8cpp.html#abca83038d94bbae49b00ec6e584ed27d", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#a2a8f58889115c0127246cfae17d7f23c", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#ad4cd44402d8e5ac87185b187f0b66975", null ],
+    [ "DECLARE_THREAD", "systems_8cpp.html#a61e3d118b28d821fcf267b917db5632a", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#acab3f6c1bdd5abfe96db6ed94d451e22", null ],
     [ "DECLARE_THREAD", "systems_8cpp.html#ad3b2a8e44e9c15fbf905b90e3f03604c", null ],
+    [ "fsm_state_commit", "systems_8cpp.html#a8b9b7670b0e0caeb4fdc831e2f73b77f", null ],
+    [ "fsm_transitioned_to", "systems_8cpp.html#ab30a884447fe77fb6a8d640eefa53f30", null ],
     [ "handle_tlm_command", "systems_8cpp.html#a1ab54cc01005176f5da52376d8484460", null ],
     [ "init_systems", "systems_8cpp.html#aac1889a32ea9cd3040c8c0685feeb38a", null ],
+    [ "log_parse_tree", "systems_8cpp.html#a3b3fe8c5e37197b50a454fe52156db4e", null ],
+    [ "vApplicationStackOverflowHook", "systems_8cpp.html#ab87104b26fc04ce57c4717306fc97735", null ],
+    [ "i2c_mutex", "systems_8cpp.html#a43711ee8200bef84749449589ca78af2", null ],
+    [ "i2c_mutex_buffer", "systems_8cpp.html#a4bd5596558396155c6640e739c0c90e0", null ],
     [ "spi_mutex", "systems_8cpp.html#a76c0525d646735793add25b18043e600", null ],
     [ "spi_mutex_buffer", "systems_8cpp.html#abc80fc6d96f9927bf7f7e2f56c68e57a", null ]
 ];

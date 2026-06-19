@@ -1,9 +1,19 @@
 var searchData=
 [
-  ['thread_5fsleep_0',['THREAD_SLEEP',['../hal_8h.html#ab58c6eec00ff77355e1f86af746a287b',1,'hal.h']]],
-  ['time_5fdivision_5fper_5fms_1',['TIME_DIVISION_PER_MS',['../E22_8h.html#abc6e1f64dcc9550246343589f8be531b',1,'E22.h']]],
-  ['tskidle_5fpriority_2',['tskIDLE_PRIORITY',['../emulation_8h.html#a94ed0b9b3b4e8ccc859c322f18583e67',1,'emulation.h']]],
-  ['tx_5ffreq_3',['TX_FREQ',['../hardware_2telemetry__backend_8cpp.html#ae8f042691c935523a26dea7fdb0d76f5',1,'telemetry_backend.cpp']]],
-  ['tx_5foutput_5fpower_4',['TX_OUTPUT_POWER',['../hardware_2telemetry__backend_8cpp.html#a1f52a6357b2c76476595bce9571db72e',1,'telemetry_backend.cpp']]],
-  ['tx_5ftimeout_5fvalue_5',['TX_TIMEOUT_VALUE',['../hardware_2telemetry__backend_8cpp.html#a787165d9ce76cde0f22b9a55eb6f8a8f',1,'telemetry_backend.cpp']]]
+  ['sam_5freset_0',['SAM_RESET',['../pins_8h.html#a4029f9ec65bf6f287bce20622b93703a',1,'pins.h']]],
+  ['sense_5fa_1',['SENSE_A',['../pins_8h.html#a2d70066c2a4b81ed1b35a792eeb7c187',1,'pins.h']]],
+  ['sense_5fb_2',['SENSE_B',['../pins_8h.html#ae5973f2077097efc70457d93acf572f4',1,'pins.h']]],
+  ['sense_5fc_3',['SENSE_C',['../pins_8h.html#a3a82c73471efa69e52a7d5d724128250',1,'pins.h']]],
+  ['sense_5fd_4',['SENSE_D',['../pins_8h.html#aefefda6812dfd6aff0f2980a6c15fd80',1,'pins.h']]],
+  ['sensor_5fcore_5',['SENSOR_CORE',['../hal_8h.html#a53442e85cd08aca781c9a4f6487f66a6',1,'hal.h']]],
+  ['side_5fcamera_6',['SIDE_CAMERA',['../b2b__interface_8h.html#a792335760ba653f5c75b908613fa6303',1,'b2b_interface.h']]],
+  ['something_7',['something',['../buzzer_8cpp.html#aa5c50bde0d16d15a08d32d8df49a80ae',1,'buzzer.cpp']]],
+  ['somethingdiv2_8',['somethingdiv2',['../buzzer_8cpp.html#a85e88b69dd1a28b19af53250ded88309',1,'buzzer.cpp']]],
+  ['spi_5fmiso_9',['SPI_MISO',['../pins_8h.html#ab142cc77dfa97010c9d2b616d0992b64',1,'pins.h']]],
+  ['spi_5fmosi_10',['SPI_MOSI',['../pins_8h.html#a7dbebab5f7dd57885adccf6711b13592',1,'pins.h']]],
+  ['spi_5fsck_11',['SPI_SCK',['../pins_8h.html#a750ca7c9b92cfc9e57272ff3a49db48b',1,'pins.h']]],
+  ['stack_5fsize_12',['STACK_SIZE',['../hal_8h.html#a6423a880df59733d2d9b509c7718d3a9',1,'hal.h']]],
+  ['start_5fthread_13',['START_THREAD',['../hal_8h.html#a5a1a21750d68e31125fa25fc1454f716',1,'hal.h']]],
+  ['str_14',['STR',['../hilsim_2stream_2main_8cpp.html#a18d295a837ac71add5578860b55e5502',1,'main.cpp']]],
+  ['str2_15',['STR2',['../hilsim_2stream_2main_8cpp.html#ac8a66a18d26209f0d893dbe246f6cc1f',1,'main.cpp']]]
 ];

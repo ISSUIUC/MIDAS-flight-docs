@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['num_5fcontrol_5finputs_0',['NUM_CONTROL_INPUTS',['../ekf_8h.html#a7c54d59853f8c857fe4889f23f7d1752',1,'ekf.h']]],
-  ['num_5fdirections_1',['NUM_DIRECTIONS',['../IMU_8cpp.html#a394b4d9597382758840287dd52c17292',1,'IMU.cpp']]],
-  ['num_5freadings_5ffor_5fcalib_2',['NUM_READINGS_FOR_CALIB',['../IMU_8cpp.html#af2b5e6a7703ff310de8f398e8ea47fd0',1,'IMU.cpp']]],
-  ['num_5fsensor_5finputs_3',['NUM_SENSOR_INPUTS',['../ekf_8h.html#ac6ef2495692adee513161f504fefaebe',1,'ekf.h']]],
-  ['num_5fstates_4',['NUM_STATES',['../ekf_8h.html#a6e67a587012cd0570839daca590cf822',1,'ekf.h']]]
+  ['max_5fabs_5faccel_5frange_5fg_0',['MAX_ABS_ACCEL_RANGE_G',['../telemetry__packet_8h.html#a82f1c118cc3bd48ea56ce3a00dc865a6',1,'telemetry_packet.h']]],
+  ['max_5fdata_5freports_1',['MAX_DATA_REPORTS',['../kal__sensordata_8h.html#abe3ec7f9e2853226524d78a1a9bc99dd',1,'kal_sensordata.h']]],
+  ['max_5ffiles_2',['MAX_FILES',['../data__logging_8cpp.html#a2c5eecb22513a88c24ae5831a3265e54',1,'data_logging.cpp']]],
+  ['max_5fkf_5flposition_5fm_3',['MAX_KF_LPOSITION_M',['../telemetry__packet_8h.html#a0cf0218c4e2a9a095ac67d99a49ec265',1,'telemetry_packet.h']]],
+  ['max_5fkf_5fvposition_5fm_4',['MAX_KF_VPOSITION_M',['../telemetry__packet_8h.html#a56778ee6e704a58a0f128d88ab3c1e02',1,'telemetry_packet.h']]],
+  ['max_5fkf_5fxvelocity_5fms_5',['MAX_KF_XVELOCITY_MS',['../telemetry__packet_8h.html#a5549d0590e09c15bea42e8e58f406698',1,'telemetry_packet.h']]],
+  ['max_5froll_5frate_5fhz_6',['MAX_ROLL_RATE_HZ',['../telemetry__packet_8h.html#ae3971d57b81d6b4b30e52b00201e1f6a',1,'telemetry_packet.h']]],
+  ['max_5ftelem_5fcont_5fi_7',['MAX_TELEM_CONT_I',['../telemetry__packet_8h.html#a18216dad98db819da345341e324d67ec',1,'telemetry_packet.h']]],
+  ['max_5ftelem_5fvoltage_5fv_8',['MAX_TELEM_VOLTAGE_V',['../telemetry__packet_8h.html#a52f033a8ce9bd6b823325a32f4ac60fe',1,'telemetry_packet.h']]],
+  ['meta_5flogging_5fmax_5fsize_9',['META_LOGGING_MAX_SIZE',['../data__logging__meta_8h.html#ab944e846c90dac82ea603654836a987b',1,'data_logging_meta.h']]],
+  ['metalog_5ftest_10',['METALOG_TEST',['../systems_8cpp.html#a0bb81be4bcdb8cb4c043870b17227e2e',1,'systems.cpp']]],
+  ['mgc_5ftone_5fnoop_11',['MGC_TONE_NOOP',['../hardware_2Magnetometer_8cpp.html#a77ff59f86e1be9e1155213c49292632d',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5fh_12',['MGC_TONE_PITCH_H',['../hardware_2Magnetometer_8cpp.html#ab2806847721cd75e59b35a21ea62e395',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5fl_13',['MGC_TONE_PITCH_L',['../hardware_2Magnetometer_8cpp.html#a764b99156e93c5f3f7fe69f5d108ce18',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5flong_14',['MGC_TONE_PITCH_LONG',['../hardware_2Magnetometer_8cpp.html#a86a2f08649878fa1c86e522f9441af1c',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fpitch_5flong_5fl_15',['MGC_TONE_PITCH_LONG_L',['../hardware_2Magnetometer_8cpp.html#ac4bd2dd0b4d76efa3bb1062372023ae0',1,'Magnetometer.cpp']]],
+  ['mgc_5ftone_5fwait_16',['MGC_TONE_WAIT',['../hardware_2Magnetometer_8cpp.html#abf6dc709f10dde17d784ee99d4571c51',1,'Magnetometer.cpp']]],
+  ['midas_5fnum_5fpyros_17',['MIDAS_NUM_PYROS',['../fsm__config_8h.html#aeaed7a95d550c979b4416cde7c4923a5',1,'MIDAS_NUM_PYROS():&#160;fsm_config.h'],['../pins_8h.html#aeaed7a95d550c979b4416cde7c4923a5',1,'MIDAS_NUM_PYROS():&#160;pins.h']]],
+  ['mmc5983_5fcs_18',['MMC5983_CS',['../pins_8h.html#a7d3df725fa24a3a3cba25f54f42e3194',1,'pins.h']]],
+  ['mmc5983_5fint_19',['MMC5983_INT',['../pins_8h.html#aa979a868f1f232c8594de2d4cddbc99b',1,'pins.h']]],
+  ['ms5611_5fcs_20',['MS5611_CS',['../pins_8h.html#a1d372b626c086ed9229b1b3eb74bdc31',1,'pins.h']]],
+  ['ms_5fper_5f4beat_21',['MS_PER_4BEAT',['../buzzer_8cpp.html#a0d9a32c066745030d7b18e7f949331c1',1,'buzzer.cpp']]],
+  ['mutex_5ftimeout_22',['MUTEX_TIMEOUT',['../Mutex_8h.html#a8af0c73884cd609b9cfc7495f70807b5',1,'Mutex.h']]]
 ];

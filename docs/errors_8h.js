@@ -12,6 +12,7 @@ var errors_8h =
       [ "GyroCouldNotBeInitialized", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa9939019727de14d43df6667cc842883b", null ],
       [ "PyroGPIOCouldNotBeInitialized", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa80c420385d24e0ae7b14d87554eaa23e", null ],
       [ "GPSCouldNotBeInitialized", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa7d5a163ff267ce73b287fae4b4468748", null ],
+      [ "ADCFailedToInit", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa3568458f4a5a94d32a65e174291cf41c", null ],
       [ "RadioInitFailed", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa5c39f96c17665bc9336566e2daadd22d", null ],
       [ "RadioSetFrequencyFailed", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa574ffa4552078644bf1b9a3d6f5f6b00", null ],
       [ "CannotConnectBNO", "errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa521fcaafcc6b49fdf4b71639d2070f8f", null ],

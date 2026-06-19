@@ -94,42 +94,41 @@ $(document).ready(function(){initNavTree('hal_8h_source.html',''); initResizable
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="FreeRTOSConfig_8h.html">FreeRTOSConfig.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="Mutex_8h.html">Mutex.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="Queue_8h.html">Queue.h</a>&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">   18</a></span><span class="preprocessor">#define STACK_SIZE 8192</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="hal_8h.html#a53442e85cd08aca781c9a4f6487f66a6">   24</a></span><span class="preprocessor">#define SENSOR_CORE ((BaseType_t) 0)</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="hal_8h.html#aec647f02b95f8c0936839bacfacb23ec">   30</a></span><span class="preprocessor">#define DATA_CORE ((BaseType_t) 1)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="hal_8h.html#a892fef0439cc8ce8c95f45a6efe8f630">   38</a></span><span class="preprocessor">#define DECLARE_THREAD(name, param) [[noreturn]] void name##_thread(param)</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="hal_8h.html#a5a1a21750d68e31125fa25fc1454f716">   49</a></span><span class="preprocessor">#define START_THREAD(name, core, arg, prio) StaticTask_t name##_task;                \</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">                                      static unsigned char name##_stack[STACK_SIZE];            \</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">                                      xTaskCreateStaticPinnedToCore(((TaskFunction_t) name##_thread), #name, STACK_SIZE, arg, tskIDLE_PRIORITY + prio, name##_stack, &amp;name##_task, core)</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"> * Parameters for xTaskCreateStaticPinnedToCore are as follows in parameter order:</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> *  - Function to be run by the thread, this contains a `while(true)` loop</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> *  - Name of thread</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"> *  - Size of the stack for each thread in words (1 word = 4 bytes)</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"> *  - Arguments to be passed into the function, this will generally eb the config file</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"> *  - Priority of the task, in allmost all cases, this will be the idle priority plus one</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment"> *  - The actual stack memory to use</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment"> *  - A handle to reference the task with</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment"> *  - The core to pin the task to</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">   68</a></span><span class="preprocessor">#define THREAD_SLEEP(millis) vTaskDelay(pdMS_TO_TICKS(millis))</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">extern</span> <a class="code hl_struct" href="structSemaphoreHandle__s.html">SemaphoreHandle_t</a> <a class="code hl_variable" href="hal_8h.html#a76c0525d646735793add25b18043e600">spi_mutex</a>;</div>
-<div class="ttc" id="aFreeRTOSConfig_8h_html"><div class="ttname"><a href="FreeRTOSConfig_8h.html">FreeRTOSConfig.h</a></div></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="Mutex_8h.html">Mutex.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="Queue_8h.html">Queue.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="hal_8h.html#a6423a880df59733d2d9b509c7718d3a9">   16</a></span><span class="preprocessor">#define STACK_SIZE 8192</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="hal_8h.html#a53442e85cd08aca781c9a4f6487f66a6">   22</a></span><span class="preprocessor">#define SENSOR_CORE ((BaseType_t) 0)</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="hal_8h.html#aec647f02b95f8c0936839bacfacb23ec">   28</a></span><span class="preprocessor">#define DATA_CORE ((BaseType_t) 1)</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="hal_8h.html#a892fef0439cc8ce8c95f45a6efe8f630">   36</a></span><span class="preprocessor">#define DECLARE_THREAD(name, param) [[noreturn]] void name##_thread(param)</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="hal_8h.html#a5a1a21750d68e31125fa25fc1454f716">   47</a></span><span class="preprocessor">#define START_THREAD(name, core, arg, prio) static StaticTask_t name##_task;         \</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">                                      static unsigned char name##_stack[STACK_SIZE];            \</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">                                      xTaskCreateStaticPinnedToCore(((TaskFunction_t) name##_thread), #name, STACK_SIZE, arg, tskIDLE_PRIORITY + prio, name##_stack, &amp;name##_task, core)</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment"> * Parameters for xTaskCreateStaticPinnedToCore are as follows in parameter order:</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment"> *  - Function to be run by the thread, this contains a `while(true)` loop</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"> *  - Name of thread</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> *  - Size of the stack for each thread in words (1 word = 4 bytes)</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> *  - Arguments to be passed into the function, this will generally eb the config file</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"> *  - Priority of the task, in allmost all cases, this will be the idle priority plus one</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"> *  - The actual stack memory to use</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"> *  - A handle to reference the task with</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment"> *  - The core to pin the task to</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="hal_8h.html#ab58c6eec00ff77355e1f86af746a287b">   66</a></span><span class="preprocessor">#define THREAD_SLEEP(millis) vTaskDelay(pdMS_TO_TICKS(millis))</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">extern</span> <a class="code hl_struct" href="structSemaphoreHandle__s.html">SemaphoreHandle_t</a> <a class="code hl_variable" href="hal_8h.html#a76c0525d646735793add25b18043e600">spi_mutex</a>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">extern</span> <a class="code hl_struct" href="structSemaphoreHandle__s.html">SemaphoreHandle_t</a> <a class="code hl_variable" href="hal_8h.html#a43711ee8200bef84749449589ca78af2">i2c_mutex</a>;</div>
 <div class="ttc" id="aMutex_8h_html"><div class="ttname"><a href="Mutex_8h.html">Mutex.h</a></div></div>
 <div class="ttc" id="aQueue_8h_html"><div class="ttname"><a href="Queue_8h.html">Queue.h</a></div></div>
 <div class="ttc" id="aemulation_8h_html"><div class="ttname"><a href="emulation_8h.html">emulation.h</a></div></div>
-<div class="ttc" id="ahal_8h_html_a76c0525d646735793add25b18043e600"><div class="ttname"><a href="hal_8h.html#a76c0525d646735793add25b18043e600">spi_mutex</a></div><div class="ttdeci">SemaphoreHandle_t spi_mutex</div><div class="ttdef"><b>Definition:</b> <a href="systems_8cpp_source.html#l00008">systems.cpp:8</a></div></div>
+<div class="ttc" id="ahal_8h_html_a43711ee8200bef84749449589ca78af2"><div class="ttname"><a href="hal_8h.html#a43711ee8200bef84749449589ca78af2">i2c_mutex</a></div><div class="ttdeci">SemaphoreHandle_t i2c_mutex</div><div class="ttdef"><b>Definition:</b> <a href="systems_8cpp_source.html#l00012">systems.cpp:12</a></div></div>
+<div class="ttc" id="ahal_8h_html_a76c0525d646735793add25b18043e600"><div class="ttname"><a href="hal_8h.html#a76c0525d646735793add25b18043e600">spi_mutex</a></div><div class="ttdeci">SemaphoreHandle_t spi_mutex</div><div class="ttdef"><b>Definition:</b> <a href="systems_8cpp_source.html#l00011">systems.cpp:11</a></div></div>
 <div class="ttc" id="astructSemaphoreHandle__s_html"><div class="ttname"><a href="structSemaphoreHandle__s.html">SemaphoreHandle_s</a></div><div class="ttdef"><b>Definition:</b> <a href="emulation_8h_source.html#l00040">emulation.h:40</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

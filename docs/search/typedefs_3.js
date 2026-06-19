@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['radiocommands_5ft_0',['RadioCommands_t',['../E22_8h.html#a0a515c9c6461d5039403da2f94d11237',1,'E22.h']]],
-  ['rocketstate_1',['RocketState',['../rocketstate_8pb_8h.html#a81d70f06a52bfca8b4c520fadd4e3d6c',1,'rocketstate.pb.h']]]
+  ['semaphorehandle_5ft_0',['SemaphoreHandle_t',['../emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c',1,'emulation.h']]],
+  ['staticsemaphore_5ft_1',['StaticSemaphore_t',['../emulation_8h.html#a3383e1da05160e200b6ba66abb27e974',1,'emulation.h']]],
+  ['statictask_5ft_2',['StaticTask_t',['../emulation_8h.html#abb9c40bd43c013045ebec6d0427fee4a',1,'emulation.h']]]
 ];

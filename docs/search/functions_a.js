@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['kalmanfilter_0',['KalmanFilter',['../classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed',1,'KalmanFilter']]]
+  ['k_5fclear_5finbuf_0',['k_clear_inbuf',['../kal_8h.html#a80d0ae150c83d11d02c52a218b5dba21',1,'kal.h']]],
+  ['k_5fcrc_5fcheck_1',['k_crc_check',['../kal__crc_8h.html#a394c3b306f31af5a6098aadfe43d3441',1,'kal_crc.h']]],
+  ['k_5fcrc_5fcheck_5fsys_2',['k_crc_check_sys',['../kal__crc_8h.html#acc2bf820ab3fb4c49ae17e5a48156cde',1,'kal_crc.h']]],
+  ['k_5fenable_5fdata_5freport_3',['k_enable_data_report',['../kal__sensordata_8h.html#a50f35356a40a15118e4e70e6a66055b8',1,'kal_sensordata.h']]],
+  ['k_5feventoverflow_4',['k_EVENTOVERFLOW',['../kal__error_8h.html#a5fa682073c3fb16c2159b89c117a477e',1,'kal_error.h']]],
+  ['k_5fget_5fchecksum_5fevt_5',['k_get_checksum_evt',['../kal__events_8h.html#ad72356b46dbd68b3633329a61dbd0c40',1,'kal_events.h']]],
+  ['k_5fget_5fdiscriminant_5fsize_6',['k_get_discriminant_size',['../kal__sensordata_8h.html#aaaad6641f5cb4f626568180a3bdcc45d',1,'kal_sensordata.h']]],
+  ['k_5fhandle_5fall_5fk_5fevt_7',['k_handle_all_k_evt',['../kal__events_8h.html#a8950f2765402c452101e2e8dca0050d4',1,'kal_events.h']]],
+  ['k_5fhandle_5fk_5fevt_8',['k_handle_k_evt',['../kal__events_8h.html#a91d40bf366dc1a0110a11b3d8c1d15f7',1,'kal_events.h']]],
+  ['k_5fhandle_5freading_9',['k_handle_reading',['../kal_8h.html#a5cc237d144b9f59cb9028761a0d565ac',1,'kal.h']]],
+  ['k_5fhandle_5fsys_5fmsg_10',['k_handle_sys_msg',['../kal_8h.html#aeb2478cd328141b0998ecf62a2ed9fcd',1,'kal.h']]],
+  ['k_5fident_11',['k_ident',['../kal__interface_8h.html#abc040cd9cba0cef993b7601e0cff3b36',1,'kal_interface.h']]],
+  ['k_5finit_5fsensordata_12',['k_init_sensordata',['../kal_8cpp.html#a710429d217048a9952f5d7f61dff8fd1',1,'k_init_sensordata():&#160;kal.cpp'],['../kal_8h.html#a710429d217048a9952f5d7f61dff8fd1',1,'k_init_sensordata():&#160;kal.cpp']]],
+  ['k_5finvalidchecksum_13',['k_INVALIDCHECKSUM',['../kal__error_8h.html#aee2c5e58d1d5a9cf2bb4256fc1b9c79e',1,'kal_error.h']]],
+  ['k_5finvalidinstr_14',['k_INVALIDINSTR',['../kal__error_8h.html#a752ad9560fc210174414a6c50ac4e00d',1,'kal_error.h']]],
+  ['k_5flog_15',['k_log',['../kal__events_8h.html#a8614ebf97b6d2cace00788155b1c48ee',1,'kal_events.h']]],
+  ['k_5fmidas_5fsetup_16',['k_midas_setup',['../kal__interface_8h.html#a1cd97bd01e04d9696933f1cd61380e95',1,'kal_interface.h']]],
+  ['k_5fpush_5fevent_17',['k_push_event',['../kal__events_8h.html#ad732f689cd7dfc0986b4146868869fcc',1,'kal_events.h']]],
+  ['k_5fread_5fexact_18',['k_read_exact',['../kal_8h.html#a0413885487438f0eb30a2c234e8ff96b',1,'kal.h']]],
+  ['k_5fread_5finto_5fsensordata_19',['k_read_into_sensordata',['../kal__sensordata_8h.html#aaf4572968e7d84ef5e24a707de92bc19',1,'kal_sensordata.h']]],
+  ['k_5freportoverflow_20',['k_REPORTOVERFLOW',['../kal__error_8h.html#a9ca2cdbd91572042fe34822fafe60135',1,'kal_error.h']]],
+  ['k_5frun_21',['k_run',['../kal_8h.html#abfdbcf7e94ef3e7a4f0dde323e407a6a',1,'k_run():&#160;kal.cpp'],['../kal_8cpp.html#abfdbcf7e94ef3e7a4f0dde323e407a6a',1,'k_run():&#160;kal.cpp']]],
+  ['k_5fset_5ftimestamp_22',['k_set_timestamp',['../kal__sensordata_8h.html#a228a833a1365f384271b83f14a62af58',1,'kal_sensordata.h']]],
+  ['k_5fstart_23',['k_start',['../kal_8cpp.html#a4799aa880b4221b94205f49a864bb5aa',1,'k_start():&#160;kal.cpp'],['../kal_8h.html#a4799aa880b4221b94205f49a864bb5aa',1,'k_start():&#160;kal.cpp']]],
+  ['k_5ftick_24',['k_tick',['../kal_8cpp.html#ab0e23f59a5641990a93031e94cf9b361',1,'k_tick():&#160;kal.cpp'],['../kal_8h.html#ab0e23f59a5641990a93031e94cf9b361',1,'k_tick():&#160;kal.cpp']]],
+  ['k_5ftick_5fdata_5freport_25',['k_tick_data_report',['../kal__sensordata_8h.html#a50e1976c4fdc9e1984f004e71abb144d',1,'kal_sensordata.h']]],
+  ['k_5fwait_5funtil_26',['k_wait_until',['../kal_8h.html#aa6db625497d6819c86b59c86dbbd35d1',1,'kal.h']]],
+  ['kalman_5fthread_27',['kalman_thread',['../systems_8h.html#a500e8fe61c43a754c0436424c56f0f73',1,'systems.h']]],
+  ['kalmanfilter_28',['KalmanFilter',['../classKalmanFilter.html#a4a2ddeb7db16a968709fa99761eb6fed',1,'KalmanFilter']]]
 ];

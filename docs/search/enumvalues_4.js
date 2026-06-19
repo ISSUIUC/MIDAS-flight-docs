@@ -2,5 +2,23 @@ var searchData=
 [
   ['emmccouldnotbegin_0',['EmmcCouldNotBegin',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa0af635304ad70cb121df31b6d2bf1012',1,'errors.h']]],
   ['emmccouldnotopenfile_1',['EmmcCouldNotOpenFile',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa31e979fab79c142ca0c5d38da3e2a237',1,'errors.h']]],
-  ['emmcpinsarewrong_2',['EmmcPinsAreWrong',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2ca37980a1916a0393269afceb85f4ab',1,'errors.h']]]
+  ['emmcpinsarewrong_2',['EmmcPinsAreWrong',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fa2ca37980a1916a0393269afceb85f4ab',1,'errors.h']]],
+  ['err_5fforbidden_3',['ERR_FORBIDDEN',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7a973ff3765910d34116f76df8d5a4bdf2',1,'midas_shell.h']]],
+  ['err_5ffs_5ffail_5fopen_4',['ERR_FS_FAIL_OPEN',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7a2e31feb9109dacc03c575485bb982cc8',1,'midas_shell.h']]],
+  ['err_5finval_5farg_5frange_5',['ERR_INVAL_ARG_RANGE',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7aa076cecc3b6633c631ba53e5986e3572',1,'midas_shell.h']]],
+  ['err_5finval_5fargc_6',['ERR_INVAL_ARGC',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7afd13502995acfaac2b0aa4bf89ae8218',1,'midas_shell.h']]],
+  ['err_5finval_5fargument_7',['ERR_INVAL_ARGUMENT',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7ad5eb57c714624eae8d3b16d6f1d76b7f',1,'midas_shell.h']]],
+  ['err_5finval_5feeprom_8',['ERR_INVAL_EEPROM',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7ab872553e77d5fdb6dfd12abcfad73795',1,'midas_shell.h']]],
+  ['err_5finval_5ffsm_9',['ERR_INVAL_FSM',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7aa43d8f8a51f75ef81306b623d1652a09',1,'midas_shell.h']]],
+  ['err_5finvalid_5fcmd_10',['ERR_INVALID_CMD',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7a78bf60b2a7fc5be2d3b5e3d9a39421c9',1,'midas_shell.h']]],
+  ['err_5fno_5fcmd_11',['ERR_NO_CMD',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7a40a64d2a534180d9d77d5d28fd03e048',1,'midas_shell.h']]],
+  ['err_5funspecified_12',['ERR_UNSPECIFIED',['../midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7a8194ba988233cdd3c7b1630bfd775f11',1,'midas_shell.h']]],
+  ['event_5ftapogee_13',['EVENT_TAPOGEE',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91abaa3e0d90b29f95a3da3ece2ff5a7bf926',1,'data_logging_meta.h']]],
+  ['event_5ftburnout_14',['EVENT_TBURNOUT',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91aba91ae9e2b3623ada06a8b5d7b402346dd',1,'data_logging_meta.h']]],
+  ['event_5ftignition_15',['EVENT_TIGNITION',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91abaa20a6e5b201b3ae7d2c2f2d70513af65',1,'data_logging_meta.h']]],
+  ['event_5ftlaunch_16',['EVENT_TLAUNCH',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91aba4bafe958f094fa8c10a52f4459a3c95b',1,'data_logging_meta.h']]],
+  ['event_5ftmain_17',['EVENT_TMAIN',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91aba82f5cbb80ee27053b41c8ecc389837b6',1,'data_logging_meta.h']]],
+  ['event_5ftmax_5faccel_18',['EVENT_TMAX_ACCEL',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91aba8131042bb772092010cd45faf1ef3780',1,'data_logging_meta.h']]],
+  ['event_5ftmax_5fdescent_5frate_19',['EVENT_TMAX_DESCENT_RATE',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91aba55259f0b704c5a9b38e2720e8895632a',1,'data_logging_meta.h']]],
+  ['event_5ftmax_5fvel_20',['EVENT_TMAX_VEL',['../data__logging__meta_8h.html#a7e30b5e0320ce9745fb64d82398e91abadfa3a21ce998466c3a2d60c7092c3649',1,'data_logging_meta.h']]]
 ];

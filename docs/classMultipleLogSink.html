@@ -108,6 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afcb8f962b5b9cc777208750f64914830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e7b695b0351961efc4aa7c136f20f05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultipleLogSink.html#a0e7b695b0351961efc4aa7c136f20f05">write</a> (const uint8_t *data, size_t size) override</td></tr>
 <tr class="separator:a0e7b695b0351961efc4aa7c136f20f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af78c8446ef2834e552d2175979e89748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultipleLogSink.html#af78c8446ef2834e552d2175979e89748">write_meta</a> (const uint8_t *data, size_t size) override</td></tr>
+<tr class="separator:af78c8446ef2834e552d2175979e89748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classLogSink"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classLogSink')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classLogSink.html">LogSink</a></td></tr>
 <tr class="memitem:a6d232a4f1e985418d173cc6d093e12d8 inherit pub_methods_classLogSink"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html#a6d232a4f1e985418d173cc6d093e12d8">LogSink</a> ()=default</td></tr>
 <tr class="separator:a6d232a4f1e985418d173cc6d093e12d8 inherit pub_methods_classLogSink"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,13 +117,21 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_attribs_classLogSink"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classLogSink')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classLogSink.html">LogSink</a></td></tr>
+<tr class="memitem:aa58e2ed6c75411bcaa34185269949490 inherit pub_attribs_classLogSink"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html#aa58e2ed6c75411bcaa34185269949490">failed_wr</a> = false</td></tr>
+<tr class="separator:aa58e2ed6c75411bcaa34185269949490 inherit pub_attribs_classLogSink"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ff110783f92ea0457244bfa5539126 inherit pub_attribs_classLogSink"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html#a07ff110783f92ea0457244bfa5539126">failed_mr</a> = false</td></tr>
+<tr class="separator:a07ff110783f92ea0457244bfa5539126 inherit pub_attribs_classLogSink"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6340d3890bd87ebe887a5a519051515 inherit pub_attribs_classLogSink"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html#ad6340d3890bd87ebe887a5a519051515">current_file_no</a> = 0</td></tr>
 <tr class="separator:ad6340d3890bd87ebe887a5a519051515 inherit pub_attribs_classLogSink"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab947898a112d48165efae0415662994 inherit pub_attribs_classLogSink"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html#aab947898a112d48165efae0415662994">active_bin_name</a> [20] = {0}</td></tr>
+<tr class="separator:aab947898a112d48165efae0415662994 inherit pub_attribs_classLogSink"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cb8859a71e7d0f6977a0fb428e7660 inherit pub_attribs_classLogSink"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogSink.html#a14cb8859a71e7d0f6977a0fb428e7660">active_meta_name</a> [20] = {0}</td></tr>
+<tr class="separator:a14cb8859a71e7d0f6977a0fb428e7660 inherit pub_attribs_classLogSink"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename... Sinks&gt;<br />
 class MultipleLogSink&lt; Sinks &gt;</div>
-<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00033">33</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00041">41</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab4077b17fefc6012113a7af94598c7e4" name="ab4077b17fefc6012113a7af94598c7e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab4077b17fefc6012113a7af94598c7e4">&#9670;&nbsp;</a></span>MultipleLogSink()</h2>
@@ -178,7 +188,7 @@ template&lt;typename... Sinks&gt; </div>
 
 <p>Implements <a class="el" href="classLogSink.html#a540c35c2c2562c28b9eff5b8caab2218">LogSink</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00037">37</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00045">45</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +230,49 @@ template&lt;typename... Sinks&gt; </div>
 
 <p>Implements <a class="el" href="classLogSink.html#aba8e22aa3590e256d2790beef29905f2">LogSink</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00041">41</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00049">49</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
+
+</div>
+</div>
+<a id="af78c8446ef2834e552d2175979e89748" name="af78c8446ef2834e552d2175979e89748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af78c8446ef2834e552d2175979e89748">&#9670;&nbsp;</a></span>write_meta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Sinks&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMultipleLogSink.html">MultipleLogSink</a>&lt; Sinks &gt;::write_meta </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classLogSink.html#a3716ccb587713ca4c4afa8dc6986788e">LogSink</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="data__logging_8h_source.html#l00051">51</a> of file <a class="el" href="data__logging_8h_source.html">data_logging.h</a>.</p>
 
 </div>
 </div>

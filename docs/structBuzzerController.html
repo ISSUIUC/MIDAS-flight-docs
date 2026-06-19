@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('structBuzzerController.html',''); init
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="structBuzzerController-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BuzzerController Struct Reference</div></div>
 </div><!--header-->
@@ -106,9 +107,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f7711e6ff8c81ff9832b920b0473b7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#a7f7711e6ff8c81ff9832b920b0473b7f">tick</a> ()</td></tr>
 <tr class="memdesc:a7f7711e6ff8c81ff9832b920b0473b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">public interface to tick the buzzer  <a href="structBuzzerController.html#a7f7711e6ff8c81ff9832b920b0473b7f">More...</a><br /></td></tr>
 <tr class="separator:a7f7711e6ff8c81ff9832b920b0473b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b78a0b74eed3695e59f560c6f9fb878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#a3b78a0b74eed3695e59f560c6f9fb878">play_tune</a> (<a class="el" href="structSound.html">Sound</a> *tune, uint32_t length)</td></tr>
-<tr class="memdesc:a3b78a0b74eed3695e59f560c6f9fb878"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts playing a new song  <a href="structBuzzerController.html#a3b78a0b74eed3695e59f560c6f9fb878">More...</a><br /></td></tr>
-<tr class="separator:a3b78a0b74eed3695e59f560c6f9fb878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e07683569bb446f0f385ef2224f241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#a37e07683569bb446f0f385ef2224f241">report_beeps</a> (bool *cont, bool fsm_fail)</td></tr>
+<tr class="separator:a37e07683569bb446f0f385ef2224f241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4898ec8c1b99461eeb5a2852447b93e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#a4898ec8c1b99461eeb5a2852447b93e7">play_tune</a> (const <a class="el" href="structSound.html">Sound</a> *tune, uint32_t length)</td></tr>
+<tr class="memdesc:a4898ec8c1b99461eeb5a2852447b93e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts playing a new song  <a href="structBuzzerController.html#a4898ec8c1b99461eeb5a2852447b93e7">More...</a><br /></td></tr>
+<tr class="separator:a4898ec8c1b99461eeb5a2852447b93e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5a8075ca2247c8ec58570d19b0b83a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#ab5a8075ca2247c8ec58570d19b0b83a6">is_playing</a> ()</td></tr>
 <tr class="memdesc:ab5a8075ca2247c8ec58570d19b0b83a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the buzzer is currently playing a tune.  <a href="structBuzzerController.html#ab5a8075ca2247c8ec58570d19b0b83a6">More...</a><br /></td></tr>
 <tr class="separator:ab5a8075ca2247c8ec58570d19b0b83a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,8 +124,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad24d1122a86a6fd05143ac270403571c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#ad24d1122a86a6fd05143ac270403571c">current_tune_</a> = nullptr</td></tr>
-<tr class="separator:ad24d1122a86a6fd05143ac270403571c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4caad7ea34d05a2fc64dcb51dfa1cb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSound.html">Sound</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#ae4caad7ea34d05a2fc64dcb51dfa1cb3">tune_buffer_</a> [<a class="el" href="structBuzzerController.html#a062b990193ae2d2f4ebfee172fcbb0b6">MAX_TUNE_LENGTH</a>]</td></tr>
+<tr class="separator:ae4caad7ea34d05a2fc64dcb51dfa1cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd01caced9706d4e5563e74b06c1bdb8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#abd01caced9706d4e5563e74b06c1bdb8">index_</a> = 0</td></tr>
 <tr class="separator:abd01caced9706d4e5563e74b06c1bdb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adde219810c09b401fd81c9d6cf9f8207"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#adde219810c09b401fd81c9d6cf9f8207">length_</a> = 0</td></tr>
@@ -131,6 +134,11 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6c30879beaf133f0322b54e48b0eac7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace47a847d33e9f5910fd2efd48fdcd7d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#ace47a847d33e9f5910fd2efd48fdcd7d">when_sound_started_</a> = 0</td></tr>
 <tr class="separator:ace47a847d33e9f5910fd2efd48fdcd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a062b990193ae2d2f4ebfee172fcbb0b6"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBuzzerController.html#a062b990193ae2d2f4ebfee172fcbb0b6">MAX_TUNE_LENGTH</a> = 32</td></tr>
+<tr class="separator:a062b990193ae2d2f4ebfee172fcbb0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >wraps the buzzer functionality </p>
@@ -181,7 +189,7 @@ Private Attributes</h2></td></tr>
 <p>Initializes buzzer. </p>
 <dl class="section return"><dt>Returns</dt><dd>Error code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00071">71</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00072">72</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -202,12 +210,12 @@ Private Attributes</h2></td></tr>
 
 <p>Returns whether the buzzer is currently playing a tune. </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00027">27</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00029">29</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a3b78a0b74eed3695e59f560c6f9fb878" name="a3b78a0b74eed3695e59f560c6f9fb878"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b78a0b74eed3695e59f560c6f9fb878">&#9670;&nbsp;</a></span>play_tune()</h2>
+<a id="a4898ec8c1b99461eeb5a2852447b93e7" name="a4898ec8c1b99461eeb5a2852447b93e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4898ec8c1b99461eeb5a2852447b93e7">&#9670;&nbsp;</a></span>play_tune()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +223,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void BuzzerController::play_tune </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structSound.html">Sound</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structSound.html">Sound</a> *&#160;</td>
           <td class="paramname"><em>tune</em>, </td>
         </tr>
         <tr>
@@ -241,7 +249,37 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00010">10</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00011">11</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a37e07683569bb446f0f385ef2224f241" name="a37e07683569bb446f0f385ef2224f241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e07683569bb446f0f385ef2224f241">&#9670;&nbsp;</a></span>report_beeps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BuzzerController::report_beeps </td>
+          <td>(</td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>cont</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fsm_fail</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00159">159</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -262,7 +300,7 @@ Private Attributes</h2></td></tr>
 
 <p>public interface to tick the buzzer </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00020">20</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00022">22</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
@@ -291,35 +329,11 @@ Private Attributes</h2></td></tr>
 
 <p>ticks the bizzer, plays next note/ starts new song if applicable </p>
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00034">34</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8cpp_source.html#l00036">36</a> of file <a class="el" href="buzzer_8cpp_source.html">buzzer.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad24d1122a86a6fd05143ac270403571c" name="ad24d1122a86a6fd05143ac270403571c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad24d1122a86a6fd05143ac270403571c">&#9670;&nbsp;</a></span>current_tune_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structSound.html">Sound</a>* BuzzerController::current_tune_ = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00025">25</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
-
-</div>
-</div>
 <a id="abd01caced9706d4e5563e74b06c1bdb8" name="abd01caced9706d4e5563e74b06c1bdb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd01caced9706d4e5563e74b06c1bdb8">&#9670;&nbsp;</a></span>index_</h2>
 
@@ -340,7 +354,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00026">26</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00027">27</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +378,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00027">27</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00028">28</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
+
+</div>
+</div>
+<a id="a062b990193ae2d2f4ebfee172fcbb0b6" name="a062b990193ae2d2f4ebfee172fcbb0b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062b990193ae2d2f4ebfee172fcbb0b6">&#9670;&nbsp;</a></span>MAX_TUNE_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t BuzzerController::MAX_TUNE_LENGTH = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00025">25</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +426,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00029">29</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00030">30</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
+
+</div>
+</div>
+<a id="ae4caad7ea34d05a2fc64dcb51dfa1cb3" name="ae4caad7ea34d05a2fc64dcb51dfa1cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4caad7ea34d05a2fc64dcb51dfa1cb3">&#9670;&nbsp;</a></span>tune_buffer_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structSound.html">Sound</a> BuzzerController::tune_buffer_[<a class="el" href="structBuzzerController.html#a062b990193ae2d2f4ebfee172fcbb0b6">MAX_TUNE_LENGTH</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00026">26</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
 
 </div>
 </div>
@@ -412,7 +474,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00030">30</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buzzer_8h_source.html#l00031">31</a> of file <a class="el" href="buzzer_8h_source.html">buzzer.h</a>.</p>
 
 </div>
 </div>

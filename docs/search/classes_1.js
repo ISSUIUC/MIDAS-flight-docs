@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['acceleration_0',['Acceleration',['../structAcceleration.html',1,'']]],
-  ['aero_5fcoeff_5ft_1',['aero_coeff_t',['../structaero__coeff__t.html',1,'']]],
-  ['angularkalmandata_2',['AngularKalmanData',['../structAngularKalmanData.html',1,'']]]
+  ['b2binterface_0',['B2BInterface',['../structB2BInterface.html',1,'']]],
+  ['barometer_1',['Barometer',['../structBarometer.html',1,'']]],
+  ['barometersensor_2',['BarometerSensor',['../structBarometerSensor.html',1,'']]],
+  ['buffer_3',['Buffer',['../structBuffer.html',1,'']]],
+  ['bufferedsensordata_4',['BufferedSensorData',['../structBufferedSensorData.html',1,'']]],
+  ['buzzercontroller_5',['BuzzerController',['../structBuzzerController.html',1,'']]]
 ];

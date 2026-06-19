@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "MIDAS", "index.html", [
-    [ "HILSIM", "md__github_workspace_MIDAS_src_hilsim_README.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -55,7 +54,7 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -64,16 +63,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Buffer_8h.html",
-"buzzer_8cpp.html#a73e5dd1621b08b562dab5c768b984de9",
-"classStaticQueue__t.html#ace8d2008c318613516ea11c7849a5a5c",
-"classnanopb__generator_1_1Field.html#a282265162e52f5bf3852b20dad055c54",
-"classnanopb__generator_1_1OneOf.html#aa749848b5307a0abc0b65680ada8a43c",
-"fiber_8h.html",
-"globals_x.html",
-"namespacefsm__thresholds.html#ab7bc50f86b659b85c4ba7fb4d1afd285",
-"rocketstate_8pb_8h.html#a0425b4826cebe5774bd18d3e87a333a9",
-"structLoggedReading.html#af3b7243953722cb3d14869cf3627db0a",
-"struct__HILSIMPacket.html#a474993ad3b9e4c8e48e3c62b943cebdc"
+"classMultipleLogSink.html#ab4077b17fefc6012113a7af94598c7e4",
+"emulation_8h.html#a5801cf296c50c4dd7fad1bbcabaccc79",
+"hardware_2GPSSensor_8cpp.html#a4ad9fb908c88d1143bb2dbcba6660138",
+"midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7aa076cecc3b6633c631ba53e5986e3572",
+"structCameraB2B.html#aae3bc46534ae4be432d3e3d3137dffb1",
+"structMagnetometerSensor.html#a7aece11297a8f8554d580a2bcf4e6895",
+"structThreadManager.html#a46a2b848676cf8b73619c7c909bf44e4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -112,10 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad732182faa308b54e3039510877642c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ccb0a40a8a113a33a57b3afe9174767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMagnetometer.html">Magnetometer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#a6ccb0a40a8a113a33a57b3afe9174767">read</a> ()</td></tr>
 <tr class="separator:a6ccb0a40a8a113a33a57b3afe9174767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad732182faa308b54e3039510877642c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#ad732182faa308b54e3039510877642c9">init</a> ()</td></tr>
-<tr class="separator:ad732182faa308b54e3039510877642c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ccb0a40a8a113a33a57b3afe9174767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMagnetometer.html">Magnetometer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#a6ccb0a40a8a113a33a57b3afe9174767">read</a> ()</td></tr>
-<tr class="separator:a6ccb0a40a8a113a33a57b3afe9174767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2350e8100f29f0c9193fd29cb49e46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#afe2350e8100f29f0c9193fd29cb49e46">begin_calibration</a> (<a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;)</td></tr>
+<tr class="separator:afe2350e8100f29f0c9193fd29cb49e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd57016afac4f1da42c1f82506c52e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#a4dd57016afac4f1da42c1f82506c52e9">calib_reading</a> (<a class="el" href="structMagnetometer.html">Magnetometer</a> &amp;, <a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;, <a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;)</td></tr>
+<tr class="separator:a4dd57016afac4f1da42c1f82506c52e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b8be3981dbe968dc69125a52633d448"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#a0b8be3981dbe968dc69125a52633d448">restore_calibration</a> (<a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;)</td></tr>
+<tr class="separator:a0b8be3981dbe968dc69125a52633d448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad732182faa308b54e3039510877642c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#ad732182faa308b54e3039510877642c9">init</a> ()</td></tr>
 <tr class="separator:ad732182faa308b54e3039510877642c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ccb0a40a8a113a33a57b3afe9174767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMagnetometer.html">Magnetometer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMagnetometerSensor.html#a6ccb0a40a8a113a33a57b3afe9174767">read</a> ()</td></tr>
@@ -157,11 +159,40 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a77628e7bb267c1a24707901e52214cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00054">54</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<div class="textblock"><p >). </p>
+
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00053">53</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="afe2350e8100f29f0c9193fd29cb49e46" name="afe2350e8100f29f0c9193fd29cb49e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe2350e8100f29f0c9193fd29cb49e46">&#9670;&nbsp;</a></span>begin_calibration() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MagnetometerSensor::begin_calibration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2sensors_8h_source.html#l00046">46</a> of file <a class="el" href="hilsim_2sensors_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
 <a id="ab00fc3ba96b3564cb64d5eb2bfc880ad" name="ab00fc3ba96b3564cb64d5eb2bfc880ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab00fc3ba96b3564cb64d5eb2bfc880ad">&#9670;&nbsp;</a></span>begin_calibration()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab00fc3ba96b3564cb64d5eb2bfc880ad">&#9670;&nbsp;</a></span>begin_calibration() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,8 +211,52 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4dd57016afac4f1da42c1f82506c52e9" name="a4dd57016afac4f1da42c1f82506c52e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd57016afac4f1da42c1f82506c52e9">&#9670;&nbsp;</a></span>calib_reading() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MagnetometerSensor::calib_reading </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMagnetometer.html">Magnetometer</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBuzzerController.html">BuzzerController</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2sensors_8h_source.html#l00047">47</a> of file <a class="el" href="hilsim_2sensors_2sensors_8h_source.html">sensors.h</a>.</p>
+
+</div>
+</div>
 <a id="aa83e7fb091adf63aae25a78795a996b6" name="aa83e7fb091adf63aae25a78795a996b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa83e7fb091adf63aae25a78795a996b6">&#9670;&nbsp;</a></span>calib_reading()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa83e7fb091adf63aae25a78795a996b6">&#9670;&nbsp;</a></span>calib_reading() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,12 +390,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00067">67</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00066">66</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
 <a id="ad732182faa308b54e3039510877642c9" name="ad732182faa308b54e3039510877642c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +414,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad732182faa308b54e3039510877642c9" name="ad732182faa308b54e3039510877642c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,24 +431,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad732182faa308b54e3039510877642c9" name="ad732182faa308b54e3039510877642c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> MagnetometerSensor::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad732182faa308b54e3039510877642c9" name="ad732182faa308b54e3039510877642c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad732182faa308b54e3039510877642c9">&#9670;&nbsp;</a></span>init() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,7 +448,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a6ccb0a40a8a113a33a57b3afe9174767" name="a6ccb0a40a8a113a33a57b3afe9174767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +467,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a6ccb0a40a8a113a33a57b3afe9174767" name="a6ccb0a40a8a113a33a57b3afe9174767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,7 +484,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a6ccb0a40a8a113a33a57b3afe9174767" name="a6ccb0a40a8a113a33a57b3afe9174767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,25 +500,36 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ccb0a40a8a113a33a57b3afe9174767" name="a6ccb0a40a8a113a33a57b3afe9174767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ccb0a40a8a113a33a57b3afe9174767">&#9670;&nbsp;</a></span>read() <span class="overload">[4/4]</span></h2>
+<a id="a0b8be3981dbe968dc69125a52633d448" name="a0b8be3981dbe968dc69125a52633d448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b8be3981dbe968dc69125a52633d448">&#9670;&nbsp;</a></span>restore_calibration() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMagnetometer.html">Magnetometer</a> MagnetometerSensor::read </td>
+          <td class="memname">void MagnetometerSensor::restore_calibration </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="classEEPROMController.html">EEPROMController</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2sensors_8h_source.html#l00048">48</a> of file <a class="el" href="hilsim_2sensors_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
 <a id="abc14ecb3117e84f9dfe19ff248cd8142" name="abc14ecb3117e84f9dfe19ff248cd8142"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc14ecb3117e84f9dfe19ff248cd8142">&#9670;&nbsp;</a></span>restore_calibration()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abc14ecb3117e84f9dfe19ff248cd8142">&#9670;&nbsp;</a></span>restore_calibration() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -500,7 +569,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00079">79</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00078">78</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +593,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00076">76</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00075">75</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -548,7 +617,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00077">77</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00076">76</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -572,7 +641,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00073">73</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00072">72</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -596,7 +665,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00075">75</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00074">74</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -620,7 +689,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00078">78</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00077">77</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -644,7 +713,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00082">82</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00081">81</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -660,7 +729,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00064">64</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00063">63</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -676,7 +745,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00065">65</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00064">64</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -692,7 +761,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00059">59</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2sensors_8h_source.html#l00058">58</a> of file <a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a>.</p>
 
 </div>
 </div>
@@ -714,9 +783,8 @@ Private Attributes</h2></td></tr>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2sensors_8h_source.html">sensors.h</a></li>
-<li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__sensors_8h_source.html">emulated_sensors.h</a></li>
-<li>/github/workspace/MIDAS/src/hilsim/<a class="el" href="hilsim_2sensors_8h_source.html">sensors.h</a></li>
 <li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2sensors_8h_source.html">sensors.h</a></li>
+<li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__sensors_8h_source.html">emulated_sensors.h</a></li>
 <li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2Magnetometer_8cpp_source.html">Magnetometer.cpp</a></li>
 <li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2Magnetometer_8cpp_source.html">Magnetometer.cpp</a></li>
 <li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__sensors_8cpp_source.html">emulated_sensors.cpp</a></li>

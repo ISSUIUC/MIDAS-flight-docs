@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('structCommandFlags.html',''); initResi
 <p>Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in. Works in both directions, say to toggle states based on <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> transitions.  
  <a href="structCommandFlags.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="command__flags_8h_source.html">command_flags.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -100,8 +100,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a321fa05f266035c2ef4467a787eabc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb3b01e33ae9ecffd7265f9ac48b9217"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#abb3b01e33ae9ecffd7265f9ac48b9217">should_transition_safe</a> = false</td></tr>
 <tr class="separator:abb3b01e33ae9ecffd7265f9ac48b9217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b59cd68c7f0f063746c221ab65683e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#a6b59cd68c7f0f063746c221ab65683e4">should_transition_idle</a> = false</td></tr>
-<tr class="separator:a6b59cd68c7f0f063746c221ab65683e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5ea22be78eed6b38d88069b1909c00"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#ada5ea22be78eed6b38d88069b1909c00">should_transition_armed</a> = false</td></tr>
+<tr class="separator:ada5ea22be78eed6b38d88069b1909c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4bfd64191bd7476633628d5046e2ad6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#ad4bfd64191bd7476633628d5046e2ad6">should_transition_pyro_test</a> = false</td></tr>
 <tr class="separator:ad4bfd64191bd7476633628d5046e2ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e7e75df98e793a27d0772b43182f29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCommandFlags.html#ac5e7e75df98e793a27d0772b43182f29">should_fire_pyro_a</a> = false</td></tr>
@@ -122,7 +122,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Stores the status of commands from telemetry as boolean flags, commands are set whenever the corresponding telemetry command comes in. Works in both directions, say to toggle states based on <a class="el" href="classFSM.html" title="Contains fsm tick function and timestamps for different events used for future calculations.">FSM</a> transitions. </p>
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00162">162</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00011">11</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="af0e4ebcd0aec730b0dc55ec4f444acbb" name="af0e4ebcd0aec730b0dc55ec4f444acbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0e4ebcd0aec730b0dc55ec4f444acbb">&#9670;&nbsp;</a></span>FSM_should_power_save</h2>
@@ -136,7 +136,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00173">173</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00022">22</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -152,7 +152,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00172">172</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00021">21</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -168,7 +168,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00174">174</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00023">23</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00167">167</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00016">16</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -200,7 +200,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00168">168</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00017">17</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -216,7 +216,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00169">169</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00018">18</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -232,7 +232,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00170">170</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00019">19</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -248,23 +248,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00163">163</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00012">12</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
-<a id="a6b59cd68c7f0f063746c221ab65683e4" name="a6b59cd68c7f0f063746c221ab65683e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b59cd68c7f0f063746c221ab65683e4">&#9670;&nbsp;</a></span>should_transition_idle</h2>
+<a id="ada5ea22be78eed6b38d88069b1909c00" name="ada5ea22be78eed6b38d88069b1909c00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5ea22be78eed6b38d88069b1909c00">&#9670;&nbsp;</a></span>should_transition_armed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool CommandFlags::should_transition_idle = false</td>
+          <td class="memname">bool CommandFlags::should_transition_armed = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00165">165</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00014">14</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -280,7 +280,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00166">166</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00015">15</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
@@ -296,12 +296,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rocket__state_8h_source.html#l00164">164</a> of file <a class="el" href="rocket__state_8h_source.html">rocket_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="command__flags_8h_source.html#l00013">13</a> of file <a class="el" href="command__flags_8h_source.html">command_flags.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/github/workspace/MIDAS/src/<a class="el" href="rocket__state_8h_source.html">rocket_state.h</a></li>
+<li>/github/workspace/MIDAS/src/<a class="el" href="command__flags_8h_source.html">command_flags.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

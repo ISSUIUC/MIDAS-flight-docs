@@ -106,9 +106,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd259bb4db765f9203b8fe0dbf426b52"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52">getRecentRssi</a> ()</td></tr>
 <tr class="memdesc:abd259bb4db765f9203b8fe0dbf426b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets RSSI of recent packets.  <a href="classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52">More...</a><br /></td></tr>
 <tr class="separator:abd259bb4db765f9203b8fe0dbf426b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac246c942fb9962829146ce05d929f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0">setFrequency</a> (float frequency)</td></tr>
+<tr class="memitem:aaac246c942fb9962829146ce05d929f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0">setFrequency</a> (float <a class="el" href="midas__shell__commands_8h.html#ae961a339b748f4950db2c0a58822c6a5">frequency</a>)</td></tr>
 <tr class="memdesc:aaac246c942fb9962829146ce05d929f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets new frequency for the LoRa module.  <a href="classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0">More...</a><br /></td></tr>
 <tr class="separator:aaac246c942fb9962829146ce05d929f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023f35b01080e193fd3ac3f083af7499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a023f35b01080e193fd3ac3f083af7499">set_spi_mutex</a> (<a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a> mtx)</td></tr>
+<tr class="separator:a023f35b01080e193fd3ac3f083af7499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">send</a> (const T &amp;data)</td></tr>
 <tr class="memdesc:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transmits data from the struct provided as the parameter (data collected from sensor suite) to the ground station. The function also switches to a new commanded frequency based on a previously received command and waits for a response from the ground station.  <a href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">More...</a><br /></td></tr>
@@ -117,30 +119,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa729fcb0d202ee8a921b3833939d8ca"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca">read</a> (T *write, int wait_milliseconds)</td></tr>
 <tr class="memdesc:afa729fcb0d202ee8a921b3833939d8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads message from the LoRa.  <a href="classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca">More...</a><br /></td></tr>
 <tr class="separator:afa729fcb0d202ee8a921b3833939d8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29700ff76a72b825470aededa21a00cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a29700ff76a72b825470aededa21a00cf">TelemetryBackend</a> ()=default</td></tr>
-<tr class="separator:a29700ff76a72b825470aededa21a00cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec613c63d25d8b420a5838becb12aef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a4ec613c63d25d8b420a5838becb12aef">TelemetryBackend</a> (const char *file_name)</td></tr>
-<tr class="separator:a4ec613c63d25d8b420a5838becb12aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b6c3145f14ceee8f69f0bde971c6841"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a1b6c3145f14ceee8f69f0bde971c6841">__attribute__</a> ((warn_unused_result)) <a class="el" href="classTelemetryBackend.html#a80c699dc7f445553aeff60509c68d7aa">init</a>()</td></tr>
-<tr class="separator:a1b6c3145f14ceee8f69f0bde971c6841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d843aa82f8be115f9a8f9f12b8d34a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a94d843aa82f8be115f9a8f9f12b8d34a">TelemetryBackend</a> ()</td></tr>
+<tr class="separator:a94d843aa82f8be115f9a8f9f12b8d34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c699dc7f445553aeff60509c68d7aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a80c699dc7f445553aeff60509c68d7aa">init</a> ()</td></tr>
+<tr class="separator:a80c699dc7f445553aeff60509c68d7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd259bb4db765f9203b8fe0dbf426b52"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52">getRecentRssi</a> ()</td></tr>
 <tr class="separator:abd259bb4db765f9203b8fe0dbf426b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac246c942fb9962829146ce05d929f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0">setFrequency</a> (float frequency)</td></tr>
-<tr class="separator:aaac246c942fb9962829146ce05d929f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380ec813b54c435cf5a34a9833861aeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a380ec813b54c435cf5a34a9833861aeb">setFrequency</a> (float <a class="el" href="midas__shell__commands_8h.html#ae961a339b748f4950db2c0a58822c6a5">frequency</a>)</td></tr>
+<tr class="separator:a380ec813b54c435cf5a34a9833861aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023f35b01080e193fd3ac3f083af7499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a023f35b01080e193fd3ac3f083af7499">set_spi_mutex</a> (<a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a> mtx)</td></tr>
+<tr class="separator:a023f35b01080e193fd3ac3f083af7499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">send</a> (const T &amp;data)</td></tr>
+<tr class="memdesc:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transmits data from the struct provided as the parameter (data collected from sensor suite) to the ground station. The function also switches to a new commanded frequency based on a previously received command and waits for a response from the ground station.  <a href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">More...</a><br /></td></tr>
 <tr class="separator:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a580f9a0cbcc25179820c7455df358451"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a580f9a0cbcc25179820c7455df358451"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a580f9a0cbcc25179820c7455df358451">read</a> (T *write)</td></tr>
-<tr class="separator:a580f9a0cbcc25179820c7455df358451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa729fcb0d202ee8a921b3833939d8ca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afa729fcb0d202ee8a921b3833939d8ca"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca">read</a> (T *write, int wait_milliseconds)</td></tr>
+<tr class="memdesc:afa729fcb0d202ee8a921b3833939d8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads message from the LoRa.  <a href="classTelemetryBackend.html#afa729fcb0d202ee8a921b3833939d8ca">More...</a><br /></td></tr>
+<tr class="separator:afa729fcb0d202ee8a921b3833939d8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ec613c63d25d8b420a5838becb12aef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a4ec613c63d25d8b420a5838becb12aef">TelemetryBackend</a> (const char *file_name)</td></tr>
 <tr class="separator:a4ec613c63d25d8b420a5838becb12aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b6c3145f14ceee8f69f0bde971c6841"><td class="memItemLeft" align="right" valign="top"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a1b6c3145f14ceee8f69f0bde971c6841">__attribute__</a> ((warn_unused_result)) <a class="el" href="classTelemetryBackend.html#a80c699dc7f445553aeff60509c68d7aa">init</a>()</td></tr>
 <tr class="separator:a1b6c3145f14ceee8f69f0bde971c6841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd259bb4db765f9203b8fe0dbf426b52"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#abd259bb4db765f9203b8fe0dbf426b52">getRecentRssi</a> ()</td></tr>
 <tr class="separator:abd259bb4db765f9203b8fe0dbf426b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac246c942fb9962829146ce05d929f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0">setFrequency</a> (float frequency)</td></tr>
+<tr class="memitem:aaac246c942fb9962829146ce05d929f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaac246c942fb9962829146ce05d929f0">setFrequency</a> (float <a class="el" href="midas__shell__commands_8h.html#ae961a339b748f4950db2c0a58822c6a5">frequency</a>)</td></tr>
 <tr class="separator:aaac246c942fb9962829146ce05d929f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add58633d9ceb4c4d33e64f3a8f14d9b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#add58633d9ceb4c4d33e64f3a8f14d9b2">set_spi_mutex</a> (<a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>)</td></tr>
+<tr class="separator:add58633d9ceb4c4d33e64f3a8f14d9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#ac2d79bf6bf35b4cd864cc983e00fea65">send</a> (const T &amp;data)</td></tr>
 <tr class="separator:ac2d79bf6bf35b4cd864cc983e00fea65"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,8 +156,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aaf17b4ca018ffc05b12b1b88aab69628"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSX1268.html">SX1268</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaf17b4ca018ffc05b12b1b88aab69628">lora</a></td></tr>
+<tr class="memitem:aaf17b4ca018ffc05b12b1b88aab69628"><td class="memItemLeft" align="right" valign="top">SX1268&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#aaf17b4ca018ffc05b12b1b88aab69628">lora</a></td></tr>
 <tr class="separator:aaf17b4ca018ffc05b12b1b88aab69628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a45449e06eac8e8b952296970191a44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a7a45449e06eac8e8b952296970191a44">led_state</a></td></tr>
+<tr class="separator:a7a45449e06eac8e8b952296970191a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f5084b46a904dbcb0774b6c0eac6bb8"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTelemetryBackend.html#a1f5084b46a904dbcb0774b6c0eac6bb8">output_file</a></td></tr>
 <tr class="separator:a1f5084b46a904dbcb0774b6c0eac6bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -161,7 +169,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00014">14</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a94d843aa82f8be115f9a8f9f12b8d34a" name="a94d843aa82f8be115f9a8f9f12b8d34a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94d843aa82f8be115f9a8f9f12b8d34a">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d843aa82f8be115f9a8f9f12b8d34a">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,18 +185,15 @@ Private Attributes</h2></td></tr>
 
 <p>Default constructor for the telemetry system. </p>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00044">44</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00040">40</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a29700ff76a72b825470aededa21a00cf" name="a29700ff76a72b825470aededa21a00cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29700ff76a72b825470aededa21a00cf">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[2/4]</span></h2>
+<a id="a94d843aa82f8be115f9a8f9f12b8d34a" name="a94d843aa82f8be115f9a8f9f12b8d34a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d843aa82f8be115f9a8f9f12b8d34a">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">TelemetryBackend::TelemetryBackend </td>
@@ -197,17 +202,12 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <a id="a4ec613c63d25d8b420a5838becb12aef" name="a4ec613c63d25d8b420a5838becb12aef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec613c63d25d8b420a5838becb12aef">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec613c63d25d8b420a5838becb12aef">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,57 +230,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hilsim_2telemetry__backend_8cpp_source.html#l00004">4</a> of file <a class="el" href="hilsim_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a4ec613c63d25d8b420a5838becb12aef" name="a4ec613c63d25d8b420a5838becb12aef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec613c63d25d8b420a5838becb12aef">&#9670;&nbsp;</a></span>TelemetryBackend() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TelemetryBackend::TelemetryBackend </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>file_name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8cpp_source.html#l00004">4</a> of file <a class="el" href="emulated__telemetry_8cpp_source.html">emulated_telemetry.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1b6c3145f14ceee8f69f0bde971c6841" name="a1b6c3145f14ceee8f69f0bde971c6841"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b6c3145f14ceee8f69f0bde971c6841">&#9670;&nbsp;</a></span>__attribute__() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> TelemetryBackend::__attribute__ </td>
-          <td>(</td>
-          <td class="paramtype">(warn_unused_result)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1b6c3145f14ceee8f69f0bde971c6841" name="a1b6c3145f14ceee8f69f0bde971c6841"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b6c3145f14ceee8f69f0bde971c6841">&#9670;&nbsp;</a></span>__attribute__() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6c3145f14ceee8f69f0bde971c6841">&#9670;&nbsp;</a></span>__attribute__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,7 +271,7 @@ Private Attributes</h2></td></tr>
 <p>Gets RSSI of recent packets. </p>
 <dl class="section return"><dt>Returns</dt><dd>RSSI of most recent packet </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00066">66</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00062">62</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
 
 </div>
 </div>
@@ -354,7 +310,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a80c699dc7f445553aeff60509c68d7aa" name="a80c699dc7f445553aeff60509c68d7aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80c699dc7f445553aeff60509c68d7aa">&#9670;&nbsp;</a></span>init()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c699dc7f445553aeff60509c68d7aa">&#9670;&nbsp;</a></span>init() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,7 +327,24 @@ Private Attributes</h2></td></tr>
 <p>Initializes the telemetry system. </p>
 <dl class="section return"><dt>Returns</dt><dd>Error Code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00052">52</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00048">48</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a80c699dc7f445553aeff60509c68d7aa" name="a80c699dc7f445553aeff60509c68d7aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c699dc7f445553aeff60509c68d7aa">&#9670;&nbsp;</a></span>init() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> TelemetryBackend::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -401,12 +374,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hilsim_2telemetry__backend_8h_source.html#l00024">24</a> of file <a class="el" href="hilsim_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00024">24</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
 
 </div>
 </div>
-<a id="a580f9a0cbcc25179820c7455df358451" name="a580f9a0cbcc25179820c7455df358451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a580f9a0cbcc25179820c7455df358451">&#9670;&nbsp;</a></span>read() <span class="overload">[2/3]</span></h2>
+<a id="afa729fcb0d202ee8a921b3833939d8ca" name="afa729fcb0d202ee8a921b3833939d8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa729fcb0d202ee8a921b3833939d8ca">&#9670;&nbsp;</a></span>read() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,8 +393,18 @@ template&lt;typename T &gt; </div>
           <td class="memname">bool TelemetryBackend::read </td>
           <td>(</td>
           <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>write</em></td><td>)</td>
+          <td class="paramname"><em>write</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>wait_milliseconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -431,7 +414,16 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00023">23</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
+<p>Reads message from the LoRa. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">write</td><td>The buffer to write the data to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool indicating a successful read and write to buffer </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00056">56</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -480,7 +472,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool indicating a successful read and write to buffer </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00055">55</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html#l00059">59</a> of file <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +511,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00035">35</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00036">36</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -549,7 +541,16 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hilsim_2telemetry__backend_8h_source.html#l00019">19</a> of file <a class="el" href="hilsim_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p>This function transmits data from the struct provided as the parameter (data collected from sensor suite) to the ground station. The function also switches to a new commanded frequency based on a previously received command and waits for a response from the ground station. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sensor_data</td><td>struct of data from the sensor suite to be transmitted to the ground station.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html#l00037">37</a> of file <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -579,7 +580,91 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00018">18</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00019">19</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
+
+</div>
+</div>
+<a id="a023f35b01080e193fd3ac3f083af7499" name="a023f35b01080e193fd3ac3f083af7499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023f35b01080e193fd3ac3f083af7499">&#9670;&nbsp;</a></span>set_spi_mutex() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TelemetryBackend::set_spi_mutex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td>
+          <td class="paramname"><em>mtx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00021">21</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+
+</div>
+</div>
+<a id="a023f35b01080e193fd3ac3f083af7499" name="a023f35b01080e193fd3ac3f083af7499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023f35b01080e193fd3ac3f083af7499">&#9670;&nbsp;</a></span>set_spi_mutex() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TelemetryBackend::set_spi_mutex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td>
+          <td class="paramname"><em>mtx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html#l00022">22</a> of file <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+
+</div>
+</div>
+<a id="add58633d9ceb4c4d33e64f3a8f14d9b2" name="add58633d9ceb4c4d33e64f3a8f14d9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add58633d9ceb4c4d33e64f3a8f14d9b2">&#9670;&nbsp;</a></span>set_spi_mutex() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TelemetryBackend::set_spi_mutex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="emulation_8h.html#ae11ca5653f3a604840c567ecb0d82d0c">SemaphoreHandle_t</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00016">16</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
 
 </div>
 </div>
@@ -602,23 +687,24 @@ template&lt;typename T &gt; </div>
 <p>Sets new frequency for the LoRa module. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">freq</td><td>New frequency to set the LoRa module to (MHz)</td></tr>
     <tr><td class="paramname">freq</td><td>New frequency to set the LoRa module to </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00075">75</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8cpp_source.html#l00071">71</a> of file <a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aaac246c942fb9962829146ce05d929f0" name="aaac246c942fb9962829146ce05d929f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaac246c942fb9962829146ce05d929f0">&#9670;&nbsp;</a></span>setFrequency() <span class="overload">[2/3]</span></h2>
+<a id="a380ec813b54c435cf5a34a9833861aeb" name="a380ec813b54c435cf5a34a9833861aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380ec813b54c435cf5a34a9833861aeb">&#9670;&nbsp;</a></span>setFrequency() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TelemetryBackend::setFrequency </td>
+          <td class="memname"><a class="el" href="errors_8h.html#a59e56af19e754a6aa26a612ebf91d05f">ErrorCode</a> TelemetryBackend::setFrequency </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>frequency</em></td><td>)</td>
@@ -648,6 +734,30 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a45449e06eac8e8b952296970191a44" name="a7a45449e06eac8e8b952296970191a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a45449e06eac8e8b952296970191a44">&#9670;&nbsp;</a></span>led_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TelemetryBackend::led_state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html#l00080">80</a> of file <a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+
+</div>
+</div>
 <a id="aaf17b4ca018ffc05b12b1b88aab69628" name="aaf17b4ca018ffc05b12b1b88aab69628"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf17b4ca018ffc05b12b1b88aab69628">&#9670;&nbsp;</a></span>lora</h2>
 
@@ -658,7 +768,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSX1268.html">SX1268</a> TelemetryBackend::lora</td>
+          <td class="memname">SX1268 TelemetryBackend::lora</td>
         </tr>
       </table>
   </td>
@@ -668,7 +778,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00075">75</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="hardware_2telemetry__backend_8h_source.html#l00076">76</a> of file <a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
 
 </div>
 </div>
@@ -692,16 +802,16 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hilsim_2telemetry__backend_8h_source.html#l00029">29</a> of file <a class="el" href="hilsim_2telemetry__backend_8h_source.html">telemetry_backend.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="emulated__telemetry_8h_source.html#l00029">29</a> of file <a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2telemetry__backend_8h_source.html">telemetry_backend.h</a></li>
-<li>/github/workspace/MIDAS/src/hilsim/<a class="el" href="hilsim_2telemetry__backend_8h_source.html">telemetry_backend.h</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2telemetry__backend_8h_source.html">telemetry_backend.h</a></li>
 <li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__telemetry_8h_source.html">emulated_telemetry.h</a></li>
 <li>/github/workspace/MIDAS/src/hardware/<a class="el" href="hardware_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a></li>
-<li>/github/workspace/MIDAS/src/hilsim/<a class="el" href="hilsim_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a></li>
+<li>/github/workspace/MIDAS/src/hilsim/sensors/<a class="el" href="hilsim_2sensors_2telemetry__backend_8cpp_source.html">telemetry_backend.cpp</a></li>
 <li>/github/workspace/MIDAS/src/silsim/<a class="el" href="emulated__telemetry_8cpp_source.html">emulated_telemetry.cpp</a></li>
 </ul>
 </div><!-- contents -->

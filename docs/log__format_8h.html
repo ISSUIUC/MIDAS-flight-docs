@@ -84,7 +84,10 @@ $(document).ready(function(){initNavTree('log__format_8h.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">log_format.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -96,6 +99,13 @@ $(document).ready(function(){initNavTree('log__format_8h.html',''); initResizabl
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLoggedReading.html">LoggedReading</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a8cd6c20ebe5c3af507fbe5ddb9af6cee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__format_8h.html#a8cd6c20ebe5c3af507fbe5ddb9af6cee">LOG_FMT_VERSION</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a8cd6c20ebe5c3af507fbe5ddb9af6cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f817b6f7213f5cfbc7abf469974240"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__format_8h.html#a70f817b6f7213f5cfbc7abf469974240">ASSOCIATE</a>(ty,  id,  field)&#160;&#160;&#160;template&lt;&gt; constexpr <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1">ReadingDiscriminant</a> <a class="el" href="log__format_8h.html#afdf37aeaeb21f904a962de2a14e022b4">get_discriminant</a>&lt;ty&gt;() { return ReadingDiscriminant::id; }</td></tr>
+<tr class="separator:a70f817b6f7213f5cfbc7abf469974240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -113,11 +123,76 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a83bb9323159a77b9d85293e35dee1187">ID_CAMERADATA</a> = 11
 , <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1af4137c58ac3528a12afc9a24d5fb5ea7">ID_ANGULARKALMAN</a> = 12
 , <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a58ebc895a14734fa0796a76f9c5cf50c">ID_SFLP</a> = 13
+, <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a2addb49878f50c95dc669e5fdbd130a2">COUNT</a> = 14
 <br />
  }</td></tr>
 <tr class="memdesc:ac1eb39586f2d2e3492761ca79695adc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID for each sensor, 0 is not used to make it easier to spot bugs.  <a href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1">More...</a><br /></td></tr>
 <tr class="separator:ac1eb39586f2d2e3492761ca79695adc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afdf37aeaeb21f904a962de2a14e022b4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afdf37aeaeb21f904a962de2a14e022b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1">ReadingDiscriminant</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="log__format_8h.html#afdf37aeaeb21f904a962de2a14e022b4">get_discriminant</a> ()</td></tr>
+<tr class="separator:afdf37aeaeb21f904a962de2a14e022b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:acfdc8aa1cc93c2147b1fbfdc57489393"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__format_8h.html#acfdc8aa1cc93c2147b1fbfdc57489393">READING_DISC_COUNT</a> = static_cast&lt;uint8_t&gt;(<a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a2addb49878f50c95dc669e5fdbd130a2">ReadingDiscriminant::COUNT</a>)</td></tr>
+<tr class="separator:acfdc8aa1cc93c2147b1fbfdc57489393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a70f817b6f7213f5cfbc7abf469974240" name="a70f817b6f7213f5cfbc7abf469974240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f817b6f7213f5cfbc7abf469974240">&#9670;&nbsp;</a></span>ASSOCIATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ASSOCIATE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ty, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">field&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;template&lt;&gt; constexpr <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1">ReadingDiscriminant</a> <a class="el" href="log__format_8h.html#afdf37aeaeb21f904a962de2a14e022b4">get_discriminant</a>&lt;ty&gt;() { return ReadingDiscriminant::id; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__format_8h_source.html#l00068">68</a> of file <a class="el" href="log__format_8h_source.html">log_format.h</a>.</p>
+
+</div>
+</div>
+<a id="a8cd6c20ebe5c3af507fbe5ddb9af6cee" name="a8cd6c20ebe5c3af507fbe5ddb9af6cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd6c20ebe5c3af507fbe5ddb9af6cee">&#9670;&nbsp;</a></span>LOG_FMT_VERSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOG_FMT_VERSION&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__format_8h_source.html#l00004">4</a> of file <a class="el" href="log__format_8h_source.html">log_format.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ac1eb39586f2d2e3492761ca79695adc1" name="ac1eb39586f2d2e3492761ca79695adc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1eb39586f2d2e3492761ca79695adc1">&#9670;&nbsp;</a></span>ReadingDiscriminant</h2>
@@ -144,9 +219,65 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ac1eb39586f2d2e3492761ca79695adc1a83bb9323159a77b9d85293e35dee1187" name="ac1eb39586f2d2e3492761ca79695adc1a83bb9323159a77b9d85293e35dee1187"></a>ID_CAMERADATA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac1eb39586f2d2e3492761ca79695adc1af4137c58ac3528a12afc9a24d5fb5ea7" name="ac1eb39586f2d2e3492761ca79695adc1af4137c58ac3528a12afc9a24d5fb5ea7"></a>ID_ANGULARKALMAN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac1eb39586f2d2e3492761ca79695adc1a58ebc895a14734fa0796a76f9c5cf50c" name="ac1eb39586f2d2e3492761ca79695adc1a58ebc895a14734fa0796a76f9c5cf50c"></a>ID_SFLP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac1eb39586f2d2e3492761ca79695adc1a2addb49878f50c95dc669e5fdbd130a2" name="ac1eb39586f2d2e3492761ca79695adc1a2addb49878f50c95dc669e5fdbd130a2"></a>COUNT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="log__format_8h_source.html#l00010">10</a> of file <a class="el" href="log__format_8h_source.html">log_format.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="log__format_8h_source.html#l00011">11</a> of file <a class="el" href="log__format_8h_source.html">log_format.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="afdf37aeaeb21f904a962de2a14e022b4" name="afdf37aeaeb21f904a962de2a14e022b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf37aeaeb21f904a962de2a14e022b4">&#9670;&nbsp;</a></span>get_discriminant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1">ReadingDiscriminant</a> get_discriminant </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Associates a sensor type with its discriminant ID. Used by <a class="el" href="data__logging_8cpp.html">data_logging.cpp</a> for compile-time lookup, and parsed by log_enc.py to build the discriminant-to-union-variant mapping for log metadata.</p>
+<p >Args: (type_name, discriminant_id, union_field_name) </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="acfdc8aa1cc93c2147b1fbfdc57489393" name="acfdc8aa1cc93c2147b1fbfdc57489393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdc8aa1cc93c2147b1fbfdc57489393">&#9670;&nbsp;</a></span>READING_DISC_COUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t READING_DISC_COUNT = static_cast&lt;uint8_t&gt;(<a class="el" href="log__format_8h.html#ac1eb39586f2d2e3492761ca79695adc1a2addb49878f50c95dc669e5fdbd130a2">ReadingDiscriminant::COUNT</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__format_8h_source.html#l00026">26</a> of file <a class="el" href="log__format_8h_source.html">log_format.h</a>.</p>
 
 </div>
 </div>
