@@ -12,7 +12,7 @@ var searchData=
   ['mag_5fnoise_9',['mag_noise',['../constants_8h.html#a9f28a5c847071533bbd6618cf4770fef',1,'constants.h']]],
   ['magnetometer_10',['Magnetometer',['../structMagnetometer.html',1,'']]],
   ['magnetometer_11',['magnetometer',['../structSensors.html#ad0370fe4527f3a2a9b35e971d3546ffb',1,'Sensors::magnetometer()'],['../structRocketData.html#a0b5e77d7d312bb8047c9b41416af3b81',1,'RocketData::magnetometer()'],['../structLoggedReading.html#a65e374417f0e31f932d04d92b3e8d701',1,'LoggedReading::magnetometer()'],['../structKRocketData.html#a4f6d8e9d30c4295ee0bbc9644236f854',1,'KRocketData::magnetometer()']]],
-  ['magnetometer_2ecpp_12',['Magnetometer.cpp',['../hilsim_2sensors_2Magnetometer_8cpp.html',1,'(Global Namespace)'],['../hardware_2Magnetometer_8cpp.html',1,'(Global Namespace)']]],
+  ['magnetometer_2ecpp_12',['Magnetometer.cpp',['../hardware_2Magnetometer_8cpp.html',1,'(Global Namespace)'],['../hilsim_2sensors_2Magnetometer_8cpp.html',1,'(Global Namespace)']]],
   ['magnetometer_5fmeasurement_5ffunc_13',['magnetometer_measurement_func',['../classQuaternionMEKF.html#ac194f5eb0c7162ff5d0c0ed5d59bf41d',1,'QuaternionMEKF']]],
   ['magnetometer_5fthread_14',['magnetometer_thread',['../systems_8h.html#a257b62646f79a8965c615d7d0ae532ca',1,'systems.h']]],
   ['magnetometercouldnotbeinitialized_15',['MagnetometerCouldNotBeInitialized',['../errors_8h.html#a59e56af19e754a6aa26a612ebf91d05fae8019895a4009e23b5baf002122e1134',1,'errors.h']]],
