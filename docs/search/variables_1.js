@@ -20,11 +20,12 @@ var searchData=
   ['angular_5fkalman_17',['angular_kalman',['../structLoggedReading.html#af3b7243953722cb3d14869cf3627db0a',1,'LoggedReading']]],
   ['angular_5fkalman_5fdata_18',['angular_kalman_data',['../structRocketData.html#a1467e97b1fbb7aaedb739871c2bb17f7',1,'RocketData::angular_kalman_data()'],['../structKRocketData.html#aacaa5b37009add5d3f622fc5011a4676',1,'KRocketData::angular_kalman_data()']]],
   ['angular_5fvelocity_19',['angular_velocity',['../structIMU.html#af6a25520340b897def5cf7ac457bf821',1,'IMU']]],
-  ['apogee_5fdetect_5fstart_20',['apogee_detect_start',['../classFSM.html#a685aecd81ae8eadbe1f0b965c16f2f02',1,'FSM']]],
-  ['apogee_5ftime_21',['apogee_time',['../classFSM.html#a5079fa9c87373326c8f8e3153ecbb725',1,'FSM']]],
-  ['argc_22',['argc',['../structMShellContext.html#ae57d64bab90cc7f71d4709450481d729',1,'MShellContext']]],
-  ['argv_23',['argv',['../structMShellContext.html#a4cd5eabc3042eba27ea222a2ec73ebf6',1,'MShellContext']]],
-  ['ax_24',['ax',['../structAcceleration.html#a03481f55ac41b2c8ebaf625dd881b6e3',1,'Acceleration']]],
-  ['ay_25',['ay',['../structAcceleration.html#a6e30aa35035bd618d64d5efd88161876',1,'Acceleration']]],
-  ['az_26',['az',['../structAcceleration.html#a64b55beba331680af75c526096e3ab08',1,'Acceleration']]]
+  ['apog_5flaunch_5ft_5fgt_20',['apog_launch_t_gt',['../structFSMUserThresholds.html#ab1576ecad36f812d7e86a0f1b3a32620',1,'FSMUserThresholds']]],
+  ['apogee_5fdetect_5fstart_21',['apogee_detect_start',['../classFSM.html#a685aecd81ae8eadbe1f0b965c16f2f02',1,'FSM']]],
+  ['apogee_5ftime_22',['apogee_time',['../classFSM.html#a5079fa9c87373326c8f8e3153ecbb725',1,'FSM']]],
+  ['argc_23',['argc',['../structMShellContext.html#ae57d64bab90cc7f71d4709450481d729',1,'MShellContext']]],
+  ['argv_24',['argv',['../structMShellContext.html#a4cd5eabc3042eba27ea222a2ec73ebf6',1,'MShellContext']]],
+  ['ax_25',['ax',['../structAcceleration.html#a03481f55ac41b2c8ebaf625dd881b6e3',1,'Acceleration']]],
+  ['ay_26',['ay',['../structAcceleration.html#a6e30aa35035bd618d64d5efd88161876',1,'Acceleration']]],
+  ['az_27',['az',['../structAcceleration.html#a64b55beba331680af75c526096e3ab08',1,'Acceleration']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"structMagnetometerSensor.html#a77628e7bb267c1a24707901e52214cf8":[1,0,50,21],
 "structMagnetometerSensor.html#a7aece11297a8f8554d580a2bcf4e6895":[1,0,50,5],
 "structMagnetometerSensor.html#a7ecfa348cba2f422a52d65f0dd964cd3":[1,0,50,6],
 "structMagnetometerSensor.html#a849f7d2a8e3fcb5f50ad4b9cb23022a4":[1,0,50,4],
@@ -74,14 +75,14 @@ var NAVTREEINDEX6 =
 "structPosition.html#a7aad1bbc2162a63553d9de50657d105a":[1,0,66,1],
 "structPyro.html":[1,0,68],
 "structPyro.html#a146a6e91abab6be9bb3d66a8c79a39b8":[1,0,68,11],
-"structPyro.html#a1fe80a2dd9d0f604ce7a4007b1772d55":[1,0,68,8],
 "structPyro.html#a1fe80a2dd9d0f604ce7a4007b1772d55":[1,0,68,9],
+"structPyro.html#a1fe80a2dd9d0f604ce7a4007b1772d55":[1,0,68,8],
 "structPyro.html#a2a640de4104cfb91baa776e1ac5f9365":[1,0,68,14],
 "structPyro.html#a2c0a6a5b59878e462b571d2feb764574":[1,0,68,12],
-"structPyro.html#a7f900421c125d45584383689740fbe57":[1,0,68,1],
 "structPyro.html#a7f900421c125d45584383689740fbe57":[1,0,68,0],
-"structPyro.html#a895ecbef3aadc5369ac09cf263c8e516":[1,0,68,7],
+"structPyro.html#a7f900421c125d45584383689740fbe57":[1,0,68,1],
 "structPyro.html#a895ecbef3aadc5369ac09cf263c8e516":[1,0,68,6],
+"structPyro.html#a895ecbef3aadc5369ac09cf263c8e516":[1,0,68,7],
 "structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[1,0,68,2],
 "structPyro.html#ab6a58e6edd90e00f27810cb5c57ed555":[1,0,68,3],
 "structPyro.html#ac166ea236cc92fb988dd440aa04165f8":[1,0,68,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "structThreadInfo.html#a8f6555f0dff092890cb47e49f676146b":[1,0,99,3],
 "structThreadInfo.html#a91313dd10ec15e7d961c414b4eeeca5e":[1,0,99,0],
 "structThreadInfo.html#aa1fc1d684528eff3a04da0bac5afd29a":[1,0,99,1],
-"structThreadManager.html":[1,0,100],
-"structThreadManager.html#a2010fb78cce8ee73b426b6c7dada6814":[1,0,100,2]
+"structThreadManager.html":[1,0,100]
 };

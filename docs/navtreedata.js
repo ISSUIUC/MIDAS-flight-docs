@@ -68,8 +68,8 @@ var NAVTREEINDEX =
 "hardware_2GPSSensor_8cpp.html#a4ad9fb908c88d1143bb2dbcba6660138",
 "midas__shell_8h.html#a00242b4a28f5c68971b5e696d858c2e7aa076cecc3b6633c631ba53e5986e3572",
 "structCameraB2B.html#aae3bc46534ae4be432d3e3d3137dffb1",
-"structMagnetometerSensor.html#a7aece11297a8f8554d580a2bcf4e6895",
-"structThreadManager.html#a46a2b848676cf8b73619c7c909bf44e4"
+"structMagnetometerSensor.html#a77628e7bb267c1a24707901e52214cf8",
+"structThreadManager.html#a2010fb78cce8ee73b426b6c7dada6814"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
